@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -32,17 +33,17 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right — image placeholder */}
+          {/* Right — hero illustration */}
           <div className="relative">
-            <div className="aspect-[4/3] bg-ivory-200 rounded-[1rem] flex items-center justify-center">
-              <div className="text-center px-8">
-                <p className="text-[1rem] font-sans text-gray-400">
-                  Hero Image Placeholder
-                </p>
-                <p className="text-[0.8rem] font-sans text-gray-400/60 mt-2">
-                  800 x 600px recommended
-                </p>
-              </div>
+            <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
+              <Image
+                src="/images/hero-llc.svg"
+                alt="California LLC formation process — Articles of Organization, EIN confirmation, and compliance tracking"
+                width={800}
+                height={600}
+                className="w-full h-full object-cover"
+                priority
+              />
             </div>
           </div>
         </div>

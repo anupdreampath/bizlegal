@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" fill="none">
+  <defs>
+    <linearGradient id="vg6" x1="0" y1="0" x2="360" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#166534"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="640" rx="20" fill="url(#vg6)"/>
+  <text x="180" y="130" font-family="Georgia, serif" font-size="22" fill="white" text-anchor="middle" opacity="0.9">Formation</text>
+  <text x="180" y="160" font-family="Georgia, serif" font-size="22" fill="white" text-anchor="middle" opacity="0.9">Step by Step</text>
+  <!-- Steps -->
+  <g transform="translate(60, 200)">
+    <circle r="16" cx="16" cy="16" fill="white" opacity="0.15"/>
+    <text x="16" y="21" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">1</text>
+    <text x="45" y="21" font-family="Arial" font-size="13" fill="white" opacity="0.6">Choose a Name</text>
+  </g>
+  <line x1="76" y1="235" x2="76" y2="255" stroke="white" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="4"/>
+  <g transform="translate(60, 260)">
+    <circle r="16" cx="16" cy="16" fill="white" opacity="0.15"/>
+    <text x="16" y="21" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">2</text>
+    <text x="45" y="21" font-family="Arial" font-size="13" fill="white" opacity="0.6">File Articles</text>
+  </g>
+  <line x1="76" y1="295" x2="76" y2="315" stroke="white" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="4"/>
+  <g transform="translate(60, 320)">
+    <circle r="16" cx="16" cy="16" fill="white" opacity="0.15"/>
+    <text x="16" y="21" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">3</text>
+    <text x="45" y="21" font-family="Arial" font-size="13" fill="white" opacity="0.6">Get EIN</text>
+  </g>
+  <line x1="76" y1="355" x2="76" y2="375" stroke="white" stroke-opacity="0.15" stroke-width="1.5" stroke-dasharray="4"/>
+  <g transform="translate(60, 380)">
+    <circle r="16" cx="16" cy="16" fill="#4ade80" opacity="0.3"/>
+    <text x="16" y="21" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">4</text>
+    <text x="45" y="21" font-family="Arial" font-size="13" fill="white" opacity="0.6">You're in Business!</text>
+  </g>
+  <circle cx="180" cy="500" r="36" fill="white" opacity="0.15"/>
+  <circle cx="180" cy="500" r="28" fill="white" opacity="0.2"/>
+  <polygon points="172,485 172,515 196,500" fill="white" opacity="0.9"/>
+  <text x="180" y="560" font-family="Arial" font-size="12" fill="white" text-anchor="middle" opacity="0.4">5:10</text>
+</svg>

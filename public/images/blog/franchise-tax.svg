@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" rx="16" fill="#14532d"/>
+  <text x="320" y="80" font-family="Georgia, serif" font-size="72" fill="white" text-anchor="middle" opacity="0.9">$800</text>
+  <text x="320" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle" opacity="0.4">Annual Minimum Franchise Tax</text>
+  <rect x="120" y="150" width="400" height="200" rx="14" fill="white" opacity="0.1"/>
+  <text x="180" y="190" font-family="Arial" font-size="12" fill="white" opacity="0.5">Due Date</text>
+  <text x="460" y="190" font-family="Arial" font-size="14" fill="#4ade80" text-anchor="end">April 15</text>
+  <line x1="150" y1="205" x2="490" y2="205" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="180" y="235" font-family="Arial" font-size="12" fill="white" opacity="0.5">Filing Form</text>
+  <text x="460" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="end" opacity="0.7">Form 3522</text>
+  <line x1="150" y1="250" x2="490" y2="250" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="180" y="280" font-family="Arial" font-size="12" fill="white" opacity="0.5">Applies To</text>
+  <text x="460" y="280" font-family="Arial" font-size="14" fill="white" text-anchor="end" opacity="0.7">All CA LLCs</text>
+  <line x1="150" y1="295" x2="490" y2="295" stroke="white" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="180" y="325" font-family="Arial" font-size="12" fill="white" opacity="0.5">Late Penalty</text>
+  <text x="460" y="325" font-family="Arial" font-size="14" fill="#ef4444" text-anchor="end" opacity="0.8">5% + interest</text>
+</svg>

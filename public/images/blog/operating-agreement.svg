@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" rx="16" fill="#166534"/>
+  <rect x="170" y="50" width="300" height="300" rx="8" fill="white" opacity="0.95"/>
+  <text x="320" y="90" font-family="Georgia, serif" font-size="16" fill="#111827" text-anchor="middle" font-weight="bold">OPERATING AGREEMENT</text>
+  <rect x="200" y="105" width="240" height="1" fill="#e5e7eb"/>
+  <rect x="200" y="120" width="180" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="200" y="135" width="220" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="200" y="150" width="160" height="6" rx="3" fill="#e5e7eb"/>
+  <text x="200" y="180" font-family="Arial" font-size="10" fill="#166534" font-weight="bold">Article I — Formation</text>
+  <rect x="200" y="188" width="240" height="5" rx="2.5" fill="#f3f4f6"/>
+  <rect x="200" y="198" width="200" height="5" rx="2.5" fill="#f3f4f6"/>
+  <text x="200" y="225" font-family="Arial" font-size="10" fill="#166534" font-weight="bold">Article II — Members</text>
+  <rect x="200" y="233" width="220" height="5" rx="2.5" fill="#f3f4f6"/>
+  <rect x="200" y="243" width="180" height="5" rx="2.5" fill="#f3f4f6"/>
+  <text x="200" y="270" font-family="Arial" font-size="10" fill="#166534" font-weight="bold">Article III — Management</text>
+  <rect x="200" y="278" width="240" height="5" rx="2.5" fill="#f3f4f6"/>
+  <rect x="200" y="288" width="160" height="5" rx="2.5" fill="#f3f4f6"/>
+  <!-- Signature lines -->
+  <line x1="200" y1="325" x2="300" y2="325" stroke="#111827" stroke-width="1"/>
+  <text x="200" y="340" font-family="Arial" font-size="8" fill="#6b7280">Member Signature</text>
+  <line x1="340" y1="325" x2="440" y2="325" stroke="#111827" stroke-width="1"/>
+  <text x="340" y="340" font-family="Arial" font-size="8" fill="#6b7280">Date</text>
+  <!-- Pen -->
+  <rect x="480" y="200" width="6" height="120" rx="3" fill="#1f2937" opacity="0.6" transform="rotate(-30 483 260)"/>
+  <polygon points="483,326 478,340 488,340" fill="#1f2937" opacity="0.6" transform="rotate(-30 483 333)"/>
+</svg>

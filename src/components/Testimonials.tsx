@@ -10,6 +10,7 @@ const testimonials = [
     quote:
       "The entire LLC formation process was seamless. They handled everything from filing to compliance, and I was up and running within days. Couldn't recommend them more.",
     rating: 5,
+    color: "bg-green-800",
   },
   {
     name: "James Chen",
@@ -17,6 +18,7 @@ const testimonials = [
     quote:
       "Their expertise in California business law gave me confidence that my LLC was structured properly from day one. The team was responsive and knowledgeable throughout.",
     rating: 5,
+    color: "bg-amber-700",
   },
   {
     name: "Amanda Foster",
@@ -24,6 +26,7 @@ const testimonials = [
     quote:
       "I was overwhelmed by the paperwork until I found Biz Legal. They made forming my LLC straightforward and stress-free. The ongoing compliance support is a huge bonus.",
     rating: 5,
+    color: "bg-sky-800",
   },
   {
     name: "David Park",
@@ -31,6 +34,7 @@ const testimonials = [
     quote:
       "The ongoing management services are invaluable. They keep my LLC compliant and handle all the annual filings. One less thing to worry about as a business owner.",
     rating: 5,
+    color: "bg-purple-800",
   },
 ];
 
@@ -118,9 +122,8 @@ export default function Testimonials() {
 
             {/* Author */}
             <div className="flex items-center gap-4 border-t border-gray-200 pt-6">
-              {/* Avatar placeholder */}
-              <div className="w-12 h-12 bg-ivory-300 rounded-full flex items-center justify-center flex-shrink-0">
-                <span className="text-[0.85rem] font-sans font-bold text-gray-600">
+              <div className={`w-12 h-12 ${current.color} rounded-full flex items-center justify-center flex-shrink-0`}>
+                <span className="text-[0.85rem] font-sans font-bold text-white">
                   {current.name
                     .split(" ")
                     .map((n) => n[0])

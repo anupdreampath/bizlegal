@@ -26,17 +26,14 @@ export default function WhyChooseUs() {
     <section id="about" className="bg-ivory-100 py-[4rem] md:py-[6rem]">
       <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
         <div className="grid md:grid-cols-2 gap-[3rem] md:gap-[5rem] items-start">
-          {/* Left — image placeholder */}
+          {/* Left — team illustration */}
           <div>
-            <div className="aspect-[4/3] bg-ivory-200 rounded-[1rem] flex items-center justify-center">
-              <div className="text-center px-8">
-                <p className="text-[1rem] font-sans text-gray-400">
-                  Image / Video Placeholder
-                </p>
-                <p className="text-[0.8rem] font-sans text-gray-400/60 mt-2">
-                  Team or office photo — 800 x 600px
-                </p>
-              </div>
+            <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
+              <img
+                src="/images/team-office.svg"
+                alt="Biz Legal team collaborating on LLC formation documents"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 

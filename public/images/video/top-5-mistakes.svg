@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" fill="none">
+  <defs>
+    <linearGradient id="vg3" x1="0" y1="0" x2="360" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#450a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="640" rx="20" fill="url(#vg3)"/>
+  <text x="180" y="170" font-family="Georgia, serif" font-size="96" fill="white" text-anchor="middle" opacity="0.15">5</text>
+  <text x="180" y="230" font-family="Georgia, serif" font-size="32" fill="white" text-anchor="middle" opacity="0.9">Top 5</text>
+  <text x="180" y="270" font-family="Georgia, serif" font-size="24" fill="white" text-anchor="middle" opacity="0.7">LLC Mistakes</text>
+  <text x="180" y="300" font-family="Arial" font-size="14" fill="white" text-anchor="middle" opacity="0.35">Don't make these errors</text>
+  <circle cx="180" cy="440" r="36" fill="white" opacity="0.15"/>
+  <circle cx="180" cy="440" r="28" fill="white" opacity="0.2"/>
+  <polygon points="172,425 172,455 196,440" fill="white" opacity="0.9"/>
+  <text x="180" y="510" font-family="Arial" font-size="12" fill="white" text-anchor="middle" opacity="0.4">4:20</text>
+</svg>

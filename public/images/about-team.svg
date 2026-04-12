@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#166534"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="24" fill="url(#abg)"/>
+  <!-- Dot pattern -->
+  <g opacity="0.06">
+    <circle cx="40" cy="40" r="2" fill="white"/><circle cx="80" cy="40" r="2" fill="white"/>
+    <circle cx="120" cy="40" r="2" fill="white"/><circle cx="160" cy="40" r="2" fill="white"/>
+    <circle cx="200" cy="40" r="2" fill="white"/><circle cx="240" cy="40" r="2" fill="white"/>
+    <circle cx="40" cy="80" r="2" fill="white"/><circle cx="80" cy="80" r="2" fill="white"/>
+    <circle cx="120" cy="80" r="2" fill="white"/><circle cx="160" cy="80" r="2" fill="white"/>
+    <circle cx="200" cy="80" r="2" fill="white"/><circle cx="240" cy="80" r="2" fill="white"/>
+  </g>
+  <!-- Person 1 -->
+  <circle cx="200" cy="240" r="60" fill="white" opacity="0.1"/>
+  <circle cx="200" cy="220" r="30" fill="#d1c4a5"/>
+  <path d="M160 300 Q160 268 200 268 Q240 268 240 300 L240 380 L160 380 Z" fill="white" opacity="0.9"/>
+  <rect x="170" y="280" width="60" height="8" rx="4" fill="#166534" opacity="0.3"/>
+  <text x="200" y="410" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold" opacity="0.9">Sarah Kim</text>
+  <text x="200" y="430" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.5">Lead Attorney</text>
+  <!-- Person 2 -->
+  <circle cx="400" cy="220" r="60" fill="white" opacity="0.1"/>
+  <circle cx="400" cy="200" r="30" fill="#c4a882"/>
+  <path d="M360 280 Q360 248 400 248 Q440 248 440 280 L440 360 L360 360 Z" fill="white" opacity="0.9"/>
+  <rect x="370" y="260" width="60" height="8" rx="4" fill="#166534" opacity="0.3"/>
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold" opacity="0.9">Michael Torres</text>
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.5">Managing Director</text>
+  <!-- Person 3 -->
+  <circle cx="600" cy="240" r="60" fill="white" opacity="0.1"/>
+  <circle cx="600" cy="220" r="30" fill="#b8977a"/>
+  <path d="M560 300 Q560 268 600 268 Q640 268 640 300 L640 380 L560 380 Z" fill="white" opacity="0.9"/>
+  <rect x="570" y="280" width="60" height="8" rx="4" fill="#166534" opacity="0.3"/>
+  <text x="600" y="410" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold" opacity="0.9">Emily Chen</text>
+  <text x="600" y="430" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.5">Compliance Specialist</text>
+  <!-- Title -->
+  <text x="400" y="100" font-family="Georgia, serif" font-size="28" fill="white" text-anchor="middle" opacity="0.9">Our Legal Team</text>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" opacity="0.4">California LLC Specialists</text>
+  <!-- Bottom decoration -->
+  <rect x="100" y="480" width="600" height="60" rx="12" fill="white" opacity="0.08"/>
+  <text x="200" y="515" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" opacity="0.4">5,000+ LLCs Formed</text>
+  <text x="400" y="515" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" opacity="0.4">10+ Years Experience</text>
+  <text x="600" y="515" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" opacity="0.4">98% Satisfaction</text>
+</svg>

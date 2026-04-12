@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" fill="none">
+  <defs>
+    <linearGradient id="vg5" x1="0" y1="0" x2="360" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="640" rx="20" fill="url(#vg5)"/>
+  <!-- Shield -->
+  <path d="M180 140 L240 170 L240 250 Q240 310 180 340 Q120 310 120 250 L120 170 Z" fill="white" opacity="0.08" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
+  <path d="M180 160 L225 183 L225 245 Q225 295 180 318 Q135 295 135 245 L135 183 Z" fill="white" opacity="0.06"/>
+  <path d="M160 240 L175 255 L205 220" stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <text x="180" y="385" font-family="Georgia, serif" font-size="24" fill="white" text-anchor="middle" opacity="0.9">Protect Your</text>
+  <text x="180" y="415" font-family="Georgia, serif" font-size="24" fill="white" text-anchor="middle" opacity="0.9">Assets</text>
+  <circle cx="180" cy="500" r="36" fill="white" opacity="0.15"/>
+  <circle cx="180" cy="500" r="28" fill="white" opacity="0.2"/>
+  <polygon points="172,485 172,515 196,500" fill="white" opacity="0.9"/>
+  <text x="180" y="560" font-family="Arial" font-size="12" fill="white" text-anchor="middle" opacity="0.4">1:55</text>
+</svg>

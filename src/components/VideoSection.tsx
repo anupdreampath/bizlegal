@@ -1,7 +1,5 @@
 "use client";
 
-import { Play } from "lucide-react";
-
 // Admin replaces these with actual video links from Instagram, X, TikTok, YouTube Shorts, etc.
 const videos = [
   {
@@ -9,36 +7,42 @@ const videos = [
     title: "Why You Need an LLC in California",
     platform: "Instagram",
     url: "",
+    thumbnail: "/images/video/why-llc-california.svg",
   },
   {
     id: 2,
     title: "LLC vs Sole Proprietorship",
     platform: "YouTube",
     url: "",
+    thumbnail: "/images/video/llc-vs-sole-prop.svg",
   },
   {
     id: 3,
     title: "Top 5 LLC Mistakes to Avoid",
     platform: "TikTok",
     url: "",
+    thumbnail: "/images/video/top-5-mistakes.svg",
   },
   {
     id: 4,
     title: "California LLC Tax Benefits",
     platform: "X",
     url: "",
+    thumbnail: "/images/video/tax-benefits.svg",
   },
   {
     id: 5,
     title: "Protect Your Personal Assets",
     platform: "Instagram",
     url: "",
+    thumbnail: "/images/video/protect-assets.svg",
   },
   {
     id: 6,
     title: "LLC Formation Step by Step",
     platform: "YouTube",
     url: "",
+    thumbnail: "/images/video/formation-steps.svg",
   },
 ];
 
@@ -74,21 +78,17 @@ export default function VideoSection() {
               rel={video.url ? "noopener noreferrer" : undefined}
               className="group block cursor-pointer"
             >
-              {/* 9:16 vertical card */}
-              <div className="relative aspect-[9/16] bg-purple-700 rounded-[0.7rem] md:rounded-[1rem] overflow-hidden hover:opacity-80 transition-opacity duration-200">
-                {/* Placeholder */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center p-3">
-                  <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mb-3">
-                    <Play className="w-5 h-5 text-white/50" />
-                  </div>
-                  <p className="text-[0.7rem] font-sans text-white/30 text-center">
-                    Video
-                  </p>
-                </div>
+              {/* 9:16 vertical card with thumbnail */}
+              <div className="relative aspect-[9/16] rounded-[0.7rem] md:rounded-[1rem] overflow-hidden hover:opacity-80 transition-opacity duration-200">
+                <img
+                  src={video.thumbnail}
+                  alt={video.title}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
 
                 {/* Platform badge */}
                 <div className="absolute top-3 left-3">
-                  <span className="text-[0.65rem] font-sans font-bold text-white/50 uppercase tracking-wider">
+                  <span className="text-[0.65rem] font-sans font-bold text-white/70 uppercase tracking-wider bg-black/20 px-2 py-1 rounded-full backdrop-blur-sm">
                     {video.platform}
                   </span>
                 </div>

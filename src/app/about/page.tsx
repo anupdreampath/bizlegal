@@ -47,12 +47,11 @@ export default function AboutPage() {
             </div>
 
             <div className="space-y-6">
-              {/* Image placeholder */}
-              <div className="aspect-[4/3] bg-ivory-200 rounded-[1rem] flex items-center justify-center">
-                <p className="text-[0.9rem] font-sans text-gray-400">Team Photo Placeholder</p>
+              <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
+                <img src="/images/about-team.svg" alt="Biz Legal legal team — California LLC specialists" className="w-full h-full object-cover" />
               </div>
-              <div className="aspect-[3/2] bg-ivory-200 rounded-[1rem] flex items-center justify-center">
-                <p className="text-[0.9rem] font-sans text-gray-400">Office Photo Placeholder</p>
+              <div className="aspect-[3/2] rounded-[1rem] overflow-hidden">
+                <img src="/images/about-office.svg" alt="Biz Legal office — conference room and legal library" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

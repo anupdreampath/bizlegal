@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" fill="none">
+  <defs>
+    <linearGradient id="vg1" x1="0" y1="0" x2="360" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#166534"/>
+      <stop offset="100%" stop-color="#052e16"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="640" rx="20" fill="url(#vg1)"/>
+  <!-- California outline suggestion -->
+  <path d="M120 160 Q100 200 110 260 Q115 300 130 340 Q140 360 160 380 Q170 390 180 380 Q200 350 190 320 Q185 300 195 280 Q210 250 200 220 Q190 190 170 170 Q150 155 120 160Z" fill="white" opacity="0.06" stroke="white" stroke-opacity="0.1" stroke-width="1.5"/>
+  <!-- Star on CA -->
+  <circle cx="155" cy="260" r="6" fill="#fbbf24" opacity="0.5"/>
+  <text x="180" y="220" font-family="Georgia, serif" font-size="48" fill="white" opacity="0.95">Why</text>
+  <text x="180" y="280" font-family="Georgia, serif" font-size="48" fill="white" opacity="0.95">LLC?</text>
+  <text x="180" y="320" font-family="Arial" font-size="14" fill="white" opacity="0.4">California Business Protection</text>
+  <!-- Play button -->
+  <circle cx="180" cy="440" r="36" fill="white" opacity="0.15"/>
+  <circle cx="180" cy="440" r="28" fill="white" opacity="0.2"/>
+  <polygon points="172,425 172,455 196,440" fill="white" opacity="0.9"/>
+  <text x="180" y="510" font-family="Arial" font-size="12" fill="white" text-anchor="middle" opacity="0.4">2:30</text>
+</svg>
