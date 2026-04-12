@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="16" fill="#166534"/>
+  <g opacity="0.04"><circle cx="150" cy="100" r="180" fill="white"/><circle cx="650" cy="500" r="200" fill="white"/></g>
+  <text x="400" y="80" font-family="Georgia, serif" font-size="22" fill="white" text-anchor="middle" opacity="0.9">Compliance Management Team</text>
+  <rect x="100" y="120" width="600" height="350" rx="14" fill="white" opacity="0.08"/>
+  <circle cx="250" cy="230" r="50" fill="white" opacity="0.1"/>
+  <circle cx="250" cy="215" r="22" fill="#d1c4a5"/>
+  <path d="M228 265 Q228 248 250 248 Q272 248 272 265 L272 320 L228 320 Z" fill="white" opacity="0.7"/>
+  <text x="250" y="350" font-family="Arial" font-size="11" fill="white" text-anchor="middle" opacity="0.7">Filing Specialist</text>
+  <text x="250" y="368" font-family="Arial" font-size="9" fill="white" text-anchor="middle" opacity="0.35">Annual reports &amp; taxes</text>
+  <circle cx="400" cy="220" r="50" fill="white" opacity="0.1"/>
+  <circle cx="400" cy="205" r="22" fill="#c4a882"/>
+  <path d="M378 255 Q378 238 400 238 Q422 238 422 255 L422 310 L378 310 Z" fill="white" opacity="0.7"/>
+  <text x="400" y="340" font-family="Arial" font-size="11" fill="white" text-anchor="middle" opacity="0.7">Legal Reviewer</text>
+  <text x="400" y="358" font-family="Arial" font-size="9" fill="white" text-anchor="middle" opacity="0.35">Document accuracy</text>
+  <circle cx="550" cy="230" r="50" fill="white" opacity="0.1"/>
+  <circle cx="550" cy="215" r="22" fill="#b8977a"/>
+  <path d="M528 265 Q528 248 550 248 Q572 248 572 265 L572 320 L528 320 Z" fill="white" opacity="0.7"/>
+  <text x="550" y="350" font-family="Arial" font-size="11" fill="white" text-anchor="middle" opacity="0.7">Client Advisor</text>
+  <text x="550" y="368" font-family="Arial" font-size="9" fill="white" text-anchor="middle" opacity="0.35">Dedicated support</text>
+  <rect x="200" y="400" width="400" height="50" rx="10" fill="white" opacity="0.06"/>
+  <text x="400" y="430" font-family="Arial" font-size="12" fill="white" text-anchor="middle" opacity="0.5">Your dedicated compliance team keeps your LLC in good standing</text>
+</svg>

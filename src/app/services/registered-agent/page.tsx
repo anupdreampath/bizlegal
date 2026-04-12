@@ -97,7 +97,7 @@ export default function RegisteredAgentPage() {
             </div>
 
             <div className="space-y-6">
-              <VideoPlaceholder label="How registered agent service works (2 min)" />
+              <VideoPlaceholder label="How registered agent service works (2 min)" duration="2 min" variant="green" />
 
               <div className="grid grid-cols-2 gap-4">
                 <StatCard number="100%" label="Document acceptance rate" />
@@ -359,7 +359,7 @@ export default function RegisteredAgentPage() {
             </div>
           </div>
 
-          <VideoPlaceholder label="Professional vs. self-represented: real client stories" />
+          <VideoPlaceholder label="Professional vs. self-represented: real client stories" duration="4 min" variant="dark" />
         </div>
       </section>
 
@@ -419,10 +419,12 @@ export default function RegisteredAgentPage() {
               <ImagePlaceholder
                 label="Business owner reviewing documents on a laptop"
                 aspect="4/3"
+                src="/images/services/document-review.svg"
               />
               <ImagePlaceholder
                 label="Secure client portal dashboard"
                 aspect="16/9"
+                src="/images/services/client-portal.svg"
               />
             </div>
           </div>
@@ -463,7 +465,7 @@ export default function RegisteredAgentPage() {
               </div>
 
               <div className="mt-6">
-                <VideoPlaceholder label="Client testimonial: how fast we respond" />
+                <VideoPlaceholder label="Client testimonial: how fast we respond" duration="2 min" variant="teal" />
               </div>
             </div>
 
@@ -582,6 +584,7 @@ export default function RegisteredAgentPage() {
             <ImagePlaceholder
               label="Team ready to handle your LLC documents"
               aspect="4/3"
+              src="/images/services/happy-owner.svg"
             />
           </div>
         </div>

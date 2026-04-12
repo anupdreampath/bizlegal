@@ -60,7 +60,7 @@ export default function LLCFormationPage() {
             </div>
 
             <div className="space-y-6">
-              <VideoPlaceholder label="Video: Why LLC Formation Matters (3 min)" />
+              <VideoPlaceholder label="Video: Why LLC Formation Matters (3 min)" duration="3 min" variant="green" />
               <div className="grid grid-cols-2 gap-4">
                 <StatCard number="5,000+" label="LLCs formed in California" />
                 <StatCard number="5–7 days" label="Standard filing time" />
@@ -162,8 +162,8 @@ export default function LLCFormationPage() {
             </div>
 
             <div className="space-y-6">
-              <VideoPlaceholder label="Video: Formation Process Walkthrough (4 min)" />
-              <ImagePlaceholder label="Infographic: Formation Timeline" aspect="3/2" />
+              <VideoPlaceholder label="Video: Formation Process Walkthrough (4 min)" duration="4 min" variant="dark" />
+              <ImagePlaceholder label="Infographic: Formation Timeline" aspect="3/2" src="/images/services/formation-timeline.svg" />
 
               <div className="bg-green-800 rounded-[1rem] p-8">
                 <h3 className="font-serif text-[1.5rem] text-white mb-3">Start for free</h3>
@@ -191,7 +191,7 @@ export default function LLCFormationPage() {
               <p className="font-sans text-[1rem] text-white/60 leading-[1.6] mb-8">
                 Whether you&apos;re launching your first business or structuring your fifth investment, an LLC provides the foundation you need.
               </p>
-              <VideoPlaceholder label="Video: Who Should Form an LLC? (3 min)" />
+              <VideoPlaceholder label="Video: Who Should Form an LLC? (3 min)" duration="3 min" variant="blue" />
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -230,7 +230,7 @@ export default function LLCFormationPage() {
                 California state fees are set by law. Our service fee covers everything in the formation package — name search, all documents, all filings, EIN, and your complete organizational package.
               </Takeaway>
 
-              <ImagePlaceholder label="Image: Fee Breakdown Comparison Chart" aspect="16/9" />
+              <ImagePlaceholder label="Image: Fee Breakdown Comparison Chart" aspect="16/9" src="/images/services/fee-comparison.svg" />
             </div>
 
             <div className="space-y-6">
@@ -330,7 +330,7 @@ export default function LLCFormationPage() {
                 <p className="font-sans text-[0.8rem] text-gray-600">Founder, Martinez Design Co.</p>
               </div>
 
-              <VideoPlaceholder label="Video: Client Testimonials (2 min)" />
+              <VideoPlaceholder label="Video: Client Testimonials (2 min)" duration="2 min" variant="teal" />
             </div>
 
             <div>
@@ -395,7 +395,7 @@ export default function LLCFormationPage() {
               </div>
             </div>
             <div className="hidden lg:block">
-              <ImagePlaceholder label="Image: Happy Business Owner" aspect="4/3" />
+              <ImagePlaceholder label="Image: Happy Business Owner" aspect="4/3" src="/images/services/happy-owner.svg" />
             </div>
           </div>
         </div>

@@ -53,17 +53,15 @@ function Takeaway({ children }: { children: React.ReactNode }) {
   );
 }
 
-function VideoPlaceholder({ label }: { label: string }) {
+function VideoPlaceholder({ label, duration, variant = "dark" }: { label: string; duration?: string; variant?: string }) {
+  const gradients: Record<string, string> = { green: "from-green-800 to-green-900", dark: "from-gray-800 to-gray-900", blue: "from-sky-800 to-sky-900", red: "from-red-900 to-red-950", purple: "from-purple-800 to-purple-900", teal: "from-teal-800 to-teal-900" };
+  const g = gradients[variant] || gradients.dark;
   return (
-    <div className="group relative aspect-video w-full rounded-[1rem] bg-ivory-200 flex items-center justify-center cursor-pointer hover:bg-ivory-100 transition-colors duration-200 overflow-hidden">
-      <div className="flex flex-col items-center gap-3">
-        <div className="w-14 h-14 rounded-full bg-green-800 flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-          <Play className="h-6 w-6 text-white ml-0.5" />
-        </div>
-        <span className="font-sans text-[0.85rem] text-gray-500">
-          {label}
-        </span>
-      </div>
+    <div className={`aspect-video bg-gradient-to-br ${g} rounded-[1rem] flex flex-col items-center justify-center gap-3 cursor-pointer group relative overflow-hidden`}>
+      <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.5) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
+      <div className="relative w-14 h-14 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-white/20 transition-colors"><Play className="w-6 h-6 text-white/80" /></div>
+      <p className="relative text-[0.95rem] font-sans font-medium text-white/70 text-center px-8 leading-snug max-w-[20rem]">{label}</p>
+      {duration && <span className="relative text-[0.75rem] font-sans text-white/35">{duration}</span>}
     </div>
   );
 }
@@ -71,16 +69,26 @@ function VideoPlaceholder({ label }: { label: string }) {
 function ImagePlaceholder({
   label,
   aspect = "4/3",
+  src,
 }: {
   label: string;
   aspect?: string;
+  src?: string;
 }) {
+  if (src) {
+    return (
+      <div className="rounded-[1rem] overflow-hidden" style={{ aspectRatio: aspect }}>
+        <img src={src} alt={label} className="w-full h-full object-cover" />
+      </div>
+    );
+  }
   return (
     <div
-      className="w-full rounded-[1rem] bg-ivory-200 flex items-center justify-center"
+      className="bg-gradient-to-br from-green-800 to-green-900 rounded-[1rem] flex flex-col items-center justify-center gap-3 p-6 relative overflow-hidden"
       style={{ aspectRatio: aspect }}
     >
-      <span className="font-sans text-[0.85rem] text-gray-400 text-center px-4">
+      <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.5) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
+      <span className="relative font-sans text-[0.85rem] text-white/50 text-center px-4">
         {label}
       </span>
     </div>
@@ -240,6 +248,7 @@ export default function CaliforniaBusinessLawPage() {
               <ImagePlaceholder
                 label="California Business Law Illustration"
                 aspect="16/9"
+                src="/images/services/ca-business-law.svg"
               />
             </div>
           </div>
@@ -633,8 +642,9 @@ export default function CaliforniaBusinessLawPage() {
               <ImagePlaceholder
                 label="Liability Protection Diagram"
                 aspect="4/3"
+                src="/images/resources/veil-piercing.svg"
               />
-              <VideoPlaceholder label="Understanding Veil Piercing in California" />
+              <VideoPlaceholder label="Understanding Veil Piercing in California" duration="4 min" variant="dark" />
             </div>
           </div>
         </div>
@@ -823,7 +833,7 @@ export default function CaliforniaBusinessLawPage() {
 
             {/* Right */}
             <div className="flex flex-col gap-6 justify-center">
-              <VideoPlaceholder label="Why Your LLC Needs an Operating Agreement" />
+              <VideoPlaceholder label="Why Your LLC Needs an Operating Agreement" duration="3 min" variant="green" />
               <div className="bg-purple-700 rounded-[1rem] p-6">
                 <p className="font-sans font-bold text-white text-[0.9rem] uppercase tracking-wider mb-3">
                   Section 17701.10(d) &mdash; Non-Waivable Provisions

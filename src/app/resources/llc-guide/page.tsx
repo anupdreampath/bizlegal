@@ -31,21 +31,31 @@ function Takeaway({ children }: { children: React.ReactNode }) {
   );
 }
 
-function ImagePlaceholder({ label, aspect = "4/3" }: { label: string; aspect?: string }) {
+function ImagePlaceholder({ label, aspect = "4/3", src }: { label: string; aspect?: string; src?: string }) {
+  if (src) {
+    return (
+      <div className="rounded-[1rem] overflow-hidden" style={{ aspectRatio: aspect }}>
+        <img src={src} alt={label} className="w-full h-full object-cover" />
+      </div>
+    );
+  }
   return (
-    <div className={`aspect-[${aspect}] bg-ivory-200 rounded-[1rem] flex items-center justify-center`} style={{ aspectRatio: aspect }}>
-      <p className="text-[0.85rem] font-sans text-gray-400 text-center px-4">{label}</p>
+    <div className="bg-gradient-to-br from-green-800 to-green-900 rounded-[1rem] flex flex-col items-center justify-center gap-3 p-6 relative overflow-hidden" style={{ aspectRatio: aspect }}>
+      <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.5) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
+      <p className="relative text-[0.85rem] font-sans text-white/50 text-center px-4">{label}</p>
     </div>
   );
 }
 
-function VideoPlaceholder({ label }: { label: string }) {
+function VideoPlaceholder({ label, duration, variant = "dark" }: { label: string; duration?: string; variant?: string }) {
+  const gradients: Record<string, string> = { green: "from-green-800 to-green-900", dark: "from-gray-800 to-gray-900", blue: "from-sky-800 to-sky-900", red: "from-red-900 to-red-950", purple: "from-purple-800 to-purple-900", teal: "from-teal-800 to-teal-900" };
+  const g = gradients[variant] || gradients.dark;
   return (
-    <div className="aspect-video bg-ivory-200 rounded-[1rem] flex flex-col items-center justify-center gap-3 group cursor-pointer hover:bg-ivory-300 transition-colors">
-      <div className="w-14 h-14 bg-green-800/10 rounded-full flex items-center justify-center group-hover:bg-green-800/20 transition-colors">
-        <Play className="w-6 h-6 text-green-800" />
-      </div>
-      <p className="text-[0.85rem] font-sans text-gray-400">{label}</p>
+    <div className={`aspect-video bg-gradient-to-br ${g} rounded-[1rem] flex flex-col items-center justify-center gap-3 cursor-pointer group relative overflow-hidden`}>
+      <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.5) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
+      <div className="relative w-14 h-14 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-white/20 transition-colors"><Play className="w-6 h-6 text-white/80" /></div>
+      <p className="relative text-[0.95rem] font-sans font-medium text-white/70 text-center px-8 leading-snug max-w-[20rem]">{label}</p>
+      {duration && <span className="relative text-[0.75rem] font-sans text-white/35">{duration}</span>}
     </div>
   );
 }
@@ -112,7 +122,7 @@ export default function LLCGuidePage() {
             </div>
 
             <div className="space-y-6">
-              <VideoPlaceholder label="Video: What is an LLC? (2 min)" />
+              <VideoPlaceholder label="Video: What is an LLC? (2 min)" duration="2 min" variant="green" />
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { number: "#1", label: "Most popular business structure in the US" },
@@ -126,7 +136,7 @@ export default function LLCGuidePage() {
                   </div>
                 ))}
               </div>
-              <ImagePlaceholder label="Infographic: LLC Structure Diagram" aspect="4/3" />
+              <ImagePlaceholder label="Infographic: LLC Structure Diagram" aspect="4/3" src="/images/resources/llc-structure.svg" />
             </div>
           </div>
         </div>
@@ -253,8 +263,8 @@ export default function LLCGuidePage() {
             </div>
 
             <div className="space-y-6">
-              <VideoPlaceholder label="Video: LLC Formation Step-by-Step (5 min)" />
-              <ImagePlaceholder label="Infographic: Formation Timeline" aspect="3/2" />
+              <VideoPlaceholder label="Video: LLC Formation Step-by-Step (5 min)" duration="5 min" variant="dark" />
+              <ImagePlaceholder label="Infographic: Formation Timeline" aspect="3/2" src="/images/services/formation-timeline.svg" />
 
               <div className="bg-green-800 rounded-[1rem] p-8">
                 <h3 className="font-serif text-[1.5rem] text-white mb-3">Want us to handle it?</h3>
@@ -290,7 +300,7 @@ export default function LLCGuidePage() {
               </Takeaway>
             </div>
 
-            <ImagePlaceholder label="Image: Sample Operating Agreement" aspect="4/5" />
+            <ImagePlaceholder label="Image: Sample Operating Agreement" aspect="4/5" src="/images/blog/operating-agreement.svg" />
           </div>
 
           {/* What it should cover */}
@@ -401,8 +411,8 @@ export default function LLCGuidePage() {
             </div>
 
             <div className="space-y-6">
-              <VideoPlaceholder label="Video: Annual Compliance Checklist (3 min)" />
-              <ImagePlaceholder label="Infographic: Compliance Calendar" aspect="3/4" />
+              <VideoPlaceholder label="Video: Annual Compliance Checklist (3 min)" duration="3 min" variant="blue" />
+              <ImagePlaceholder label="Infographic: Compliance Calendar" aspect="3/4" src="/images/services/compliance-calendar.svg" />
             </div>
           </div>
         </div>
@@ -424,7 +434,7 @@ export default function LLCGuidePage() {
               </p>
             </div>
 
-            <ImagePlaceholder label="Infographic: Veil Piercing Risk Factors" aspect="4/3" />
+            <ImagePlaceholder label="Infographic: Veil Piercing Risk Factors" aspect="4/3" src="/images/resources/veil-piercing.svg" />
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mt-8">
@@ -468,7 +478,7 @@ export default function LLCGuidePage() {
               </div>
             </div>
             <div className="hidden lg:block">
-              <VideoPlaceholder label="Video: Why Clients Choose Biz Legal (2 min)" />
+              <VideoPlaceholder label="Video: Why Clients Choose Biz Legal (2 min)" duration="2 min" variant="teal" />
             </div>
           </div>
         </div>

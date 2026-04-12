@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="16" fill="#166534"/>
+  <g opacity="0.05"><circle cx="200" cy="150" r="200" fill="white"/><circle cx="600" cy="400" r="250" fill="white"/></g>
+  <rect x="150" y="160" width="500" height="300" rx="14" fill="white" opacity="0.1"/>
+  <circle cx="300" cy="260" r="45" fill="white" opacity="0.12"/>
+  <circle cx="300" cy="245" r="20" fill="#d1c4a5"/>
+  <path d="M278 290 Q278 270 300 270 Q322 270 322 290 L322 340 L278 340 Z" fill="white" opacity="0.8"/>
+  <circle cx="500" cy="260" r="45" fill="white" opacity="0.12"/>
+  <circle cx="500" cy="245" r="20" fill="#c4a882"/>
+  <path d="M478 290 Q478 270 500 270 Q522 270 522 290 L522 340 L478 340 Z" fill="white" opacity="0.8"/>
+  <rect x="340" y="310" width="120" height="80" rx="8" fill="white" opacity="0.1"/>
+  <rect x="355" y="325" width="80" height="5" rx="2.5" fill="white" opacity="0.3"/>
+  <rect x="355" y="338" width="60" height="5" rx="2.5" fill="white" opacity="0.2"/>
+  <rect x="355" y="351" width="70" height="5" rx="2.5" fill="white" opacity="0.25"/>
+  <rect x="355" y="370" width="40" height="14" rx="7" fill="#4ade80" opacity="0.3"/>
+  <text x="400" y="130" font-family="Georgia, serif" font-size="24" fill="white" text-anchor="middle" opacity="0.9">Business Strategy Consultation</text>
+  <text x="400" y="500" font-family="Arial" font-size="13" fill="white" text-anchor="middle" opacity="0.4">Expert guidance tailored to your business goals</text>
+</svg>

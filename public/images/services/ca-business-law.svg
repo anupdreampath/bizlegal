@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" rx="16" fill="#14532d"/>
+  <text x="400" y="55" font-family="Georgia, serif" font-size="22" fill="white" text-anchor="middle" opacity="0.9">California Business Law</text>
+  <text x="400" y="80" font-family="Arial" font-size="12" fill="white" text-anchor="middle" opacity="0.35">Corporations Code &amp; Revenue and Taxation Code</text>
+  <rect x="80" y="110" width="280" height="140" rx="12" fill="white" opacity="0.08"/>
+  <text x="220" y="145" font-family="Arial" font-size="11" fill="white" text-anchor="middle" font-weight="bold" opacity="0.7">FORMATION</text>
+  <text x="220" y="170" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Corp Code §17701</text>
+  <text x="220" y="190" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Articles of Organization</text>
+  <text x="220" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Operating Agreements</text>
+  <text x="220" y="230" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Member/Manager duties</text>
+  <rect x="440" y="110" width="280" height="140" rx="12" fill="white" opacity="0.08"/>
+  <text x="580" y="145" font-family="Arial" font-size="11" fill="white" text-anchor="middle" font-weight="bold" opacity="0.7">TAXATION</text>
+  <text x="580" y="170" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Rev &amp; Tax Code §17941</text>
+  <text x="580" y="190" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">$800 Annual Franchise Tax</text>
+  <text x="580" y="210" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Income-based LLC fee</text>
+  <text x="580" y="230" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Pass-through taxation</text>
+  <rect x="80" y="280" width="280" height="140" rx="12" fill="white" opacity="0.08"/>
+  <text x="220" y="315" font-family="Arial" font-size="11" fill="white" text-anchor="middle" font-weight="bold" opacity="0.7">COMPLIANCE</text>
+  <text x="220" y="340" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Statement of Information</text>
+  <text x="220" y="360" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">BOI Reporting (FinCEN)</text>
+  <text x="220" y="380" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Registered Agent req.</text>
+  <text x="220" y="400" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Annual filings</text>
+  <rect x="440" y="280" width="280" height="140" rx="12" fill="white" opacity="0.08"/>
+  <text x="580" y="315" font-family="Arial" font-size="11" fill="white" text-anchor="middle" font-weight="bold" opacity="0.7">PROTECTIONS</text>
+  <text x="580" y="340" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Limited liability shield</text>
+  <text x="580" y="360" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Charging order protection</text>
+  <text x="580" y="380" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Veil piercing standards</text>
+  <text x="580" y="400" font-family="Arial" font-size="10" fill="white" text-anchor="middle" opacity="0.4">Series LLC provisions</text>
+</svg>

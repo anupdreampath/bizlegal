@@ -83,8 +83,15 @@ export default function ContactPage() {
                 </div>
 
                 {/* Map placeholder */}
-                <div className="mt-10 aspect-[4/3] bg-ivory-200 rounded-[1rem] flex items-center justify-center">
-                  <p className="text-[0.9rem] font-sans text-gray-400">Map Placeholder</p>
+                <div className="mt-10">
+                  <div className="aspect-[4/3] bg-gradient-to-br from-green-800 to-green-900 rounded-[1rem] flex flex-col items-center justify-center gap-3 relative overflow-hidden">
+                    <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.5) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
+                    <div className="relative text-center">
+                      <p className="text-[1.25rem] font-serif text-white/90 mb-2">Biz Legal</p>
+                      <p className="text-[0.9rem] font-sans text-white/50">Los Angeles, California</p>
+                      <p className="text-[0.85rem] font-sans text-white/35 mt-1">Available Mon–Fri, 9AM–6PM PT</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 

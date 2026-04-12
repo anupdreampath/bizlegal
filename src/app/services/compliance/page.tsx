@@ -101,7 +101,7 @@ export default function CompliancePage() {
             </div>
 
             <div className="space-y-6">
-              <VideoPlaceholder label="Watch: Why California LLC Compliance Matters" />
+              <VideoPlaceholder label="Watch: Why California LLC Compliance Matters" duration="3 min" variant="green" />
 
               <div className="grid grid-cols-2 gap-4">
                 <StatCard number="$250+" label="Penalty for late SOI filing" />
@@ -345,7 +345,7 @@ export default function CompliancePage() {
                 worse. We track every one and send you advance reminders at 60,
                 30, and 7 days before each due date.
               </p>
-              <ImagePlaceholder label="Compliance Calendar Dashboard" aspect="16/9" />
+              <ImagePlaceholder label="Compliance Calendar Dashboard" aspect="16/9" src="/images/services/compliance-calendar.svg" />
             </div>
 
             <div className="space-y-4">
@@ -554,7 +554,7 @@ export default function CompliancePage() {
             </div>
           </div>
 
-          <VideoPlaceholder label="Watch: Real Compliance Horror Stories from CA LLC Owners" />
+          <VideoPlaceholder label="Watch: Real Compliance Horror Stories from CA LLC Owners" duration="4 min" variant="red" />
         </div>
       </section>
 
@@ -574,7 +574,7 @@ export default function CompliancePage() {
                 business owners who benefit most from professional compliance
                 management.
               </p>
-              <ImagePlaceholder label="Business Owners Managing Compliance" aspect="4/3" />
+              <ImagePlaceholder label="Business Owners Managing Compliance" aspect="4/3" src="/images/services/document-review.svg" />
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -689,7 +689,7 @@ export default function CompliancePage() {
                 </p>
               </div>
 
-              <VideoPlaceholder label="Watch: Compliance Q&A with Our Legal Team" />
+              <VideoPlaceholder label="Watch: Compliance Q&A with Our Legal Team" duration="3 min" variant="dark" />
             </div>
 
             <div className="space-y-0">
@@ -816,7 +816,7 @@ export default function CompliancePage() {
               </div>
             </div>
 
-            <ImagePlaceholder label="Compliance Team at Work" aspect="4/3" />
+            <ImagePlaceholder label="Compliance Team at Work" aspect="4/3" src="/images/services/compliance-team.svg" />
           </div>
         </div>
       </section>

@@ -72,10 +72,8 @@ export default function FAQ() {
 
             {/* Image placeholder */}
             <div className="hidden lg:block mt-8">
-              <div className="aspect-[4/3] bg-ivory-300 rounded-[1rem] flex items-center justify-center">
-                <p className="text-[0.9rem] font-sans text-gray-400">
-                  Image Placeholder
-                </p>
+              <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
+                <img src="/images/services/happy-owner.svg" alt="California LLC formation" className="w-full h-full object-cover rounded-[1rem]" />
               </div>
             </div>
           </div>

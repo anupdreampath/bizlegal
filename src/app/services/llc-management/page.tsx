@@ -96,7 +96,7 @@ export default function LLCManagementPage() {
 
             {/* Right column */}
             <div className="space-y-6">
-              <VideoPlaceholder label="Why LLC compliance matters in California" />
+              <VideoPlaceholder label="Why LLC compliance matters in California" duration="3 min" variant="green" />
 
               <div className="grid grid-cols-2 gap-4">
                 <StatCard
@@ -289,7 +289,7 @@ export default function LLCManagementPage() {
                 often without additional warning beyond the original deadline.
               </p>
             </div>
-            <VideoPlaceholder label="Video: How non-compliance penalties compound" />
+            <VideoPlaceholder label="Video: How non-compliance penalties compound" duration="4 min" variant="red" />
           </div>
 
           {/* Penalty escalation — visual timeline */}
@@ -454,6 +454,7 @@ export default function LLCManagementPage() {
               <ImagePlaceholder
                 label="Business owners reviewing compliance documents"
                 aspect="16/9"
+                src="/images/services/compliance-calendar.svg"
               />
             </div>
 
@@ -558,7 +559,7 @@ export default function LLCManagementPage() {
 
             {/* Right column — video + CTA */}
             <div className="space-y-6 lg:pt-[4.5rem]">
-              <VideoPlaceholder label="How our compliance management process works" />
+              <VideoPlaceholder label="How our compliance management process works" duration="3 min" variant="dark" />
               <div className="bg-green-800 rounded-[1rem] p-8">
                 <h3 className="font-serif text-[1.5rem] text-white mb-3">
                   Ready to get started?
@@ -579,6 +580,7 @@ export default function LLCManagementPage() {
               <ImagePlaceholder
                 label="Client compliance dashboard preview"
                 aspect="3/2"
+                src="/images/services/document-review.svg"
               />
             </div>
           </div>
@@ -619,7 +621,7 @@ export default function LLCManagementPage() {
                 </p>
               </div>
 
-              <VideoPlaceholder label="Client testimonials and success stories" />
+              <VideoPlaceholder label="Client testimonials and success stories" duration="2 min" variant="teal" />
             </div>
 
             {/* Right column — accordions */}
@@ -762,6 +764,7 @@ export default function LLCManagementPage() {
             <ImagePlaceholder
               label="LLC compliance management team at work"
               aspect="4/3"
+              src="/images/services/happy-owner.svg"
             />
           </div>
         </div>

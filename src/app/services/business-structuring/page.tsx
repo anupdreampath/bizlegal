@@ -93,7 +93,7 @@ export default function BusinessStructuringPage() {
             </div>
 
             <div className="space-y-6">
-              <VideoPlaceholder label="Watch: Why LLC Structure Matters More Than Formation" />
+              <VideoPlaceholder label="Watch: Why LLC Structure Matters More Than Formation" duration="4 min" variant="green" />
               <div className="grid grid-cols-2 gap-4">
                 <StatCard number="$15K+" label="Average tax savings with proper election" />
                 <StatCard number="100%" label="Custom-drafted Operating Agreements" />
@@ -285,7 +285,7 @@ export default function BusinessStructuringPage() {
             ))}
           </div>
 
-          <VideoPlaceholder label="Watch: How to Choose the Right Entity Structure" />
+          <VideoPlaceholder label="Watch: How to Choose the Right Entity Structure" duration="5 min" variant="dark" />
         </div>
       </section>
 
@@ -298,7 +298,7 @@ export default function BusinessStructuringPage() {
               <h2 className="font-serif text-[2rem] md:text-[2.75rem] leading-[1.1] text-black mb-6">
                 Structuring guidance is especially valuable when&hellip;
               </h2>
-              <ImagePlaceholder label="Business Strategy Consultation" aspect="4/3" />
+              <ImagePlaceholder label="Business Strategy Consultation" aspect="4/3" src="/images/services/business-consultation.svg" />
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -371,7 +371,7 @@ export default function BusinessStructuringPage() {
                 </p>
               </div>
 
-              <VideoPlaceholder label="Watch: Structuring FAQ with Our Legal Team" />
+              <VideoPlaceholder label="Watch: Structuring FAQ with Our Legal Team" duration="3 min" variant="blue" />
             </div>
 
             <div>
@@ -495,7 +495,7 @@ export default function BusinessStructuringPage() {
               </div>
             </div>
 
-            <ImagePlaceholder label="LLC Structuring Consultation" aspect="4/3" />
+            <ImagePlaceholder label="LLC Structuring Consultation" aspect="4/3" src="/images/services/business-consultation.svg" />
           </div>
         </div>
       </section>
