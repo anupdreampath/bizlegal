@@ -7,17 +7,28 @@ import { Menu, X, ChevronDown } from "lucide-react";
 const navLinks = [
   {
     label: "Services",
-    href: "#services",
+    href: "/services/llc-formation",
     children: [
-      { label: "LLC Formation", href: "#services" },
-      { label: "LLC Management", href: "#services" },
-      { label: "Registered Agent", href: "#services" },
-      { label: "Compliance", href: "#services" },
+      { label: "LLC Formation", href: "/services/llc-formation" },
+      { label: "LLC Management", href: "/services/llc-management" },
+      { label: "Registered Agent", href: "/services/registered-agent" },
+      { label: "Compliance", href: "/services/compliance" },
+      { label: "Business Structuring", href: "/services/business-structuring" },
     ],
   },
-  { label: "How It Works", href: "#process" },
-  { label: "Learn", href: "#faq" },
-  { label: "About", href: "#about" },
+  { label: "How It Works", href: "/how-it-works" },
+  {
+    label: "Learn",
+    href: "/blog",
+    children: [
+      { label: "Blog", href: "/blog" },
+      { label: "LLC Guide", href: "/resources/llc-guide" },
+      { label: "Tax Requirements", href: "/resources/tax-requirements" },
+      { label: "California Business Law", href: "/resources/california-business-law" },
+      { label: "FAQ", href: "/faq" },
+    ],
+  },
+  { label: "About", href: "/about" },
 ];
 
 export default function Header() {
@@ -46,24 +57,24 @@ export default function Header() {
                 }
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <a
+                <Link
                   href={link.href}
                   className="flex items-center gap-1 text-[1rem] font-sans font-medium text-black hover:opacity-60 transition-opacity duration-200 cursor-pointer"
                 >
                   {link.label}
                   {link.children && <ChevronDown className="w-4 h-4" />}
-                </a>
+                </Link>
                 {link.children && activeDropdown === link.label && (
                   <div className="absolute top-full left-0 pt-3">
                     <div className="bg-white rounded-[1rem] shadow-lg py-3 min-w-[220px]">
                       {link.children.map((child) => (
-                        <a
+                        <Link
                           key={child.label}
                           href={child.href}
                           className="block px-5 py-3 text-[0.95rem] font-sans text-black hover:opacity-60 transition-opacity duration-200 cursor-pointer"
                         >
                           {child.label}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -109,13 +120,27 @@ export default function Header() {
           <div className="px-6 py-6 space-y-4">
             {navLinks.map((link) => (
               <div key={link.label}>
-                <a
+                <Link
                   href={link.href}
                   className="block py-2 text-[1.125rem] font-sans font-medium text-black cursor-pointer"
                   onClick={() => setMobileOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
+                {link.children && (
+                  <div className="pl-4 space-y-1">
+                    {link.children.map((child) => (
+                      <Link
+                        key={child.label}
+                        href={child.href}
+                        className="block py-1.5 text-[1rem] font-sans text-gray-600 cursor-pointer"
+                        onClick={() => setMobileOpen(false)}
+                      >
+                        {child.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
             <div className="pt-4 border-t border-gray-200 space-y-3">
