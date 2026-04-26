@@ -63,6 +63,8 @@ function VideoPlaceholder({ label, duration, variant = "dark" }: { label: string
 export default function LLCGuidePage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Person signing an LLC formation document — biz.legal California LLC guide"
       label="Resources"
       title="The complete guide to California LLCs"
       description="Everything you need to know about forming, managing, and maintaining a Limited Liability Company in California — from initial filing to ongoing compliance."
@@ -136,7 +138,7 @@ export default function LLCGuidePage() {
                   </div>
                 ))}
               </div>
-              <ImagePlaceholder label="Infographic: LLC Structure Diagram" aspect="4/3" src="/images/resources/llc-structure.svg" />
+              <ImagePlaceholder label="Infographic: LLC Structure Diagram" aspect="4/3" src="https://images.unsplash.com/photo-1758518730083-4c12527b6742?auto=format&fit=crop&w=1400&q=80" />
             </div>
           </div>
         </div>
@@ -264,7 +266,7 @@ export default function LLCGuidePage() {
 
             <div className="space-y-6">
               <VideoPlaceholder label="Video: LLC Formation Step-by-Step (5 min)" duration="5 min" variant="dark" />
-              <ImagePlaceholder label="Infographic: Formation Timeline" aspect="3/2" src="/images/services/formation-timeline.svg" />
+              <ImagePlaceholder label="Infographic: Formation Timeline" aspect="3/2" src="https://images.unsplash.com/photo-1775363949849-cdc2167914a4?auto=format&fit=crop&w=1400&q=80" />
 
               <div className="bg-green-800 rounded-[1rem] p-8">
                 <h3 className="font-serif text-[1.5rem] text-white mb-3">Want us to handle it?</h3>
@@ -300,7 +302,7 @@ export default function LLCGuidePage() {
               </Takeaway>
             </div>
 
-            <ImagePlaceholder label="Image: Sample Operating Agreement" aspect="4/5" src="/images/blog/operating-agreement.svg" />
+            <ImagePlaceholder label="Image: Sample Operating Agreement" aspect="4/5" src="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80" />
           </div>
 
           {/* What it should cover */}
@@ -412,7 +414,7 @@ export default function LLCGuidePage() {
 
             <div className="space-y-6">
               <VideoPlaceholder label="Video: Annual Compliance Checklist (3 min)" duration="3 min" variant="blue" />
-              <ImagePlaceholder label="Infographic: Compliance Calendar" aspect="3/4" src="/images/services/compliance-calendar.svg" />
+              <ImagePlaceholder label="Infographic: Compliance Calendar" aspect="3/4" src="https://images.unsplash.com/photo-1775363949971-0e4919c66856?auto=format&fit=crop&w=1400&q=80" />
             </div>
           </div>
         </div>
@@ -434,7 +436,7 @@ export default function LLCGuidePage() {
               </p>
             </div>
 
-            <ImagePlaceholder label="Infographic: Veil Piercing Risk Factors" aspect="4/3" src="/images/resources/veil-piercing.svg" />
+            <ImagePlaceholder label="Infographic: Veil Piercing Risk Factors" aspect="4/3" src="https://images.unsplash.com/photo-1767972159674-460283907c21?auto=format&fit=crop&w=1400&q=80" />
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mt-8">

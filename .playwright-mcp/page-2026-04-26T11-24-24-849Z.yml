@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-handshake-partners
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-handshake-partners
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-handshake-partners
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: business handshake partners
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-handshake-partners
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 1.4k":
+                - /url: /s/photos/business-handshake-partners
+                - img
+                - text: Photos
+                - generic: 1.4k
+            - listitem [ref=e73]:
+              - link "Illustrations 143" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/business-handshake-partners
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "143"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Business handshake partners" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "handshake" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/handshake
+              - link "business" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/business
+              - link "deal" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/deal
+              - link "agreement" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/agreement
+              - link "hand" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/hand
+              - link "partnership" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/partnership
+              - link "person" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/person
+              - link "corporate" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/corporate
+              - link "meeting" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/meeting
+              - link "office" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/office
+              - link "work" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/work
+              - link "collaboration" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/collaboration
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - link "Handshaking. Two businessman shaking hands during a success meeting." [ref=e130]:
+                  - /url: /photos/handshaking-two-businessman-shaking-hands-during-a-success-meeting-FB7ex37xAow
+                  - img "Handshaking. Two businessman shaking hands during a success meeting." [ref=e131]
+              - generic [ref=e132]:
+                - heading "Sponsored images" [level=4] [ref=e133]:
+                  - generic [ref=e134]: Sponsored images
+                  - link [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=business+handshake+partners&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e136]
+                - generic [ref=e138]:
+                  - link "Businessmen making handshake with partner, greeting, dealing, merger and acquisition, business cooperation concept, for business, finance and investment background, teamwork and successful business" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/businessmen-making-handshake-with-partner-greeting-dealing-merger-and-acquisition-gm1460172015-494406830?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Businessmen making handshake with partner, greeting, dealing, merger and acquisition, business cooperation concept, for business, finance and investment background, teamwork and successful business" [ref=e140]
+                  - link "Meeting success. Two business persons shaking hands standing outside" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/meeting-success-two-business-persons-shaking-hands-standing-outside-gm1916729901-555092734?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Meeting success. Two business persons shaking hands standing outside" [ref=e142]
+                  - link "Businesswomen shaking hands during a meeting with a businessman" [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/businesswomen-shaking-hands-during-a-meeting-with-a-businessman-gm2223081703-639313455?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Businesswomen shaking hands during a meeting with a businessman" [ref=e144]
+                  - link "Low angle view of cheerful executive shaking hands with colleague in office" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/low-angle-view-of-cheerful-executive-shaking-hands-with-colleague-in-office-gm1616721666-531358904?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Low angle view of cheerful executive shaking hands with colleague in office" [ref=e146]
+                - link "Get 20% off with code UNSPLASH20" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=business+handshake+partners&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e148]:
+                - link "Two businessmen shaking hands outside modern building" [ref=e151]:
+                  - /url: /photos/two-businessmen-shaking-hands-outside-modern-building-hoBlV3lpevI
+                  - img "Two businessmen shaking hands outside modern building" [ref=e152]
+              - figure [ref=e153]:
+                - link "two person handshaking" [ref=e156]:
+                  - /url: /photos/two-person-handshaking-vWchRczcQwM
+                  - img "two person handshaking" [ref=e157]
+              - figure [ref=e158]:
+                - link "Business People Corporate Connection Greeting Handshake Concept" [ref=e161]:
+                  - /url: /photos/business-people-corporate-connection-greeting-handshake-concept-gOez03tUGCc
+                  - img "Business People Corporate Connection Greeting Handshake Concept" [ref=e162]
+              - figure [ref=e163]:
+                - link "Business partners shake hands, making a deal." [ref=e166]:
+                  - /url: /photos/business-partners-shake-hands-making-a-deal-6-iunIrJtbQ
+                  - img "Business partners shake hands, making a deal." [ref=e167]
+              - figure [ref=e168]:
+                - link "two men facing each other while shake hands and smiling" [ref=e171]:
+                  - /url: /photos/two-men-facing-each-other-while-shake-hands-and-smiling-NbtIDoFKGO8
+                  - img "two men facing each other while shake hands and smiling" [ref=e172]
+            - generic [ref=e173]:
+              - figure [ref=e174]:
+                - link "Two businessmen shaking hands outside modern building" [ref=e177]:
+                  - /url: /photos/two-businessmen-shaking-hands-outside-modern-building-AIdnnF7oKws
+                  - img "Two businessmen shaking hands outside modern building" [ref=e178]
+              - figure [ref=e179]:
+                - link "Two businessmen shaking hands outside an office building." [ref=e182]:
+                  - /url: /photos/two-businessmen-shaking-hands-outside-an-office-building-NODOn-Mrams
+                  - img "Two businessmen shaking hands outside an office building." [ref=e183]
+              - figure [ref=e184]:
+                - link "Two businessmen shaking hands across a table." [ref=e187]:
+                  - /url: /photos/two-businessmen-shaking-hands-across-a-table-lZXX-QVdyXY
+                  - img "Two businessmen shaking hands across a table." [ref=e188]
+              - figure [ref=e189]:
+                - link "Two businessmen shaking hands outside modern building" [ref=e192]:
+                  - /url: /photos/two-businessmen-shaking-hands-outside-modern-building-7TpOlUnBMYk
+                  - img "Two businessmen shaking hands outside modern building" [ref=e193]
+              - figure [ref=e194]:
+                - link "Businessmans handshake. Successful businessmen handshaking after good deal. Business partnership meeting concept." [ref=e197]:
+                  - /url: /photos/businessmans-handshake-successful-businessmen-handshaking-after-good-deal-business-partnership-meeting-concept-B2aHHQ4lYhY
+                  - img "Businessmans handshake. Successful businessmen handshaking after good deal. Business partnership meeting concept." [ref=e198]
+              - figure [ref=e199]:
+                - link "two people shaking hands" [ref=e202]:
+                  - /url: /photos/two-people-shaking-hands-n95VMLxqM2I
+                  - img "two people shaking hands" [ref=e203]
+              - figure [ref=e204]:
+                - link "Two business partners shaking hands in agreement." [ref=e207]:
+                  - /url: /photos/two-business-partners-shaking-hands-in-agreement-gdCwuKCuJWY
+                  - img "Two business partners shaking hands in agreement." [ref=e208]
+              - figure [ref=e209]:
+                - link "man and woman holding hands" [ref=e212]:
+                  - /url: /photos/man-and-woman-holding-hands-idDvA4jPBO8
+                  - img "man and woman holding hands" [ref=e213]
+            - generic [ref=e214]:
+              - contentinfo [ref=e219]:
+                - generic [ref=e225]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e227]:
+                - link "a close up of two people shaking hands" [ref=e230]:
+                  - /url: /photos/a-close-up-of-two-people-shaking-hands-0obnu1Zvw6Y
+                  - img "a close up of two people shaking hands" [ref=e231]
+              - figure [ref=e232]:
+                - link "People on a modern multi-level staircase" [ref=e235]:
+                  - /url: /photos/people-on-a-modern-multi-level-staircase-t7GbuC_TnZo
+                  - img "People on a modern multi-level staircase" [ref=e236]
+              - figure [ref=e237]:
+                - link "Two businesswomen shaking hands in a modern office building." [ref=e240]:
+                  - /url: /photos/two-businesswomen-shaking-hands-in-a-modern-office-building-EyapdJ3818E
+                  - img "Two businesswomen shaking hands in a modern office building." [ref=e241]
+              - figure [ref=e242]:
+                - link "Businessmen are shaking hands in a professional gesture." [ref=e245]:
+                  - /url: /photos/businessmen-are-shaking-hands-in-a-professional-gesture-bGczI5fXbmo
+                  - img "Businessmen are shaking hands in a professional gesture." [ref=e246]
+              - figure [ref=e247]:
+                - link "Cropped shot of two businessmen shaking hands in meeting room" [ref=e250]:
+                  - /url: /photos/cropped-shot-of-two-businessmen-shaking-hands-in-meeting-room-BOKHQ7tJxSc
+                  - img "Cropped shot of two businessmen shaking hands in meeting room" [ref=e251]
+              - figure [ref=e252]:
+                - link "two people shaking hands in front of a computer monitor" [ref=e255]:
+                  - /url: /photos/two-people-shaking-hands-in-front-of-a-computer-monitor-CTlq8OuK8-U
+                  - img "two people shaking hands in front of a computer monitor" [ref=e256]
+          - generic [ref=e259]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e260]:
+              - text: Browse premium images on iStock
+              - generic [ref=e261]: "| Claim your discount now"
+            - generic [ref=e263]:
+              - link "Greeting for the success" [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/greeting-for-the-success-gm1479319103-507340674?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Greeting for the success" [ref=e265]
+              - link "Business partner handshake after the meeting. Financial and investment cooperation." [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/business-partner-handshake-after-the-meeting-financial-and-investment-cooperation-gm1474838897-504525993?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Business partner handshake after the meeting. Financial and investment cooperation." [ref=e267]
+              - link "businessmen shaking hands" [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/businessmen-shaking-hands-gm2207122081-624384467?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "businessmen shaking hands" [ref=e269]
+              - link "Two diverse businessmen shaking hands while smiling, confirming a deal or collaboration in a modern office setting" [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/two-diverse-businessmen-shaking-hands-while-smiling-confirming-a-deal-or-gm2268695515-681267936?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Two diverse businessmen shaking hands while smiling, confirming a deal or collaboration in a modern office setting" [ref=e271]
+              - link "Close Up Shoot of Businesswomen shaking hands after successful meeting in the office" [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/close-up-shoot-of-businesswomen-shaking-hands-after-successful-meeting-in-the-office-gm2220839964-637240678?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Close Up Shoot of Businesswomen shaking hands after successful meeting in the office" [ref=e273]
+              - link "Two hands holding two puzzle pieces to form the word PARTNERSHIP." [ref=e274] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/two-hands-holding-two-puzzle-pieces-to-form-the-word-partnership-gm2193494278-611726690?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Two hands holding two puzzle pieces to form the word PARTNERSHIP." [ref=e275]
+              - link "Business people shaking hands in modern office building" [ref=e276] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/business-people-shaking-hands-in-modern-office-building-gm2257204149-670307389?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Business people shaking hands in modern office building" [ref=e277]
+              - generic [ref=e278]:
+                - link "Conceptual artwork of businessmen shaking hands in intersecting circles symbolizing merger integration" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/conceptual-artwork-of-businessmen-shaking-hands-in-intersecting-circles-symbolizing-gm2229870330-645565474?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                  - img "Conceptual artwork of businessmen shaking hands in intersecting circles symbolizing merger integration" [ref=e280]
+                - link "View more on iStock ↗" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-handshake-partners&utm_term=business+handshake+partners%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=business+handshake+partners&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /
+              - img [ref=e288]
+            - paragraph [ref=e290]: Make something awesome
+    - generic:
+      - region "Notifications"

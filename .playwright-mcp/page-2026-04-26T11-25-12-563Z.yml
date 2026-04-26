@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fsmall-business-owner-counter
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fsmall-business-owner-counter
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fsmall-business-owner-counter
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: small business owner counter
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fsmall-business-owner-counter
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 20k":
+                - /url: /s/photos/small-business-owner-counter
+                - img
+                - text: Photos
+                - generic: 20k
+            - listitem [ref=e73]:
+              - link "Illustrations 620" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/small-business-owner-counter
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "620"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Small business owner counter" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "small business" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/small-business
+              - link "customer service" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/customer-service
+              - link "apron" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/apron
+              - link "coffee shop" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/coffee-shop
+              - link "service industry" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/service-industry
+              - link "baristum" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/baristum
+              - link "food service" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/food-service
+              - link "local business" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/local-business
+              - link "small business owner" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/small-business-owner
+              - link "smiling" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/smiling
+              - link "espresso machine" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/espresso-machine
+              - link "entrepreneurship" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/entrepreneurship
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - link "Confident black hairdresser standing at reception desk at her salon and looking at camera." [ref=e130]:
+                  - /url: /photos/confident-black-hairdresser-standing-at-reception-desk-at-her-salon-and-looking-at-camera-15MYj2suIK8
+                  - img "Confident black hairdresser standing at reception desk at her salon and looking at camera." [ref=e131]
+              - generic [ref=e132]:
+                - heading "Sponsored images" [level=4] [ref=e133]:
+                  - generic [ref=e134]: Sponsored images
+                  - link [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=small+business+owner+counter&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e136]
+                - generic [ref=e138]:
+                  - link "Happy waitress taking a delivery order on the phone at a coffee shop" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/happy-waitress-taking-a-delivery-order-on-the-phone-at-a-coffee-shop-gm1482426182-509396652?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Happy waitress taking a delivery order on the phone at a coffee shop" [ref=e140]
+                  - link "Cafe portrait of woman or small business owner with startup success, restaurant goals and barista services. Boss, manager or Indian senior employer in coffee shop for leadership and a welcome smile" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/cafe-portrait-of-woman-or-small-business-owner-with-startup-success-restaurant-goals-gm1469726001-500824823?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Cafe portrait of woman or small business owner with startup success, restaurant goals and barista services. Boss, manager or Indian senior employer in coffee shop for leadership and a welcome smile" [ref=e142]
+                  - link "Small business owner doing the accountancy at a coffee shop" [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/small-business-owner-doing-the-accountancy-at-a-coffee-shop-gm2225390949-641424789?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Small business owner doing the accountancy at a coffee shop" [ref=e144]
+                  - link "Local coffee shop owner" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/local-coffee-shop-owner-gm2230865796-646496771?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Local coffee shop owner" [ref=e146]
+                - link "Get 20% off with code UNSPLASH20" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=small+business+owner+counter&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e148]:
+                - link "Woman working at a food truck at night." [ref=e151]:
+                  - /url: /photos/woman-working-at-a-food-truck-at-night-ouIe5kE1O3w
+                  - img "Woman working at a food truck at night." [ref=e152]
+              - figure [ref=e153]:
+                - link "Portrait of likable afro american woman in uniform and eyeglasses smiling and looking at camera. Modern shop with various decor on shelves." [ref=e156]:
+                  - /url: /photos/portrait-of-likable-afro-american-woman-in-uniform-and-eyeglasses-smiling-and-looking-at-camera-modern-shop-with-various-decor-on-shelves-pWVW9nHKQDM
+                  - img "Portrait of likable afro american woman in uniform and eyeglasses smiling and looking at camera. Modern shop with various decor on shelves." [ref=e157]
+              - figure [ref=e158]:
+                - link "A counter with a clock and a counter top" [ref=e161]:
+                  - /url: /photos/a-counter-with-a-clock-and-a-counter-top-AWI2m3xaiEw
+                  - img "A counter with a clock and a counter top" [ref=e162]
+              - figure [ref=e163]:
+                - link "man in black crew neck t-shirt sitting on brown wooden chair" [ref=e166]:
+                  - /url: /photos/man-in-black-crew-neck-t-shirt-sitting-on-brown-wooden-chair-kr1OiK6KYfI
+                  - img "man in black crew neck t-shirt sitting on brown wooden chair" [ref=e167]
+              - figure [ref=e168]:
+                - link "a white refrigerator freezer sitting on top of a wooden counter" [ref=e171]:
+                  - /url: /photos/a-white-refrigerator-freezer-sitting-on-top-of-a-wooden-counter-9DoNtkmTkls
+                  - img "a white refrigerator freezer sitting on top of a wooden counter" [ref=e172]
+            - generic [ref=e173]:
+              - figure [ref=e174]:
+                - link "A person using a machine to cut tomatoes" [ref=e177]:
+                  - /url: /photos/a-person-using-a-machine-to-cut-tomatoes-bwGOwO3cl-E
+                  - img "A person using a machine to cut tomatoes" [ref=e178]
+              - figure [ref=e179]:
+                - link "A person putting a credit card into a machine" [ref=e182]:
+                  - /url: /photos/a-person-putting-a-credit-card-into-a-machine-fW0TfeMWsi0
+                  - img "A person putting a credit card into a machine" [ref=e183]
+              - figure [ref=e184]:
+                - link "A bunch of bowls of food on a table" [ref=e187]:
+                  - /url: /photos/a-bunch-of-bowls-of-food-on-a-table-o9Ahz94Ooiw
+                  - img "A bunch of bowls of food on a table" [ref=e188]
+              - figure [ref=e189]:
+                - link "A food truck illuminated at night with a person nearby" [ref=e192]:
+                  - /url: /photos/a-food-truck-illuminated-at-night-with-a-person-nearby-elL6pWK27es
+                  - img "A food truck illuminated at night with a person nearby" [ref=e193]
+              - figure [ref=e194]:
+                - link "Portrait of Young Asian woman coffee shop waitress standing in front of bar counter crossing arms and look at camera with happiness. Small business restaurant entrepreneur and cafe owner concept" [ref=e197]:
+                  - /url: /photos/portrait-of-young-asian-woman-coffee-shop-waitress-standing-in-front-of-bar-counter-crossing-arms-and-look-at-camera-with-happiness-small-business-restaurant-entrepreneur-and-cafe-owner-concept-YU3JkJj3pSw
+                  - img "Portrait of Young Asian woman coffee shop waitress standing in front of bar counter crossing arms and look at camera with happiness. Small business restaurant entrepreneur and cafe owner concept" [ref=e198]
+              - figure [ref=e199]:
+                - link "Two baristas are ready for service at their coffee shop." [ref=e202]:
+                  - /url: /photos/two-baristas-are-ready-for-service-at-their-coffee-shop-C0yfUl0YXuI
+                  - img "Two baristas are ready for service at their coffee shop." [ref=e203]
+              - figure [ref=e204]:
+                - link "a laptop on a table" [ref=e207]:
+                  - /url: /photos/a-laptop-on-a-table-n0-quZI3j2A
+                  - img "a laptop on a table" [ref=e208]
+            - generic [ref=e209]:
+              - contentinfo [ref=e214]:
+                - generic [ref=e220]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e222]:
+                - link "Portrait of cheerful woman worker noting information while resting elbows on table in cozy cafe. Occupation concept" [ref=e225]:
+                  - /url: /photos/portrait-of-cheerful-woman-worker-noting-information-while-resting-elbows-on-table-in-cozy-cafe-occupation-concept-cUyzIEcS30E
+                  - img "Portrait of cheerful woman worker noting information while resting elbows on table in cozy cafe. Occupation concept" [ref=e226]
+              - figure [ref=e227]:
+                - link "Two smiling cafe workers stand behind a counter." [ref=e230]:
+                  - /url: /photos/two-smiling-cafe-workers-stand-behind-a-counter-2oGwk-qFAhE
+                  - img "Two smiling cafe workers stand behind a counter." [ref=e231]
+              - figure [ref=e232]:
+                - link "Two cafe workers standing behind a counter." [ref=e235]:
+                  - /url: /photos/two-cafe-workers-standing-behind-a-counter-uRnRa8XXtrI
+                  - img "Two cafe workers standing behind a counter." [ref=e236]
+              - figure [ref=e237]:
+                - link "A barista smiles while talking to a customer." [ref=e240]:
+                  - /url: /photos/a-barista-smiles-while-talking-to-a-customer-r92rfq1iarM
+                  - img "A barista smiles while talking to a customer." [ref=e241]
+              - figure [ref=e242]:
+                - link "man in white dress shirt standing in front of counter" [ref=e245]:
+                  - /url: /photos/man-in-white-dress-shirt-standing-in-front-of-counter-SEDw7QockoU
+                  - img "man in white dress shirt standing in front of counter" [ref=e246]
+              - figure [ref=e247]:
+                - link "Portrait of woman small business owner using digital tablet and standing in front of counter bar in coffee shop." [ref=e250]:
+                  - /url: /photos/portrait-of-woman-small-business-owner-using-digital-tablet-and-standing-in-front-of-counter-bar-in-coffee-shop-yGNxD7B3RYo
+                  - img "Portrait of woman small business owner using digital tablet and standing in front of counter bar in coffee shop." [ref=e251]
+              - figure [ref=e252]:
+                - link "A barista serves a customer in a coffee shop." [ref=e255]:
+                  - /url: /photos/a-barista-serves-a-customer-in-a-coffee-shop-QC3R4QuhwkY
+                  - img "A barista serves a customer in a coffee shop." [ref=e256]
+          - generic [ref=e259]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e260]:
+              - text: Browse premium images on iStock
+              - generic [ref=e261]: "| Claim your discount now"
+            - generic [ref=e263]:
+              - link "African woman, successful small business SME owner of a clothing boutique, sits proudly at the counter of her vibrant store, fashion entrepreneur" [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/african-woman-successful-small-business-sme-owner-of-a-clothing-boutique-sits-gm2244091545-658190894?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "African woman, successful small business SME owner of a clothing boutique, sits proudly at the counter of her vibrant store, fashion entrepreneur" [ref=e265]
+              - link "Male Sales Assistant At Cash Desk In Pop Up Fashion Or Clothes Store Using Laptop" [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/male-sales-assistant-at-cash-desk-in-pop-up-fashion-or-clothes-store-using-laptop-gm1924496941-555577810?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Male Sales Assistant At Cash Desk In Pop Up Fashion Or Clothes Store Using Laptop" [ref=e267]
+              - link "Smiling Asian woman talking on a cellphone in her store" [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/smiling-asian-woman-talking-on-a-cellphone-in-her-store-gm2192986161-611242983?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Smiling Asian woman talking on a cellphone in her store" [ref=e269]
+              - link "Portrait of smiling young woman entrepreneur standing at the counter of her bakery and coffee shop. Local small business owner indoors." [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/portrait-of-smiling-young-woman-entrepreneur-standing-at-the-counter-of-her-bakery-gm1772455993-545969500?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Portrait of smiling young woman entrepreneur standing at the counter of her bakery and coffee shop. Local small business owner indoors." [ref=e271]
+              - link "Happy waitress working on the cashier at a coffee shop" [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/happy-waitress-working-on-the-cashier-at-a-coffee-shop-gm1482426228-509396698?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Happy waitress working on the cashier at a coffee shop" [ref=e273]
+              - link "Two Smiling Colleagues Using A Digital Tablet While Working Together In A Coffee Shop" [ref=e274] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/two-smiling-colleagues-using-a-digital-tablet-while-working-together-in-a-coffee-shop-gm1445692627-484018626?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Two Smiling Colleagues Using A Digital Tablet While Working Together In A Coffee Shop" [ref=e275]
+              - link "Welcome to my cafe" [ref=e276] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/welcome-to-my-cafe-gm2162915589-583284473?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Welcome to my cafe" [ref=e277]
+              - generic [ref=e278]:
+                - link "asian chinese senior male cafe owner and her daughters looking at camera smiling at coffee shop counter" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/asian-chinese-senior-male-cafe-owner-and-her-daughters-looking-at-camera-smiling-at-gm1326498266-411191057?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                  - img "asian chinese senior male cafe owner and her daughters looking at camera smiling at coffee shop counter" [ref=e280]
+                - link "View more on iStock ↗" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsmall-business-owner-counter&utm_term=small+business+owner+counter%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=small+business+owner+counter&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /
+              - img [ref=e288]
+            - paragraph [ref=e290]: Make something awesome
+    - generic:
+      - region "Notifications"

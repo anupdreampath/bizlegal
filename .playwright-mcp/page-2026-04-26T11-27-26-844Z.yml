@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fhappy-customer-review
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fhappy-customer-review
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fhappy-customer-review
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: happy customer review
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fhappy-customer-review
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 3.8k":
+                - /url: /s/photos/happy-customer-review
+                - img
+                - text: Photos
+                - generic: 3.8k
+            - listitem [ref=e73]:
+              - link "Illustrations 2.5k" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/happy-customer-review
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: 2.5k
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Happy customer review" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "customer satisfaction" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/customer-satisfaction
+              - link "customer service" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/customer-service
+              - link "happy customer" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/happy-customer
+              - link "review" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/review
+              - link "star rating" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/star-rating
+              - link "product review" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/product-review
+              - link "user experience" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/user-experience
+              - link "online review" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/online-review
+              - link "feedback" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/feedback
+              - link "rating" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/rating
+              - link "positive feedback" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/positive-feedback
+              - link "satisfaction" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/satisfaction
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - link "Customer ratings on smartphones. Satisfaction feedback rating positive user reviews for using service or product. 3D render illustration." [ref=e130]:
+                  - /url: /photos/customer-ratings-on-smartphones-satisfaction-feedback-rating-positive-user-reviews-for-using-service-or-product-3d-render-illustration-9V3EPIan2ps
+                  - img "Customer ratings on smartphones. Satisfaction feedback rating positive user reviews for using service or product. 3D render illustration." [ref=e131]
+              - generic [ref=e132]:
+                - heading "Sponsored images" [level=4] [ref=e133]:
+                  - generic [ref=e134]: Sponsored images
+                  - link [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=happy+customer+review&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e136]
+                - generic [ref=e138]:
+                  - link "Woman working as customer representative while her daughter is having breakfast behind her" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/woman-working-as-customer-representative-while-her-daughter-is-having-breakfast-gm2271761742-684207108?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Woman working as customer representative while her daughter is having breakfast behind her" [ref=e140]
+                  - link "Feedback vital for customer experience, person holding neutral emoji above delivery box, evaluating online shopping service satisfaction, survey concept illustrates business reputation" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/feedback-vital-for-customer-experience-person-holding-neutral-emoji-above-delivery-gm2265348556-678045313?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Feedback vital for customer experience, person holding neutral emoji above delivery box, evaluating online shopping service satisfaction, survey concept illustrates business reputation" [ref=e142]
+                  - link "Happy customer satisfaction and positive feedback concept. Hand holding wooden block with smile face icon representing good review, service quality, and user experience." [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/happy-customer-satisfaction-and-positive-feedback-concept-hand-holding-wooden-block-gm2231313561-646923313?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Happy customer satisfaction and positive feedback concept. Hand holding wooden block with smile face icon representing good review, service quality, and user experience." [ref=e144]
+                  - link "Survey concept shows hand placing star for customer satisfaction, rating service quality experience options, compare feedback review performance, evaluate client trust and financial impact" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/survey-concept-shows-hand-placing-star-for-customer-satisfaction-rating-service-gm2258055484-671085127?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Survey concept shows hand placing star for customer satisfaction, rating service quality experience options, compare feedback review performance, evaluate client trust and financial impact" [ref=e146]
+                - link "Get 20% off with code UNSPLASH20" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=happy+customer+review&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e148]:
+                - link "man in blue and white plaid button up shirt" [ref=e151]:
+                  - /url: /photos/man-in-blue-and-white-plaid-button-up-shirt-X0snT0y0KbA
+                  - img "man in blue and white plaid button up shirt" [ref=e152]
+              - figure [ref=e153]:
+                - link "Hand pointing out a glowing five-star yellow star sign on a dark blue background. Positive customer experience Best Service Quality Satisfaction Review Rating. 3d render illustration." [ref=e156]:
+                  - /url: /photos/hand-pointing-out-a-glowing-five-star-yellow-star-sign-on-a-dark-blue-background-positive-customer-experience-best-service-quality-satisfaction-review-rating-3d-render-illustration-DVGwvac4gVg
+                  - img "Hand pointing out a glowing five-star yellow star sign on a dark blue background. Positive customer experience Best Service Quality Satisfaction Review Rating. 3d render illustration." [ref=e157]
+              - figure [ref=e158]:
+                - link "a man and a woman sitting at a table with a laptop" [ref=e161]:
+                  - /url: /photos/a-man-and-a-woman-sitting-at-a-table-with-a-laptop-N2XXr7ZJjzo
+                  - img "a man and a woman sitting at a table with a laptop" [ref=e162]
+              - figure [ref=e163]:
+                - link "A computer screen with smiley faces and stars on it" [ref=e166]:
+                  - /url: /photos/a-computer-screen-with-smiley-faces-and-stars-on-it-YrpUgujR27w
+                  - img "A computer screen with smiley faces and stars on it" [ref=e167]
+              - figure [ref=e168]:
+                - link "A woman holding a cup with a smiley face drawn on it" [ref=e171]:
+                  - /url: /photos/a-woman-holding-a-cup-with-a-smiley-face-drawn-on-it-d_AZzZidBpI
+                  - img "A woman holding a cup with a smiley face drawn on it" [ref=e172]
+              - figure [ref=e173]:
+                - link "man in black polo shirt smiling" [ref=e176]:
+                  - /url: /photos/man-in-black-polo-shirt-smiling-987aFYyy4YU
+                  - img "man in black polo shirt smiling" [ref=e177]
+            - generic [ref=e178]:
+              - figure [ref=e179]:
+                - link "a man with a beard giving a thumbs up" [ref=e182]:
+                  - /url: /photos/a-man-with-a-beard-giving-a-thumbs-up-vYZTg7y_EAg
+                  - img "a man with a beard giving a thumbs up" [ref=e183]
+              - figure [ref=e184]:
+                - link "Woman giving two thumbs up with a smile" [ref=e187]:
+                  - /url: /photos/woman-giving-two-thumbs-up-with-a-smile-jZHM3fLXjIM
+                  - img "Woman giving two thumbs up with a smile" [ref=e188]
+              - figure [ref=e189]:
+                - link "man in gray crew neck shirt making thumbs up" [ref=e192]:
+                  - /url: /photos/man-in-gray-crew-neck-shirt-making-thumbs-up--AQ-P_R25aI
+                  - img "man in gray crew neck shirt making thumbs up" [ref=e193]
+              - figure [ref=e194]:
+                - link "woman in brown woven hat" [ref=e197]:
+                  - /url: /photos/woman-in-brown-woven-hat-Cj-_LvlJ8FE
+                  - img "woman in brown woven hat" [ref=e198]
+              - figure [ref=e199]:
+                - link "Woman with glasses gives a thumbs up" [ref=e202]:
+                  - /url: /photos/woman-with-glasses-gives-a-thumbs-up-TkYe6WPIv6c
+                  - img "Woman with glasses gives a thumbs up" [ref=e203]
+              - figure [ref=e204]:
+                - link "man in black long sleeve shirt sitting on chair" [ref=e207]:
+                  - /url: /photos/man-in-black-long-sleeve-shirt-sitting-on-chair-e-qQv7FBiPM
+                  - img "man in black long sleeve shirt sitting on chair" [ref=e208]
+              - figure [ref=e209]:
+                - link "a man wearing a red shirt" [ref=e212]:
+                  - /url: /photos/a-man-wearing-a-red-shirt-N_inTxbWLm8
+                  - img "a man wearing a red shirt" [ref=e213]
+            - generic [ref=e214]:
+              - contentinfo [ref=e219]:
+                - generic [ref=e225]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e227]:
+                - link "Sending happy smiley face speech bubbles to each other. Giving good words to each other or giving positive feedback satisfaction from good customer feedback reviews. 3D rendering illustration." [ref=e230]:
+                  - /url: /photos/sending-happy-smiley-face-speech-bubbles-to-each-other-giving-good-words-to-each-other-or-giving-positive-feedback-satisfaction-from-good-customer-feedback-reviews-3d-rendering-illustration-S-KyWiDHbH4
+                  - img "Sending happy smiley face speech bubbles to each other. Giving good words to each other or giving positive feedback satisfaction from good customer feedback reviews. 3D rendering illustration." [ref=e231]
+              - figure [ref=e232]:
+                - link "a man giving a thumbs up" [ref=e235]:
+                  - /url: /photos/a-man-giving-a-thumbs-up-vuMLg29L-5Q
+                  - img "a man giving a thumbs up" [ref=e236]
+              - figure [ref=e237]:
+                - link "person holding turned-on space gray iPhone X" [ref=e240]:
+                  - /url: /photos/person-holding-turned-on-space-gray-iphone-x-tOcjCOomSk0
+                  - img "person holding turned-on space gray iPhone X" [ref=e241]
+              - figure [ref=e242]:
+                - link "a man sitting at a table in front of a laptop" [ref=e245]:
+                  - /url: /photos/a-man-sitting-at-a-table-in-front-of-a-laptop-jzq_DRnGXwM
+                  - img "a man sitting at a table in front of a laptop" [ref=e246]
+              - figure [ref=e247]:
+                - link "A green button with five stars on it" [ref=e250]:
+                  - /url: /photos/a-green-button-with-five-stars-on-it-bn4X2RfecT4
+                  - img "A green button with five stars on it" [ref=e251]
+              - figure [ref=e252]:
+                - link "person holding white printer paper" [ref=e255]:
+                  - /url: /photos/person-holding-white-printer-paper-fZ2hMpHIrbI
+                  - img "person holding white printer paper" [ref=e256]
+          - generic [ref=e259]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e260]:
+              - text: Browse premium images on iStock
+              - generic [ref=e261]: "| Claim your discount now"
+            - generic [ref=e263]:
+              - link "Customer Feedback and Five Star Rating Concept. Woman using smartphone with review icon, star score, smile symbol, customer satisfaction, online reputation, service quality, user experience evaluation" [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/customer-feedback-and-five-star-rating-concept-woman-using-smartphone-with-review-gm2268685926-681264810?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Customer Feedback and Five Star Rating Concept. Woman using smartphone with review icon, star score, smile symbol, customer satisfaction, online reputation, service quality, user experience evaluation" [ref=e265]
+              - link "Customer feedback rating concept, user giving satisfaction score on smartphone with smiley icons and review interface, service quality evaluation and user experience measurement" [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/customer-feedback-rating-concept-user-giving-satisfaction-score-on-smartphone-with-gm2271676457-684126295?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Customer feedback rating concept, user giving satisfaction score on smartphone with smiley icons and review interface, service quality evaluation and user experience measurement" [ref=e267]
+              - link "Mental Health Stage or Customer Experience Concept" [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/mental-health-stage-or-customer-experience-concept-gm2269774952-682314892?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Mental Health Stage or Customer Experience Concept" [ref=e269]
+              - link "Customer provides satisfaction feedback on service quality, hand selecting emoticon for experience survey concept, offering important rating data aiding business growth" [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/customer-provides-satisfaction-feedback-on-service-quality-hand-selecting-emoticon-gm2265353190-678045340?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Customer provides satisfaction feedback on service quality, hand selecting emoticon for experience survey concept, offering important rating data aiding business growth" [ref=e271]
+              - link "Customer satisfaction concept, hand selecting happy face rating scale on virtual interface, service evaluation score, client feedback trust, quality experience improvement" [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/customer-satisfaction-concept-hand-selecting-happy-face-rating-scale-on-virtual-gm2260662207-673547116?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Customer satisfaction concept, hand selecting happy face rating scale on virtual interface, service evaluation score, client feedback trust, quality experience improvement" [ref=e273]
+              - link "Customer Experience Concept. Five Star Review on fold card" [ref=e274] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/customer-experience-concept-five-star-review-on-fold-card-gm2266732137-679381956?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Customer Experience Concept. Five Star Review on fold card" [ref=e275]
+              - link "Feedback concept shows hand selecting neutral face for customer satisfaction survey, indicating overall experience and service quality review, with three white stars on light blue background" [ref=e276] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/feedback-concept-shows-hand-selecting-neutral-face-for-customer-satisfaction-survey-gm2265348555-678045312?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Feedback concept shows hand selecting neutral face for customer satisfaction survey, indicating overall experience and service quality review, with three white stars on light blue background" [ref=e277]
+              - generic [ref=e278]:
+                - link "Feedback on customer satisfaction survey showcases neutral service quality, person holds smartphone selecting rating, showing various emoji icons and white neutral face icon on table" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/feedback-on-customer-satisfaction-survey-showcases-neutral-service-quality-person-gm2265348570-678045327?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                  - img "Feedback on customer satisfaction survey showcases neutral service quality, person holds smartphone selecting rating, showing various emoji icons and white neutral face icon on table" [ref=e280]
+                - link "View more on iStock ↗" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhappy-customer-review&utm_term=happy+customer+review%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=happy+customer+review&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /
+              - img [ref=e288]
+            - paragraph [ref=e290]: Make something awesome
+    - generic:
+      - region "Notifications"

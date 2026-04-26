@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -31,18 +32,33 @@ export default function ContactPage() {
         {/* Hero */}
         <section className="bg-green-800 pt-[7rem] pb-[4rem] md:pt-[9rem] md:pb-[5rem]">
           <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
-            <div className="border-t-2 border-white pt-6 mb-6">
-              <p className="text-[1rem] font-sans font-bold text-white uppercase">
-                Contact
-              </p>
+            <div className="grid lg:grid-cols-2 gap-10 items-center">
+              <div>
+                <div className="border-t-2 border-white pt-6 mb-6">
+                  <p className="text-[1rem] font-sans font-bold text-white uppercase">
+                    Contact
+                  </p>
+                </div>
+                <h1 className="font-serif text-[2.75rem] md:text-[3.5rem] xl:text-[4.75rem] leading-[1.05] text-white max-w-[50rem]">
+                  Talk to a real California lawyer
+                </h1>
+                <p className="font-sans text-[1rem] md:text-[1.125rem] text-white/70 leading-[1.6] mt-5 max-w-[36rem]">
+                  Questions about LLC formation, registered agent service, or
+                  ongoing compliance? Our attorneys are here to help — no
+                  guesswork, no expensive billable hours.
+                </p>
+              </div>
+              <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1766066014237-00645c74e9c6?auto=format&fit=crop&w=1400&q=80"
+                  alt="Smiling biz.legal client services representative wearing a headset — California LLC support"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                  priority
+                />
+              </div>
             </div>
-            <h1 className="font-serif text-[2.75rem] md:text-[3.5rem] xl:text-[4.75rem] leading-[1.05] text-white max-w-[50rem]">
-              Get in touch with our team
-            </h1>
-            <p className="font-sans text-[1rem] md:text-[1.125rem] text-white/70 leading-[1.6] mt-5 max-w-[36rem]">
-              Have questions about LLC formation or need help with an
-              existing LLC? We&apos;re here to help.
-            </p>
           </div>
         </section>
 

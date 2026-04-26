@@ -1,19 +1,27 @@
 import PageShell from "@/components/PageShell";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Our Easy System — Form Your California LLC in 4 Steps",
+  description:
+    "biz.legal's guaranteed 4-step process for forming your California LLC: decide, lawyer review, document preparation, and secure delivery.",
+};
+
 const steps = [
-  { number: "01", title: "Submit your request", description: "Complete our guided questionnaire about your business goals, LLC structure, and company details. There is no cost or commitment to submit a request — it simply tells our team what you need.", details: ["Business name and industry", "LLC type and purpose", "Member information", "Contact details"] },
-  { number: "02", title: "Expert review", description: "Our team reviews your submission within 1-2 business days. We assess your needs, verify name availability, and prepare a customized plan including scope, timeline, and fees.", details: ["Name availability check", "Structure recommendation", "Fee breakdown", "Timeline estimate"] },
-  { number: "03", title: "Document preparation", description: "Once you approve the plan, we prepare all legal documents. Every document is reviewed by an experienced business attorney before submission to ensure accuracy.", details: ["Articles of Organization", "Operating Agreement", "EIN application", "Initial Statement of Information"] },
-  { number: "04", title: "Filing & formation", description: "We file your documents with the California Secretary of State and all required agencies. Standard processing takes 5-7 business days, with expedited options available.", details: ["Secretary of State filing", "IRS EIN registration", "State agency notifications", "Document delivery"] },
+  { number: "01", title: "Decide you're ready", description: "If you're ready for us to form your LLC, we're here for you. If you're not sure if an LLC is right for you, or you have other questions, schedule a call with one of our lawyers to guide you. It's easy and affordable.", details: ["Free preliminary scoping", "Optional lawyer consult", "Choose your domicile (CA, DE, other)", "No payment to start"] },
+  { number: "02", title: "Lawyer review", description: "Unlike DIY websites, we have real California lawyers on staff who personally review your LLC and ensure it's the best fit for you. A consultation phone call with a lawyer is included in your formation fee.", details: ["Direct call with a CA attorney", "Entity-fit review", "Tax & structuring guidance", "Custom recommendations"] },
+  { number: "03", title: "Document preparation", description: "Our documents are expertly drafted by attorneys and customized to your business. We do it all for you and file everything you need with the appropriate agencies. No guesswork, no uncertainty, no problems for you.", details: ["Articles of Organization", "Custom Operating Agreement", "EIN application", "Initial Statement of Information"] },
+  { number: "04", title: "Delivery", description: "Through our secure portal, all of your LLC documents are delivered seamlessly to you — ready to take to the bank, your landlord, your partners — to jump-start your business.", details: ["Secure client portal", "Bank-ready document set", "Free 1st-year registered agent", "1 year of attorney legal support*"] },
 ];
 
 export default function HowItWorksPage() {
   return (
     <PageShell
-      label="How It Works"
-      title="From questionnaire to California LLC in four steps"
-      description="We've simplified the process so you can go from idea to legally formed LLC without the headache."
+      heroImage="https://images.unsplash.com/photo-1758873268364-15bef4162221?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Two colleagues collaborating on a laptop — biz.legal LLC formation process"
+      label="Our Easy System"
+      title="Our guaranteed process in 4 easy steps"
+      description="We've removed the guesswork: decide, talk to a lawyer, get attorney-drafted documents, and receive everything in your secure portal."
     >
       <section className="bg-ivory-100 py-[4rem] md:py-[6rem]">
         <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">

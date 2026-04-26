@@ -34,12 +34,13 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="block mb-5">
               <span className="font-serif text-[1.5rem] text-black">
-                Biz Legal
+                biz<span className="text-green-800">.</span>legal
               </span>
             </Link>
             <p className="font-sans text-[0.95rem] text-gray-600 leading-[1.6] max-w-[20rem] mb-8">
-              Professional LLC formation and management for California
-              businesses. Expert guidance through every step.
+              The ease of an online service. The expertise of a law firm. A
+              fraction of the cost. We&apos;ll form your California LLC, fast
+              &amp; easy.
             </p>
 
             {/* Contact */}
@@ -48,10 +49,10 @@ export default function Footer() {
                 (833) 555-0123
               </p>
               <p className="font-sans text-[0.9rem] text-gray-600">
-                info@bizlegal.com
+                hello@biz.legal
               </p>
               <p className="font-sans text-[0.9rem] text-gray-600">
-                Los Angeles, California
+                California, USA
               </p>
             </div>
           </div>
@@ -118,8 +119,7 @@ export default function Footer() {
         <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem] py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="font-sans text-[0.8rem] text-gray-400">
-              &copy; {new Date().getFullYear()} Biz Legal LLC Services.
-              All rights reserved.
+              &copy; {new Date().getFullYear()} biz.legal. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <a

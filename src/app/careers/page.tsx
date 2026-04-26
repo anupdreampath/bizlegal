@@ -30,6 +30,8 @@ const openings = [
 export default function CareersPage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1758691736979-ff263c04b3d1?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Two people talking in a modern office hallway — careers at biz.legal"
       label="Careers"
       title="Build your career at Biz Legal"
       description="Join a team that helps thousands of California entrepreneurs launch and run their businesses."

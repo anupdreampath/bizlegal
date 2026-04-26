@@ -16,6 +16,8 @@ import {
 export default function CompliancePage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1775363949849-cdc2167914a4?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Tax day marked on calendar with paperwork — California LLC compliance"
       label="Services"
       title="Legal Compliance"
       description="California has some of the most complex business regulations in the country. We keep your LLC compliant with all of them — so you never face penalties, suspension, or worse."
@@ -345,7 +347,7 @@ export default function CompliancePage() {
                 worse. We track every one and send you advance reminders at 60,
                 30, and 7 days before each due date.
               </p>
-              <ImagePlaceholder label="Compliance Calendar Dashboard" aspect="16/9" src="/images/services/compliance-calendar.svg" />
+              <ImagePlaceholder label="Compliance Calendar Dashboard" aspect="16/9" src="https://images.unsplash.com/photo-1775363949971-0e4919c66856?auto=format&fit=crop&w=1400&q=80" />
             </div>
 
             <div className="space-y-4">
@@ -574,7 +576,7 @@ export default function CompliancePage() {
                 business owners who benefit most from professional compliance
                 management.
               </p>
-              <ImagePlaceholder label="Business Owners Managing Compliance" aspect="4/3" src="/images/services/document-review.svg" />
+              <ImagePlaceholder label="Business Owners Managing Compliance" aspect="4/3" src="https://images.unsplash.com/photo-1758518730264-9235a1e5416b?auto=format&fit=crop&w=1400&q=80" />
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -816,7 +818,7 @@ export default function CompliancePage() {
               </div>
             </div>
 
-            <ImagePlaceholder label="Compliance Team at Work" aspect="4/3" src="/images/services/compliance-team.svg" />
+            <ImagePlaceholder label="Compliance Team at Work" aspect="4/3" src="https://images.unsplash.com/photo-1758873268364-15bef4162221?auto=format&fit=crop&w=1400&q=80" />
           </div>
         </div>
       </section>

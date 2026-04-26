@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Ffinancial-graph-money
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Ffinancial-graph-money
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Ffinancial-graph-money
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: financial graph money
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Ffinancial-graph-money
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 1.5k":
+                - /url: /s/photos/financial-graph-money
+                - img
+                - text: Photos
+                - generic: 1.5k
+            - listitem [ref=e73]:
+              - link "Illustrations 970" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/financial-graph-money
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "970"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Financial graph money" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "money" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/money
+              - link "currency" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/currency
+              - link "finance" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/finance
+              - link "stock market" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/stock-market
+              - link "economic growth" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/economic-growth
+              - link "investment" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/investment
+              - link "financial planning" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/financial-planning
+              - link "upward trend" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/upward-trend
+              - link "coin" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/coin
+              - link "profit" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/profit
+              - link "digital currency" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/digital-currency
+              - link "trading" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/trading
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - link "icon" [ref=e130]:
+                  - /url: /photos/icon-di9INIIhvj8
+                  - img "icon" [ref=e131]
+              - generic [ref=e132]:
+                - heading "Sponsored images" [level=4] [ref=e133]:
+                  - generic [ref=e134]: Sponsored images
+                  - link [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=financial+graph+money&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e136]
+                - generic [ref=e138]:
+                  - link "stack of silver coins with trading chart in financial concepts and financial investment business stock growth" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/stack-of-silver-coins-with-trading-chart-in-financial-concepts-and-financial-gm1397011551-451579497?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "stack of silver coins with trading chart in financial concepts and financial investment business stock growth" [ref=e140]
+                  - link "Stock Market Capital Gains Increasing From A Bull Market" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/stock-market-capital-gains-increasing-from-a-bull-market-gm1358151834-431863498?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Stock Market Capital Gains Increasing From A Bull Market" [ref=e142]
+                  - link "Finance and business concept. Investment graph and rows growth of coins on display of market quotes, stock market and data, rate exchange, blue color tone." [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/finance-and-business-concept-investment-graph-and-rows-growth-of-coins-on-display-of-gm1404145526-456450143?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Finance and business concept. Investment graph and rows growth of coins on display of market quotes, stock market and data, rate exchange, blue color tone." [ref=e144]
+                  - link "Stock market" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/stock-market-gm2157278032-577970202?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Stock market" [ref=e146]
+                - link "Get 20% off with code UNSPLASH20" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=financial+graph+money&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e148]:
+                - link "a white wall with a blue arrow on it" [ref=e151]:
+                  - /url: /photos/a-white-wall-with-a-blue-arrow-on-it-BgcRLmTrR9Q
+                  - img "a white wall with a blue arrow on it" [ref=e152]
+              - figure [ref=e153]:
+                - link "A laptop computer sitting on top of a desk" [ref=e156]:
+                  - /url: /photos/a-laptop-computer-sitting-on-top-of-a-desk--nJ9k6iU6_g
+                  - img "A laptop computer sitting on top of a desk" [ref=e157]
+              - figure [ref=e158]:
+                - link "A laptop computer sitting on top of a desk" [ref=e161]:
+                  - /url: /photos/a-laptop-computer-sitting-on-top-of-a-desk-ynllMMWBdi0
+                  - img "A laptop computer sitting on top of a desk" [ref=e162]
+              - figure [ref=e163]:
+                - link "a black and white photo of a bar chart" [ref=e166]:
+                  - /url: /photos/a-black-and-white-photo-of-a-bar-chart-zwJdVZqwbBc
+                  - img "a black and white photo of a bar chart" [ref=e167]
+              - figure [ref=e168]:
+                - link "A laptop computer sitting on top of a desk" [ref=e171]:
+                  - /url: /photos/a-laptop-computer-sitting-on-top-of-a-desk-wX062bi-T50
+                  - img "A laptop computer sitting on top of a desk" [ref=e172]
+              - figure [ref=e173]:
+                - link "A person is typing on a computer keyboard" [ref=e176]:
+                  - /url: /photos/a-person-is-typing-on-a-computer-keyboard-DuBmepf6OOE
+                  - img "A person is typing on a computer keyboard" [ref=e177]
+            - generic [ref=e178]:
+              - figure [ref=e179]:
+                - link "Stock market charts are displayed on digital devices." [ref=e182]:
+                  - /url: /photos/stock-market-charts-are-displayed-on-digital-devices-rUimC7J5j1k
+                  - img "Stock market charts are displayed on digital devices." [ref=e183]
+              - figure [ref=e184]:
+                - link "A person pointing at a chart on a laptop" [ref=e187]:
+                  - /url: /photos/a-person-pointing-at-a-chart-on-a-laptop-dLZbAuSA_EI
+                  - img "A person pointing at a chart on a laptop" [ref=e188]
+              - figure [ref=e189]:
+                - link "Red up arrow pointing up and a stack of coins growing on a white background. Business profit growth or raising financial interest rates. 3d render illustration" [ref=e192]:
+                  - /url: /photos/red-up-arrow-pointing-up-and-a-stack-of-coins-growing-on-a-white-background-business-profit-growth-or-raising-financial-interest-rates-3d-render-illustration-I9n60mnnwrY
+                  - img "Red up arrow pointing up and a stack of coins growing on a white background. Business profit growth or raising financial interest rates. 3d render illustration" [ref=e193]
+              - figure [ref=e194]:
+                - link "Hand holds ethereum coin over the stock chart." [ref=e197]:
+                  - /url: /photos/hand-holds-ethereum-coin-over-the-stock-chart-UTJbfCOM7UA
+                  - img "Hand holds ethereum coin over the stock chart." [ref=e198]
+              - figure [ref=e199]:
+                - link "A person holding a coin in front of a computer keyboard" [ref=e202]:
+                  - /url: /photos/a-person-holding-a-coin-in-front-of-a-computer-keyboard-puYe3yLXkv4
+                  - img "A person holding a coin in front of a computer keyboard" [ref=e203]
+              - figure [ref=e204]:
+                - link "A laptop computer sitting on top of a white desk" [ref=e207]:
+                  - /url: /photos/a-laptop-computer-sitting-on-top-of-a-white-desk-JgYPFFOE-2E
+                  - img "A laptop computer sitting on top of a white desk" [ref=e208]
+              - figure [ref=e209]:
+                - link "A computer keyboard sitting on top of a desk" [ref=e212]:
+                  - /url: /photos/a-computer-keyboard-sitting-on-top-of-a-desk-lLb3dO3bKMM
+                  - img "A computer keyboard sitting on top of a desk" [ref=e213]
+            - generic [ref=e214]:
+              - contentinfo [ref=e219]:
+                - generic [ref=e225]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e227]:
+                - link "A desk with a keyboard and a monitor" [ref=e230]:
+                  - /url: /photos/a-desk-with-a-keyboard-and-a-monitor-MPqxFO94AKU
+                  - img "A desk with a keyboard and a monitor" [ref=e231]
+              - figure [ref=e232]:
+                - link "A person putting money into a miniature model house" [ref=e235]:
+                  - /url: /photos/a-person-putting-money-into-a-miniature-model-house-UEzfHymUGKU
+                  - img "A person putting money into a miniature model house" [ref=e236]
+              - figure [ref=e237]:
+                - link "Hand holding ethereum with crypto graphs in background." [ref=e240]:
+                  - /url: /photos/hand-holding-ethereum-with-crypto-graphs-in-background-2RGVk_SnFlE
+                  - img "Hand holding ethereum with crypto graphs in background." [ref=e241]
+              - figure [ref=e242]:
+                - link "A person using a laptop computer on a desk" [ref=e245]:
+                  - /url: /photos/a-person-using-a-laptop-computer-on-a-desk-Pyd-_nId-cY
+                  - img "A person using a laptop computer on a desk" [ref=e246]
+              - figure [ref=e247]:
+                - link "a group of plastic containers with blue text on them" [ref=e250]:
+                  - /url: /photos/a-group-of-plastic-containers-with-blue-text-on-them-v2jI5wpx_A0
+                  - img "a group of plastic containers with blue text on them" [ref=e251]
+              - figure [ref=e252]:
+                - link "stacked round gold-colored coins on white surface" [ref=e255]:
+                  - /url: /photos/stacked-round-gold-colored-coins-on-white-surface-OApHds2yEGQ
+                  - img "stacked round gold-colored coins on white surface" [ref=e256]
+          - generic [ref=e259]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e260]:
+              - text: Browse premium images on iStock
+              - generic [ref=e261]: "| Claim your discount now"
+            - generic [ref=e263]:
+              - link "Wealth accumulation" [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/wealth-accumulation-gm2263977132-676702637?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Wealth accumulation" [ref=e265]
+              - link "Digital Trading chart with big data and infographics. 3D Fintech concept background with glowing candle chart" [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/digital-trading-chart-with-big-data-and-infographics-3d-fintech-concept-background-gm2248337350-662194597?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Digital Trading chart with big data and infographics. 3D Fintech concept background with glowing candle chart" [ref=e267]
+              - link "Financial analysis graphs, stock market trading data, currency exchange" [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/financial-analysis-graphs-stock-market-trading-data-currency-exchange-gm2239279415-654150088?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Financial analysis graphs, stock market trading data, currency exchange" [ref=e269]
+              - link "American Dollar Banknotes Over Financial Graph" [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/american-dollar-banknotes-over-financial-graph-gm1499733378-521360495?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "American Dollar Banknotes Over Financial Graph" [ref=e271]
+              - link "Businesswoman use laptop and calculator analyzing company growth, future business growth arrow graph, development to achieve goals, business outlook, financial data for long term investment." [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/businesswoman-use-laptop-and-calculator-analyzing-company-growth-future-business-gm2153471752-574405465?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Businesswoman use laptop and calculator analyzing company growth, future business growth arrow graph, development to achieve goals, business outlook, financial data for long term investment." [ref=e273]
+              - link "Business And Finance Concept Of A Bull Market Trend High Quality" [ref=e274] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/business-and-finance-concept-of-a-bull-market-trend-high-quality-gm1348229414-425496860?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Business And Finance Concept Of A Bull Market Trend High Quality" [ref=e275]
+              - link "Coins stacking with white up arrow and percentage" [ref=e276] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/coins-stacking-with-white-up-arrow-and-percentage-gm2095584352-566066483?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Coins stacking with white up arrow and percentage" [ref=e277]
+              - generic [ref=e278]:
+                - link "finance and investment, currency exchange concept. Accountant using calculator with coins and financial report, economic graph growth, finance background, Business, accounting banking concept." [ref=e279] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/finance-and-investment-currency-exchange-concept-accountant-using-calculator-with-gm2158827557-579450012?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                  - img "finance and investment, currency exchange concept. Accountant using calculator with coins and financial report, economic graph growth, finance background, Business, accounting banking concept." [ref=e280]
+                - link "View more on iStock ↗" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffinancial-graph-money&utm_term=financial+graph+money%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=financial+graph+money&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /
+              - img [ref=e288]
+            - paragraph [ref=e290]: Make something awesome
+    - generic:
+      - region "Notifications"

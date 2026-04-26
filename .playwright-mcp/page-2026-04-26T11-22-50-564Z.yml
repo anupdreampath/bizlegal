@@ -1,0 +1,294 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-owner-smiling
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-owner-smiling
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-owner-smiling
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: business owner smiling
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-owner-smiling
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 21k":
+                - /url: /s/photos/business-owner-smiling
+                - img
+                - text: Photos
+                - generic: 21k
+            - listitem [ref=e73]:
+              - link "Illustrations 61" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/business-owner-smiling
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "61"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Business owner smiling" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "small business" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/small-business
+              - link "small business owner" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/small-business-owner
+              - link "customer service" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/customer-service
+              - link "apron" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/apron
+              - link "entrepreneur" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/entrepreneur
+              - link "baristum" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/baristum
+              - link "entrepreneurship" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/entrepreneurship
+              - link "cafe" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/cafe
+              - link "smiling" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/smiling
+              - link "coffee shop" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/coffee-shop
+              - link "hospitality" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/hospitality
+              - link "service industry" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/service-industry
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - generic [ref=e129]:
+                  - link "Portrait of likable afro american woman in uniform and eyeglasses smiling and looking at camera. Modern shop with various decor on shelves." [ref=e130]:
+                    - /url: /photos/portrait-of-likable-afro-american-woman-in-uniform-and-eyeglasses-smiling-and-looking-at-camera-modern-shop-with-various-decor-on-shelves-pWVW9nHKQDM
+                    - img "Portrait of likable afro american woman in uniform and eyeglasses smiling and looking at camera. Modern shop with various decor on shelves." [ref=e131]
+                  - link [ref=e132] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fportrait-of-likable-afro-american-woman-in-uniform-and-eyeglasses-smiling-and-looking-at-camera-modern-shop-with-various-decor-on-shelves-pWVW9nHKQDM
+                    - img [ref=e133]
+              - generic [ref=e135]:
+                - heading "Sponsored images" [level=4] [ref=e136]:
+                  - generic [ref=e137]: Sponsored images
+                  - link [ref=e138] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3Ae029cab3-735a-4d35-836a-0a4f3ea376d7&phrase=business+owner+smiling&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e139]
+                - generic [ref=e141]:
+                  - 'link "Efficient Factory Management: Portrait of Smiling Senior Manager Businessman or CEO in Industrial Factory" [ref=e142] [cursor=pointer]':
+                    - /url: https://www.istockphoto.com/photo/efficient-factory-management-portrait-of-smiling-senior-manager-businessman-or-ceo-gm1507456431-523627335?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A2f8a6770-7e1f-40b0-a381-41e5810bb762
+                    - 'img "Efficient Factory Management: Portrait of Smiling Senior Manager Businessman or CEO in Industrial Factory" [ref=e143]'
+                  - link "A Smiling Businesswoman Looking At Camera While Scheduling A Delivery Appointment On Her Smartphone" [ref=e144] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/a-smiling-businesswoman-looking-at-camera-while-scheduling-a-delivery-appointment-on-gm1397394657-451840596?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A542c75f8-b5a5-4695-b130-f96aa4e577b0
+                    - img "A Smiling Businesswoman Looking At Camera While Scheduling A Delivery Appointment On Her Smartphone" [ref=e145]
+                  - link "Coffee shop, senior woman manager portrait with barista feeling happy about shop success. Female server, waitress and small business owner together proud of cafe and bakery growth with a smile" [ref=e146] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/coffee-shop-senior-woman-manager-portrait-with-barista-feeling-happy-about-shop-gm1469723771-500823672?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A077614aa-063a-4463-96ca-8870e1fda598
+                    - img "Coffee shop, senior woman manager portrait with barista feeling happy about shop success. Female server, waitress and small business owner together proud of cafe and bakery growth with a smile" [ref=e147]
+                  - link "Portrait of a mature entrepreneur woman at coffee shop" [ref=e148] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/portrait-of-a-mature-entrepreneur-woman-at-coffee-shop-gm1719257927-540611405?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A41871970-5a8d-472d-ae08-8a960e35d823
+                    - img "Portrait of a mature entrepreneur woman at coffee shop" [ref=e149]
+                - link "Get 20% off with code UNSPLASH20" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3Ae029cab3-735a-4d35-836a-0a4f3ea376d7&phrase=business+owner+smiling&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e151]:
+                - link "Two women are having a friendly discussion." [ref=e154]:
+                  - /url: /photos/two-women-are-having-a-friendly-discussion-r-W9R70iY5c
+                  - img "Two women are having a friendly discussion." [ref=e155]
+              - figure [ref=e156]:
+                - generic [ref=e158]:
+                  - link "Craftsman Browsing Laptop Connection Technology Concept" [ref=e159]:
+                    - /url: /photos/craftsman-browsing-laptop-connection-technology-concept-qyHxeMAc_74
+                    - img "Craftsman Browsing Laptop Connection Technology Concept" [ref=e160]
+                  - link [ref=e161] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fcraftsman-browsing-laptop-connection-technology-concept-qyHxeMAc_74
+                    - img [ref=e162]
+              - figure [ref=e164]:
+                - link "Man wearing glasses and a light jacket smiles." [ref=e167]:
+                  - /url: /photos/man-wearing-glasses-and-a-light-jacket-smiles-dusPCcKbrKM
+                  - img "Man wearing glasses and a light jacket smiles." [ref=e168]
+              - figure [ref=e169]:
+                - link "man in black crew neck t-shirt sitting beside woman in blue denim jeans" [ref=e172]:
+                  - /url: /photos/man-in-black-crew-neck-t-shirt-sitting-beside-woman-in-blue-denim-jeans-bSnYj6VA0V8
+                  - img "man in black crew neck t-shirt sitting beside woman in blue denim jeans" [ref=e173]
+              - figure [ref=e174]:
+                - link "Woman reviews garments in clothing store." [ref=e177]:
+                  - /url: /photos/woman-reviews-garments-in-clothing-store-18Rom8Qgn-E
+                  - img "Woman reviews garments in clothing store." [ref=e178]
+            - generic [ref=e179]:
+              - figure [ref=e180]:
+                - link "A woman stands in a clothing store." [ref=e183]:
+                  - /url: /photos/a-woman-stands-in-a-clothing-store-PqZNF90tfyU
+                  - img "A woman stands in a clothing store." [ref=e184]
+              - figure [ref=e185]:
+                - generic [ref=e187]:
+                  - link "Two people pose confidently in a coffee shop." [ref=e188]:
+                    - /url: /photos/two-people-pose-confidently-in-a-coffee-shop-qG1ijIV6oxA
+                    - img "Two people pose confidently in a coffee shop." [ref=e189]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Bookmark" [ref=e190] [cursor=pointer]:
+                              - img [ref=e191]
+                            - button "Add to Collection" [ref=e193] [cursor=pointer]:
+                              - img [ref=e194]
+                        - generic:
+                          - generic [ref=e197]:
+                            - link [ref=e198] [cursor=pointer]:
+                              - /url: /@silverkblack
+                            - generic [ref=e201]:
+                              - link "Vitaly Gariev" [ref=e202] [cursor=pointer]:
+                                - /url: /@silverkblack
+                              - link "Available for hire" [ref=e204] [cursor=pointer]:
+                                - /url: /@silverkblack
+                                - text: Available for hire
+                                - img [ref=e205]
+                          - link "Download" [ref=e208] [cursor=pointer]:
+                            - /url: https://unsplash.com/photos/qG1ijIV6oxA/download?force=true
+                            - img [ref=e209]
+              - figure [ref=e211]:
+                - link "Restaurant owners confidently pose with arms crossed." [ref=e214]:
+                  - /url: /photos/restaurant-owners-confidently-pose-with-arms-crossed-832UcITUUM4
+                  - img "Restaurant owners confidently pose with arms crossed." [ref=e215]
+              - figure [ref=e216]:
+                - link "Two smiling cafe workers stand behind a counter." [ref=e219]:
+                  - /url: /photos/two-smiling-cafe-workers-stand-behind-a-counter-2oGwk-qFAhE
+                  - img "Two smiling cafe workers stand behind a counter." [ref=e220]
+              - figure [ref=e221]:
+                - link "Woman looks at clothing on a rack." [ref=e224]:
+                  - /url: /photos/woman-looks-at-clothing-on-a-rack-RDyW27_lK_g
+                  - img "Woman looks at clothing on a rack." [ref=e225]
+              - figure [ref=e226]:
+                - link "woman in black crew neck t-shirt and blue denim shorts leaning on white concrete wall" [ref=e229]:
+                  - /url: /photos/woman-in-black-crew-neck-t-shirt-and-blue-denim-shorts-leaning-on-white-concrete-wall-XgBJkn4Y0pM
+                  - img "woman in black crew neck t-shirt and blue denim shorts leaning on white concrete wall" [ref=e230]
+              - figure [ref=e231]:
+                - generic [ref=e233]:
+                  - link "Portrait of Young Asian woman coffee shop waitress standing in front of bar counter crossing arms and look at camera with happiness. Small business restaurant entrepreneur and cafe owner concept" [ref=e234]:
+                    - /url: /photos/portrait-of-young-asian-woman-coffee-shop-waitress-standing-in-front-of-bar-counter-crossing-arms-and-look-at-camera-with-happiness-small-business-restaurant-entrepreneur-and-cafe-owner-concept-YU3JkJj3pSw
+                    - img "Portrait of Young Asian woman coffee shop waitress standing in front of bar counter crossing arms and look at camera with happiness. Small business restaurant entrepreneur and cafe owner concept" [ref=e235]
+                  - link [ref=e236] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fportrait-of-young-asian-woman-coffee-shop-waitress-standing-in-front-of-bar-counter-crossing-arms-and-look-at-camera-with-happiness-small-business-restaurant-entrepreneur-and-cafe-owner-concept-YU3JkJj3pSw
+                    - img [ref=e237]
+              - figure [ref=e239]:
+                - link "Man in suit talking on phone at desk with laptop." [ref=e242]:
+                  - /url: /photos/man-in-suit-talking-on-phone-at-desk-with-laptop-NWT8Hya-_WQ
+                  - img "Man in suit talking on phone at desk with laptop." [ref=e243]
+              - figure [ref=e244]:
+                - link "Young woman smiling holding a notebook at a cafe" [ref=e247]:
+                  - /url: /photos/young-woman-smiling-holding-a-notebook-at-a-cafe-XJgl4lJcYNc
+                  - img "Young woman smiling holding a notebook at a cafe" [ref=e248]
+            - generic [ref=e249]:
+              - contentinfo [ref=e254]:
+                - generic [ref=e260]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e262]:
+                - generic [ref=e264]:
+                  - link "Portrait of smiling young woman entrepreneur in apron holding menu and standing in front of counter at her coffee shop." [ref=e265]:
+                    - /url: /photos/portrait-of-smiling-young-woman-entrepreneur-in-apron-holding-menu-and-standing-in-front-of-counter-at-her-coffee-shop-oPWlV0nHX9U
+                    - img "Portrait of smiling young woman entrepreneur in apron holding menu and standing in front of counter at her coffee shop." [ref=e266]
+                  - link [ref=e267] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fportrait-of-smiling-young-woman-entrepreneur-in-apron-holding-menu-and-standing-in-front-of-counter-at-her-coffee-shop-oPWlV0nHX9U
+                    - img [ref=e268]
+              - figure [ref=e270]:
+                - link "a man standing in front of a fruit stand giving a thumbs up" [ref=e273]:
+                  - /url: /photos/a-man-standing-in-front-of-a-fruit-stand-giving-a-thumbs-up-WUG0QcXVh0k
+                  - img "a man standing in front of a fruit stand giving a thumbs up" [ref=e274]
+              - figure [ref=e275]:
+                - link "Man in suit talking on phone at laptop" [ref=e278]:
+                  - /url: /photos/man-in-suit-talking-on-phone-at-laptop-GubVKw7cfuY
+                  - img "Man in suit talking on phone at laptop" [ref=e279]
+              - figure [ref=e280]:
+                - generic [ref=e282]:
+                  - link "Portrait of woman small business owner using digital tablet and standing in front of counter bar in coffee shop." [ref=e283]:
+                    - /url: /photos/portrait-of-woman-small-business-owner-using-digital-tablet-and-standing-in-front-of-counter-bar-in-coffee-shop-yGNxD7B3RYo
+                    - img "Portrait of woman small business owner using digital tablet and standing in front of counter bar in coffee shop." [ref=e284]
+                  - link [ref=e285] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fportrait-of-woman-small-business-owner-using-digital-tablet-and-standing-in-front-of-counter-bar-in-coffee-shop-yGNxD7B3RYo
+                    - img [ref=e286]
+              - figure [ref=e288]:
+                - link "a woman holding a bunch of brushes in her hand" [ref=e291]:
+                  - /url: /photos/a-woman-holding-a-bunch-of-brushes-in-her-hand-isyVOmzoRgQ
+                  - img "a woman holding a bunch of brushes in her hand" [ref=e292]
+          - generic [ref=e295]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e296]:
+              - text: Browse premium images on iStock
+              - generic [ref=e297]: "| Claim your discount now"
+            - generic [ref=e299]:
+              - link "Smiling young deli owners standing at their store entrance" [ref=e300] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/smiling-young-deli-owners-standing-at-their-store-entrance-gm1416833488-464338722?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A1b3dc866-bcf6-4553-b695-c10fcc7caf14
+                - img "Smiling young deli owners standing at their store entrance" [ref=e301]
+              - link "Portrait of one happy young hispanic waiter standing with his arms crossed at the doorway of a store or cafe. Friendly man and coffeeshop owner managing a successful restaurant startup" [ref=e302] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/portrait-of-one-happy-young-hispanic-waiter-standing-with-his-arms-crossed-at-the-gm1400319065-453934534?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3Aa548784e-dcd7-4e3d-823f-1daa660875da
+                - img "Portrait of one happy young hispanic waiter standing with his arms crossed at the doorway of a store or cafe. Friendly man and coffeeshop owner managing a successful restaurant startup" [ref=e303]
+              - link "Barber shop receptionist portrait" [ref=e304] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/barber-shop-receptionist-portrait-gm2153275892-574222640?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A72b5300a-a711-4268-a31c-62dc89256f15
+                - img "Barber shop receptionist portrait" [ref=e305]
+              - link "Smiling Female Barista in Coffee Shop" [ref=e306] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/smiling-female-barista-in-coffee-shop-gm2158285113-578929278?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A69c01cfb-97b7-4f3a-a772-ac48e5c869b1
+                - img "Smiling Female Barista in Coffee Shop" [ref=e307]
+              - link "Smiling Businessman Working at a Laptop in a Modern Café Setting" [ref=e308] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/smiling-businessman-working-at-a-laptop-in-a-modern-caf%C3%A9-setting-gm2223061681-639295849?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3Af95229e1-8466-4842-893c-9420db4c8845
+                - img "Smiling Businessman Working at a Laptop in a Modern Café Setting" [ref=e309]
+              - link "Manager smiling while leaning against stock in a large warehouse" [ref=e310] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/manager-smiling-while-leaning-against-stock-in-a-large-warehouse-gm2176719471-596193208?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A9271faa4-73ef-46ff-b97a-9dd99905679c
+                - img "Manager smiling while leaning against stock in a large warehouse" [ref=e311]
+              - link "Small business, woman and coffee shop front door with pride for startup, cafe or restaurant. Entrepreneur person or waitress happy for service, management and to welcome for hospitality at store" [ref=e312] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/small-business-woman-and-coffee-shop-front-door-with-pride-for-startup-cafe-or-gm1469726959-500825286?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3Ac03df6fa-8512-4581-a6f4-de7625082d2e
+                - img "Small business, woman and coffee shop front door with pride for startup, cafe or restaurant. Entrepreneur person or waitress happy for service, management and to welcome for hospitality at store" [ref=e313]
+              - generic [ref=e314]:
+                - link "Hairdresser working at a hair salon using a digital tablet" [ref=e315] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/hairdresser-working-at-a-hair-salon-using-a-digital-tablet-gm2172888251-592637823?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A726d67a3-0c7e-4341-b044-ae131cd37296
+                  - img "Hairdresser working at a hair salon using a digital tablet" [ref=e316]
+                - link "View more on iStock ↗" [ref=e317] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-owner-smiling&utm_term=business+owner+smiling%3A%3Aaffiliate-layout-optim%3Acontrol%3A977ec0d0-3578-49e2-92de-c95ec629c5be&phrase=business+owner+smiling&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e321] [cursor=pointer]
+          - generic [ref=e322]:
+            - link [ref=e323] [cursor=pointer]:
+              - /url: /
+              - img [ref=e324]
+            - paragraph [ref=e326]: Make something awesome
+    - generic:
+      - region "Notifications"

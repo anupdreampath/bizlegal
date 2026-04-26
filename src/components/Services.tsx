@@ -2,24 +2,24 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "LLC Formation",
+    title: "Is an LLC Right for You?",
     description:
-      "Complete California LLC formation — Articles of Organization, Operating Agreement, EIN acquisition, and state filing handled for you.",
+      "LLCs are great for many businesses, but not all. Do you need an entity? Is your business allowed to operate as an LLC? Are you considering California, Delaware, or other domicile states?",
   },
   {
-    title: "LLC Management",
+    title: "LLC Formation",
     description:
-      "Ongoing compliance services to keep your LLC in good standing. Annual filings, franchise tax, and record maintenance.",
+      "Our full service team handles all state filings, document drafting, and other essential registrations, so you don't have to guess how. Take out the guesswork and leave the legal work to the professionals.",
   },
   {
     title: "Registered Agent",
     description:
-      "Professional registered agent service ensuring you never miss critical legal documents or state correspondence.",
+      "Every business is required to have a registered agent, and we include that service for free for your first year.",
   },
   {
-    title: "Business Structuring",
+    title: "Legal Support",
     description:
-      "Expert guidance on structuring your LLC for maximum legal protection, tax efficiency, and operational flexibility.",
+      "After you form your business and as you grow, you're probably going to have some questions. Your LLC formation includes 1 year of attorney legal support*.",
   },
 ];
 
@@ -30,14 +30,14 @@ export default function Services() {
         {/* Section label */}
         <div className="border-t-2 border-white pt-6 mb-[3rem] md:mb-[4rem]">
           <p className="text-[1rem] md:text-[1.125rem] font-sans font-bold text-white uppercase">
-            Our Services
+            What We Do
           </p>
         </div>
 
         {/* Heading */}
         <div className="max-w-[42.5rem] mb-[3rem] md:mb-[4rem]">
           <h2 className="font-serif text-[2.75rem] md:text-[3.5rem] xl:text-[4.75rem] leading-[1.05] text-white">
-            Everything you need to start and run your California LLC
+            We form your business the right way from the start
           </h2>
         </div>
 

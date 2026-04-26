@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fteam-working-modern-office
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fteam-working-modern-office
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fteam-working-modern-office
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: team working modern office
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fteam-working-modern-office
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 5.5k":
+                - /url: /s/photos/team-working-modern-office
+                - img
+                - text: Photos
+                - generic: 5.5k
+            - listitem [ref=e73]:
+              - link "Illustrations 190" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/team-working-modern-office
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "190"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Team working modern office" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "modern office" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/modern-office
+              - link "business meeting" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/business-meeting
+              - link "office" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/office
+              - link "business" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/business
+              - link "workplace" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/workplace
+              - link "team meeting" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/team-meeting
+              - link "business person" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/business-person
+              - link "team building" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/team-building
+              - link "people working" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/people-working
+              - link "productivity" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/productivity
+              - link "teamwork" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/teamwork
+              - link "discussion" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/discussion
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - link "Business Team Busy Working Talking Concept" [ref=e130]:
+                  - /url: /photos/business-team-busy-working-talking-concept-8VhQ221GXF4
+                  - img "Business Team Busy Working Talking Concept" [ref=e131]
+              - generic [ref=e132]:
+                - heading "Sponsored images" [level=4] [ref=e133]:
+                  - generic [ref=e134]: Sponsored images
+                  - link [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=team+working+modern+office&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e136]
+                - generic [ref=e138]:
+                  - link "Professionals listening to a discussion in an office" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/professionals-listening-to-a-discussion-in-an-office-gm1605085010-530482956?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Professionals listening to a discussion in an office" [ref=e140]
+                  - link "Blurred motion of businesspeople on the go" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/blurred-motion-of-businesspeople-on-the-go-gm1421513108-467115766?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Blurred motion of businesspeople on the go" [ref=e142]
+                  - link "Futuristic office" [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/futuristic-office-gm1187179171-335251307?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Futuristic office" [ref=e144]
+                  - link "young female employees walking down the company corridor" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/young-female-employees-walking-down-the-company-corridor-gm1446269709-484409970?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "young female employees walking down the company corridor" [ref=e146]
+                - link "Get 20% off with code UNSPLASH20" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=team+working+modern+office&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e148]:
+                - link "Two colleagues collaborating on a laptop at a desk." [ref=e151]:
+                  - /url: /photos/two-colleagues-collaborating-on-a-laptop-at-a-desk-tp_SwN8pC0A
+                  - img "Two colleagues collaborating on a laptop at a desk." [ref=e152]
+              - figure [ref=e153]:
+                - link "Two colleagues working together at a desk." [ref=e156]:
+                  - /url: /photos/two-colleagues-working-together-at-a-desk-7aRaTGnWcCU
+                  - img "Two colleagues working together at a desk." [ref=e157]
+              - figure [ref=e158]:
+                - link "a group of people sitting around a table working on laptops" [ref=e161]:
+                  - /url: /photos/a-group-of-people-sitting-around-a-table-working-on-laptops-42LyWuXHc-8
+                  - img "a group of people sitting around a table working on laptops" [ref=e162]
+              - figure [ref=e163]:
+                - link "Two people talking in a modern office hallway." [ref=e166]:
+                  - /url: /photos/two-people-talking-in-a-modern-office-hallway-6hb3u7YOFFk
+                  - img "Two people talking in a modern office hallway." [ref=e167]
+              - figure [ref=e168]:
+                - link "Three business people talking on a sofa." [ref=e171]:
+                  - /url: /photos/three-business-people-talking-on-a-sofa-TUOopbqassg
+                  - img "Three business people talking on a sofa." [ref=e172]
+              - figure [ref=e173]:
+                - link "Woman working on laptop in modern office environment" [ref=e176]:
+                  - /url: /photos/woman-working-on-laptop-in-modern-office-environment--sAOq0b7PFE
+                  - img "Woman working on laptop in modern office environment" [ref=e177]
+            - generic [ref=e178]:
+              - figure [ref=e179]:
+                - link "People work at desks in a modern office." [ref=e182]:
+                  - /url: /photos/people-work-at-desks-in-a-modern-office-SEda8hsDZjM
+                  - img "People work at desks in a modern office." [ref=e183]
+              - figure [ref=e184]:
+                - link "Four people working at desks in a modern office." [ref=e187]:
+                  - /url: /photos/four-people-working-at-desks-in-a-modern-office-LycaA7rWsHc
+                  - img "Four people working at desks in a modern office." [ref=e188]
+              - figure [ref=e189]:
+                - link "Two women working on laptops near whiteboard." [ref=e192]:
+                  - /url: /photos/two-women-working-on-laptops-near-whiteboard-PLncNBoO4fE
+                  - img "Two women working on laptops near whiteboard." [ref=e193]
+              - figure [ref=e194]:
+                - link "Team collaborating on laptops in modern office" [ref=e197]:
+                  - /url: /photos/team-collaborating-on-laptops-in-modern-office-N3Bf0ArT5J0
+                  - img "Team collaborating on laptops in modern office" [ref=e198]
+              - figure [ref=e199]:
+                - link "a group of people sitting around a table working on laptops" [ref=e202]:
+                  - /url: /photos/a-group-of-people-sitting-around-a-table-working-on-laptops-FldkziOS26w
+                  - img "a group of people sitting around a table working on laptops" [ref=e203]
+              - figure [ref=e204]:
+                - link "Group of young modern people in smart casual wear discussing business while working in the office" [ref=e207]:
+                  - /url: /photos/group-of-young-modern-people-in-smart-casual-wear-discussing-business-while-working-in-the-office-IKRc0Mj22R4
+                  - img "Group of young modern people in smart casual wear discussing business while working in the office" [ref=e208]
+              - figure [ref=e209]:
+                - link "a man sitting at a desk shaking hands with another man" [ref=e212]:
+                  - /url: /photos/a-man-sitting-at-a-desk-shaking-hands-with-another-man-6FtD8hXC91c
+                  - img "a man sitting at a desk shaking hands with another man" [ref=e213]
+            - generic [ref=e214]:
+              - contentinfo [ref=e219]:
+                - generic [ref=e225]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e227]:
+                - link "a group of people standing around a wooden table" [ref=e230]:
+                  - /url: /photos/a-group-of-people-standing-around-a-wooden-table-mE1VbMitJfw
+                  - img "a group of people standing around a wooden table" [ref=e231]
+              - figure [ref=e232]:
+                - link "Two women looking at a laptop screen." [ref=e235]:
+                  - /url: /photos/two-women-looking-at-a-laptop-screen-Hni8XF9umk8
+                  - img "Two women looking at a laptop screen." [ref=e236]
+              - figure [ref=e237]:
+                - link "two women sitting at a table looking at a laptop" [ref=e240]:
+                  - /url: /photos/two-women-sitting-at-a-table-looking-at-a-laptop-6TahDwED_ws
+                  - img "two women sitting at a table looking at a laptop" [ref=e241]
+              - figure [ref=e242]:
+                - link "Woman working on laptop in modern office space" [ref=e245]:
+                  - /url: /photos/woman-working-on-laptop-in-modern-office-space-XWBULKvaLZ4
+                  - img "Woman working on laptop in modern office space" [ref=e246]
+              - figure [ref=e247]:
+                - link "Two colleagues reviewing data on a laptop." [ref=e250]:
+                  - /url: /photos/two-colleagues-reviewing-data-on-a-laptop-9mQutIWKYKE
+                  - img "Two colleagues reviewing data on a laptop." [ref=e251]
+              - figure [ref=e252]:
+                - link "Two colleagues talking in a modern office hallway." [ref=e255]:
+                  - /url: /photos/two-colleagues-talking-in-a-modern-office-hallway-igg17b7bRK0
+                  - img "Two colleagues talking in a modern office hallway." [ref=e256]
+          - generic [ref=e259]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e260]:
+              - text: Browse premium images on iStock
+              - generic [ref=e261]: "| Claim your discount now"
+            - generic [ref=e263]:
+              - link "Business partners on meeting in the office." [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/business-partners-on-meeting-in-the-office-gm2205224191-622627644?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Business partners on meeting in the office." [ref=e265]
+              - link "Corporate workers silhouettes typing computers in studio. People debugging code" [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/corporate-workers-silhouettes-typing-computers-in-studio-people-debugging-code-gm2239826641-654612096?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Corporate workers silhouettes typing computers in studio. People debugging code" [ref=e267]
+              - link "Marketing team analyzing data and planning new strategy" [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/marketing-team-analyzing-data-and-planning-new-strategy-gm2196235576-614274346?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Marketing team analyzing data and planning new strategy" [ref=e269]
+              - link "Diverse Team in a Business Meeting Collaborating on Projects" [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/diverse-team-in-a-business-meeting-collaborating-on-projects-gm2189549277-607999948?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Diverse Team in a Business Meeting Collaborating on Projects" [ref=e271]
+              - link "Mature business professional sitting in a boardroom meeting at work" [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/mature-business-professional-sitting-in-a-boardroom-meeting-at-work-gm1485394018-511396375?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Mature business professional sitting in a boardroom meeting at work" [ref=e273]
+              - link "Business colleagues having a meeting in a boardroom" [ref=e274] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/business-colleagues-having-a-meeting-in-a-boardroom-gm1365567295-436384110?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Business colleagues having a meeting in a boardroom" [ref=e275]
+              - link "Businesspeople working together in modern office analyzing financial reports" [ref=e276] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/businesspeople-working-together-in-modern-office-analyzing-financial-reports-gm2225094951-641156922?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Businesspeople working together in modern office analyzing financial reports" [ref=e277]
+              - generic [ref=e278]:
+                - link "Happy black man talking to his female colleagues in the office." [ref=e279] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/happy-black-man-talking-to-his-female-colleagues-in-the-office-gm2213852931-630705586?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                  - img "Happy black man talking to his female colleagues in the office." [ref=e280]
+                - link "View more on iStock ↗" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fteam-working-modern-office&utm_term=team+working+modern+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=team+working+modern+office&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /
+              - img [ref=e288]
+            - paragraph [ref=e290]: Make something awesome
+    - generic:
+      - region "Notifications"

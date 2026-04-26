@@ -1,11 +1,20 @@
+import Image from "next/image";
 import PageShell from "@/components/PageShell";
+
+export const metadata = {
+  title: "About biz.legal — Real California Lawyers, Online Speed",
+  description:
+    "biz.legal is a law firm built for California entrepreneurs. We combine attorney-grade LLC formation with online efficiency at a fraction of traditional firm cost.",
+};
 
 export default function AboutPage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Modern California law firm hallway — biz.legal attorney offices"
       label="About"
-      title="California's trusted LLC partner"
-      description="We've helped thousands of entrepreneurs and business owners form and manage their California LLCs with confidence."
+      title="A law firm with the speed of an online platform"
+      description="biz.legal is run by lawyers, but built like a tech company — so California business owners get real legal advice without the traditional law firm bill."
     >
       {/* Story */}
       <section className="bg-ivory-100 py-[4rem] md:py-[6rem]">
@@ -24,34 +33,46 @@ export default function AboutPage() {
 
               <div className="space-y-4 font-sans text-[1rem] text-gray-600 leading-[1.7]">
                 <p>
-                  Biz Legal was founded with a simple mission: make LLC
-                  formation and management accessible, affordable, and
-                  stress-free for every California entrepreneur.
+                  DIY formation websites can&apos;t give legal advice. Traditional
+                  law firms are too expensive. biz.legal was built to be the
+                  best of both — an online platform run by California lawyers,
+                  delivering real legal counsel at a fraction of traditional
+                  firm cost.
                 </p>
                 <p>
-                  We saw too many business owners overwhelmed by
-                  paperwork, confused by compliance requirements, or paying
-                  excessive fees for services that should be straightforward.
-                  So we built a better way — combining legal expertise with
-                  modern technology to deliver an experience that&apos;s as
-                  polished as the businesses we help create.
+                  Our team has leveraged the efficiencies of tech companies to
+                  give entrepreneurs reliable legal advice at the speed of a
+                  DIY service — taking out the guesswork, so clients can be
+                  confident their entity is the right choice for their
+                  business and formed the right way for their protection.
                 </p>
                 <p>
                   Every document we prepare is reviewed by experienced
-                  business attorneys who understand California&apos;s regulatory
-                  landscape. Every filing is tracked, every deadline is
-                  monitored, and every client has direct access to their
-                  dedicated specialist.
+                  California business attorneys. Every filing is tracked,
+                  every deadline monitored, and every client has direct
+                  access to a real lawyer.
                 </p>
               </div>
             </div>
 
             <div className="space-y-6">
-              <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
-                <img src="/images/about-team.svg" alt="Biz Legal legal team — California LLC specialists" className="w-full h-full object-cover" />
+              <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80"
+                  alt="Modern California law firm hallway — biz.legal attorney offices"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                />
               </div>
-              <div className="aspect-[3/2] rounded-[1rem] overflow-hidden">
-                <img src="/images/about-office.svg" alt="Biz Legal office — conference room and legal library" className="w-full h-full object-cover" />
+              <div className="relative aspect-[3/2] rounded-[1rem] overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1400&q=80"
+                  alt="Shelves of legal books in a California law firm — biz.legal legal library"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>

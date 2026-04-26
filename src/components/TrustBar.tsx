@@ -1,23 +1,26 @@
 "use client";
 
-const logos = [
-  "Forbes",
-  "Bloomberg Law",
-  "Inc.",
-  "The New York Times",
-  "Entrepreneur",
-  "USA Today",
+const industries = [
+  "Restaurants",
+  "Retail",
+  "Ecommerce",
+  "Consulting",
+  "Beauty",
+  "The Trades",
+  "Childcare",
+  "Specialty Services",
+  "And many others",
 ];
 
 export default function TrustBar() {
-  const marqueeItems = [...logos, ...logos];
+  const marqueeItems = [...industries, ...industries];
 
   return (
     <section className="bg-ivory-200 py-[3rem] md:py-[4rem]">
       <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
         {/* Label centered above the line */}
         <p className="text-[1rem] font-sans font-bold uppercase text-black text-center mb-5">
-          As Featured In
+          Businesses Served
         </p>
 
         {/* Divider line */}
@@ -36,7 +39,7 @@ export default function TrustBar() {
               key={`${name}-${i}`}
               className="flex-shrink-0 flex items-center justify-center px-10 md:px-14"
             >
-              <span className="text-[1.25rem] md:text-[1.5rem] font-serif text-gray-400 whitespace-nowrap">
+              <span className="text-[1.25rem] md:text-[1.75rem] font-serif text-gray-500 whitespace-nowrap">
                 {name}
               </span>
             </div>

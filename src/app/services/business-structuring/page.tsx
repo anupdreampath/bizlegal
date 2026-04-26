@@ -16,6 +16,8 @@ import {
 export default function BusinessStructuringPage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Four professionals in a business meeting — California business structuring consultation"
       label="Business Structuring"
       title="Structure your LLC for maximum protection and flexibility"
       description="The way your LLC is structured determines your liability protection, tax burden, management authority, and exit options. We help you get it right from the start."
@@ -298,7 +300,7 @@ export default function BusinessStructuringPage() {
               <h2 className="font-serif text-[2rem] md:text-[2.75rem] leading-[1.1] text-black mb-6">
                 Structuring guidance is especially valuable when&hellip;
               </h2>
-              <ImagePlaceholder label="Business Strategy Consultation" aspect="4/3" src="/images/services/business-consultation.svg" />
+              <ImagePlaceholder label="Business Strategy Consultation" aspect="4/3" src="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80" />
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -495,7 +497,7 @@ export default function BusinessStructuringPage() {
               </div>
             </div>
 
-            <ImagePlaceholder label="LLC Structuring Consultation" aspect="4/3" src="/images/services/business-consultation.svg" />
+            <ImagePlaceholder label="LLC Structuring Consultation" aspect="4/3" src="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80" />
           </div>
         </div>
       </section>

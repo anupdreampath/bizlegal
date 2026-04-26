@@ -63,6 +63,8 @@ function VideoPlaceholder({ label, duration, variant = "dark" }: { label: string
 export default function TaxRequirementsPage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1772588627483-d036793569e8?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Tax forms and calculator on a desk — California LLC tax requirements"
       label="Resources"
       title="California LLC tax requirements — the complete breakdown"
       description="Every tax, fee, filing, and deadline your California LLC faces at the federal and state level. Specific amounts, forms, due dates, and penalties."
@@ -263,7 +265,7 @@ export default function TaxRequirementsPage() {
 
             {/* Right */}
             <div className="space-y-6">
-              <ImagePlaceholder label="Infographic: LLC fee tiers visualized" aspect="4/3" src="/images/blog/annual-fee.svg" />
+              <ImagePlaceholder label="Infographic: LLC fee tiers visualized" aspect="4/3" src="https://images.unsplash.com/photo-1772588627342-5ec373e236d8?auto=format&fit=crop&w=1400&q=80" />
 
               <Takeaway>
                 The LLC fee is based on <strong>gross income</strong> (total

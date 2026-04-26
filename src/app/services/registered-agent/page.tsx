@@ -16,6 +16,8 @@ import {
 export default function RegisteredAgentPage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1686853298482-7f3fd1d5b279?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Row of business mailboxes — California LLC registered agent service"
       label="Registered Agent"
       title="Professional registered agent service for California LLCs"
       description="California law requires every LLC to have a registered agent. We provide reliable, professional representation so you never miss a legal document or state notice."
@@ -419,12 +421,12 @@ export default function RegisteredAgentPage() {
               <ImagePlaceholder
                 label="Business owner reviewing documents on a laptop"
                 aspect="4/3"
-                src="/images/services/document-review.svg"
+                src="https://images.unsplash.com/photo-1758518730264-9235a1e5416b?auto=format&fit=crop&w=1400&q=80"
               />
               <ImagePlaceholder
                 label="Secure client portal dashboard"
                 aspect="16/9"
-                src="/images/services/client-portal.svg"
+                src="https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?auto=format&fit=crop&w=1400&q=80"
               />
             </div>
           </div>
@@ -584,7 +586,7 @@ export default function RegisteredAgentPage() {
             <ImagePlaceholder
               label="Team ready to handle your LLC documents"
               aspect="4/3"
-              src="/images/services/happy-owner.svg"
+              src="https://images.unsplash.com/photo-1764173039051-987d1639b9d5?auto=format&fit=crop&w=1400&q=80"
             />
           </div>
         </div>

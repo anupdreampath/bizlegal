@@ -8,13 +8,17 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 md:gap-8 items-center">
           {/* Left text */}
           <div>
-            <h1 className="font-serif text-[2.75rem] md:text-[3.75rem] xl:text-[4.75rem] leading-[1.05] text-black mb-6">
-              Form your California LLC and make it count
+            <h1 className="font-serif text-[2.75rem] md:text-[3.75rem] xl:text-[4.75rem] leading-[1.05] text-black mb-6 uppercase">
+              We&apos;ll form your California LLC, fast &amp; easy
             </h1>
 
-            <p className="font-sans text-[1rem] md:text-[1.125rem] text-gray-600 leading-[1.6] max-w-[28rem] mb-10">
-              Expert-guided LLC formation and management. We handle the
-              paperwork so you can focus on building your business.
+            <p className="font-sans text-[1rem] md:text-[1.125rem] text-gray-600 leading-[1.6] max-w-[34rem] mb-10">
+              You need to know your business is formed right, right from the
+              start. If you DIY with traditional online services, you&apos;re
+              guessing. We&apos;re full service and run by lawyers. Get real
+              legal advice and service at the speed and efficiency of our
+              online platform. Don&apos;t DIY — we&apos;ll D-I-F-Y (Do It For
+              You)!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3">
@@ -22,25 +26,25 @@ export default function Hero() {
                 href="/questionnaire"
                 className="inline-flex items-center justify-center px-8 py-3.5 text-[1rem] font-sans font-medium text-white bg-green-800 hover:bg-green-600 rounded-full transition-colors duration-200 cursor-pointer"
               >
-                Start Your LLC
+                Get Started
               </Link>
               <Link
-                href="/questionnaire"
+                href="/how-it-works"
                 className="inline-flex items-center justify-center px-8 py-3.5 text-[1rem] font-sans font-medium text-black border border-black rounded-full hover:opacity-60 transition-opacity duration-200 cursor-pointer"
               >
-                Submit a Request
+                More Information
               </Link>
             </div>
           </div>
 
-          {/* Right — hero illustration */}
+          {/* Right — California hero photo */}
           <div className="relative">
             <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
               <Image
-                src="/images/hero-llc.svg"
-                alt="California LLC formation process — Articles of Organization, EIN confirmation, and compliance tracking"
-                width={800}
-                height={600}
+                src="https://images.unsplash.com/photo-1502285745115-13e43e3faad4?auto=format&fit=crop&w=1600&q=80"
+                alt="Golden Gate Bridge in San Francisco, California — symbolizing California LLC formation by biz.legal"
+                width={1600}
+                height={1200}
                 className="w-full h-full object-cover"
                 priority
               />

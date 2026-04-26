@@ -1,0 +1,294 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fcalifornia-state-capitol
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcalifornia-state-capitol
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fcalifornia-state-capitol
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: california state capitol
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fcalifornia-state-capitol
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 7.3k":
+                - /url: /s/photos/california-state-capitol
+                - img
+                - text: Photos
+                - generic: 7.3k
+            - listitem [ref=e73]:
+              - link "Illustrations 7" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/california-state-capitol
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "7"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "California state capitol" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "usa" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/usa
+              - link "building" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/building
+              - link "travel" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/travel
+              - link "pacific ocean" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/pacific-ocean
+              - link "sky" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/sky
+              - link "tourism" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/tourism
+              - link "california coast" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/california-coast
+              - link "blue" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/blue
+              - link "texas state capitol" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/texas-state-capitol
+              - link "texas capitol" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/texas-capitol
+              - link "austin" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/austin
+              - link "pier" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/pier
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - generic [ref=e129]:
+                  - link "a map of the state of california" [ref=e130]:
+                    - /url: /photos/a-map-of-the-state-of-california-I3MTWFhmbRQ
+                    - img "a map of the state of california" [ref=e131]
+                  - link [ref=e132] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-map-of-the-state-of-california-I3MTWFhmbRQ
+                    - img [ref=e133]
+              - generic [ref=e135]:
+                - heading "Sponsored images" [level=4] [ref=e136]:
+                  - generic [ref=e137]: Sponsored images
+                  - link [ref=e138] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3A69523f93-4c1c-4c06-aba7-ce04b52aa00d&phrase=california+state+capitol&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e139]
+                - generic [ref=e141]:
+                  - link "California State Capitol building in Sacramento US" [ref=e142] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/california-state-capitol-building-in-sacramento-us-gm2207022767-624293803?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3A6915f67c-4541-4265-95c0-849c77649f78
+                    - img "California State Capitol building in Sacramento US" [ref=e143]
+                  - link "Capitol lit by setting sun" [ref=e144] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/capitol-lit-by-setting-sun-gm482507305-37132118?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3Aa5054d3a-dfd4-4b4d-bb35-0b0a3cfe6845
+                    - img "Capitol lit by setting sun" [ref=e145]
+                  - link "Aerial View of Sacramento State Capitol" [ref=e146] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/aerial-view-of-sacramento-state-capitol-gm2198049388-615952394?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3A4bbfad7e-0423-4ddf-bf4f-04a72af8a44f
+                    - img "Aerial View of Sacramento State Capitol" [ref=e147]
+                  - link "California State Capital" [ref=e148] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/california-state-capital-gm186653928-27064403?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3Aac849406-8936-4492-b005-29ebc1b84d42
+                    - img "California State Capital" [ref=e149]
+                - link "Get 20% off with code UNSPLASH20" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3A69523f93-4c1c-4c06-aba7-ce04b52aa00d&phrase=california+state+capitol&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e151]:
+                - link "white concrete castle" [ref=e154]:
+                  - /url: /photos/white-concrete-castle-Sh3nnb_A2VQ
+                  - img "white concrete castle" [ref=e155]
+              - figure [ref=e156]:
+                - link "yellow flower field near white dome building during daytime" [ref=e159]:
+                  - /url: /photos/yellow-flower-field-near-white-dome-building-during-daytime-hgdekj2k4sk
+                  - img "yellow flower field near white dome building during daytime" [ref=e160]
+              - figure [ref=e161]:
+                - link "white concrete building near green grass field during daytime" [ref=e164]:
+                  - /url: /photos/white-concrete-building-near-green-grass-field-during-daytime-v9W2Q0raogc
+                  - img "white concrete building near green grass field during daytime" [ref=e165]
+              - figure [ref=e166]:
+                - link "the dome of a building with a flag on top" [ref=e169]:
+                  - /url: /photos/the-dome-of-a-building-with-a-flag-on-top-hwGu-UgD83c
+                  - img "the dome of a building with a flag on top" [ref=e170]
+              - figure [ref=e171]:
+                - link "white concrete building near green trees during daytime" [ref=e174]:
+                  - /url: /photos/white-concrete-building-near-green-trees-during-daytime-Ro9xgFKv-6E
+                  - img "white concrete building near green trees during daytime" [ref=e175]
+              - figure [ref=e176]:
+                - link "a large white building with a flag on top of it" [ref=e179]:
+                  - /url: /photos/a-large-white-building-with-a-flag-on-top-of-it-0UMrHVr33VU
+                  - img "a large white building with a flag on top of it" [ref=e180]
+            - generic [ref=e181]:
+              - figure [ref=e182]:
+                - link "a large white building with a dome on top of it" [ref=e185]:
+                  - /url: /photos/a-large-white-building-with-a-dome-on-top-of-it-MTLGJkHhBww
+                  - img "a large white building with a dome on top of it" [ref=e186]
+              - figure [ref=e187]:
+                - generic [ref=e189]:
+                  - link "white and black concrete building" [ref=e190]:
+                    - /url: /photos/white-and-black-concrete-building-dnTkwccf47c
+                    - img "white and black concrete building" [ref=e191]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "Bookmark" [ref=e192] [cursor=pointer]:
+                              - img [ref=e193]
+                            - button "Add to Collection" [ref=e195] [cursor=pointer]:
+                              - img [ref=e196]
+                        - generic:
+                          - generic [ref=e199]:
+                            - link [ref=e200] [cursor=pointer]:
+                              - /url: /@relentlessjpg
+                            - generic [ref=e203]:
+                              - link "Ben Moreland" [ref=e204] [cursor=pointer]:
+                                - /url: /@relentlessjpg
+                              - link "Available for hire" [ref=e206] [cursor=pointer]:
+                                - /url: /@relentlessjpg
+                                - text: Available for hire
+                                - img [ref=e207]
+                          - link "Download" [ref=e210] [cursor=pointer]:
+                            - /url: https://unsplash.com/photos/dnTkwccf47c/download?force=true
+                            - img [ref=e211]
+              - figure [ref=e213]:
+                - link "a white building with a flag on top" [ref=e216]:
+                  - /url: /photos/a-white-building-with-a-flag-on-top-w9H1ASyachc
+                  - img "a white building with a flag on top" [ref=e217]
+              - figure [ref=e218]:
+                - link "a white building with a dome and a flag on top with California State Capitol in the background" [ref=e221]:
+                  - /url: /photos/a-white-building-with-a-dome-and-a-flag-on-top-with-california-state-capitol-in-the-background-9UNasiu_r8A
+                  - img "a white building with a dome and a flag on top with California State Capitol in the background" [ref=e222]
+              - figure [ref=e223]:
+                - link "white dome building near green palm trees during daytime" [ref=e226]:
+                  - /url: /photos/white-dome-building-near-green-palm-trees-during-daytime-JaJ-Ux_TLSA
+                  - img "white dome building near green palm trees during daytime" [ref=e227]
+              - figure [ref=e228]:
+                - link "white concrete building under blue sky during daytime" [ref=e231]:
+                  - /url: /photos/white-concrete-building-under-blue-sky-during-daytime-xqZDTVgd7Co
+                  - img "white concrete building under blue sky during daytime" [ref=e232]
+              - figure [ref=e233]:
+                - generic [ref=e235]:
+                  - link "a satellite image of a large body of water" [ref=e236]:
+                    - /url: /photos/a-satellite-image-of-a-large-body-of-water-MiurRqtsBXs
+                    - img "a satellite image of a large body of water" [ref=e237]
+                  - link [ref=e238] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-satellite-image-of-a-large-body-of-water-MiurRqtsBXs
+                    - img [ref=e239]
+            - generic [ref=e241]:
+              - contentinfo [ref=e246]:
+                - generic [ref=e252]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e254]:
+                - generic [ref=e256]:
+                  - link "The people relaxing on Santa Monica State Beach in California, USA" [ref=e257]:
+                    - /url: /photos/the-people-relaxing-on-santa-monica-state-beach-in-california-usa-u1FWmL-gtpo
+                    - img "The people relaxing on Santa Monica State Beach in California, USA" [ref=e258]
+                  - link [ref=e259] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fthe-people-relaxing-on-santa-monica-state-beach-in-california-usa-u1FWmL-gtpo
+                    - img [ref=e260]
+              - figure [ref=e262]:
+                - link "a large crowd of people in front of a white building" [ref=e265]:
+                  - /url: /photos/a-large-crowd-of-people-in-front-of-a-white-building-7ZQ_VTHSKIs
+                  - img "a large crowd of people in front of a white building" [ref=e266]
+              - figure [ref=e267]:
+                - generic [ref=e269]:
+                  - link "a view of a city from a high point of view" [ref=e270]:
+                    - /url: /photos/a-view-of-a-city-from-a-high-point-of-view-9WK2ibuE7YY
+                    - img "a view of a city from a high point of view" [ref=e271]
+                  - link [ref=e272] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-view-of-a-city-from-a-high-point-of-view-9WK2ibuE7YY
+                    - img [ref=e273]
+              - figure [ref=e275]:
+                - generic [ref=e277]:
+                  - link "Aerial view of the cliff and beach with ocean in Santa Barbara California, USA" [ref=e278]:
+                    - /url: /photos/aerial-view-of-the-cliff-and-beach-with-ocean-in-santa-barbara-california-usa-m_XqCRStjRU
+                    - img "Aerial view of the cliff and beach with ocean in Santa Barbara California, USA" [ref=e279]
+                  - link [ref=e280] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Faerial-view-of-the-cliff-and-beach-with-ocean-in-santa-barbara-california-usa-m_XqCRStjRU
+                    - img [ref=e281]
+              - figure [ref=e283]:
+                - link "white and black dome building under blue sky" [ref=e286]:
+                  - /url: /photos/white-and-black-dome-building-under-blue-sky-YunbjQDbvzo
+                  - img "white and black dome building under blue sky" [ref=e287]
+              - figure [ref=e288]:
+                - link "white concrete building under blue sky during daytime" [ref=e291]:
+                  - /url: /photos/white-concrete-building-under-blue-sky-during-daytime-5HdF3ugOSxM
+                  - img "white concrete building under blue sky during daytime" [ref=e292]
+          - generic [ref=e295]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e296]:
+              - text: Browse premium images on iStock
+              - generic [ref=e297]: "| Claim your discount now"
+            - generic [ref=e299]:
+              - link "Aerial View of Sacramento City Skyline and California State Capitol Building" [ref=e300] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/aerial-view-of-sacramento-city-skyline-and-california-state-capitol-building-gm2180324118-599430141?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3Abd5d515c-8885-4731-afc9-54c6790ab1a3
+                - img "Aerial View of Sacramento City Skyline and California State Capitol Building" [ref=e301]
+              - link "California State Capitol building on a sunny day in Sacramento" [ref=e302] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/california-state-capitol-building-on-a-sunny-day-in-sacramento-gm2179727446-598875910?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3Af1f633ce-3598-4b49-b6bf-b13e64c682f8
+                - img "California State Capitol building on a sunny day in Sacramento" [ref=e303]
+              - link "California State Capitol Building in Sacramento, CA, USA" [ref=e304] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/california-state-capitol-building-in-sacramento-ca-usa-gm481103895-36884984?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3Aa645d42d-7979-467e-9da0-6b6ef241dfa9
+                - img "California State Capitol Building in Sacramento, CA, USA" [ref=e305]
+              - link "Aerial view of California State Capitol building in Sacramento" [ref=e306] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/aerial-view-of-california-state-capitol-building-in-sacramento-gm2211624234-628599937?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3Af0b9395b-1e12-414b-ac47-6fbc7b30ee18
+                - img "Aerial view of California State Capitol building in Sacramento" [ref=e307]
+              - link "Downtown Sacramento California Capital Dome Building City Skyline" [ref=e308] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/downtown-sacramento-california-capital-dome-building-city-skyline-gm541836502-96887945?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3A2bd264ed-2683-4a87-a340-f9f5c95b8a20
+                - img "Downtown Sacramento California Capital Dome Building City Skyline" [ref=e309]
+              - link "State Capital of California" [ref=e310] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/state-capital-of-california-gm476519193-35956244?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3A92b79cec-d2c7-4ce5-9cc9-b10e0bc0eb29
+                - img "State Capital of California" [ref=e311]
+              - link "California State capital building" [ref=e312] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/california-state-capital-building-gm1303102396-394653961?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3Ace3ce95e-6d8a-4991-8ab8-35f029cc6a56
+                - img "California State capital building" [ref=e313]
+              - generic [ref=e314]:
+                - link "California State Capitol, Sacramento, California" [ref=e315] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/california-state-capitol-sacramento-california-gm2172911521-592659185?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3A59185ca7-75ca-4408-bc09-d845050eaf2e
+                  - img "California State Capitol, Sacramento, California" [ref=e316]
+                - link "View more on iStock ↗" [ref=e317] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcalifornia-state-capitol&utm_term=california+state+capitol%3A%3Aaffiliate-layout-optim%3Acontrol%3A28d7d8e4-5ab4-44a1-b8f3-8f85a0fd185d&phrase=california+state+capitol&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e321] [cursor=pointer]
+          - generic [ref=e322]:
+            - link [ref=e323] [cursor=pointer]:
+              - /url: /
+              - img [ref=e324]
+            - paragraph [ref=e326]: Make something awesome
+    - generic:
+      - region "Notifications"

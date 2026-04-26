@@ -1,0 +1,270 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fllc-vs-corporation-decision
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fllc-vs-corporation-decision
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fllc-vs-corporation-decision
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: llc vs corporation decision
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fllc-vs-corporation-decision
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 2.3k":
+                - /url: /s/photos/llc-vs-corporation-decision
+                - img
+                - text: Photos
+                - generic: 2.3k
+            - listitem [ref=e73]:
+              - link "Illustrations 1.6k" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/llc-vs-corporation-decision
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: 1.6k
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Llc vs corporation decision" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "vector" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/vector
+              - link "illustration" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/illustration
+              - link "balance" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/balance
+              - link "money" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/money
+              - link "balance scale" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/balance-scale
+              - link "blue" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/blue
+              - link "justice" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/justice
+              - link "legal right" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/legal-right
+              - link "fairness" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/fairness
+              - link "law and justice" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/law-and-justice
+              - link "dollar sign" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/dollar-sign
+              - link "justice system" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/justice-system
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - generic [ref=e129]:
+                  - link "Closeup of color highlighter stationery" [ref=e130]:
+                    - /url: /photos/closeup-of-color-highlighter-stationery-F0jD-Jnu1Vo
+                    - img "Closeup of color highlighter stationery" [ref=e131]
+                  - link [ref=e132] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fcloseup-of-color-highlighter-stationery-F0jD-Jnu1Vo
+                    - img [ref=e133]
+              - generic [ref=e135]:
+                - heading "Sponsored images" [level=4] [ref=e136]:
+                  - generic [ref=e137]: Sponsored images
+                  - link [ref=e138] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3Af38a4dfe-595d-41d3-a6ae-bfa1ef893e06&phrase=llc+vs+corporation+decision&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e139]
+                - generic [ref=e141]:
+                  - link "Clipboard with llc operating agreement and pen on desk" [ref=e142] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/clipboard-with-llc-operating-agreement-and-pen-on-desk-gm1149897699-311095886?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A8b3e5a9c-3909-4129-869f-0295dcc4824d
+                    - img "Clipboard with llc operating agreement and pen on desk" [ref=e143]
+                  - link "LLC operating agreement" [ref=e144] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/llc-operating-agreement-gm1081656386-290062981?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A6e62965d-e256-4ad8-8791-efa19993b20b
+                    - img "LLC operating agreement" [ref=e145]
+                  - link "LLC operating agreement, pen and calculator on desk" [ref=e146] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/llc-operating-agreement-pen-and-calculator-on-desk-gm1204638223-346699672?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3Aa7504bdf-d6d6-48d8-9ef2-dd97028e4da7
+                    - img "LLC operating agreement, pen and calculator on desk" [ref=e147]
+                  - link "LLC Operating Agreement write on a paperwork isolated on wooden background." [ref=e148] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/llc-operating-agreement-write-on-a-paperwork-isolated-on-wooden-background-gm1222471721-358732365?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A540ff9b4-6575-4277-a1da-0218790a36bd
+                    - img "LLC Operating Agreement write on a paperwork isolated on wooden background." [ref=e149]
+                - link "Get 20% off with code UNSPLASH20" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3Af38a4dfe-595d-41d3-a6ae-bfa1ef893e06&phrase=llc+vs+corporation+decision&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e151]:
+                - link "A gavel rests on a sound block with money." [ref=e154]:
+                  - /url: /photos/a-gavel-rests-on-a-sound-block-with-money-HGPvzATN6F0
+                  - img "A gavel rests on a sound block with money." [ref=e155]
+              - figure [ref=e156]:
+                - generic [ref=e158]:
+                  - link "Money versus nature is being weighed on a scale." [ref=e159]:
+                    - /url: /photos/money-versus-nature-is-being-weighed-on-a-scale-TrfFXiX0yaY
+                    - img "Money versus nature is being weighed on a scale." [ref=e160]
+                  - link [ref=e161] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fmoney-versus-nature-is-being-weighed-on-a-scale-TrfFXiX0yaY
+                    - img [ref=e162]
+              - figure [ref=e164]:
+                - link "New york life insurance company sign on building" [ref=e167]:
+                  - /url: /photos/new-york-life-insurance-company-sign-on-building-y21FKf-Wx9g
+                  - img "New york life insurance company sign on building" [ref=e168]
+              - figure [ref=e169]:
+                - link "red and white labeled book" [ref=e172]:
+                  - /url: /photos/red-and-white-labeled-book-9S3JMbqI5ng
+                  - img "red and white labeled book" [ref=e173]
+            - generic [ref=e174]:
+              - figure [ref=e175]:
+                - link "brown wooden i love you letter" [ref=e178]:
+                  - /url: /photos/brown-wooden-i-love-you-letter-vlWOnuKHCes
+                  - img "brown wooden i love you letter" [ref=e179]
+              - figure [ref=e180]:
+                - link "brown wooden letter blocks on white table" [ref=e183]:
+                  - /url: /photos/brown-wooden-letter-blocks-on-white-table-k-mSUIPxvl0
+                  - img "brown wooden letter blocks on white table" [ref=e184]
+              - figure [ref=e185]:
+                - link "white printer paper beside silver key" [ref=e188]:
+                  - /url: /photos/white-printer-paper-beside-silver-key-DJ6zSXpZ9Bs
+                  - img "white printer paper beside silver key" [ref=e189]
+              - figure [ref=e190]:
+                - link "text" [ref=e193]:
+                  - /url: /photos/text-TMj1c5wlO3k
+                  - img "text" [ref=e194]
+              - figure [ref=e195]:
+                - link "text" [ref=e198]:
+                  - /url: /photos/text-cMGg7PyBcOg
+                  - img "text" [ref=e199]
+              - figure [ref=e200]:
+                - link "Petition to File For Bankruptcy" [ref=e203]:
+                  - /url: /photos/petition-to-file-for-bankruptcy-9j8k3l9afkc
+                  - img "Petition to File For Bankruptcy" [ref=e204]
+              - figure [ref=e205]:
+                - link "a computer keyboard sitting on top of a wooden table" [ref=e208]:
+                  - /url: /photos/a-computer-keyboard-sitting-on-top-of-a-wooden-table-UGPxnJsy_QQ
+                  - img "a computer keyboard sitting on top of a wooden table" [ref=e209]
+              - figure [ref=e210]:
+                - link "brown wooden chess piece on brown book" [ref=e213]:
+                  - /url: /photos/brown-wooden-chess-piece-on-brown-book-e11Oa3kvx4c
+                  - img "brown wooden chess piece on brown book" [ref=e214]
+              - figure [ref=e215]:
+                - link "text" [ref=e218]:
+                  - /url: /photos/text-Judd7JuH2Vs
+                  - img "text" [ref=e219]
+            - generic [ref=e220]:
+              - contentinfo [ref=e225]:
+                - generic [ref=e231]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e233]:
+                - generic [ref=e235]:
+                  - link "a row of blue blocks with a dollar sign on top" [ref=e236]:
+                    - /url: /photos/a-row-of-blue-blocks-with-a-dollar-sign-on-top-UBxati4W4-A
+                    - img "a row of blue blocks with a dollar sign on top" [ref=e237]
+                  - link [ref=e238] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-row-of-blue-blocks-with-a-dollar-sign-on-top-UBxati4W4-A
+                    - img [ref=e239]
+              - figure [ref=e241]:
+                - link "a person is filling out a form with a pen" [ref=e244]:
+                  - /url: /photos/a-person-is-filling-out-a-form-with-a-pen-AVERPZyQAaI
+                  - img "a person is filling out a form with a pen" [ref=e245]
+              - figure [ref=e246]:
+                - link "brown round ornament on white and green textile" [ref=e249]:
+                  - /url: /photos/brown-round-ornament-on-white-and-green-textile-o0Ef426Zs68
+                  - img "brown round ornament on white and green textile" [ref=e250]
+              - figure [ref=e251]:
+                - generic [ref=e253]:
+                  - link "Business lawyer team. Working together of lawyer in the meeting." [ref=e254]:
+                    - /url: /photos/business-lawyer-team-working-together-of-lawyer-in-the-meeting-C1KMj0OAIdM
+                    - img "Business lawyer team. Working together of lawyer in the meeting." [ref=e255]
+                  - link [ref=e256] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fbusiness-lawyer-team-working-together-of-lawyer-in-the-meeting-C1KMj0OAIdM
+                    - img [ref=e257]
+              - figure [ref=e259]:
+                - link "brown and white concrete building" [ref=e262]:
+                  - /url: /photos/brown-and-white-concrete-building-P6pe2Qr5TmU
+                  - img "brown and white concrete building" [ref=e263]
+              - figure [ref=e264]:
+                - generic [ref=e266]:
+                  - link "three stacks of gold coins with arrows pointing upward" [ref=e267]:
+                    - /url: /photos/three-stacks-of-gold-coins-with-arrows-pointing-upward-K9ynZrxqZ3s
+                    - img "three stacks of gold coins with arrows pointing upward" [ref=e268]
+                  - link [ref=e269] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fthree-stacks-of-gold-coins-with-arrows-pointing-upward-K9ynZrxqZ3s
+                    - img [ref=e270]
+          - generic [ref=e274]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e275]:
+              - text: Browse premium images on iStock
+              - generic [ref=e276]: "| Claim your discount now"
+            - generic [ref=e278]:
+              - link "LLC operating agreement, pen, glasses and calculator" [ref=e279] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/llc-operating-agreement-pen-glasses-and-calculator-gm1081655438-290062506?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A27e1c386-08d2-4c73-b548-53048450003f
+                - img "LLC operating agreement, pen, glasses and calculator" [ref=e280]
+              - link "LLC Limited Liability Corporation Business Model Arrow Signs 3d Illustration" [ref=e281] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/llc-limited-liability-corporation-business-model-arrow-signs-3d-illustration-gm1161167845-318078393?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A19117f32-8a98-4502-bbb2-a9858ce124d2
+                - img "LLC Limited Liability Corporation Business Model Arrow Signs 3d Illustration" [ref=e282]
+              - link "LLC LLP S-Corp C-Corporation Road Signs 3d Illustration" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/llc-llp-s-corp-c-corporation-road-signs-3d-illustration-gm1160501956-317667914?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A678c9a8f-a322-48ff-9eb3-db3c4c849466
+                - img "LLC LLP S-Corp C-Corporation Road Signs 3d Illustration" [ref=e284]
+              - link "LLC (limited liability company)" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/llc-gm664811642-121110751?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A374c5772-f398-44c9-a62d-da4a4d523c56
+                - img "LLC (limited liability company)" [ref=e286]
+              - link "LLC company formation with limited liability concept" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/llc-company-formation-with-limited-liability-concept-gm2257706885-670767525?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A59684b18-dee1-4ff0-bf17-0fa67c3fa7d7
+                - img "LLC company formation with limited liability concept" [ref=e288]
+              - link "LLC Vs Incorporation Company Business Models 2 Two Way Road Signs 3d Illustration" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/llc-vs-incorporation-company-business-models-2-two-way-road-signs-3d-illustration-gm1161172775-318081879?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3Ae95cf99f-de9b-43b3-b031-8ca3ad296f47
+                - img "LLC Vs Incorporation Company Business Models 2 Two Way Road Signs 3d Illustration" [ref=e290]
+              - link "letter of the alphabet of LLC on a documents background. LLC - Limited liability company" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/letter-of-the-alphabet-of-llc-on-a-documents-background-llc-limited-liability-company-gm1565404926-527506098?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3Abdf53622-232c-4aba-aa2c-28a899b5ee00
+                - img "letter of the alphabet of LLC on a documents background. LLC - Limited liability company" [ref=e292]
+              - generic [ref=e293]:
+                - link "LLC Limited Liability Corporation Business Model Road Word 3d Illustration" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/llc-limited-liability-corporation-business-model-road-word-3d-illustration-gm1161074564-318022950?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A0393ae6d-69dc-4b30-806f-1bb5f3048f3d
+                  - img "LLC Limited Liability Corporation Business Model Road Word 3d Illustration" [ref=e295]
+                - link "View more on iStock ↗" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fllc-vs-corporation-decision&utm_term=llc+vs+corporation+decision%3A%3Aaffiliate-layout-optim%3Acontrol%3A745d6b57-d65e-44c8-a672-e473b87332b8&phrase=llc+vs+corporation+decision&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e300] [cursor=pointer]
+          - generic [ref=e301]:
+            - link [ref=e302] [cursor=pointer]:
+              - /url: /
+              - img [ref=e303]
+            - paragraph [ref=e305]: Make something awesome
+    - generic:
+      - region "Notifications"

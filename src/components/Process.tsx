@@ -3,27 +3,27 @@ import Link from "next/link";
 const steps = [
   {
     number: "01",
-    title: "Submit your request",
+    title: "Decide you're ready",
     description:
-      "Complete our guided questionnaire about your business goals, LLC needs, and company structure. No payment required.",
+      "If you're ready for us to form your LLC, we're here for you. If you're not sure if an LLC is right for you, or have other questions, schedule a call with one of our lawyers to guide you. It's easy and affordable.",
   },
   {
     number: "02",
-    title: "Expert review",
+    title: "Lawyer review",
     description:
-      "Our team reviews your submission and prepares a customized LLC formation or management plan tailored to your situation.",
+      "Unlike the DIY websites, we have real California lawyers on staff who will personally review your LLC and ensure it's the best fit for you. A consultation phone call with a lawyer is included in your entity formation fee.",
   },
   {
     number: "03",
     title: "Document preparation",
     description:
-      "We prepare all necessary legal documents — Articles of Organization, Operating Agreement, and required state filings.",
+      "Our documents are expertly drafted by attorneys and customized for your business. We do it all for you, and file everything you need with the appropriate agencies. No guesswork, no uncertainty, no problems for you.",
   },
   {
     number: "04",
-    title: "Formation & launch",
+    title: "Delivery",
     description:
-      "We file with the California Secretary of State and deliver all documents through your secure client portal.",
+      "Through our secure portal, all of your LLC documents are delivered seamlessly to you, ready to take to the bank, your landlord, or your partners — and jump-start your business.",
   },
 ];
 
@@ -34,14 +34,14 @@ export default function Process() {
         {/* Section label */}
         <div className="border-t-2 border-black pt-6 mb-[2rem]">
           <p className="text-[1rem] md:text-[1.125rem] font-sans font-bold text-black uppercase">
-            How It Works
+            Our Easy System
           </p>
         </div>
 
         {/* Heading */}
         <div className="max-w-[42.5rem] mb-[3rem] md:mb-[4rem]">
           <h2 className="font-serif text-[2.75rem] md:text-[3.5rem] xl:text-[4.75rem] leading-[1.05] text-black">
-            Your path to a California LLC in four steps
+            Our guaranteed process in 4 easy steps
           </h2>
         </div>
 

@@ -121,6 +121,8 @@ const chapters = [
 export default function CaliforniaBusinessLawPage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1606900776690-fd6f2f691ace?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="California State Capitol in Sacramento — guide to California business law"
       label="Resources"
       title="California business law for LLCs"
       description="A comprehensive legal reference covering the California statutes, regulations, filing requirements, and compliance obligations that govern Limited Liability Companies."
@@ -248,7 +250,7 @@ export default function CaliforniaBusinessLawPage() {
               <ImagePlaceholder
                 label="California Business Law Illustration"
                 aspect="16/9"
-                src="/images/services/ca-business-law.svg"
+                src="https://images.unsplash.com/photo-1606900776690-fd6f2f691ace?auto=format&fit=crop&w=1400&q=80"
               />
             </div>
           </div>
@@ -642,7 +644,7 @@ export default function CaliforniaBusinessLawPage() {
               <ImagePlaceholder
                 label="Liability Protection Diagram"
                 aspect="4/3"
-                src="/images/resources/veil-piercing.svg"
+                src="https://images.unsplash.com/photo-1767972159674-460283907c21?auto=format&fit=crop&w=1400&q=80"
               />
               <VideoPlaceholder label="Understanding Veil Piercing in California" duration="4 min" variant="dark" />
             </div>

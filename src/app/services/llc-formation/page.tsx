@@ -8,6 +8,8 @@ import { Accordion, Takeaway, ImagePlaceholder, VideoPlaceholder, StatCard, Chap
 export default function LLCFormationPage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Person signing an LLC formation document — California LLC formation by biz.legal"
       label="LLC Formation"
       title="Form your California LLC the right way — the first time"
       description="We handle every detail of your LLC formation so you can launch with confidence. Attorney-reviewed documents, fast filing, zero guesswork."
@@ -163,7 +165,7 @@ export default function LLCFormationPage() {
 
             <div className="space-y-6">
               <VideoPlaceholder label="Video: Formation Process Walkthrough (4 min)" duration="4 min" variant="dark" />
-              <ImagePlaceholder label="Infographic: Formation Timeline" aspect="3/2" src="/images/services/formation-timeline.svg" />
+              <ImagePlaceholder label="Infographic: Formation Timeline" aspect="3/2" src="https://images.unsplash.com/photo-1775363949849-cdc2167914a4?auto=format&fit=crop&w=1400&q=80" />
 
               <div className="bg-green-800 rounded-[1rem] p-8">
                 <h3 className="font-serif text-[1.5rem] text-white mb-3">Start for free</h3>
@@ -230,7 +232,7 @@ export default function LLCFormationPage() {
                 California state fees are set by law. Our service fee covers everything in the formation package — name search, all documents, all filings, EIN, and your complete organizational package.
               </Takeaway>
 
-              <ImagePlaceholder label="Image: Fee Breakdown Comparison Chart" aspect="16/9" src="/images/services/fee-comparison.svg" />
+              <ImagePlaceholder label="Image: Fee Breakdown Comparison Chart" aspect="16/9" src="https://images.unsplash.com/photo-1772588627342-5ec373e236d8?auto=format&fit=crop&w=1400&q=80" />
             </div>
 
             <div className="space-y-6">
@@ -395,7 +397,7 @@ export default function LLCFormationPage() {
               </div>
             </div>
             <div className="hidden lg:block">
-              <ImagePlaceholder label="Image: Happy Business Owner" aspect="4/3" src="/images/services/happy-owner.svg" />
+              <ImagePlaceholder label="Image: Happy Business Owner" aspect="4/3" src="https://images.unsplash.com/photo-1764173039051-987d1639b9d5?auto=format&fit=crop&w=1400&q=80" />
             </div>
           </div>
         </div>

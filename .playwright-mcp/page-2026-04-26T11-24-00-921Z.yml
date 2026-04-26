@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-checklist-clipboard
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-checklist-clipboard
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-checklist-clipboard
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: business checklist clipboard
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fbusiness-checklist-clipboard
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 2.3k":
+                - /url: /s/photos/business-checklist-clipboard
+                - img
+                - text: Photos
+                - generic: 2.3k
+            - listitem [ref=e73]:
+              - link "Illustrations 266" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/business-checklist-clipboard
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "266"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Business checklist clipboard" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "planning" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/planning
+              - link "clipboard" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/clipboard
+              - link "goal setting" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/goal-setting
+              - link "productivity" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/productivity
+              - link "organization" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/organization
+              - link "task list" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/task-list
+              - link "strategy" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/strategy
+              - link "document" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/document
+              - link "to do list" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/to-do-list
+              - link "checklist" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/checklist
+              - link "project management" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/project-management
+              - link "illustration" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/illustration
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - link "Checklist and notes written on paper, a red tick and cartoon pencil on light blue background. Concept of plans and schedule. 3D rendering" [ref=e130]:
+                  - /url: /photos/checklist-and-notes-written-on-paper-a-red-tick-and-cartoon-pencil-on-light-blue-background-concept-of-plans-and-schedule-3d-rendering-h1uertkV_wE
+                  - img "Checklist and notes written on paper, a red tick and cartoon pencil on light blue background. Concept of plans and schedule. 3D rendering" [ref=e131]
+              - generic [ref=e132]:
+                - heading "Sponsored images" [level=4] [ref=e133]:
+                  - generic [ref=e134]: Sponsored images
+                  - link [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=business+checklist+clipboard&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e136]
+                - generic [ref=e138]:
+                  - link "Clipboard with checkboxes, cup of coffee, plant and computer keyboard on wooden table, flat lay. Checklist" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/clipboard-with-checkboxes-cup-of-coffee-plant-and-computer-keyboard-on-wooden-table-gm1743362533-543006706?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Clipboard with checkboxes, cup of coffee, plant and computer keyboard on wooden table, flat lay. Checklist" [ref=e140]
+                  - link "maintenance engineer works on the roof of factory. contractor inspect compressor system and plans installation of air condition systems in construction. Checklist, inspector, control" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/maintenance-engineer-works-on-the-roof-of-factory-contractor-inspect-compressor-gm2149799860-571007514?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "maintenance engineer works on the roof of factory. contractor inspect compressor system and plans installation of air condition systems in construction. Checklist, inspector, control" [ref=e142]
+                  - link "Organized processing of tasks represented with a ticked off checklist" [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/organized-processing-of-tasks-represented-with-a-ticked-off-checklist-gm1459262795-493673155?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Organized processing of tasks represented with a ticked off checklist" [ref=e144]
+                  - link "Woman hand writing on clipboard with a pen." [ref=e145] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/woman-hand-writing-on-clipboard-with-a-pen-gm1434437996-476053182?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Woman hand writing on clipboard with a pen." [ref=e146]
+                - link "Get 20% off with code UNSPLASH20" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=business+checklist+clipboard&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e148]:
+                - link "white printer paper beside silver laptop computer" [ref=e151]:
+                  - /url: /photos/white-printer-paper-beside-silver-laptop-computer-Q2J2qQsoYH8
+                  - img "white printer paper beside silver laptop computer" [ref=e152]
+              - figure [ref=e153]:
+                - link "a clipboard with a to - do list on it next to a potted" [ref=e156]:
+                  - /url: /photos/a-clipboard-with-a-to-do-list-on-it-next-to-a-potted-x20pbOo9XUA
+                  - img "a clipboard with a to - do list on it next to a potted" [ref=e157]
+              - figure [ref=e158]:
+                - link "white and brown card on silver macbook" [ref=e161]:
+                  - /url: /photos/white-and-brown-card-on-silver-macbook-7lhGhjCnd44
+                  - img "white and brown card on silver macbook" [ref=e162]
+              - figure [ref=e163]:
+                - link "white paper on silver laptop computer" [ref=e166]:
+                  - /url: /photos/white-paper-on-silver-laptop-computer-tGQS5wJUzjk
+                  - img "white paper on silver laptop computer" [ref=e167]
+              - figure [ref=e168]:
+                - link "white printer paper beside silver laptop computer" [ref=e171]:
+                  - /url: /photos/white-printer-paper-beside-silver-laptop-computer-m-2H2zJQ2wA
+                  - img "white printer paper beside silver laptop computer" [ref=e172]
+            - generic [ref=e173]:
+              - figure [ref=e174]:
+                - link "date organizer clipboard" [ref=e177]:
+                  - /url: /photos/date-organizer-clipboard-lUShu7PHIGA
+                  - img "date organizer clipboard" [ref=e178]
+              - figure [ref=e179]:
+                - link "white printer paper beside silver laptop computer" [ref=e182]:
+                  - /url: /photos/white-printer-paper-beside-silver-laptop-computer-7iSEHWsxPLw
+                  - img "white printer paper beside silver laptop computer" [ref=e183]
+              - figure [ref=e184]:
+                - link "Notepad and tick on sheet paper, on light purple background. Gears with todo list. Concept of list administration and management. 3D rendering" [ref=e187]:
+                  - /url: /photos/notepad-and-tick-on-sheet-paper-on-light-purple-background-gears-with-todo-list-concept-of-list-administration-and-management-3d-rendering-vCkhiLAlO3Q
+                  - img "Notepad and tick on sheet paper, on light purple background. Gears with todo list. Concept of list administration and management. 3D rendering" [ref=e188]
+              - figure [ref=e189]:
+                - link "white paper on silver laptop computer" [ref=e192]:
+                  - /url: /photos/white-paper-on-silver-laptop-computer-HiB5ItDg4ME
+                  - img "white paper on silver laptop computer" [ref=e193]
+              - figure [ref=e194]:
+                - link "Work Plan Business Process Graphic Illustration" [ref=e197]:
+                  - /url: /photos/work-plan-business-process-graphic-illustration-OzYji0CxhA0
+                  - img "Work Plan Business Process Graphic Illustration" [ref=e198]
+              - figure [ref=e199]:
+                - link "white and brown card on macbook pro" [ref=e202]:
+                  - /url: /photos/white-and-brown-card-on-macbook-pro-dRXiEJMt9Z8
+                  - img "white and brown card on macbook pro" [ref=e203]
+              - figure [ref=e204]:
+                - link "white printer paper beside silver laptop computer" [ref=e207]:
+                  - /url: /photos/white-printer-paper-beside-silver-laptop-computer-ilUD0RmdsnA
+                  - img "white printer paper beside silver laptop computer" [ref=e208]
+            - generic [ref=e209]:
+              - contentinfo [ref=e214]:
+                - generic [ref=e220]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e222]:
+                - link "white printer paper beside silver macbook" [ref=e225]:
+                  - /url: /photos/white-printer-paper-beside-silver-macbook-j2tExQL-OyA
+                  - img "white printer paper beside silver macbook" [ref=e226]
+              - figure [ref=e227]:
+                - link "white printer paper beside silver macbook" [ref=e230]:
+                  - /url: /photos/white-printer-paper-beside-silver-macbook-5ofa31FPKYY
+                  - img "white printer paper beside silver macbook" [ref=e231]
+              - figure [ref=e232]:
+                - link "white printer paper beside silver laptop computer" [ref=e235]:
+                  - /url: /photos/white-printer-paper-beside-silver-laptop-computer-FGqmA1o1lzc
+                  - img "white printer paper beside silver laptop computer" [ref=e236]
+              - figure [ref=e237]:
+                - link "white paper on brown folder beside silver key" [ref=e240]:
+                  - /url: /photos/white-paper-on-brown-folder-beside-silver-key-92HqQ0ZvKDA
+                  - img "white paper on brown folder beside silver key" [ref=e241]
+              - figure [ref=e242]:
+                - link "white printer paper beside silver laptop computer" [ref=e245]:
+                  - /url: /photos/white-printer-paper-beside-silver-laptop-computer-eUF7NrY492A
+                  - img "white printer paper beside silver laptop computer" [ref=e246]
+              - figure [ref=e247]:
+                - link "Business Plan Strategy Marketing Startup Organization" [ref=e250]:
+                  - /url: /photos/business-plan-strategy-marketing-startup-organization-oGaJiVu_67I
+                  - img "Business Plan Strategy Marketing Startup Organization" [ref=e251]
+              - figure [ref=e252]:
+                - link "text, letter" [ref=e255]:
+                  - /url: /photos/text-letter-zyILlrvk-Mg
+                  - img "text, letter" [ref=e256]
+          - generic [ref=e259]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e260]:
+              - text: Browse premium images on iStock
+              - generic [ref=e261]: "| Claim your discount now"
+            - generic [ref=e263]:
+              - link "Holding clipboard and a pen in office" [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/holding-clipboard-and-a-pen-in-office-gm1704680401-539087479?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Holding clipboard and a pen in office" [ref=e265]
+              - link "Survey form, check marks on checklist, filling online form and answering questions concept background." [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/survey-form-check-marks-on-checklist-filling-online-form-and-answering-questions-gm1472468738-502810650?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Survey form, check marks on checklist, filling online form and answering questions concept background." [ref=e267]
+              - link "Isolated Clipboard with Checklist Boxes Ticked Off" [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/isolated-clipboard-with-checklist-boxes-ticked-off-gm2211932737-628893520?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Isolated Clipboard with Checklist Boxes Ticked Off" [ref=e269]
+              - link "Checklist notepad with pen and clipboard on blue background, business chart with bar graph, office supplies for planning and organization, productivity concept" [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/checklist-notepad-with-pen-and-clipboard-on-blue-background-business-chart-with-bar-gm2249586621-663349984?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Checklist notepad with pen and clipboard on blue background, business chart with bar graph, office supplies for planning and organization, productivity concept" [ref=e271]
+              - link "Business performance monitoring concept, businessman using smartphone Online survey filling out, digital form checklist, blue background." [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/business-performance-monitoring-concept-businessman-using-smartphone-online-survey-gm1465188429-497678975?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Business performance monitoring concept, businessman using smartphone Online survey filling out, digital form checklist, blue background." [ref=e273]
+              - link "Asian mid adult businesswoman writing on clipboard in office lobby" [ref=e274] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/asian-mid-adult-businesswoman-writing-on-clipboard-in-office-lobby-gm2233644538-649127383?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Asian mid adult businesswoman writing on clipboard in office lobby" [ref=e275]
+              - link "Woman worker with statistical report on clipboard in warehouse" [ref=e276] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/woman-worker-with-statistical-report-on-clipboard-in-warehouse-gm2157998516-578655510?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Woman worker with statistical report on clipboard in warehouse" [ref=e277]
+              - generic [ref=e278]:
+                - link "Foreperson talking to an employee at a warehouse while taking inventory" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/foreperson-talking-to-an-employee-at-a-warehouse-while-taking-inventory-gm2213438070-630318971?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                  - img "Foreperson talking to an employee at a warehouse while taking inventory" [ref=e280]
+                - link "View more on iStock ↗" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbusiness-checklist-clipboard&utm_term=business+checklist+clipboard%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=business+checklist+clipboard&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /
+              - img [ref=e288]
+            - paragraph [ref=e290]: Make something awesome
+    - generic:
+      - region "Notifications"

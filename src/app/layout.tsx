@@ -18,9 +18,47 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Biz Legal | California LLC Formation & Management",
+  metadataBase: new URL("https://biz.legal"),
+  title: {
+    default: "biz.legal | California LLC Formation, Done For You",
+    template: "%s | biz.legal",
+  },
   description:
-    "Professional LLC formation and management services in California. Expert guidance through every step of your business journey.",
+    "biz.legal forms your California LLC fast and easy. Real California lawyers, the speed of an online platform, at a fraction of traditional law firm cost. Don't DIY — we'll D-I-F-Y.",
+  keywords: [
+    "California LLC formation",
+    "form an LLC in California",
+    "California registered agent",
+    "California business attorney",
+    "LLC lawyer",
+    "biz.legal",
+  ],
+  openGraph: {
+    type: "website",
+    siteName: "biz.legal",
+    title: "biz.legal | California LLC Formation, Done For You",
+    description:
+      "Real California lawyers form your LLC at the speed and price of an online service. Restaurants, retail, ecommerce, consulting, beauty, the trades, childcare, and more.",
+    url: "https://biz.legal",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1502285745115-13e43e3faad4?auto=format&fit=crop&w=1600&q=80",
+        width: 1600,
+        height: 1067,
+        alt: "Golden Gate Bridge — California LLC formation by biz.legal",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "biz.legal | California LLC Formation, Done For You",
+    description:
+      "We'll form your California LLC, fast & easy. Real lawyers. Online speed. A fraction of the cost.",
+    images: [
+      "https://images.unsplash.com/photo-1502285745115-13e43e3faad4?auto=format&fit=crop&w=1600&q=80",
+    ],
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({
@@ -32,6 +70,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${dmSerif.variable} ${dmSans.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
         <AuthProvider>{children}</AuthProvider>

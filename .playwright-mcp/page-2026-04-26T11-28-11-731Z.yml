@@ -1,0 +1,270 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fdiverse-careers-team
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fdiverse-careers-team
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fdiverse-careers-team
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: diverse careers team
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fdiverse-careers-team
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 13k":
+                - /url: /s/photos/diverse-careers-team
+                - img
+                - text: Photos
+                - generic: 13k
+            - listitem [ref=e73]:
+              - link "Illustrations 1.6k" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/diverse-careers-team
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: 1.6k
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Diverse careers team" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "business person" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/business-person
+              - link "colleague" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/colleague
+              - link "team" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/team
+              - link "business" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/business
+              - link "smiling" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/smiling
+              - link "professionalism" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/professionalism
+              - link "corporate business" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/corporate-business
+              - link "office" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/office
+              - link "business professional" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/business-professional
+              - link "diverse team" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/diverse-team
+              - link "business success" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/business-success
+              - link "office environment" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/office-environment
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - generic [ref=e129]:
+                  - link "Business Team Professional Occupation Workplace Concept" [ref=e130]:
+                    - /url: /photos/business-team-professional-occupation-workplace-concept-4K9FPmgeNDY
+                    - img "Business Team Professional Occupation Workplace Concept" [ref=e131]
+                  - link [ref=e132] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fbusiness-team-professional-occupation-workplace-concept-4K9FPmgeNDY
+                    - img [ref=e133]
+              - generic [ref=e135]:
+                - heading "Sponsored images" [level=4] [ref=e136]:
+                  - generic [ref=e137]: Sponsored images
+                  - link [ref=e138] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A0e2dd089-fe82-41a3-850c-b05fcb2c898e&phrase=diverse+careers+team&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e139]
+                - generic [ref=e141]:
+                  - link "Group of successful multiethnic business team" [ref=e142] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/group-of-successful-multiethnic-business-team-gm1346125184-423979102?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3Ab60737eb-670e-484b-b1f9-0f49f98ab235
+                    - img "Group of successful multiethnic business team" [ref=e143]
+                  - link "A multicultural team of professionals fostering collaboration and innovation in Sydney." [ref=e144] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/a-multicultural-team-of-professionals-fostering-collaboration-and-innovation-in-gm1492719997-516626502?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3Aedf00bb3-955a-4473-a183-13cf6f17e498
+                    - img "A multicultural team of professionals fostering collaboration and innovation in Sydney." [ref=e145]
+                  - 'link "Multi-ethnic generational modern office: Successful business team smiling on camera - Focus on Asian girl face" [ref=e146] [cursor=pointer]':
+                    - /url: https://www.istockphoto.com/photo/multi-ethnic-generational-modern-office-successful-business-team-smiling-on-camera-gm1390496357-447435819?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A21210a15-c0f7-4b60-a345-9e4b2d7f5e9c
+                    - 'img "Multi-ethnic generational modern office: Successful business team smiling on camera - Focus on Asian girl face" [ref=e147]'
+                  - link "Close-up of co-workers stacking their hands together" [ref=e148] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/close-up-of-co-workers-stacking-their-hands-together-gm1346944001-424571441?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A5a589d4c-9567-48ca-8e70-c1d0826c9e12
+                    - img "Close-up of co-workers stacking their hands together" [ref=e149]
+                - link "Get 20% off with code UNSPLASH20" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A0e2dd089-fe82-41a3-850c-b05fcb2c898e&phrase=diverse+careers+team&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e151]:
+                - link "men and women sitting and standing while staring at laptop" [ref=e154]:
+                  - /url: /photos/men-and-women-sitting-and-standing-while-staring-at-laptop-p74ndnYWRY4
+                  - img "men and women sitting and standing while staring at laptop" [ref=e155]
+              - figure [ref=e156]:
+                - generic [ref=e158]:
+                  - link "Group of young positive businesspeople standing together in the office" [ref=e159]:
+                    - /url: /photos/group-of-young-positive-businesspeople-standing-together-in-the-office-pgNe8sOzVaY
+                    - img "Group of young positive businesspeople standing together in the office" [ref=e160]
+                  - link [ref=e161] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fgroup-of-young-positive-businesspeople-standing-together-in-the-office-pgNe8sOzVaY
+                    - img [ref=e162]
+              - figure [ref=e164]:
+                - link "men and women sitting and standing by the table looking happy while staring at laptop" [ref=e167]:
+                  - /url: /photos/men-and-women-sitting-and-standing-by-the-table-looking-happy-while-staring-at-laptop-WJPHTJEtgzw
+                  - img "men and women sitting and standing by the table looking happy while staring at laptop" [ref=e168]
+              - figure [ref=e169]:
+                - link "group of four people smiling sitting around white boardroom table" [ref=e172]:
+                  - /url: /photos/group-of-four-people-smiling-sitting-around-white-boardroom-table-6ml55lp0E_E
+                  - img "group of four people smiling sitting around white boardroom table" [ref=e173]
+            - generic [ref=e174]:
+              - figure [ref=e175]:
+                - link "Diverse group of professionals standing together indoors." [ref=e178]:
+                  - /url: /photos/diverse-group-of-professionals-standing-together-indoors-q1jHh0MWTFk
+                  - img "Diverse group of professionals standing together indoors." [ref=e179]
+              - figure [ref=e180]:
+                - link "A group of people standing next to each other" [ref=e183]:
+                  - /url: /photos/a-group-of-people-standing-next-to-each-other-SXqdHPpmWzQ
+                  - img "A group of people standing next to each other" [ref=e184]
+              - figure [ref=e185]:
+                - link "two women in suits standing beside wall" [ref=e188]:
+                  - /url: /photos/two-women-in-suits-standing-beside-wall-swi1DGRCshQ
+                  - img "two women in suits standing beside wall" [ref=e189]
+              - figure [ref=e190]:
+                - link "Four business professionals standing together indoors." [ref=e193]:
+                  - /url: /photos/four-business-professionals-standing-together-indoors-DOXaUBo59Y8
+                  - img "Four business professionals standing together indoors." [ref=e194]
+              - figure [ref=e195]:
+                - link "people with hands gathered in the middle" [ref=e198]:
+                  - /url: /photos/people-with-hands-gathered-in-the-middle-ABVE1cyT7hk
+                  - img "people with hands gathered in the middle" [ref=e199]
+              - figure [ref=e200]:
+                - link "woman in maroon sweater using laptop" [ref=e203]:
+                  - /url: /photos/woman-in-maroon-sweater-using-laptop-kRWY72TKB0Y
+                  - img "woman in maroon sweater using laptop" [ref=e204]
+              - figure [ref=e205]:
+                - link "Four smiling people standing in a modern office." [ref=e208]:
+                  - /url: /photos/four-smiling-people-standing-in-a-modern-office-e6rPqzAteII
+                  - img "Four smiling people standing in a modern office." [ref=e209]
+              - figure [ref=e210]:
+                - generic [ref=e212]:
+                  - link "Business Team Professional Occupation Workplace Concept" [ref=e213]:
+                    - /url: /photos/business-team-professional-occupation-workplace-concept-teT1wMqI7CU
+                    - img "Business Team Professional Occupation Workplace Concept" [ref=e214]
+                  - link [ref=e215] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fbusiness-team-professional-occupation-workplace-concept-teT1wMqI7CU
+                    - img [ref=e216]
+              - figure [ref=e218]:
+                - link "A team of professionals is gathered around a table." [ref=e221]:
+                  - /url: /photos/a-team-of-professionals-is-gathered-around-a-table-uZzjOm5vSls
+                  - img "A team of professionals is gathered around a table." [ref=e222]
+            - generic [ref=e223]:
+              - contentinfo [ref=e228]:
+                - generic [ref=e234]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e236]:
+                - generic [ref=e238]:
+                  - link "Corporate business people team and manager in a meeting" [ref=e239]:
+                    - /url: /photos/corporate-business-people-team-and-manager-in-a-meeting-ijBQkOgXSi0
+                    - img "Corporate business people team and manager in a meeting" [ref=e240]
+                  - link [ref=e241] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fcorporate-business-people-team-and-manager-in-a-meeting-ijBQkOgXSi0
+                    - img [ref=e242]
+              - figure [ref=e244]:
+                - link "a group of people standing next to each other" [ref=e247]:
+                  - /url: /photos/a-group-of-people-standing-next-to-each-other-cdGLbQ5u4c0
+                  - img "a group of people standing next to each other" [ref=e248]
+              - figure [ref=e249]:
+                - link "group of women lined up" [ref=e252]:
+                  - /url: /photos/group-of-women-lined-up-c5pRBXFhJgo
+                  - img "group of women lined up" [ref=e253]
+              - figure [ref=e254]:
+                - generic [ref=e256]:
+                  - link "Smiling young Black and Arabian women sitting on chairs in corridor with other job candidates and discussing vacancy while being in line" [ref=e257]:
+                    - /url: /photos/smiling-young-black-and-arabian-women-sitting-on-chairs-in-corridor-with-other-job-candidates-and-discussing-vacancy-while-being-in-line-V9IlQCmOdBw
+                    - img "Smiling young Black and Arabian women sitting on chairs in corridor with other job candidates and discussing vacancy while being in line" [ref=e258]
+                  - link [ref=e259] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fsmiling-young-black-and-arabian-women-sitting-on-chairs-in-corridor-with-other-job-candidates-and-discussing-vacancy-while-being-in-line-V9IlQCmOdBw
+                    - img [ref=e260]
+              - figure [ref=e262]:
+                - link "Diverse team collaborating around a laptop in office." [ref=e265]:
+                  - /url: /photos/diverse-team-collaborating-around-a-laptop-in-office-yd_RKGH_RH4
+                  - img "Diverse team collaborating around a laptop in office." [ref=e266]
+              - figure [ref=e267]:
+                - link "a group of people standing around a table" [ref=e270]:
+                  - /url: /photos/a-group-of-people-standing-around-a-table-PJorj47Jmig
+                  - img "a group of people standing around a table" [ref=e271]
+          - generic [ref=e274]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e275]:
+              - text: Browse premium images on iStock
+              - generic [ref=e276]: "| Claim your discount now"
+            - generic [ref=e278]:
+              - link "Smiling group of diverse businesspeople standing against a blue background" [ref=e279] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/smiling-group-of-diverse-businesspeople-standing-against-a-blue-background-gm1454421077-490084560?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A416dfdb5-8ee9-4e70-8e90-b5c73f65b0e2
+                - img "Smiling group of diverse businesspeople standing against a blue background" [ref=e280]
+              - link "Diverse Team Collaborating in Modern Office Environment with Shared Smiles" [ref=e281] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/diverse-team-collaborating-in-modern-office-environment-with-shared-smiles-gm2214727205-631514128?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3Aaba0c445-60b0-4c1e-a3f3-5fdd6e354670
+                - img "Diverse Team Collaborating in Modern Office Environment with Shared Smiles" [ref=e282]
+              - link "Smiling and confident group of diverse professionals standing together in a welcoming office environment promoting teamwork and collaboration" [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/smiling-and-confident-group-of-diverse-professionals-standing-together-in-a-gm2192960052-611218980?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A8c347681-80ea-49f8-be0c-feb2694b2513
+                - img "Smiling and confident group of diverse professionals standing together in a welcoming office environment promoting teamwork and collaboration" [ref=e284]
+              - link "Shot of a group of businesspeople standing with their arms crossed at work" [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/shot-of-a-group-of-businesspeople-standing-with-their-arms-crossed-at-work-gm1382292250-443115742?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3Afe3615c7-6e1f-435a-ba41-594390d4dc04
+                - img "Shot of a group of businesspeople standing with their arms crossed at work" [ref=e286]
+              - link "Coworkers with stacked hands at the office" [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/coworkers-with-stacked-hands-at-the-office-gm1424987910-469579525?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A3ef3dfb9-e49d-4777-b40e-a61196e87c15
+                - img "Coworkers with stacked hands at the office" [ref=e288]
+              - link "Mixed group of business people sitting around a table and talking" [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/mixed-group-of-business-people-sitting-around-a-table-and-talking-gm1392016982-448416692?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A70c924bd-0b19-4eea-826c-a27b78d81346
+                - img "Mixed group of business people sitting around a table and talking" [ref=e290]
+              - link "Professional Team Collaborating During a Meeting in a Modern Office Space" [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/professional-team-collaborating-during-a-meeting-in-a-modern-office-space-gm2226298689-642258899?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A7d60a3c2-74ff-4422-93ef-6f65a67730fa
+                - img "Professional Team Collaborating During a Meeting in a Modern Office Space" [ref=e292]
+              - generic [ref=e293]:
+                - link "Successful business team" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/successful-business-team-gm2224165573-640316305?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3A5b06a1a0-3b3f-4485-88d7-e656f37bf803
+                  - img "Successful business team" [ref=e295]
+                - link "View more on iStock ↗" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdiverse-careers-team&utm_term=diverse+careers+team%3A%3Aaffiliate-layout-optim%3Acontrol%3Ab845e294-f53b-4608-b959-c0e6a0d59a6c&phrase=diverse+careers+team&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e300] [cursor=pointer]
+          - generic [ref=e301]:
+            - link [ref=e302] [cursor=pointer]:
+              - /url: /
+              - img [ref=e303]
+            - paragraph [ref=e305]: Make something awesome
+    - generic:
+      - region "Notifications"

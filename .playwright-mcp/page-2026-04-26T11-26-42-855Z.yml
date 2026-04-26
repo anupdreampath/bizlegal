@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fdocument-review-paperwork
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fdocument-review-paperwork
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fdocument-review-paperwork
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: document review paperwork
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fdocument-review-paperwork
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 13k":
+                - /url: /s/photos/document-review-paperwork
+                - img
+                - text: Photos
+                - generic: 13k
+            - listitem [ref=e73]:
+              - link "Illustrations 997" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/document-review-paperwork
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "997"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Document review paperwork" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "paper" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/paper
+              - link "business" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/business
+              - link "grey" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/grey
+              - link "paperwork" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/paperwork
+              - link "signing" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/signing
+              - link "document" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/document
+              - link "work" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/work
+              - link "woman" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/woman
+              - link "strategy" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/strategy
+              - link "hand" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/hand
+              - link "website" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/website
+              - link "white" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/white
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - link "Business woman using laptop computer for financial in meeting room" [ref=e130]:
+                  - /url: /photos/business-woman-using-laptop-computer-for-financial-in-meeting-room-t3SQpOmNBQc
+                  - img "Business woman using laptop computer for financial in meeting room" [ref=e131]
+              - generic [ref=e132]:
+                - heading "Sponsored images" [level=4] [ref=e133]:
+                  - generic [ref=e134]: Sponsored images
+                  - link [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=document+review+paperwork&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e136]
+                - generic [ref=e138]:
+                  - link "Close-Up of a Person Reviewing and Discussing Document in Office Environment" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/close-up-of-a-person-reviewing-and-discussing-document-in-office-environment-gm2229986919-645671814?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Close-Up of a Person Reviewing and Discussing Document in Office Environment" [ref=e140]
+                  - link "Businesswoman reviews documents" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/businesswoman-reviews-documents-gm1289433151-385116009?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Businesswoman reviews documents" [ref=e142]
+                  - link "Successful mature experienced financier on paper work, Arab smiling satisfied with results of financial achievement, reviewing contracts, invoices and statements with accounts, businessman in suit" [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/successful-mature-experienced-financier-on-paper-work-arab-smiling-satisfied-with-gm1598828860-530017309?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Successful mature experienced financier on paper work, Arab smiling satisfied with results of financial achievement, reviewing contracts, invoices and statements with accounts, businessman in suit" [ref=e144]
+                  - link "Businessman checking documents at table" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/businessman-checking-documents-at-table-gm636172762-112706949?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Businessman checking documents at table" [ref=e146]
+                - link "Get 20% off with code UNSPLASH20" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=document+review+paperwork&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e148]:
+                - link "a person holding a pen and writing on a piece of paper" [ref=e151]:
+                  - /url: /photos/a-person-holding-a-pen-and-writing-on-a-piece-of-paper-xMXTtnm6yOA
+                  - img "a person holding a pen and writing on a piece of paper" [ref=e152]
+              - figure [ref=e153]:
+                - link "a man and a woman standing in front of a laptop" [ref=e156]:
+                  - /url: /photos/a-man-and-a-woman-standing-in-front-of-a-laptop-MNQ2p7DtzEo
+                  - img "a man and a woman standing in front of a laptop" [ref=e157]
+              - figure [ref=e158]:
+                - link "Two men sitting at a table indoors." [ref=e161]:
+                  - /url: /photos/two-men-sitting-at-a-table-indoors-Pg35aLP8mmg
+                  - img "Two men sitting at a table indoors." [ref=e162]
+              - figure [ref=e163]:
+                - link "Two colleagues working late in a dimly lit office." [ref=e166]:
+                  - /url: /photos/two-colleagues-working-late-in-a-dimly-lit-office-S-YM-CY8X8A
+                  - img "Two colleagues working late in a dimly lit office." [ref=e167]
+              - figure [ref=e168]:
+                - link "Real estate agent offer hand for customer sign agreement contract signature for buy or sell house. Real estate concept contact agreement concept" [ref=e171]:
+                  - /url: /photos/real-estate-agent-offer-hand-for-customer-sign-agreement-contract-signature-for-buy-or-sell-house-real-estate-concept-contact-agreement-concept-ZPayEq2LMDI
+                  - img "Real estate agent offer hand for customer sign agreement contract signature for buy or sell house. Real estate concept contact agreement concept" [ref=e172]
+              - figure [ref=e173]:
+                - link "Two businessmen collaborating over a tablet and laptop." [ref=e176]:
+                  - /url: /photos/two-businessmen-collaborating-over-a-tablet-and-laptop-qlLIFT8cceo
+                  - img "Two businessmen collaborating over a tablet and laptop." [ref=e177]
+            - generic [ref=e178]:
+              - figure [ref=e179]:
+                - link "Two businessmen signing a document at a table." [ref=e182]:
+                  - /url: /photos/two-businessmen-signing-a-document-at-a-table-FKnEYIEVOyI
+                  - img "Two businessmen signing a document at a table." [ref=e183]
+              - figure [ref=e184]:
+                - link "Two men looking at papers together" [ref=e187]:
+                  - /url: /photos/two-men-looking-at-papers-together-TITQKYpqXdE
+                  - img "Two men looking at papers together" [ref=e188]
+              - figure [ref=e189]:
+                - link "a woman sitting at a table reading a paper" [ref=e192]:
+                  - /url: /photos/a-woman-sitting-at-a-table-reading-a-paper-ecHGTPfjNfA
+                  - img "a woman sitting at a table reading a paper" [ref=e193]
+              - figure [ref=e194]:
+                - link "Two women in business attire talking" [ref=e197]:
+                  - /url: /photos/two-women-in-business-attire-talking-WFefT1a_gVE
+                  - img "Two women in business attire talking" [ref=e198]
+              - figure [ref=e199]:
+                - link "Two women in hard hats review documents by window." [ref=e202]:
+                  - /url: /photos/two-women-in-hard-hats-review-documents-by-window-Z5-vI_pTIhA
+                  - img "Two women in hard hats review documents by window." [ref=e203]
+              - figure [ref=e204]:
+                - link "Two men looking at a document outdoors" [ref=e207]:
+                  - /url: /photos/two-men-looking-at-a-document-outdoors-kTfmE3gO2bQ
+                  - img "Two men looking at a document outdoors" [ref=e208]
+              - figure [ref=e209]:
+                - link "Two businessmen discussing documents over coffee" [ref=e212]:
+                  - /url: /photos/two-businessmen-discussing-documents-over-coffee-h-v8A2ng0Oc
+                  - img "Two businessmen discussing documents over coffee" [ref=e213]
+            - generic [ref=e214]:
+              - contentinfo [ref=e219]:
+                - generic [ref=e225]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e227]:
+                - link "Two colleagues reviewing documents at an office desk." [ref=e230]:
+                  - /url: /photos/two-colleagues-reviewing-documents-at-an-office-desk-zQXdDfmkevA
+                  - img "Two colleagues reviewing documents at an office desk." [ref=e231]
+              - figure [ref=e232]:
+                - link "woman signing on white printer paper beside woman about to touch the documents" [ref=e235]:
+                  - /url: /photos/woman-signing-on-white-printer-paper-beside-woman-about-to-touch-the-documents-HJckKnwCXxQ
+                  - img "woman signing on white printer paper beside woman about to touch the documents" [ref=e236]
+              - figure [ref=e237]:
+                - link "Close up business woman signing contract making a deal, business concept" [ref=e240]:
+                  - /url: /photos/close-up-business-woman-signing-contract-making-a-deal-business-concept-1TU3NQzsJYA
+                  - img "Close up business woman signing contract making a deal, business concept" [ref=e241]
+              - figure [ref=e242]:
+                - link "businesswoman using a calculator to calculate the numbers for financial document, finance accounting concept" [ref=e245]:
+                  - /url: /photos/businesswoman-using-a-calculator-to-calculate-the-numbers-for-financial-document-finance-accounting-concept-COOEfb4YT4A
+                  - img "businesswoman using a calculator to calculate the numbers for financial document, finance accounting concept" [ref=e246]
+              - figure [ref=e247]:
+                - link "Two businessmen talking at a table" [ref=e250]:
+                  - /url: /photos/two-businessmen-talking-at-a-table-jnBTA_oYO74
+                  - img "Two businessmen talking at a table" [ref=e251]
+              - figure [ref=e252]:
+                - link "Two businessmen in suits discussing documents indoors" [ref=e255]:
+                  - /url: /photos/two-businessmen-in-suits-discussing-documents-indoors-mrHLKxWh4NY
+                  - img "Two businessmen in suits discussing documents indoors" [ref=e256]
+          - generic [ref=e259]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e260]:
+              - text: Browse premium images on iStock
+              - generic [ref=e261]: "| Claim your discount now"
+            - generic [ref=e263]:
+              - link "African businesswoman reviewing some documents sitting at her desk" [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/african-businesswoman-reviewing-some-documents-sitting-at-her-desk-gm2185971748-604694490?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "African businesswoman reviewing some documents sitting at her desk" [ref=e265]
+              - link "Financial analysts analyze business financial reports on a digital tablet planning investment project during a discussion at a meeting of corporate showing the results of their successful teamwork." [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/financial-analysts-analyze-business-financial-reports-on-a-digital-tablet-planning-gm1678299997-536459021?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Financial analysts analyze business financial reports on a digital tablet planning investment project during a discussion at a meeting of corporate showing the results of their successful teamwork." [ref=e267]
+              - link "Serious young Latin business professional woman explaining paper to coworker" [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/serious-young-latin-business-professional-woman-explaining-paper-to-coworker-gm2251239004-664815603?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Serious young Latin business professional woman explaining paper to coworker" [ref=e269]
+              - link "Two Business Women Examining Documents in a Modern Office Setting" [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/two-business-women-examining-documents-in-a-modern-office-setting-gm2213499630-630376911?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Two Business Women Examining Documents in a Modern Office Setting" [ref=e271]
+              - link "Finance, documents and senior couple on sofa with bills, paperwork and insurance checklist in home, life or asset management, Elderly black people on couch with financial, retirement or mortgage debt" [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/finance-documents-and-senior-couple-on-sofa-with-bills-paperwork-and-insurance-gm1465621717-497975995?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Finance, documents and senior couple on sofa with bills, paperwork and insurance checklist in home, life or asset management, Elderly black people on couch with financial, retirement or mortgage debt" [ref=e273]
+              - link "Businessmen having a discussion about a document in the office" [ref=e274] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/businessmen-having-a-discussion-about-a-document-in-the-office-gm2193047619-611301895?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Businessmen having a discussion about a document in the office" [ref=e275]
+              - link "Mature woman analyzing documents at home" [ref=e276] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/mature-woman-analyzing-documents-at-home-gm2199905184-617638805?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Mature woman analyzing documents at home" [ref=e277]
+              - generic [ref=e278]:
+                - link "A Magnifying Glass That is Positioned on a Stack of Papers, Which are Secured by Clips" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/a-magnifying-glass-that-is-positioned-on-a-stack-of-papers-which-are-secured-by-clips-gm2188453885-606973468?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                  - img "A Magnifying Glass That is Positioned on a Stack of Papers, Which are Secured by Clips" [ref=e280]
+                - link "View more on iStock ↗" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdocument-review-paperwork&utm_term=document+review+paperwork%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=document+review+paperwork&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /
+              - img [ref=e288]
+            - paragraph [ref=e290]: Make something awesome
+    - generic:
+      - region "Notifications"

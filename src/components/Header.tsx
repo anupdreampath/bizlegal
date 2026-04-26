@@ -42,7 +42,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1.5 cursor-pointer">
             <span className="font-serif text-[1.5rem] text-black">
-              Biz Legal
+              biz<span className="text-green-800">.</span>legal
             </span>
           </Link>
 

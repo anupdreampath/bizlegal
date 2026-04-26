@@ -16,6 +16,8 @@ import {
 export default function LLCManagementPage() {
   return (
     <PageShell
+      heroImage="https://images.unsplash.com/photo-1775363949971-0e4919c66856?auto=format&fit=crop&w=1400&q=80"
+      heroAlt="Tax day marked on a calendar — California LLC ongoing management and compliance"
       label="Services"
       title="LLC Management & Compliance"
       description="Keep your California LLC in good standing with our ongoing compliance monitoring, annual filings, and record maintenance. We handle the deadlines so you never face penalties, suspension, or loss of liability protection."
@@ -454,7 +456,7 @@ export default function LLCManagementPage() {
               <ImagePlaceholder
                 label="Business owners reviewing compliance documents"
                 aspect="16/9"
-                src="/images/services/compliance-calendar.svg"
+                src="https://images.unsplash.com/photo-1775363949971-0e4919c66856?auto=format&fit=crop&w=1400&q=80"
               />
             </div>
 
@@ -580,7 +582,7 @@ export default function LLCManagementPage() {
               <ImagePlaceholder
                 label="Client compliance dashboard preview"
                 aspect="3/2"
-                src="/images/services/document-review.svg"
+                src="https://images.unsplash.com/photo-1758518730264-9235a1e5416b?auto=format&fit=crop&w=1400&q=80"
               />
             </div>
           </div>
@@ -764,7 +766,7 @@ export default function LLCManagementPage() {
             <ImagePlaceholder
               label="LLC compliance management team at work"
               aspect="4/3"
-              src="/images/services/happy-owner.svg"
+              src="https://images.unsplash.com/photo-1764173039051-987d1639b9d5?auto=format&fit=crop&w=1400&q=80"
             />
           </div>
         </div>

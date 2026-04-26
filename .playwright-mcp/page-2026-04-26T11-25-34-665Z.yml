@@ -1,0 +1,250 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Unsplash Home" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /illustrations
+          - img [ref=e15]
+      - generic [ref=e17]:
+        - button "Explore" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Collections" [ref=e21] [cursor=pointer]:
+          - /url: /login?referrer=%2Fs%2Fphotos%2Fmailbox-letters-office
+          - img [ref=e22]
+        - link "Download History" [ref=e24] [cursor=pointer]:
+          - /url: /login?referrer=%2Fdownloads
+          - img [ref=e25]
+      - link "Bookmarks" [ref=e28] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fmailbox-letters-office
+        - img [ref=e29]
+    - generic [ref=e31]:
+      - link "Log in / Sign up" [ref=e32] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fmailbox-letters-office
+        - img [ref=e33]
+      - button "Language" [ref=e35] [cursor=pointer]:
+        - img [ref=e36]
+      - button "Menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Find visuals sitewide" [ref=e45]:
+          - button "Search Unsplash" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - combobox [ref=e49]:
+            - searchbox "Search Unsplash" [ref=e50]: mailbox letters office
+            - listbox
+          - button "Clear" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - button "Visual search" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - link "Get Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /plus
+          - link "Log in" [ref=e61] [cursor=pointer]:
+            - /url: /login?referrer=%2Fs%2Fphotos%2Fmailbox-letters-office
+        - button "Submit an image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 3.7k":
+                - /url: /s/photos/mailbox-letters-office
+                - img
+                - text: Photos
+                - generic: 3.7k
+            - listitem [ref=e73]:
+              - link "Illustrations 420" [ref=e74] [cursor=pointer]:
+                - /url: /s/illustrations/mailbox-letters-office
+                - img [ref=e75]
+                - text: Illustrations
+                - generic [ref=e77]: "420"
+            - listitem [ref=e78]:
+              - button "More" [ref=e79] [cursor=pointer]
+          - button "Filters" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Filters
+        - generic [ref=e85]:
+          - heading "Mailbox letters office" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "scroll list to the right" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+            - generic [ref=e95]:
+              - link "letter" [ref=e97] [cursor=pointer]:
+                - /url: /s/photos/letter
+              - link "mailbox" [ref=e99] [cursor=pointer]:
+                - /url: /s/photos/mailbox
+              - link "letterbox" [ref=e101] [cursor=pointer]:
+                - /url: /s/photos/letterbox
+              - link "door" [ref=e103] [cursor=pointer]:
+                - /url: /s/photos/door
+              - link "mail" [ref=e105] [cursor=pointer]:
+                - /url: /s/photos/mail
+              - link "grey" [ref=e107] [cursor=pointer]:
+                - /url: /s/photos/grey
+              - link "message" [ref=e109] [cursor=pointer]:
+                - /url: /s/photos/message
+              - link "brown" [ref=e111] [cursor=pointer]:
+                - /url: /s/photos/brown
+              - link "entrance" [ref=e113] [cursor=pointer]:
+                - /url: /s/photos/entrance
+              - link "house" [ref=e115] [cursor=pointer]:
+                - /url: /s/photos/house
+              - link "metal" [ref=e117] [cursor=pointer]:
+                - /url: /s/photos/metal
+              - link "post office" [ref=e119] [cursor=pointer]:
+                - /url: /s/photos/post-office
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - link "a group of mail boxes sitting next to each other" [ref=e130]:
+                  - /url: /photos/a-group-of-mail-boxes-sitting-next-to-each-other-HsEt-K2Ru5Q
+                  - img "a group of mail boxes sitting next to each other" [ref=e131]
+              - generic [ref=e132]:
+                - heading "Sponsored images" [level=4] [ref=e133]:
+                  - generic [ref=e134]: Sponsored images
+                  - link [ref=e135] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=mailbox+letters+office&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e136]
+                - generic [ref=e138]:
+                  - link "mailbox" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/mailbox-gm123489640-1701761?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "mailbox" [ref=e140]
+                  - link "Get the mail" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/get-the-mail-gm182683033-1314576?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Get the mail" [ref=e142]
+                  - link "Mail Deliver in Mailbox" [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/mail-deliver-in-mailbox-gm1430999483-473718832?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Mail Deliver in Mailbox" [ref=e144]
+                  - link "Man taking letters from mailbox" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/man-taking-letters-from-mailbox-gm1000968638-270621130?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                    - img "Man taking letters from mailbox" [ref=e146]
+                - link "Get 20% off with code UNSPLASH20" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=mailbox+letters+office&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e148]:
+                - link "a row of mail boxes sitting on the side of a truck" [ref=e151]:
+                  - /url: /photos/a-row-of-mail-boxes-sitting-on-the-side-of-a-truck-BttSMluMYdo
+                  - img "a row of mail boxes sitting on the side of a truck" [ref=e152]
+              - figure [ref=e153]:
+                - link "Mailboxes sit on a wall, near some stairs." [ref=e156]:
+                  - /url: /photos/mailboxes-sit-on-a-wall-near-some-stairs-u2wqCUZQgRE
+                  - img "Mailboxes sit on a wall, near some stairs." [ref=e157]
+              - figure [ref=e158]:
+                - link "a group of black chairs with red marks on them" [ref=e161]:
+                  - /url: /photos/a-group-of-black-chairs-with-red-marks-on-them-lKVUVdd01gM
+                  - img "a group of black chairs with red marks on them" [ref=e162]
+              - figure [ref=e163]:
+                - link "black and red wooden board" [ref=e166]:
+                  - /url: /photos/black-and-red-wooden-board-fsm6RAgS7w4
+                  - img "black and red wooden board" [ref=e167]
+              - figure [ref=e168]:
+                - link "brown wooden shelf with brown cardboard boxes" [ref=e171]:
+                  - /url: /photos/brown-wooden-shelf-with-brown-cardboard-boxes-h6wvfZY5Jg4
+                  - img "brown wooden shelf with brown cardboard boxes" [ref=e172]
+            - generic [ref=e173]:
+              - figure [ref=e174]:
+                - link "red mail box on brown wooden post" [ref=e177]:
+                  - /url: /photos/red-mail-box-on-brown-wooden-post-V5BB4gWaGQE
+                  - img "red mail box on brown wooden post" [ref=e178]
+              - figure [ref=e179]:
+                - link "a red mailbox sitting on top of a wooden post" [ref=e182]:
+                  - /url: /photos/a-red-mailbox-sitting-on-top-of-a-wooden-post-xgeCPfWAMBY
+                  - img "a red mailbox sitting on top of a wooden post" [ref=e183]
+              - figure [ref=e184]:
+                - link "Flowers are in a mailbox." [ref=e187]:
+                  - /url: /photos/flowers-are-in-a-mailbox-qGhJwTKNL1A
+                  - img "Flowers are in a mailbox." [ref=e188]
+              - figure [ref=e189]:
+                - link "blue steel locker cabinet with white ceramic mug" [ref=e192]:
+                  - /url: /photos/blue-steel-locker-cabinet-with-white-ceramic-mug-IbxAAeu2pKo
+                  - img "blue steel locker cabinet with white ceramic mug" [ref=e193]
+              - figure [ref=e194]:
+                - link "brown wooden door with white wall" [ref=e197]:
+                  - /url: /photos/brown-wooden-door-with-white-wall-zshlEy-vzeY
+                  - img "brown wooden door with white wall" [ref=e198]
+              - figure [ref=e199]:
+                - link "stainless steel file organizer" [ref=e202]:
+                  - /url: /photos/stainless-steel-file-organizer-CF-Nzfw4dvs
+                  - img "stainless steel file organizer" [ref=e203]
+              - figure [ref=e204]:
+                - link "brown metal chest" [ref=e207]:
+                  - /url: /photos/brown-metal-chest-XAQLv3y_2LA
+                  - img "brown metal chest" [ref=e208]
+              - figure [ref=e209]:
+                - link "a close up of a door with a name plate" [ref=e212]:
+                  - /url: /photos/a-close-up-of-a-door-with-a-name-plate-zSDQS4Qp0B8
+                  - img "a close up of a door with a name plate" [ref=e213]
+              - figure [ref=e214]:
+                - link "brown wooden mail rack" [ref=e217]:
+                  - /url: /photos/brown-wooden-mail-rack-Gp_pkdXXcKM
+                  - img "brown wooden mail rack" [ref=e218]
+            - generic [ref=e219]:
+              - contentinfo [ref=e224]:
+                - generic [ref=e230]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e232]:
+                - link "a close up of a mailbox on a brick wall" [ref=e235]:
+                  - /url: /photos/a-close-up-of-a-mailbox-on-a-brick-wall-Y00zaehWn4w
+                  - img "a close up of a mailbox on a brick wall" [ref=e236]
+              - figure [ref=e237]:
+                - link "a bunch of papers are on a wooden shelf" [ref=e240]:
+                  - /url: /photos/a-bunch-of-papers-are-on-a-wooden-shelf-Eik8OzXjDzE
+                  - img "a bunch of papers are on a wooden shelf" [ref=e241]
+              - figure [ref=e242]:
+                - link "black and white plastic drawer" [ref=e245]:
+                  - /url: /photos/black-and-white-plastic-drawer-xBqM6cfgP4U
+                  - img "black and white plastic drawer" [ref=e246]
+              - figure [ref=e247]:
+                - link "Three mailboxes are mounted on a pink wall." [ref=e250]:
+                  - /url: /photos/three-mailboxes-are-mounted-on-a-pink-wall-ihVDEeg8zfs
+                  - img "Three mailboxes are mounted on a pink wall." [ref=e251]
+              - figure [ref=e252]:
+                - link "a close up of a mailbox with a newspaper sticking out of it" [ref=e255]:
+                  - /url: /photos/a-close-up-of-a-mailbox-with-a-newspaper-sticking-out-of-it-opDmQ5Pm-r4
+                  - img "a close up of a mailbox with a newspaper sticking out of it" [ref=e256]
+          - generic [ref=e259]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e260]:
+              - text: Browse premium images on iStock
+              - generic [ref=e261]: "| Claim your discount now"
+            - generic [ref=e263]:
+              - link "Throwing a letter in a red British post box from the side" [ref=e264] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/throwing-a-letter-in-a-red-british-post-box-from-the-side-gm857805974-141507811?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Throwing a letter in a red British post box from the side" [ref=e265]
+              - link "Email notification concept, Female use smartphone and laptop receive message alert in the mailbox." [ref=e266] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/email-notification-concept-female-use-smartphone-and-laptop-receive-message-alert-in-gm2192238943-610533480?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Email notification concept, Female use smartphone and laptop receive message alert in the mailbox." [ref=e267]
+              - link "Receiving mail in residential community mailbox" [ref=e268] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/receiving-mail-in-residential-community-mailbox-gm2242904193-657164043?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Receiving mail in residential community mailbox" [ref=e269]
+              - link "Couple small business owner, clothing ecommerce warehouse workflow, attaching shipping label on cardboard box checking tablet order list for address verification, packing process control, storage room" [ref=e270] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/couple-small-business-owner-clothing-ecommerce-warehouse-workflow-attaching-shipping-gm2267308836-679934420?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Couple small business owner, clothing ecommerce warehouse workflow, attaching shipping label on cardboard box checking tablet order list for address verification, packing process control, storage room" [ref=e271]
+              - link "Businessman using computer laptop reviewing reading sending email to clients. Electronic mail concepts are online communication. Get feedback marketing mail. Contact people or customer." [ref=e272] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/businessman-using-computer-laptop-reviewing-reading-sending-email-to-clients-gm2269093082-681658143?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Businessman using computer laptop reviewing reading sending email to clients. Electronic mail concepts are online communication. Get feedback marketing mail. Contact people or customer." [ref=e273]
+              - link "PO Box" [ref=e274] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/po-box-gm2183676843-602551292?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "PO Box" [ref=e275]
+              - link "Mail Box in a four story residential building villa, South Korea" [ref=e276] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/mail-box-in-a-four-story-residential-building-villa-south-korea-gm2269877157-682414222?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                - img "Mail Box in a four story residential building villa, South Korea" [ref=e277]
+              - generic [ref=e278]:
+                - link "Envelope Document Letter Sending In Mailbox" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/envelope-document-letter-sending-in-mailbox-gm1429256223-472494102?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A
+                  - img "Envelope Document Letter Sending In Mailbox" [ref=e280]
+                - link "View more on iStock ↗" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmailbox-letters-office&utm_term=mailbox+letters+office%3A%3Aaffiliate-layout-optim%3Acontrol%3A&phrase=mailbox+letters+office&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e285] [cursor=pointer]
+          - generic [ref=e286]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: /
+              - img [ref=e288]
+            - paragraph [ref=e290]: Make something awesome
+    - generic:
+      - region "Notifications"

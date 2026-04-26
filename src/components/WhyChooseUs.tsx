@@ -1,24 +1,26 @@
+import Image from "next/image";
+
 export default function WhyChooseUs() {
   const features = [
     {
-      title: "California Specialists",
+      title: "Lawyers, Not a DIY Site",
       description:
-        "We focus exclusively on California LLCs — giving us unmatched expertise in state-specific requirements, tax obligations, and regulatory compliance.",
+        "DIY websites can't give legal advice. We can. Every formation is reviewed by a real California attorney before it's filed.",
     },
     {
-      title: "Attorney-Guided Process",
+      title: "Tech-Speed Service",
       description:
-        "Every document is reviewed by experienced business attorneys who understand California's legal landscape and your specific needs.",
+        "We've built our process on the same online efficiencies as the DIY platforms — without the guesswork. Faster, with real expertise behind it.",
     },
     {
-      title: "Fast Formation",
+      title: "A Fraction of the Cost",
       description:
-        "Standard formation in 5-7 business days with expedited options available. We file with the Secretary of State and handle every detail.",
+        "Traditional law firms are expensive. We deliver attorney-grade formation and advice at a fraction of the price.",
     },
     {
-      title: "Ongoing Support",
+      title: "1 Year of Legal Support",
       description:
-        "We don't just form your LLC — we help you maintain it with proactive compliance monitoring, annual filings, and dedicated support.",
+        "Every formation includes a free year of attorney legal support and a free year of registered agent service — so you're covered as you grow.",
     },
   ];
 
@@ -26,13 +28,15 @@ export default function WhyChooseUs() {
     <section id="about" className="bg-ivory-100 py-[4rem] md:py-[6rem]">
       <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
         <div className="grid md:grid-cols-2 gap-[3rem] md:gap-[5rem] items-start">
-          {/* Left — team illustration */}
+          {/* Left — attorney office photo */}
           <div>
-            <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
-              <img
-                src="/images/team-office.svg"
-                alt="Biz Legal team collaborating on LLC formation documents"
-                className="w-full h-full object-cover"
+            <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
+              <Image
+                src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1400&q=80"
+                alt="California law firm shelves of legal books — biz.legal attorneys reviewing LLC formations"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover"
               />
             </div>
           </div>
@@ -42,12 +46,12 @@ export default function WhyChooseUs() {
             {/* Section label */}
             <div className="border-t-2 border-black pt-6 mb-[2rem]">
               <p className="text-[1rem] font-sans font-bold text-black uppercase">
-                Why Biz Legal
+                Why biz.legal
               </p>
             </div>
 
             <h2 className="font-serif text-[2.75rem] md:text-[3.25rem] leading-[1.05] text-black mb-[2.5rem]">
-              The trusted authority in California LLC services
+              The ease of DIY. The expertise of a law firm. A fraction of the cost.
             </h2>
 
             <div className="space-y-8">

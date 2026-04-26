@@ -1,0 +1,4 @@
+[     881ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://unsplash.com/.within.website?redir=%2Fs%2Fphotos%2Fcalifornia-restaurant:0
+[    4212ms] [LOG] %cmetric: color:gray {name: TTFB, entries: Array(1), value: 2461.300000000745, rating: poor, delta: 2461.300000000745} @ https://unsplash.com/a/en-US/4142.c4dd6a20.js:13
+[    4213ms] [LOG] %cusr: color:gray {locale: en-US} @ https://unsplash.com/a/en-US/4142.c4dd6a20.js:13
+[    4213ms] [LOG] %croute_data: color:gray Search-Photos @ https://unsplash.com/a/en-US/4142.c4dd6a20.js:13

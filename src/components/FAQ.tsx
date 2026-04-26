@@ -73,7 +73,7 @@ export default function FAQ() {
             {/* Image placeholder */}
             <div className="hidden lg:block mt-8">
               <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
-                <img src="/images/services/happy-owner.svg" alt="California LLC formation" className="w-full h-full object-cover rounded-[1rem]" />
+                <img src="https://images.unsplash.com/photo-1764173039051-987d1639b9d5?auto=format&fit=crop&w=1400&q=80" alt="Smiling California business owner after forming an LLC with biz.legal" className="w-full h-full object-cover rounded-[1rem]" />
               </div>
             </div>
           </div>
