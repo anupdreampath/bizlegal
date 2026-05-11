@@ -15,7 +15,8 @@ const reviews = [
 export default function ReviewsPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1727908147396-6ec82c6f4e2d?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="reviews"
+heroImage="https://images.unsplash.com/photo-1727908147396-6ec82c6f4e2d?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Happy customer holding a smiley-face cup — biz.legal client reviews"
       label="Reviews"
       title="What our clients say"

@@ -1,0 +1,23 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "biz.legal CMS" [ref=e6] [cursor=pointer]:
+          - /url: /admin
+        - navigation [ref=e7]:
+          - link "Pages" [ref=e8] [cursor=pointer]:
+            - /url: /admin
+          - link "Theme" [ref=e9] [cursor=pointer]:
+            - /url: /admin/theme
+          - link "View site →" [ref=e10] [cursor=pointer]:
+            - /url: /
+      - button "Sign out" [ref=e12]
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - heading "biz.legal CMS" [level=1] [ref=e16]
+      - paragraph [ref=e17]: Admin sign in
+      - generic [ref=e18]: Email
+      - textbox [ref=e19]: admin@biz.legal
+      - generic [ref=e20]: Password
+      - textbox [ref=e21]
+      - button "Sign in" [ref=e22]

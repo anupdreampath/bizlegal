@@ -16,7 +16,8 @@ import {
 export default function LLCManagementPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1775363949971-0e4919c66856?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="services-llc-management"
+heroImage="https://images.unsplash.com/photo-1775363949971-0e4919c66856?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Tax day marked on a calendar — California LLC ongoing management and compliance"
       label="Services"
       title="LLC Management & Compliance"

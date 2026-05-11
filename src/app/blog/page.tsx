@@ -104,7 +104,8 @@ const posts = [
 export default function BlogPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="blog"
+heroImage="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Shelves of California legal books — biz.legal blog"
       label="Blog"
       title="Insights for California business owners"

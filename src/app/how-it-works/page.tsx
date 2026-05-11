@@ -17,7 +17,8 @@ const steps = [
 export default function HowItWorksPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1758873268364-15bef4162221?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="how-it-works"
+heroImage="https://images.unsplash.com/photo-1758873268364-15bef4162221?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Two colleagues collaborating on a laptop — biz.legal LLC formation process"
       label="Our Easy System"
       title="Our guaranteed process in 4 easy steps"

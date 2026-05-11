@@ -63,7 +63,8 @@ function VideoPlaceholder({ label, duration, variant = "dark" }: { label: string
 export default function LLCGuidePage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="resources-llc-guide"
+heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Person signing an LLC formation document — biz.legal California LLC guide"
       label="Resources"
       title="The complete guide to California LLCs"

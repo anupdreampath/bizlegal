@@ -8,7 +8,8 @@ import { Accordion, Takeaway, ImagePlaceholder, VideoPlaceholder, StatCard, Chap
 export default function LLCFormationPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="services-llc-formation"
+heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Person signing an LLC formation document — California LLC formation by biz.legal"
       label="LLC Formation"
       title="Form your California LLC the right way — the first time"

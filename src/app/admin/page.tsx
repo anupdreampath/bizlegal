@@ -1,0 +1,5 @@
+import { redirect } from "next/navigation";
+
+export default async function AdminDashboard() {
+  redirect("/admin/editor/home");
+}

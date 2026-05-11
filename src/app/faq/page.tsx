@@ -4,7 +4,8 @@ import FAQ from "@/components/FAQ";
 export default function FAQPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="faq"
+heroImage="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80"
       heroAlt="California business owners in a consultation meeting with a biz.legal attorney"
       label="FAQ"
       title="Frequently asked questions"

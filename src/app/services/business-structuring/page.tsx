@@ -16,7 +16,8 @@ import {
 export default function BusinessStructuringPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="services-business-structuring"
+heroImage="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Four professionals in a business meeting — California business structuring consultation"
       label="Business Structuring"
       title="Structure your LLC for maximum protection and flexibility"

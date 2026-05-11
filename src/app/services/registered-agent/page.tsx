@@ -16,7 +16,8 @@ import {
 export default function RegisteredAgentPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1686853298482-7f3fd1d5b279?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="services-registered-agent"
+heroImage="https://images.unsplash.com/photo-1686853298482-7f3fd1d5b279?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Row of business mailboxes — California LLC registered agent service"
       label="Registered Agent"
       title="Professional registered agent service for California LLCs"

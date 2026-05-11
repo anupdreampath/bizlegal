@@ -63,7 +63,8 @@ function VideoPlaceholder({ label, duration, variant = "dark" }: { label: string
 export default function TaxRequirementsPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1772588627483-d036793569e8?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="resources-tax-requirements"
+heroImage="https://images.unsplash.com/photo-1772588627483-d036793569e8?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Tax forms and calculator on a desk — California LLC tax requirements"
       label="Resources"
       title="California LLC tax requirements — the complete breakdown"

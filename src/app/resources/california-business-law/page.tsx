@@ -121,7 +121,8 @@ const chapters = [
 export default function CaliforniaBusinessLawPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1606900776690-fd6f2f691ace?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="resources-california-business-law"
+heroImage="https://images.unsplash.com/photo-1606900776690-fd6f2f691ace?auto=format&fit=crop&w=1400&q=80"
       heroAlt="California State Capitol in Sacramento — guide to California business law"
       label="Resources"
       title="California business law for LLCs"

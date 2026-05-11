@@ -19,9 +19,20 @@ export default function ContactPage() {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => setForm((prev) => ({ ...prev, [field]: e.target.value }));
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Contact form:", form);
+    await fetch("/api/leads", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        source: "contact",
+        name: form.name,
+        email: form.email,
+        phone: form.phone,
+        service: form.subject,
+        message: form.message,
+      }),
+    });
     setSubmitted(true);
   };
 

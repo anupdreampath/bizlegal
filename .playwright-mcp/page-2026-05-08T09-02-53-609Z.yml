@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "biz.legal CMS" [ref=e6] [cursor=pointer]:
+            - /url: /admin
+          - navigation [ref=e7]:
+            - link "Pages" [ref=e8] [cursor=pointer]:
+              - /url: /admin
+            - link "Theme" [ref=e9] [cursor=pointer]:
+              - /url: /admin/theme
+            - link "View site →" [ref=e10] [cursor=pointer]:
+              - /url: /
+        - button "Sign out" [ref=e12]
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - complementary [ref=e15]:
+          - generic [ref=e16]:
+            - paragraph [ref=e17]: Editing
+            - paragraph [ref=e18]: biz.legal — California LLC Formation, Done by Lawyers
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - button "Hero" [ref=e21]:
+                - paragraph [ref=e22]: Hero
+              - generic [ref=e23]:
+                - generic [ref=e24]:
+                  - button "↑" [ref=e25]
+                  - button "↓" [ref=e26]
+                - generic [ref=e27]:
+                  - button "👁" [ref=e28]
+                  - button "✕" [ref=e29]
+            - generic [ref=e30]:
+              - button "Trust bar (industry marquee)" [ref=e31]:
+                - paragraph [ref=e32]: Trust bar (industry marquee)
+              - generic [ref=e33]:
+                - generic [ref=e34]:
+                  - button "↑" [ref=e35]
+                  - button "↓" [ref=e36]
+                - generic [ref=e37]:
+                  - button "👁" [ref=e38]
+                  - button "✕" [ref=e39]
+            - generic [ref=e40]:
+              - button "Services / cards grid" [ref=e41]:
+                - paragraph [ref=e42]: Services / cards grid
+              - generic [ref=e43]:
+                - generic [ref=e44]:
+                  - button "↑" [ref=e45]
+                  - button "↓" [ref=e46]
+                - generic [ref=e47]:
+                  - button "👁" [ref=e48]
+                  - button "✕" [ref=e49]
+            - generic [ref=e50]:
+              - button "Why choose us / image + features" [ref=e51]:
+                - paragraph [ref=e52]: Why choose us / image + features
+              - generic [ref=e53]:
+                - generic [ref=e54]:
+                  - button "↑" [ref=e55]
+                  - button "↓" [ref=e56]
+                - generic [ref=e57]:
+                  - button "👁" [ref=e58]
+                  - button "✕" [ref=e59]
+            - generic [ref=e60]:
+              - button "Process / steps" [ref=e61]:
+                - paragraph [ref=e62]: Process / steps
+              - generic [ref=e63]:
+                - generic [ref=e64]:
+                  - button "↑" [ref=e65]
+                  - button "↓" [ref=e66]
+                - generic [ref=e67]:
+                  - button "👁" [ref=e68]
+                  - button "✕" [ref=e69]
+            - generic [ref=e70]:
+              - button "Testimonials" [ref=e71]:
+                - paragraph [ref=e72]: Testimonials
+              - generic [ref=e73]:
+                - generic [ref=e74]:
+                  - button "↑" [ref=e75]
+                  - button "↓" [ref=e76]
+                - generic [ref=e77]:
+                  - button "👁" [ref=e78]
+                  - button "✕" [ref=e79]
+            - generic [ref=e80]:
+              - button "FAQ" [ref=e81]:
+                - paragraph [ref=e82]: FAQ
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - button "↑" [ref=e85]
+                  - button "↓" [ref=e86]
+                - generic [ref=e87]:
+                  - button "👁" [ref=e88]
+                  - button "✕" [ref=e89]
+            - generic [ref=e90]:
+              - button "CTA banner" [ref=e91]:
+                - paragraph [ref=e92]: CTA banner
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - button "↑" [ref=e95]
+                  - button "↓" [ref=e96]
+                - generic [ref=e97]:
+                  - button "👁" [ref=e98]
+                  - button "✕" [ref=e99]
+            - button "+ Add section" [ref=e100]
+        - iframe [ref=e143]:
+          - generic [active] [ref=f3e1]:
+            - banner [ref=f3e2]:
+              - generic [ref=f3e3]:
+                - link "biz.legal" [ref=f3e4] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=f3e5]: biz.legal
+                - navigation [ref=f3e6]:
+                  - link "Services" [ref=f3e7] [cursor=pointer]:
+                    - /url: /services/llc-formation
+                  - link "How It Works" [ref=f3e8] [cursor=pointer]:
+                    - /url: /how-it-works
+                  - link "About" [ref=f3e9] [cursor=pointer]:
+                    - /url: /about
+                  - link "Reviews" [ref=f3e10] [cursor=pointer]:
+                    - /url: /reviews
+                  - link "Blog" [ref=f3e11] [cursor=pointer]:
+                    - /url: /blog
+                - link "Get Started" [ref=f3e12] [cursor=pointer]:
+                  - /url: /questionnaire
+            - main [ref=f3e13]:
+              - generic [ref=f3e16]:
+                - generic [ref=f3e17]:
+                  - heading "We'll form your California LLC — fast & easy (edited via CMS)" [level=1] [ref=f3e18]
+                  - paragraph [ref=f3e19]: You need to know your business is formed right, right from the start. If you DIY with traditional online services, you're guessing. We're full service and run by lawyers. Get real legal advice and service at the speed and efficiency of our online platform. Don't DIY — we'll D-I-F-Y (Do It For You)!
+                  - generic [ref=f3e20]:
+                    - link "Get Started" [ref=f3e21] [cursor=pointer]:
+                      - /url: /questionnaire
+                    - link "More Information" [ref=f3e22] [cursor=pointer]:
+                      - /url: /how-it-works
+                - img "Golden Gate Bridge in San Francisco, California — symbolizing California LLC formation by biz.legal" [ref=f3e25]
+              - generic [ref=f3e26]:
+                - paragraph [ref=f3e28]: Businesses Served
+                - generic [ref=f3e31]:
+                  - generic [ref=f3e33]: Restaurants
+                  - generic [ref=f3e35]: Retail
+                  - generic [ref=f3e37]: Ecommerce
+                  - generic [ref=f3e39]: Consulting
+                  - generic [ref=f3e41]: Beauty
+                  - generic [ref=f3e43]: The Trades
+                  - generic [ref=f3e45]: Childcare
+                  - generic [ref=f3e47]: Specialty Services
+                  - generic [ref=f3e49]: And many others
+                  - generic [ref=f3e51]: Restaurants
+                  - generic [ref=f3e53]: Retail
+                  - generic [ref=f3e55]: Ecommerce
+                  - generic [ref=f3e57]: Consulting
+                  - generic [ref=f3e59]: Beauty
+                  - generic [ref=f3e61]: The Trades
+                  - generic [ref=f3e63]: Childcare
+                  - generic [ref=f3e65]: Specialty Services
+                  - generic [ref=f3e67]: And many others
+              - generic [ref=f3e69]:
+                - paragraph [ref=f3e71]: What We Do
+                - heading "We form your business the right way from the start" [level=2] [ref=f3e73]
+                - generic [ref=f3e74]:
+                  - generic [ref=f3e75]:
+                    - heading "Is an LLC Right for You?" [level=3] [ref=f3e76]
+                    - paragraph [ref=f3e77]: LLCs are great for many businesses, but not all. Do you need an entity? Is your business allowed to operate as an LLC? Are you considering California, Delaware, or other domicile states?
+                    - link "Get Started" [ref=f3e78] [cursor=pointer]:
+                      - /url: /questionnaire
+                  - generic [ref=f3e79]:
+                    - heading "LLC Formation" [level=3] [ref=f3e80]
+                    - paragraph [ref=f3e81]: Our full service team handles all state filings, document drafting, and other essential registrations, so you don't have to guess how. Take out the guesswork and leave the legal work to the professionals.
+                    - link "Get Started" [ref=f3e82] [cursor=pointer]:
+                      - /url: /questionnaire
+                  - generic [ref=f3e83]:
+                    - heading "Registered Agent" [level=3] [ref=f3e84]
+                    - paragraph [ref=f3e85]: Every business is required to have a registered agent, and we include that service for free for your first year.
+                    - link "Get Started" [ref=f3e86] [cursor=pointer]:
+                      - /url: /questionnaire
+                  - generic [ref=f3e87]:
+                    - heading "Legal Support" [level=3] [ref=f3e88]
+                    - paragraph [ref=f3e89]: After you form your business and as you grow, you're probably going to have some questions. Your LLC formation includes 1 year of attorney legal support*.
+                    - link "Get Started" [ref=f3e90] [cursor=pointer]:
+                      - /url: /questionnaire
+              - generic [ref=f3e93]:
+                - img "California law firm shelves of legal books — biz.legal attorneys reviewing LLC formations" [ref=f3e96]
+                - generic [ref=f3e97]:
+                  - paragraph [ref=f3e99]: Why biz.legal
+                  - heading "The ease of DIY. The expertise of a law firm. A fraction of the cost." [level=2] [ref=f3e100]
+                  - generic [ref=f3e101]:
+                    - generic [ref=f3e102]:
+                      - heading "Lawyers, Not a DIY Site" [level=3] [ref=f3e103]
+                      - paragraph [ref=f3e104]: DIY websites can't give legal advice. We can. Every formation is reviewed by a real California attorney before it's filed.
+                    - generic [ref=f3e105]:
+                      - heading "Tech-Speed Service" [level=3] [ref=f3e106]
+                      - paragraph [ref=f3e107]: We've built our process on the same online efficiencies as the DIY platforms — without the guesswork. Faster, with real expertise behind it.
+                    - generic [ref=f3e108]:
+                      - heading "A Fraction of the Cost" [level=3] [ref=f3e109]
+                      - paragraph [ref=f3e110]: Traditional law firms are expensive. We deliver attorney-grade formation and advice at a fraction of the price.
+                    - generic [ref=f3e111]:
+                      - heading "1 Year of Legal Support" [level=3] [ref=f3e112]
+                      - paragraph [ref=f3e113]: Every formation includes a free year of attorney legal support and a free year of registered agent service — so you're covered as you grow.
+              - generic [ref=f3e115]:
+                - paragraph [ref=f3e117]: Our Easy System
+                - heading "Our guaranteed process in 4 easy steps" [level=2] [ref=f3e119]
+                - generic [ref=f3e120]:
+                  - generic [ref=f3e121]:
+                    - generic [ref=f3e122]: Step 01
+                    - heading "Decide you're ready" [level=3] [ref=f3e123]
+                    - paragraph [ref=f3e124]: If you're ready for us to form your LLC, we're here for you. If you're not sure if an LLC is right for you, or have other questions, schedule a call with one of our lawyers to guide you. It's easy and affordable.
+                  - generic [ref=f3e125]:
+                    - generic [ref=f3e126]: Step 02
+                    - heading "Lawyer review" [level=3] [ref=f3e127]
+                    - paragraph [ref=f3e128]: Unlike the DIY websites, we have real California lawyers on staff who will personally review your LLC and ensure it's the best fit for you. A consultation phone call with a lawyer is included in your entity formation fee.
+                  - generic [ref=f3e129]:
+                    - generic [ref=f3e130]: Step 03
+                    - heading "Document preparation" [level=3] [ref=f3e131]
+                    - paragraph [ref=f3e132]: Our documents are expertly drafted by attorneys and customized for your business. We do it all for you, and file everything you need with the appropriate agencies. No guesswork, no uncertainty, no problems for you.
+                  - generic [ref=f3e133]:
+                    - generic [ref=f3e134]: Step 04
+                    - heading "Delivery" [level=3] [ref=f3e135]
+                    - paragraph [ref=f3e136]: Through our secure portal, all of your LLC documents are delivered seamlessly to you, ready to take to the bank, your landlord, or your partners — and jump-start your business.
+                - generic [ref=f3e137]:
+                  - link "Start the Process" [ref=f3e138] [cursor=pointer]:
+                    - /url: /questionnaire
+                  - paragraph [ref=f3e139]: No payment required to submit your request.
+              - generic [ref=f3e141]:
+                - paragraph [ref=f3e143]: Reviews
+                - generic [ref=f3e144]:
+                  - generic [ref=f3e145]:
+                    - heading "Trusted by California business owners" [level=2] [ref=f3e146]
+                    - generic [ref=f3e147]:
+                      - generic [ref=f3e148]:
+                        - paragraph [ref=f3e149]: 5,000+
+                        - paragraph [ref=f3e150]: LLCs formed
+                      - generic [ref=f3e151]:
+                        - paragraph [ref=f3e152]: 98%
+                        - paragraph [ref=f3e153]: Satisfaction rate
+                      - generic [ref=f3e154]:
+                        - paragraph [ref=f3e155]: 10+
+                        - paragraph [ref=f3e156]: Years experience
+                      - generic [ref=f3e157]:
+                        - paragraph [ref=f3e158]: 4.9/5
+                        - paragraph [ref=f3e159]: Average rating
+                    - generic [ref=f3e160]:
+                      - button "Previous" [ref=f3e161]:
+                        - img [ref=f3e162]
+                      - button "Next" [ref=f3e164]:
+                        - img [ref=f3e165]
+                  - generic [ref=f3e167]:
+                    - generic [ref=f3e168]:
+                      - img [ref=f3e169]
+                      - img [ref=f3e171]
+                      - img [ref=f3e173]
+                      - img [ref=f3e175]
+                      - img [ref=f3e177]
+                    - blockquote [ref=f3e179]: “The entire LLC formation process was seamless. They handled everything from filing to compliance, and I was up and running within days. Couldn't recommend them more.”
+                    - generic [ref=f3e180]:
+                      - generic [ref=f3e182]: SM
+                      - generic [ref=f3e183]:
+                        - paragraph [ref=f3e184]: Sarah Martinez
+                        - paragraph [ref=f3e185]: Founder, Martinez Design Co.
+                    - generic [ref=f3e186]:
+                      - button "Go to 1" [ref=f3e187]
+                      - button "Go to 2" [ref=f3e188]
+                      - button "Go to 3" [ref=f3e189]
+                      - button "Go to 4" [ref=f3e190]
+              - generic [ref=f3e193]:
+                - generic [ref=f3e194]:
+                  - paragraph [ref=f3e196]: FAQ
+                  - heading "Frequently asked questions" [level=2] [ref=f3e197]
+                  - paragraph [ref=f3e198]: Find answers to common questions about California LLC formation and management.
+                  - img "Smiling California business owner after forming an LLC with biz.legal" [ref=f3e201]
+                - generic [ref=f3e202]:
+                  - generic [ref=f3e203]:
+                    - button "How long does it take to form an LLC in California?" [expanded] [ref=f3e204]:
+                      - generic [ref=f3e205]: How long does it take to form an LLC in California?
+                      - img [ref=f3e206]
+                    - paragraph [ref=f3e208]: Standard processing with the California Secretary of State typically takes 5-7 business days. We also offer expedited options that can have your LLC formed in as little as 24 hours.
+                  - button "What documents are included with LLC formation?" [ref=f3e210]:
+                    - generic [ref=f3e211]: What documents are included with LLC formation?
+                    - img [ref=f3e212]
+                  - button "Do I need to be a California resident?" [ref=f3e214]:
+                    - generic [ref=f3e215]: Do I need to be a California resident?
+                    - img [ref=f3e216]
+                  - button "How much does it cost to maintain a California LLC?" [ref=f3e218]:
+                    - generic [ref=f3e219]: How much does it cost to maintain a California LLC?
+                    - img [ref=f3e220]
+                  - button "Do you charge for the initial consultation?" [ref=f3e222]:
+                    - generic [ref=f3e223]: Do you charge for the initial consultation?
+                    - img [ref=f3e224]
+              - generic [ref=f3e227]:
+                - heading "Don't DIY. We'll D-I-F-Y." [level=2] [ref=f3e228]
+                - paragraph [ref=f3e229]: Real California lawyers. The speed of an online platform. A fraction of the cost. Tell us about your business and we'll handle the rest — no payment required to start.
+                - generic [ref=f3e230]:
+                  - link "Get Started" [ref=f3e231] [cursor=pointer]:
+                    - /url: /questionnaire
+                  - link "More Information" [ref=f3e232] [cursor=pointer]:
+                    - /url: /how-it-works
+            - contentinfo [ref=f3e233]:
+              - generic [ref=f3e235]:
+                - generic [ref=f3e236]:
+                  - link "biz.legal" [ref=f3e237] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f3e238]: biz.legal
+                  - paragraph [ref=f3e239]: The ease of an online service. The expertise of a law firm. A fraction of the cost. We'll form your California LLC, fast & easy.
+                  - generic [ref=f3e240]:
+                    - paragraph [ref=f3e241]: (833) 555-0123
+                    - paragraph [ref=f3e242]: hello@biz.legal
+                    - paragraph [ref=f3e243]: California, USA
+                - generic [ref=f3e244]:
+                  - paragraph [ref=f3e245]: Services
+                  - list [ref=f3e246]:
+                    - listitem [ref=f3e247]:
+                      - link "LLC Formation" [ref=f3e248] [cursor=pointer]:
+                        - /url: /services/llc-formation
+                    - listitem [ref=f3e249]:
+                      - link "LLC Management" [ref=f3e250] [cursor=pointer]:
+                        - /url: /services/llc-management
+                    - listitem [ref=f3e251]:
+                      - link "Registered Agent" [ref=f3e252] [cursor=pointer]:
+                        - /url: /services/registered-agent
+                    - listitem [ref=f3e253]:
+                      - link "Compliance" [ref=f3e254] [cursor=pointer]:
+                        - /url: /services/compliance
+                    - listitem [ref=f3e255]:
+                      - link "Business Structuring" [ref=f3e256] [cursor=pointer]:
+                        - /url: /services/business-structuring
+                - generic [ref=f3e257]:
+                  - paragraph [ref=f3e258]: Company
+                  - list [ref=f3e259]:
+                    - listitem [ref=f3e260]:
+                      - link "About" [ref=f3e261] [cursor=pointer]:
+                        - /url: /about
+                    - listitem [ref=f3e262]:
+                      - link "How It Works" [ref=f3e263] [cursor=pointer]:
+                        - /url: /how-it-works
+                    - listitem [ref=f3e264]:
+                      - link "Reviews" [ref=f3e265] [cursor=pointer]:
+                        - /url: /reviews
+                    - listitem [ref=f3e266]:
+                      - link "FAQ" [ref=f3e267] [cursor=pointer]:
+                        - /url: /faq
+                    - listitem [ref=f3e268]:
+                      - link "Contact" [ref=f3e269] [cursor=pointer]:
+                        - /url: /contact
+                    - listitem [ref=f3e270]:
+                      - link "Careers" [ref=f3e271] [cursor=pointer]:
+                        - /url: /careers
+                - generic [ref=f3e272]:
+                  - paragraph [ref=f3e273]: Resources
+                  - list [ref=f3e274]:
+                    - listitem [ref=f3e275]:
+                      - link "LLC Guide" [ref=f3e276] [cursor=pointer]:
+                        - /url: /resources/llc-guide
+                    - listitem [ref=f3e277]:
+                      - link "California Business Law" [ref=f3e278] [cursor=pointer]:
+                        - /url: /resources/california-business-law
+                    - listitem [ref=f3e279]:
+                      - link "Tax Requirements" [ref=f3e280] [cursor=pointer]:
+                        - /url: /resources/tax-requirements
+                    - listitem [ref=f3e281]:
+                      - link "Blog" [ref=f3e282] [cursor=pointer]:
+                        - /url: /blog
+              - generic [ref=f3e285]:
+                - paragraph [ref=f3e286]: © 2026 biz.legal. All rights reserved.
+                - generic [ref=f3e287]:
+                  - link "Privacy Policy" [ref=f3e288] [cursor=pointer]:
+                    - /url: /privacy
+                  - link "Terms of Use" [ref=f3e289] [cursor=pointer]:
+                    - /url: /terms
+                  - link "Cookie Policy" [ref=f3e290] [cursor=pointer]:
+                    - /url: /cookies
+        - complementary [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - paragraph [ref=e106]: Editing section
+              - paragraph [ref=e107]: Hero
+            - button "Save" [ref=e108]
+          - generic [ref=e109]:
+            - button "Content" [ref=e110]
+            - button "Style" [ref=e111]
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - text: Eyebrow
+              - textbox [ref=e114]
+            - generic [ref=e115]:
+              - text: Heading
+              - textbox [ref=e116]: We'll form your California LLC — fast & easy (edited via CMS)
+            - generic [ref=e117]:
+              - text: Body
+              - textbox [ref=e118]: You need to know your business is formed right, right from the start. If you DIY with traditional online services, you're guessing. We're full service and run by lawyers. Get real legal advice and service at the speed and efficiency of our online platform. Don't DIY — we'll D-I-F-Y (Do It For You)!
+            - generic [ref=e119]:
+              - text: Primary CTA label
+              - textbox [ref=e120]: Get Started
+            - generic [ref=e121]:
+              - text: Primary CTA URL
+              - textbox [ref=e122]: /questionnaire
+            - generic [ref=e123]:
+              - text: Secondary CTA label
+              - textbox [ref=e124]: More Information
+            - generic [ref=e125]:
+              - text: Secondary CTA URL
+              - textbox [ref=e126]: /how-it-works
+            - generic [ref=e127]:
+              - text: Image / Video
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - button "Replace media" [ref=e130]
+                  - button "Remove" [ref=e131]
+                - textbox "Alt text (for SEO & accessibility)" [ref=e132]: Golden Gate Bridge in San Francisco, California — symbolizing California LLC formation by biz.legal
+  - button "Open Next.js Dev Tools" [ref=e138] [cursor=pointer]:
+    - img [ref=e139]
+  - alert [ref=e142]

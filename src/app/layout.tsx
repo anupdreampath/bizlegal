@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
 import { AuthProvider } from "@/context/AuthContext";
+import AnalyticsTracker from "@/components/AnalyticsTracker";
 import "./globals.css";
 
 const dmSerif = DM_Serif_Display({
@@ -73,7 +74,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
-        <AuthProvider>{children}</AuthProvider>
+        <AuthProvider>
+          <AnalyticsTracker />
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );

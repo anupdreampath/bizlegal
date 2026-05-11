@@ -16,7 +16,8 @@ import {
 export default function CompliancePage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1775363949849-cdc2167914a4?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="services-compliance"
+heroImage="https://images.unsplash.com/photo-1775363949849-cdc2167914a4?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Tax day marked on calendar with paperwork — California LLC compliance"
       label="Services"
       title="Legal Compliance"

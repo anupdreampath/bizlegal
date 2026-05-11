@@ -10,7 +10,8 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <PageShell
-      heroImage="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80"
+      cmsSlug="about"
+heroImage="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Modern California law firm hallway — biz.legal attorney offices"
       label="About"
       title="A law firm with the speed of an online platform"

@@ -1,33 +1,27 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import TrustBar from "@/components/TrustBar";
-import Services from "@/components/Services";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import Process from "@/components/Process";
-import BusinessesGallery from "@/components/BusinessesGallery";
-import VideoSection from "@/components/VideoSection";
-import Testimonials from "@/components/Testimonials";
-import FAQ from "@/components/FAQ";
-import CTABanner from "@/components/CTABanner";
-import Footer from "@/components/Footer";
+import { getPageWithBlocks, getThemeSettings } from "@/lib/db/queries";
+import { PageRenderer } from "@/components/cms/BlockRenderer";
+import CmsHeader from "@/components/cms/CmsHeader";
+import CmsFooter from "@/components/cms/CmsFooter";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  const [data, theme] = await Promise.all([
+    getPageWithBlocks("home"),
+    getThemeSettings(),
+  ]);
+
   return (
     <>
-      <Header />
+      <CmsHeader theme={theme} />
       <main>
-        <Hero />
-        <TrustBar />
-        <Services />
-        <WhyChooseUs />
-        <Process />
-        <BusinessesGallery />
-        <VideoSection />
-        <Testimonials />
-        <FAQ />
-        <CTABanner />
+        {data ? (
+          <PageRenderer blocks={data.blocks as any} />
+        ) : (
+          <div className="p-10 text-center">No homepage content. Visit /admin to set up.</div>
+        )}
       </main>
-      <Footer />
+      <CmsFooter theme={theme} />
     </>
   );
 }
