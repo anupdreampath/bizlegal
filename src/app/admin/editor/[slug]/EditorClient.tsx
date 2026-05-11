@@ -1,16 +1,20 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { ArrowDown, ArrowUp, Eye, EyeOff, Monitor, Plus, Smartphone, Trash2 } from "lucide-react";
 import FieldEditor from "@/components/admin/FieldEditor";
 import { SCHEMAS } from "@/lib/cms/schemas";
+
+type DeviceMode = "desktop" | "mobile";
+type JsonObject = Record<string, unknown>;
 
 type Block = {
   id: number;
   pageId: number;
   type: string;
   position: number;
-  content: any;
-  style: any;
+  content: JsonObject;
+  style: JsonObject;
   visible: boolean;
 };
 
@@ -28,23 +32,80 @@ const PUBLIC_URL_FOR_SLUG = (slug: string) => {
   return `/${slug}`;
 };
 
+function isObject(value: unknown): value is JsonObject {
+  return !!value && typeof value === "object" && !Array.isArray(value);
+}
+
+function withoutResponsive(data: unknown) {
+  if (!isObject(data)) return {};
+  const base = { ...data };
+  delete base._responsive;
+  return base;
+}
+
+function getDeviceData(data: unknown, device: DeviceMode) {
+  const base = withoutResponsive(data);
+  if (device === "desktop") return base;
+  const source = isObject(data) ? data : {};
+  const responsive = isObject(source._responsive) ? source._responsive : {};
+  const override = isObject(responsive[device]) ? responsive[device] : {};
+  return { ...base, ...override };
+}
+
+function setDeviceData(data: unknown, device: DeviceMode, nextData: unknown) {
+  const nextValues = isObject(nextData) ? nextData : {};
+  const base = withoutResponsive(data);
+  const source = isObject(data) ? data : {};
+  if (device === "desktop") {
+    const responsive = isObject(source._responsive) ? source._responsive : {};
+    return Object.keys(responsive).length ? { ...nextValues, _responsive: responsive } : nextValues;
+  }
+  const responsive = isObject(source._responsive) ? source._responsive : {};
+  return {
+    ...base,
+    _responsive: {
+      ...responsive,
+      [device]: nextValues,
+    },
+  };
+}
+
+function getDeviceVisibility(block: Block, device: DeviceMode) {
+  const style = isObject(block.style) ? block.style : {};
+  const visibility = isObject(style._visibility) ? style._visibility : {};
+  const visible = visibility[device];
+  return typeof visible === "boolean" ? visible : block.visible;
+}
+
+function setDeviceVisibility(style: unknown, device: DeviceMode, visible: boolean) {
+  const base = isObject(style) ? style : {};
+  const visibility = isObject(base._visibility) ? base._visibility : {};
+  return {
+    ...base,
+    _visibility: {
+      ...visibility,
+      [device]: visible,
+    },
+  };
+}
+
 export default function EditorClient({ slug }: { slug: string }) {
   const [pages, setPages] = useState<Page[]>([]);
   const [page, setPage] = useState<Page | null>(null);
   const [blocks, setBlocks] = useState<Block[]>([]);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [tab, setTab] = useState<"content" | "style">("content");
+  const [device, setDevice] = useState<DeviceMode>("desktop");
   const [showAdd, setShowAdd] = useState(false);
   const [iframeKey, setIframeKey] = useState(0);
   const [saving, setSaving] = useState(false);
-  const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
   const reloadPreview = useCallback(() => setIframeKey((k) => k + 1), []);
 
   async function load() {
     const res = await fetch(`/api/admin/pages/${slug}`);
     if (!res.ok) return;
-    const data = await res.json();
+    const data = (await res.json()) as { page: Page; blocks: Block[] };
     setPage(data.page);
     setBlocks(data.blocks);
     if (data.blocks.length && selectedId == null) setSelectedId(data.blocks[0].id);
@@ -53,7 +114,7 @@ export default function EditorClient({ slug }: { slug: string }) {
   async function loadPages() {
     const res = await fetch("/api/admin/pages");
     if (!res.ok) return;
-    const data = await res.json();
+    const data = (await res.json()) as { pages?: Page[] };
     setPages(data.pages || []);
   }
 
@@ -68,10 +129,19 @@ export default function EditorClient({ slug }: { slug: string }) {
 
   const selected = useMemo(() => blocks.find((b) => b.id === selectedId) || null, [blocks, selectedId]);
   const schema = selected ? SCHEMAS[selected.type] : null;
+  const selectedVisible = selected ? getDeviceVisibility(selected, device) : false;
+  const selectedContent = selected ? getDeviceData(selected.content, device) : {};
+  const selectedStyle = selected ? getDeviceData(selected.style, device) : {};
 
   function patchSelected(patch: Partial<Block>) {
     if (!selected) return;
     setBlocks((prev) => prev.map((b) => (b.id === selected.id ? { ...b, ...patch } : b)));
+  }
+
+  function patchSelectedDeviceData(kind: "content" | "style", next: unknown) {
+    if (!selected) return;
+    const current = kind === "content" ? selected.content : selected.style;
+    patchSelected({ [kind]: setDeviceData(current, device, next) } as Partial<Block>);
   }
 
   async function saveSelected() {
@@ -91,12 +161,13 @@ export default function EditorClient({ slug }: { slug: string }) {
   }
 
   async function toggleVisibility(b: Block) {
-    const next = !b.visible;
-    setBlocks((prev) => prev.map((x) => (x.id === b.id ? { ...x, visible: next } : x)));
+    const next = !getDeviceVisibility(b, device);
+    const nextStyle = setDeviceVisibility(b.style, device, next);
+    setBlocks((prev) => prev.map((x) => (x.id === b.id ? { ...x, style: nextStyle } : x)));
     await fetch(`/api/admin/blocks/${b.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ visible: next }),
+      body: JSON.stringify({ style: nextStyle }),
     });
     reloadPreview();
   }
@@ -150,13 +221,31 @@ export default function EditorClient({ slug }: { slug: string }) {
   }
 
   return (
-    <div className="h-screen grid grid-cols-[280px_1fr_360px] bg-zinc-950">
+    <div className="h-screen grid grid-cols-[280px_1fr_380px] bg-zinc-950">
       {/* Left: section list */}
       <aside className="border-r border-zinc-800 overflow-y-auto">
         <div className="p-4 border-b border-zinc-800 space-y-3">
           <div>
             <p className="text-xs uppercase tracking-wider text-zinc-500">Visual editor</p>
             <p className="font-medium text-sm">{page?.title || slug}</p>
+          </div>
+          <div className="grid grid-cols-2 rounded-lg border border-zinc-800 bg-zinc-950 p-1">
+            <button
+              type="button"
+              onClick={() => setDevice("desktop")}
+              className={`flex items-center justify-center gap-2 rounded-md px-2 py-2 text-xs font-medium transition ${device === "desktop" ? "bg-emerald-500 text-black" : "text-zinc-400 hover:text-zinc-100"}`}
+            >
+              <Monitor className="h-4 w-4" />
+              Desktop
+            </button>
+            <button
+              type="button"
+              onClick={() => setDevice("mobile")}
+              className={`flex items-center justify-center gap-2 rounded-md px-2 py-2 text-xs font-medium transition ${device === "mobile" ? "bg-emerald-500 text-black" : "text-zinc-400 hover:text-zinc-100"}`}
+            >
+              <Smartphone className="h-4 w-4" />
+              Mobile
+            </button>
           </div>
           <div className="space-y-1.5">
             <label htmlFor="admin-page-select" className="text-xs text-zinc-500">
@@ -183,6 +272,7 @@ export default function EditorClient({ slug }: { slug: string }) {
         <div className="p-3 space-y-1">
           {blocks.map((b) => {
             const isSel = b.id === selectedId;
+            const isVisible = getDeviceVisibility(b, device);
             return (
               <div
                 key={b.id}
@@ -192,29 +282,38 @@ export default function EditorClient({ slug }: { slug: string }) {
                   onClick={() => setSelectedId(b.id)}
                   className="w-full text-left px-3 py-2.5"
                 >
-                  <p className={`text-sm ${b.visible ? "text-zinc-100" : "text-zinc-500"}`}>
+                  <p className={`text-sm ${isVisible ? "text-zinc-100" : "text-zinc-500"}`}>
                     {SCHEMAS[b.type]?.label || b.type}
+                  </p>
+                  <p className="mt-1 text-[0.68rem] uppercase tracking-wider text-zinc-600">
+                    {isVisible ? `Visible on ${device}` : `Hidden on ${device}`}
                   </p>
                 </button>
                 <div className="flex items-center justify-between border-t border-zinc-800 px-2 py-1.5">
                   <div className="flex items-center gap-0.5">
-                    <button onClick={() => moveBlock(b, -1)} className="text-zinc-500 hover:text-zinc-100 px-1.5 text-xs" title="Move up">↑</button>
-                    <button onClick={() => moveBlock(b, 1)} className="text-zinc-500 hover:text-zinc-100 px-1.5 text-xs" title="Move down">↓</button>
+                    <button onClick={() => moveBlock(b, -1)} className="text-zinc-500 hover:text-zinc-100 p-1.5" title="Move up" aria-label="Move up">
+                      <ArrowUp className="h-3.5 w-3.5" />
+                    </button>
+                    <button onClick={() => moveBlock(b, 1)} className="text-zinc-500 hover:text-zinc-100 p-1.5" title="Move down" aria-label="Move down">
+                      <ArrowDown className="h-3.5 w-3.5" />
+                    </button>
                   </div>
                   <div className="flex items-center gap-1">
                     <button
                       onClick={() => toggleVisibility(b)}
-                      className="text-zinc-500 hover:text-zinc-100 text-xs px-1.5"
-                      title={b.visible ? "Hide section" : "Show section"}
+                      className="text-zinc-500 hover:text-zinc-100 p-1.5"
+                      title={isVisible ? `Hide on ${device}` : `Show on ${device}`}
+                      aria-label={isVisible ? `Hide on ${device}` : `Show on ${device}`}
                     >
-                      {b.visible ? "👁" : "⊘"}
+                      {isVisible ? <Eye className="h-3.5 w-3.5" /> : <EyeOff className="h-3.5 w-3.5" />}
                     </button>
                     <button
                       onClick={() => deleteBlock(b)}
-                      className="text-zinc-500 hover:text-red-400 text-xs px-1.5"
+                      className="text-zinc-500 hover:text-red-400 p-1.5"
                       title="Delete section"
+                      aria-label="Delete section"
                     >
-                      ✕
+                      <Trash2 className="h-3.5 w-3.5" />
                     </button>
                   </div>
                 </div>
@@ -223,21 +322,26 @@ export default function EditorClient({ slug }: { slug: string }) {
           })}
           <button
             onClick={() => setShowAdd(true)}
-            className="w-full mt-3 border border-dashed border-zinc-700 hover:border-emerald-500 hover:text-emerald-400 text-zinc-400 rounded-lg py-3 text-sm transition"
+            className="w-full mt-3 border border-dashed border-zinc-700 hover:border-emerald-500 hover:text-emerald-400 text-zinc-400 rounded-lg py-3 text-sm transition flex items-center justify-center gap-2"
           >
-            + Add section
+            <Plus className="h-4 w-4" />
+            Add section
           </button>
         </div>
       </aside>
 
       {/* Center: iframe preview */}
       <div className="overflow-hidden bg-zinc-100 relative">
-        <iframe
-          key={iframeKey}
-          ref={iframeRef}
-          src={`${PUBLIC_URL_FOR_SLUG(slug)}?preview=1&v=${iframeKey}`}
-          className="w-full h-full border-0 bg-white"
-        />
+        <div className="absolute top-4 left-1/2 z-10 -translate-x-1/2 rounded-full border border-zinc-300 bg-white/90 px-3 py-1 text-xs font-medium text-zinc-700 shadow-sm backdrop-blur">
+          {device === "desktop" ? "Desktop preview" : "Mobile preview"}
+        </div>
+        <div className="h-full w-full overflow-auto p-0 md:p-6 flex justify-center">
+          <iframe
+            key={`${device}-${iframeKey}`}
+            src={`${PUBLIC_URL_FOR_SLUG(slug)}?preview=1&v=${iframeKey}`}
+            className={`h-full border-0 bg-white shadow-2xl transition-all duration-200 ${device === "mobile" ? "w-[390px] max-w-full rounded-[2rem]" : "w-full rounded-none md:rounded-xl"}`}
+          />
+        </div>
       </div>
 
       {/* Right: field panel */}
@@ -248,6 +352,9 @@ export default function EditorClient({ slug }: { slug: string }) {
               <div>
                 <p className="text-xs uppercase tracking-wider text-zinc-500">Editing section</p>
                 <p className="font-medium text-sm">{schema.label}</p>
+                <p className="mt-1 text-xs text-zinc-500">
+                  {device === "desktop" ? "Desktop edits" : "Mobile edits"} · {selectedVisible ? "visible" : "hidden"}
+                </p>
               </div>
               <button
                 onClick={saveSelected}
@@ -257,7 +364,32 @@ export default function EditorClient({ slug }: { slug: string }) {
                 {saving ? "Saving…" : "Save"}
               </button>
             </div>
-            <div className="border-b border-zinc-800 grid grid-cols-2 text-sm sticky top-[4.5rem] bg-zinc-950 z-10">
+            <div className="border-b border-zinc-800 p-3 sticky top-[5.4rem] bg-zinc-950 z-10">
+              <div className="grid grid-cols-2 rounded-lg border border-zinc-800 bg-zinc-950 p-1">
+                <button
+                  type="button"
+                  onClick={() => setDevice("desktop")}
+                  className={`flex items-center justify-center gap-2 rounded-md px-2 py-2 text-xs font-medium transition ${device === "desktop" ? "bg-emerald-500 text-black" : "text-zinc-400 hover:text-zinc-100"}`}
+                >
+                  <Monitor className="h-4 w-4" />
+                  Desktop
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setDevice("mobile")}
+                  className={`flex items-center justify-center gap-2 rounded-md px-2 py-2 text-xs font-medium transition ${device === "mobile" ? "bg-emerald-500 text-black" : "text-zinc-400 hover:text-zinc-100"}`}
+                >
+                  <Smartphone className="h-4 w-4" />
+                  Mobile
+                </button>
+              </div>
+              {device === "mobile" && (
+                <p className="mt-2 text-xs leading-snug text-zinc-500">
+                  Mobile starts from desktop values and saves its own overrides for this section.
+                </p>
+              )}
+            </div>
+            <div className="border-b border-zinc-800 grid grid-cols-2 text-sm sticky top-[10.35rem] bg-zinc-950 z-10">
               <button
                 onClick={() => setTab("content")}
                 className={`py-3 ${tab === "content" ? "text-emerald-400 border-b-2 border-emerald-400" : "text-zinc-400"}`}
@@ -276,10 +408,8 @@ export default function EditorClient({ slug }: { slug: string }) {
                 <FieldEditor
                   key={field.key}
                   field={field}
-                  data={tab === "content" ? selected.content : selected.style}
-                  onChange={(next) =>
-                    patchSelected(tab === "content" ? { content: next } : { style: next })
-                  }
+                  data={tab === "content" ? selectedContent : selectedStyle}
+                  onChange={(next) => patchSelectedDeviceData(tab, next)}
                 />
               ))}
             </div>
