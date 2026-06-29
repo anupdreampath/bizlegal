@@ -34,7 +34,12 @@ export default function CmsFooter({ theme }: { theme: unknown }) {
   const mutedColor = asString(f.mutedTextColor, asString(brand.mutedTextColor, "#4b5563"));
 
   return (
-    <footer data-cms-global="footer" className="border-t border-gray-200" style={{ backgroundColor }}>
+    <footer
+      data-cms-global="footer"
+      suppressHydrationWarning
+      className="border-t border-gray-200"
+      style={{ backgroundColor }}
+    >
       <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem] py-[4rem] md:py-[5rem]">
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10">
           <div className="lg:col-span-2">

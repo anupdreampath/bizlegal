@@ -1,0 +1,653 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - link "biz.legal CMS":
+          - /url: /admin/editor/home
+        - button "Expand sidebar" [ref=e5]:
+          - img [ref=e6]
+      - navigation [ref=e9]:
+        - link "Visual Editor" [ref=e10] [cursor=pointer]:
+          - /url: /admin/editor/home
+          - img [ref=e11]
+        - link "Reports" [ref=e18] [cursor=pointer]:
+          - /url: /admin/reports
+          - img [ref=e19]
+        - link "Leads" [ref=e21] [cursor=pointer]:
+          - /url: /admin/leads
+          - img [ref=e22]
+        - link "Calendar" [ref=e27] [cursor=pointer]:
+          - /url: /admin/calendar
+          - img [ref=e28]
+        - link "Theme" [ref=e30] [cursor=pointer]:
+          - /url: /admin/theme
+          - img [ref=e31]
+      - generic [ref=e37]:
+        - link "View site" [ref=e38] [cursor=pointer]:
+          - /url: /
+          - img [ref=e39]
+        - button "Sign out" [ref=e43]:
+          - img [ref=e44]
+    - main [ref=e47]:
+      - generic [ref=e48]:
+        - complementary [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - paragraph [ref=e53]: Visual editor
+                - paragraph [ref=e54]: biz.legal - We Form Your LLC For You
+              - generic [ref=e55]: Saved
+            - generic [ref=e56]:
+              - button "Desktop" [ref=e57]:
+                - img [ref=e58]
+                - text: Desktop
+              - button "Mobile" [ref=e60]:
+                - img [ref=e61]
+                - text: Mobile
+            - generic [ref=e63]:
+              - text: Page
+              - combobox "Page" [ref=e64]:
+                - option "About biz.legal - Real California Lawyers, Online Speed"
+                - option "Booking - Reserve a Consultation Slot"
+                - option "Booking Cancelled"
+                - option "Booking Success"
+                - option "Careers - Join biz.legal"
+                - option "Contact - Talk to a California Lawyer"
+                - option "Cookie Policy"
+                - option "FAQ - California LLC Formation Questions"
+                - option "Home" [selected]
+                - option "How It Works - California LLC Formation Process"
+                - option "Login"
+                - option "Privacy Policy"
+                - option "Questionnaire - Start Your LLC Request"
+                - option "California Business Law Resources"
+                - option "California LLC Guide - Start and Maintain Your LLC"
+                - option "Reviews - California Business Owners Trust biz.legal"
+                - option "Business Structuring - Choose the Right Entity"
+                - option "LLC Formation - California LLCs Done Right"
+                - option "LLC Management - Ongoing California Compliance"
+                - option "Registered Agent - California Registered Agent Service"
+                - option "Sign Up - Create Your Client Portal"
+                - option "Terms of Use"
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - paragraph [ref=e68]: Inspector
+                - paragraph [ref=e69]: Hero
+                - paragraph [ref=e70]: Desktop edits · visible
+              - button "Save" [ref=e71]:
+                - img [ref=e72]
+                - text: Save
+            - generic [ref=e76]:
+              - generic [ref=e78]:
+                - button "Content" [ref=e79]
+                - button "Style" [ref=e80]
+              - generic [ref=e81]:
+                - generic [ref=e82]:
+                  - text: Eyebrow
+                  - textbox [ref=e83]: Lawyer-led California LLC formation
+                - generic [ref=e84]:
+                  - text: Heading
+                  - textbox [ref=e85]: WE FORM YOUR LLC FOR YOU
+                - generic [ref=e86]:
+                  - text: Body
+                  - textbox [ref=e87]: Don't cheap out with DIY services or waste money on expensive law firms. You don't have to compromise, we're your LLC formation solution.
+                - generic [ref=e88]:
+                  - text: Primary CTA label
+                  - textbox [ref=e89]: I'm Ready!
+                - generic [ref=e90]:
+                  - text: Primary CTA URL
+                  - textbox [ref=e91]: /order
+                - generic [ref=e92]:
+                  - text: Secondary CTA label
+                  - textbox [ref=e93]: More Information
+                - generic [ref=e94]:
+                  - text: Secondary CTA URL
+                  - textbox [ref=e95]: /contact
+                - generic [ref=e96]:
+                  - text: Image / Video
+                  - generic [ref=e97]:
+                    - generic [ref=e98]:
+                      - button "Replace media" [ref=e99]
+                      - button "Remove" [ref=e100]
+                    - textbox "Alt text (for SEO & accessibility)" [ref=e101]: Business owner reviewing LLC formation documents with an advisor
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - paragraph [ref=e104]: Global
+              - button "Page SEO" [ref=e105]:
+                - img [ref=e106]
+                - text: Page SEO
+              - button "Brand & Theme" [ref=e109]:
+                - img [ref=e110]
+                - text: Brand & Theme
+              - button "Header, Menu & Buttons" [ref=e114]:
+                - img [ref=e115]
+                - text: Header, Menu & Buttons
+              - button "Footer" [ref=e119]:
+                - img [ref=e120]
+                - text: Footer
+            - generic [ref=e124]:
+              - paragraph [ref=e125]: Sections
+              - generic [ref=e126]:
+                - button "Hero Visible on desktop" [ref=e127]:
+                  - paragraph [ref=e128]: Hero
+                  - paragraph [ref=e129]: Visible on desktop
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - button "Move up" [ref=e132]:
+                      - img [ref=e133]
+                    - button "Move down" [ref=e135]:
+                      - img [ref=e136]
+                  - generic [ref=e138]:
+                    - button "Hide on desktop" [ref=e139]:
+                      - img [ref=e140]
+                    - button "Delete section" [ref=e143]:
+                      - img [ref=e144]
+              - generic [ref=e147]:
+                - button "Trust bar (industry marquee) Visible on desktop" [ref=e148]:
+                  - paragraph [ref=e149]: Trust bar (industry marquee)
+                  - paragraph [ref=e150]: Visible on desktop
+                - generic [ref=e151]:
+                  - generic [ref=e152]:
+                    - button "Move up" [ref=e153]:
+                      - img [ref=e154]
+                    - button "Move down" [ref=e156]:
+                      - img [ref=e157]
+                  - generic [ref=e159]:
+                    - button "Hide on desktop" [ref=e160]:
+                      - img [ref=e161]
+                    - button "Delete section" [ref=e164]:
+                      - img [ref=e165]
+              - generic [ref=e168]:
+                - button "What you need / what we do Visible on desktop" [ref=e169]:
+                  - paragraph [ref=e170]: What you need / what we do
+                  - paragraph [ref=e171]: Visible on desktop
+                - generic [ref=e172]:
+                  - generic [ref=e173]:
+                    - button "Move up" [ref=e174]:
+                      - img [ref=e175]
+                    - button "Move down" [ref=e177]:
+                      - img [ref=e178]
+                  - generic [ref=e180]:
+                    - button "Hide on desktop" [ref=e181]:
+                      - img [ref=e182]
+                    - button "Delete section" [ref=e185]:
+                      - img [ref=e186]
+              - generic [ref=e189]:
+                - button "Services / cards grid Visible on desktop" [ref=e190]:
+                  - paragraph [ref=e191]: Services / cards grid
+                  - paragraph [ref=e192]: Visible on desktop
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - button "Move up" [ref=e195]:
+                      - img [ref=e196]
+                    - button "Move down" [ref=e198]:
+                      - img [ref=e199]
+                  - generic [ref=e201]:
+                    - button "Hide on desktop" [ref=e202]:
+                      - img [ref=e203]
+                    - button "Delete section" [ref=e206]:
+                      - img [ref=e207]
+              - generic [ref=e210]:
+                - button "Why choose us / image + features Visible on desktop" [ref=e211]:
+                  - paragraph [ref=e212]: Why choose us / image + features
+                  - paragraph [ref=e213]: Visible on desktop
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - button "Move up" [ref=e216]:
+                      - img [ref=e217]
+                    - button "Move down" [ref=e219]:
+                      - img [ref=e220]
+                  - generic [ref=e222]:
+                    - button "Hide on desktop" [ref=e223]:
+                      - img [ref=e224]
+                    - button "Delete section" [ref=e227]:
+                      - img [ref=e228]
+              - generic [ref=e231]:
+                - button "Video CTA Visible on desktop" [ref=e232]:
+                  - paragraph [ref=e233]: Video CTA
+                  - paragraph [ref=e234]: Visible on desktop
+                - generic [ref=e235]:
+                  - generic [ref=e236]:
+                    - button "Move up" [ref=e237]:
+                      - img [ref=e238]
+                    - button "Move down" [ref=e240]:
+                      - img [ref=e241]
+                  - generic [ref=e243]:
+                    - button "Hide on desktop" [ref=e244]:
+                      - img [ref=e245]
+                    - button "Delete section" [ref=e248]:
+                      - img [ref=e249]
+              - generic [ref=e252]:
+                - button "Process / steps Visible on desktop" [ref=e253]:
+                  - paragraph [ref=e254]: Process / steps
+                  - paragraph [ref=e255]: Visible on desktop
+                - generic [ref=e256]:
+                  - generic [ref=e257]:
+                    - button "Move up" [ref=e258]:
+                      - img [ref=e259]
+                    - button "Move down" [ref=e261]:
+                      - img [ref=e262]
+                  - generic [ref=e264]:
+                    - button "Hide on desktop" [ref=e265]:
+                      - img [ref=e266]
+                    - button "Delete section" [ref=e269]:
+                      - img [ref=e270]
+              - generic [ref=e273]:
+                - button "Industry grid Visible on desktop" [ref=e274]:
+                  - paragraph [ref=e275]: Industry grid
+                  - paragraph [ref=e276]: Visible on desktop
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - button "Move up" [ref=e279]:
+                      - img [ref=e280]
+                    - button "Move down" [ref=e282]:
+                      - img [ref=e283]
+                  - generic [ref=e285]:
+                    - button "Hide on desktop" [ref=e286]:
+                      - img [ref=e287]
+                    - button "Delete section" [ref=e290]:
+                      - img [ref=e291]
+              - generic [ref=e294]:
+                - button "FAQ Visible on desktop" [ref=e295]:
+                  - paragraph [ref=e296]: FAQ
+                  - paragraph [ref=e297]: Visible on desktop
+                - generic [ref=e298]:
+                  - generic [ref=e299]:
+                    - button "Move up" [ref=e300]:
+                      - img [ref=e301]
+                    - button "Move down" [ref=e303]:
+                      - img [ref=e304]
+                  - generic [ref=e306]:
+                    - button "Hide on desktop" [ref=e307]:
+                      - img [ref=e308]
+                    - button "Delete section" [ref=e311]:
+                      - img [ref=e312]
+              - generic [ref=e315]:
+                - button "CTA banner Visible on desktop" [ref=e316]:
+                  - paragraph [ref=e317]: CTA banner
+                  - paragraph [ref=e318]: Visible on desktop
+                - generic [ref=e319]:
+                  - generic [ref=e320]:
+                    - button "Move up" [ref=e321]:
+                      - img [ref=e322]
+                    - button "Move down" [ref=e324]:
+                      - img [ref=e325]
+                  - generic [ref=e327]:
+                    - button "Hide on desktop" [ref=e328]:
+                      - img [ref=e329]
+                    - button "Delete section" [ref=e332]:
+                      - img [ref=e333]
+              - button "Add section" [ref=e336]:
+                - img [ref=e337]
+                - text: Add section
+        - generic [ref=e338]:
+          - generic [ref=e339]:
+            - img [ref=e340]
+            - text: Desktop preview
+          - button "Refresh preview" [ref=e342]:
+            - img [ref=e343]
+          - iframe [ref=e349]:
+            - generic [active] [ref=f1e1]:
+              - banner [ref=f1e2] [cursor=pointer]:
+                - generic [ref=f1e3]:
+                  - link "biz.legal" [ref=f1e4]:
+                    - /url: /
+                    - generic [ref=f1e5]: biz.legal
+                  - navigation [ref=f1e6]:
+                    - link "Services" [ref=f1e7]:
+                      - /url: /services/llc-formation
+                    - link "How It Works" [ref=f1e8]:
+                      - /url: /how-it-works
+                    - link "About" [ref=f1e9]:
+                      - /url: /about
+                    - link "Contact" [ref=f1e10]:
+                      - /url: /contact
+                  - link "Order Your LLC Formation" [ref=f1e11]:
+                    - /url: /order
+              - main [ref=f1e12]:
+                - generic [ref=f1e16] [cursor=pointer]:
+                  - generic [ref=f1e17]:
+                    - generic [ref=f1e18]:
+                      - img [ref=f1e19]
+                      - generic [ref=f1e22]: Lawyer-led California LLC formation
+                    - heading "WE FORM YOUR LLC FOR YOU" [level=1] [ref=f1e23]
+                    - paragraph [ref=f1e24]: Don't cheap out with DIY services or waste money on expensive law firms. You don't have to compromise, we're your LLC formation solution.
+                    - generic [ref=f1e25]:
+                      - link "I'm Ready!" [ref=f1e26]:
+                        - /url: /order
+                      - link "More Information" [ref=f1e27]:
+                        - /url: /contact
+                    - generic [ref=f1e28]:
+                      - generic [ref=f1e29]:
+                        - img [ref=f1e30]
+                        - generic [ref=f1e33]: Attorney-drafted documents
+                      - generic [ref=f1e34]:
+                        - img [ref=f1e35]
+                        - generic [ref=f1e38]: Professional filing
+                      - generic [ref=f1e39]:
+                        - img [ref=f1e40]
+                        - generic [ref=f1e43]: Fast delivery
+                  - generic [ref=f1e44]:
+                    - img "Business owner reviewing LLC formation documents with an advisor" [ref=f1e46]
+                    - generic [ref=f1e47]:
+                      - generic [ref=f1e48]:
+                        - img [ref=f1e49]
+                        - img [ref=f1e51]
+                        - img [ref=f1e53]
+                        - img [ref=f1e55]
+                        - img [ref=f1e57]
+                      - paragraph [ref=f1e59]: Trusted by founders who want speed without legal guesswork.
+                - generic [ref=f1e61] [cursor=pointer]:
+                  - paragraph [ref=f1e63]: Business types we help form
+                  - generic [ref=f1e66]:
+                    - generic [ref=f1e68]: Restaurants
+                    - generic [ref=f1e70]: Retail
+                    - generic [ref=f1e72]: Technology
+                    - generic [ref=f1e74]: Construction
+                    - generic [ref=f1e76]: Consulting
+                    - generic [ref=f1e78]: Real Estate
+                    - generic [ref=f1e80]: Healthcare
+                    - generic [ref=f1e82]: E-commerce
+                    - generic [ref=f1e84]: Cleaning & Janitorial
+                    - generic [ref=f1e86]: Home Services
+                    - generic [ref=f1e88]: Transportation
+                    - generic [ref=f1e90]: Professional Services
+                    - generic [ref=f1e92]: Restaurants
+                    - generic [ref=f1e94]: Retail
+                    - generic [ref=f1e96]: Technology
+                    - generic [ref=f1e98]: Construction
+                    - generic [ref=f1e100]: Consulting
+                    - generic [ref=f1e102]: Real Estate
+                    - generic [ref=f1e104]: Healthcare
+                    - generic [ref=f1e106]: E-commerce
+                    - generic [ref=f1e108]: Cleaning & Janitorial
+                    - generic [ref=f1e110]: Home Services
+                    - generic [ref=f1e112]: Transportation
+                    - generic [ref=f1e114]: Professional Services
+                - generic [ref=f1e118] [cursor=pointer]:
+                  - generic [ref=f1e119]:
+                    - paragraph [ref=f1e121]: What You Need
+                    - heading "The legal foundation matters before the paperwork starts" [level=2] [ref=f1e122]
+                    - paragraph [ref=f1e123]: A California LLC is not just a filing. You need to know the entity fits your business, that the state paperwork is right, and that your documents protect how your company will actually operate.
+                    - link "Help Me Decide" [ref=f1e124]:
+                      - /url: /contact
+                      - text: Help Me Decide
+                      - img [ref=f1e125]
+                  - generic [ref=f1e127]:
+                    - generic [ref=f1e128]:
+                      - img [ref=f1e129]
+                      - heading "What You Need" [level=3] [ref=f1e132]
+                      - list [ref=f1e133]:
+                        - listitem [ref=f1e134]: A clear decision that an LLC fits your business and risk profile.
+                        - listitem [ref=f1e135]: State filings prepared without missing names, agents, addresses, or required statements.
+                        - listitem [ref=f1e136]: Ownership, management, and operating documents that do more than sit in a folder.
+                        - listitem [ref=f1e137]: A path for questions after formation, instead of being left alone with a receipt.
+                    - generic [ref=f1e138]:
+                      - img [ref=f1e139]
+                      - heading "What We Do For You" [level=3] [ref=f1e142]
+                      - list [ref=f1e143]:
+                        - listitem [ref=f1e144]:
+                          - img [ref=f1e145]
+                          - generic [ref=f1e148]: Review your LLC decision before filing.
+                        - listitem [ref=f1e149]:
+                          - img [ref=f1e150]
+                          - generic [ref=f1e153]: Prepare and submit your California state filings.
+                        - listitem [ref=f1e154]:
+                          - img [ref=f1e155]
+                          - generic [ref=f1e158]: Draft and deliver your operating documents and organizational package.
+                        - listitem [ref=f1e159]:
+                          - img [ref=f1e160]
+                          - generic [ref=f1e163]: Support you after formation with practical next steps.
+                    - generic [ref=f1e164]:
+                      - img "California business owner learning which businesses need an LLC" [ref=f1e165]
+                      - generic [ref=f1e166]:
+                        - paragraph [ref=f1e167]: Video guide
+                        - paragraph [ref=f1e168]: Which businesses need an LLC?
+                - generic [ref=f1e171] [cursor=pointer]:
+                  - paragraph [ref=f1e173]: What We Do
+                  - heading "We do the LLC formation work for you" [level=2] [ref=f1e175]
+                  - generic [ref=f1e176]:
+                    - generic [ref=f1e177]:
+                      - img "Business owner deciding whether an LLC fits their needs" [ref=f1e179]
+                      - generic [ref=f1e180]:
+                        - heading "Decide if an LLC fits your needs" [level=3] [ref=f1e181]
+                        - paragraph [ref=f1e182]: Not every business should be an LLC. We help you think through liability, ownership, state requirements, and whether another structure may make more sense.
+                        - link "Help Me Decide" [ref=f1e183]:
+                          - /url: /contact
+                          - text: Help Me Decide
+                          - img [ref=f1e184]
+                    - generic [ref=f1e186]:
+                      - img "California LLC state filing documents" [ref=f1e188]
+                      - generic [ref=f1e189]:
+                        - heading "State Filings" [level=3] [ref=f1e190]
+                        - paragraph [ref=f1e191]: We prepare and submit the California formation filings so you are not guessing through state forms, registered agent details, and launch requirements.
+                        - link "I'm Ready!" [ref=f1e192]:
+                          - /url: /order
+                          - text: I'm Ready!
+                          - img [ref=f1e193]
+                    - generic [ref=f1e195]:
+                      - img "Completed LLC documents ready for delivery" [ref=f1e197]
+                      - generic [ref=f1e198]:
+                        - heading "Document drafting and delivery" [level=3] [ref=f1e199]
+                        - paragraph [ref=f1e200]: Your operating agreement and organizational documents are drafted for your business and delivered in a package you can use with banks, partners, and vendors.
+                        - link "I'm Ready!" [ref=f1e201]:
+                          - /url: /order
+                          - text: I'm Ready!
+                          - img [ref=f1e202]
+                    - generic [ref=f1e204]:
+                      - img "Business owner receiving ongoing legal support" [ref=f1e206]
+                      - generic [ref=f1e207]:
+                        - heading "Ongoing support" [level=3] [ref=f1e208]
+                        - paragraph [ref=f1e209]: After formation, we can support registered agent needs, legal questions, contracts, leases, employment issues, and business changes as you grow.
+                        - link "More Services" [ref=f1e210]:
+                          - /url: /services/llc-management
+                          - text: More Services
+                          - img [ref=f1e211]
+                - generic [ref=f1e216] [cursor=pointer]:
+                  - generic [ref=f1e218]:
+                    - img "California small business team working with biz.legal" [ref=f1e219]
+                    - generic [ref=f1e220]:
+                      - paragraph [ref=f1e221]: Built for real businesses
+                      - paragraph [ref=f1e222]: Practical legal support before, during, and after formation.
+                  - generic [ref=f1e223]:
+                    - paragraph [ref=f1e225]: Why biz.legal
+                    - heading "The ease of DIY. The expertise of a law firm. A fraction of the cost." [level=2] [ref=f1e226]
+                    - generic [ref=f1e227]:
+                      - generic [ref=f1e228]:
+                        - img [ref=f1e229]
+                        - heading "Lawyers, not a DIY Site" [level=3] [ref=f1e232]
+                        - paragraph [ref=f1e233]: DIY websites can't give legal advice and they leave you guessing. Mistakes are easy to make. We do the work for you, in California, by real lawyers, paralegals and legal assistants.
+                      - generic [ref=f1e234]:
+                        - img [ref=f1e235]
+                        - heading "Tech-Speed Service" [level=3] [ref=f1e238]
+                        - paragraph [ref=f1e239]: Faster than a law firm, easier than DIY, with real expertise and lawyers to make sure it's done right, and done for you.
+                - generic [ref=f1e243] [cursor=pointer]:
+                  - generic [ref=f1e244]:
+                    - img "Video poster for which businesses need an LLC" [ref=f1e245]
+                    - img [ref=f1e248]
+                  - generic [ref=f1e250]:
+                    - paragraph [ref=f1e252]: Video
+                    - heading "Which businesses need an LLC?" [level=2] [ref=f1e253]
+                    - paragraph [ref=f1e254]: A short decision guide for owners who want liability protection, a professional structure, and a better way to separate personal assets from business risk.
+                    - link "More Information" [ref=f1e255]:
+                      - /url: /contact
+                      - text: More Information
+                      - img [ref=f1e256]
+                - generic [ref=f1e260] [cursor=pointer]:
+                  - paragraph [ref=f1e262]: Our Easy System
+                  - heading "Three steps from decision to delivery" [level=2] [ref=f1e264]
+                  - generic [ref=f1e265]:
+                    - generic [ref=f1e266]:
+                      - generic [ref=f1e267]: Step 01
+                      - heading "Decide you're ready" [level=3] [ref=f1e268]
+                      - paragraph [ref=f1e269]: If you want help deciding whether an LLC is right for you, start with the intake form and we will route you into the right next step.
+                    - generic [ref=f1e270]:
+                      - generic [ref=f1e271]: Step 02
+                      - heading "Lawyers Do The Work" [level=3] [ref=f1e272]
+                      - paragraph [ref=f1e273]: Once you are ready, our legal team prepares the filings and documents instead of leaving you to work through a DIY checklist.
+                    - generic [ref=f1e274]:
+                      - generic [ref=f1e275]: Step 03
+                      - heading "Delivery" [level=3] [ref=f1e276]
+                      - paragraph [ref=f1e277]: Your completed filing confirmations and organizational documents are delivered so you can open accounts, work with vendors, and move forward.
+                  - generic [ref=f1e278]:
+                    - link "Help Me Decide" [ref=f1e279]:
+                      - /url: /contact
+                    - paragraph [ref=f1e280]: Ready now? Use the order page to begin the $750 formation offer.
+                - generic [ref=f1e283] [cursor=pointer]:
+                  - paragraph [ref=f1e285]: Who We Help
+                  - generic [ref=f1e287]:
+                    - heading "California LLCs for every industry allowed" [level=2] [ref=f1e288]
+                    - paragraph [ref=f1e289]: biz.legal forms California LLCs for every industry allowed to operate as an LLC, from local service companies to professional firms and online sellers.
+                    - link "Ask About Your Industry" [ref=f1e290]:
+                      - /url: /contact
+                      - text: Ask About Your Industry
+                      - img [ref=f1e291]
+                  - generic [ref=f1e293]:
+                    - link "Restaurant business owner Restaurants Food service, hospitality, and local operators." [ref=f1e294]:
+                      - /url: /industries/restaurants
+                      - img "Restaurant business owner" [ref=f1e295]
+                      - generic [ref=f1e297]:
+                        - heading "Restaurants" [level=3] [ref=f1e298]
+                        - paragraph [ref=f1e299]: Food service, hospitality, and local operators.
+                    - link "Retail business owner Retail Shops, boutiques, inventory businesses, and sellers." [ref=f1e300]:
+                      - /url: /industries/retail
+                      - img "Retail business owner" [ref=f1e301]
+                      - generic [ref=f1e303]:
+                        - heading "Retail" [level=3] [ref=f1e304]
+                        - paragraph [ref=f1e305]: Shops, boutiques, inventory businesses, and sellers.
+                    - link "Technology founder Technology Software, apps, digital products, and tech services." [ref=f1e306]:
+                      - /url: /industries/technology
+                      - img "Technology founder" [ref=f1e307]
+                      - generic [ref=f1e309]:
+                        - heading "Technology" [level=3] [ref=f1e310]
+                        - paragraph [ref=f1e311]: Software, apps, digital products, and tech services.
+                    - link "Construction business owner Construction Contractors, builders, trades, and field teams." [ref=f1e312]:
+                      - /url: /industries/construction
+                      - img "Construction business owner" [ref=f1e313]
+                      - generic [ref=f1e315]:
+                        - heading "Construction" [level=3] [ref=f1e316]
+                        - paragraph [ref=f1e317]: Contractors, builders, trades, and field teams.
+                    - link "Consulting professional Consulting Independent advisors and professional operators." [ref=f1e318]:
+                      - /url: /industries/consulting
+                      - img "Consulting professional" [ref=f1e319]
+                      - generic [ref=f1e321]:
+                        - heading "Consulting" [level=3] [ref=f1e322]
+                        - paragraph [ref=f1e323]: Independent advisors and professional operators.
+                    - link "Real estate business owner Real Estate Property, investor, and real estate service companies." [ref=f1e324]:
+                      - /url: /industries/real-estate
+                      - img "Real estate business owner" [ref=f1e325]
+                      - generic [ref=f1e327]:
+                        - heading "Real Estate" [level=3] [ref=f1e328]
+                        - paragraph [ref=f1e329]: Property, investor, and real estate service companies.
+                    - link "Healthcare business owner Healthcare Wellness, care, and health-adjacent businesses." [ref=f1e330]:
+                      - /url: /industries/healthcare
+                      - img "Healthcare business owner" [ref=f1e331]
+                      - generic [ref=f1e333]:
+                        - heading "Healthcare" [level=3] [ref=f1e334]
+                        - paragraph [ref=f1e335]: Wellness, care, and health-adjacent businesses.
+                    - link "E-commerce business owner E-commerce Online stores, marketplaces, and fulfillment brands." [ref=f1e336]:
+                      - /url: /industries/ecommerce
+                      - img "E-commerce business owner" [ref=f1e337]
+                      - generic [ref=f1e339]:
+                        - heading "E-commerce" [level=3] [ref=f1e340]
+                        - paragraph [ref=f1e341]: Online stores, marketplaces, and fulfillment brands.
+                    - link "Cleaning and janitorial service owner Cleaning & Janitorial Residential, office, and commercial cleaning services." [ref=f1e342]:
+                      - /url: /industries/cleaning-janitorial
+                      - img "Cleaning and janitorial service owner" [ref=f1e343]
+                      - generic [ref=f1e345]:
+                        - heading "Cleaning & Janitorial" [level=3] [ref=f1e346]
+                        - paragraph [ref=f1e347]: Residential, office, and commercial cleaning services.
+                    - link "Home services business owner Home Services Repair, maintenance, landscaping, and local service teams." [ref=f1e348]:
+                      - /url: /industries/home-services
+                      - img "Home services business owner" [ref=f1e349]
+                      - generic [ref=f1e351]:
+                        - heading "Home Services" [level=3] [ref=f1e352]
+                        - paragraph [ref=f1e353]: Repair, maintenance, landscaping, and local service teams.
+                    - link "Transportation business owner Transportation Drivers, logistics, delivery, and vehicle-based businesses." [ref=f1e354]:
+                      - /url: /industries/transportation
+                      - img "Transportation business owner" [ref=f1e355]
+                      - generic [ref=f1e357]:
+                        - heading "Transportation" [level=3] [ref=f1e358]
+                        - paragraph [ref=f1e359]: Drivers, logistics, delivery, and vehicle-based businesses.
+                    - link "Professional services owner Professional Services Skilled service firms that need credibility and protection." [ref=f1e360]:
+                      - /url: /industries/professional-services
+                      - img "Professional services owner" [ref=f1e361]
+                      - generic [ref=f1e363]:
+                        - heading "Professional Services" [level=3] [ref=f1e364]
+                        - paragraph [ref=f1e365]: Skilled service firms that need credibility and protection.
+                - generic [ref=f1e369] [cursor=pointer]:
+                  - generic [ref=f1e370]:
+                    - paragraph [ref=f1e372]: FAQ
+                    - heading "Frequently asked questions" [level=2] [ref=f1e373]
+                    - paragraph [ref=f1e374]: Three answers for owners deciding whether to move now.
+                    - img "Business owner reviewing LLC questions" [ref=f1e377]
+                  - generic [ref=f1e378]:
+                    - generic [ref=f1e379]:
+                      - button "How long does it take to form an LLC in California" [expanded] [ref=f1e380]:
+                        - generic [ref=f1e381]: How long does it take to form an LLC in California
+                        - img [ref=f1e382]
+                      - generic [ref=f1e383]:
+                        - paragraph [ref=f1e384]: "Whether an LLC is formed by a person, a DIY service, or a law firm, the state filing process is the same. But old fashioned law firms can get bogged down in work queues, emergencies, and other excuses. We provide one step better: The service of the law firm, but with the efficiency in delivery of the online platform. The faster you form your LLC, the sooner you can begin to benefit from it."
+                        - link "Start Now" [ref=f1e385]:
+                          - /url: /order
+                    - button "What do I need?" [ref=f1e387]:
+                      - generic [ref=f1e388]: What do I need?
+                      - img [ref=f1e389]
+                    - button "How do I know if an LLC is right for me, should I form a Corporation instead?" [ref=f1e391]:
+                      - generic [ref=f1e392]: How do I know if an LLC is right for me, should I form a Corporation instead?
+                      - img [ref=f1e393]
+                - generic [ref=f1e397] [cursor=pointer]:
+                  - heading "Start Now, Get Protected" [level=2] [ref=f1e398]
+                  - paragraph [ref=f1e399]: Order your California LLC formation for $750 or request more information so the team can route you into the right intake flow.
+                  - generic [ref=f1e400]:
+                    - link "Order Your LLC Formation" [ref=f1e401]:
+                      - /url: /order
+                    - link "More Information" [ref=f1e402]:
+                      - /url: /contact
+              - contentinfo [ref=f1e403] [cursor=pointer]:
+                - generic [ref=f1e405]:
+                  - generic [ref=f1e406]:
+                    - link "biz.legal" [ref=f1e407]:
+                      - /url: /
+                      - generic [ref=f1e408]: biz.legal
+                    - paragraph [ref=f1e409]: California LLC formation handled by lawyers, built with the speed of an online platform.
+                    - generic [ref=f1e410]:
+                      - paragraph [ref=f1e411]: (833) 555-0123
+                      - paragraph [ref=f1e412]: hello@biz.legal
+                      - paragraph [ref=f1e413]: California, USA
+                  - generic [ref=f1e414]:
+                    - paragraph [ref=f1e415]: Navigation
+                    - list [ref=f1e416]:
+                      - listitem [ref=f1e417]:
+                        - link "Services" [ref=f1e418]:
+                          - /url: /services/llc-formation
+                      - listitem [ref=f1e419]:
+                        - link "How It Works" [ref=f1e420]:
+                          - /url: /how-it-works
+                      - listitem [ref=f1e421]:
+                        - link "About" [ref=f1e422]:
+                          - /url: /about
+                      - listitem [ref=f1e423]:
+                        - link "Contact" [ref=f1e424]:
+                          - /url: /contact
+                - generic [ref=f1e426]:
+                  - paragraph [ref=f1e427]:
+                    - text: biz.legal is a service of attorney Alexander Myers SBN 271474 and the law firm Myers, Jameson & Myers, LLP. More information about the firm can be found at
+                    - link "mjmlaw.com" [ref=f1e428]:
+                      - /url: https://mjmlaw.com
+                    - text: .
+                  - generic [ref=f1e429]:
+                    - paragraph [ref=f1e430]: © 2026 biz.legal. All rights reserved.
+                    - generic [ref=f1e431]:
+                      - link "Privacy Policy" [ref=f1e432]:
+                        - /url: /privacy
+                      - link "Terms of Use" [ref=f1e433]:
+                        - /url: /terms
+                      - link "Cookie Policy" [ref=f1e434]:
+                        - /url: /cookies
+              - button "Open Next.js Dev Tools" [ref=f1e440] [cursor=pointer]:
+                - img [ref=f1e441]
+  - button "Open Next.js Dev Tools" [ref=e355] [cursor=pointer]:
+    - img [ref=e356]
+  - alert [ref=e359]

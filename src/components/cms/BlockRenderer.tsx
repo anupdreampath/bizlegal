@@ -99,7 +99,11 @@ export function BlockRenderer({ block }: { block: CmsBlock }) {
     );
   }
   return (
-    <div data-cms-block-id={block.id} data-cms-block-type={block.type}>
+    <div
+      data-cms-block-id={block.id}
+      data-cms-block-type={block.type}
+      suppressHydrationWarning
+    >
       <Cmp
         blockId={block.id}
         content={mergeDeviceData(block.content, device)}

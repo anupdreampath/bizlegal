@@ -403,191 +403,33 @@ export default function EditorClient({ slug }: { slug: string }) {
         ? selectedThemeSchema?.label || "Theme"
         : "Page settings";
 
-  return (
-    <div className="h-screen grid grid-cols-[18rem_1fr_25rem] bg-zinc-950 text-zinc-100">
-      <aside className="border-r border-zinc-800 overflow-y-auto">
-        <div className="p-4 border-b border-zinc-800 space-y-3">
-          <div className="flex items-start justify-between gap-3">
-            <div>
-              <p className="text-xs uppercase tracking-wider text-zinc-500">Visual editor</p>
-              <p className="font-medium text-sm">{page?.title || slug}</p>
-            </div>
-            <div className={`rounded-full px-2 py-1 text-[0.68rem] font-medium ${status === "error" ? "bg-red-500/15 text-red-300" : status === "saving" ? "bg-amber-500/15 text-amber-300" : "bg-emerald-500/15 text-emerald-300"}`}>
-              {statusLabel(status)}
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 rounded-lg border border-zinc-800 bg-zinc-950 p-1">
-            <button
-              type="button"
-              onClick={() => setDevice("desktop")}
-              className={`flex items-center justify-center gap-2 rounded-md px-2 py-2 text-xs font-medium transition ${device === "desktop" ? "bg-emerald-500 text-black" : "text-zinc-400 hover:text-zinc-100"}`}
-            >
-              <Monitor className="h-4 w-4" />
-              Desktop
-            </button>
-            <button
-              type="button"
-              onClick={() => setDevice("mobile")}
-              className={`flex items-center justify-center gap-2 rounded-md px-2 py-2 text-xs font-medium transition ${device === "mobile" ? "bg-emerald-500 text-black" : "text-zinc-400 hover:text-zinc-100"}`}
-            >
-              <Smartphone className="h-4 w-4" />
-              Mobile
-            </button>
-          </div>
-
-          <div className="space-y-1.5">
-            <label htmlFor="admin-page-select" className="text-xs text-zinc-500">
-              Page
-            </label>
-            <select
-              id="admin-page-select"
-              value={slug}
-              onChange={(event) => changePage(event.target.value)}
-              className="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-sm text-zinc-100 focus:outline-none focus:border-emerald-500"
-            >
-              {pages.length ? (
-                pages.map((p) => (
-                  <option key={p.id} value={p.slug}>
-                    {p.slug === "home" ? "Home" : p.title}
-                  </option>
-                ))
-              ) : (
-                <option value={slug}>{page?.title || slug}</option>
-              )}
-            </select>
-          </div>
-        </div>
-
-        <div className="p-3 border-b border-zinc-800">
-          <p className="px-2 pb-2 text-[0.68rem] uppercase tracking-wider text-zinc-600">Global</p>
-          <button
-            type="button"
-            onClick={() => setSelected({ kind: "page" })}
-            className={`w-full rounded-lg px-3 py-2 text-left text-sm transition flex items-center gap-2 ${selected.kind === "page" ? "bg-zinc-800 text-zinc-100" : "text-zinc-400 hover:bg-zinc-900 hover:text-zinc-100"}`}
-          >
-            <FileText className="h-4 w-4" />
-            Page SEO
-          </button>
-          {(["brand", "header", "footer"] as const).map((key) => (
-            <button
-              key={key}
-              type="button"
-              onClick={() => setSelected({ kind: "theme", key })}
-              className={`mt-1 w-full rounded-lg px-3 py-2 text-left text-sm transition flex items-center gap-2 ${selected.kind === "theme" && selected.key === key ? "bg-zinc-800 text-zinc-100" : "text-zinc-400 hover:bg-zinc-900 hover:text-zinc-100"}`}
-            >
-              {key === "brand" ? <Paintbrush className="h-4 w-4" /> : <LayoutTemplate className="h-4 w-4" />}
-              {THEME_SCHEMAS[key].label}
-            </button>
-          ))}
-        </div>
-
-        <div className="p-3 space-y-1">
-          <p className="px-2 pb-2 text-[0.68rem] uppercase tracking-wider text-zinc-600">Sections</p>
-          {blocks.map((b) => {
-            const isSel = selected.kind === "block" && b.id === selected.id;
-            const isVisible = getDeviceVisibility(b, device);
-            return (
-              <div
-                key={b.id}
-                className={`group rounded-lg border ${isSel ? "border-emerald-500 bg-zinc-900" : "border-zinc-800 hover:border-zinc-700 bg-zinc-900/40"} transition`}
-              >
-                <button type="button" onClick={() => setSelected({ kind: "block", id: b.id })} className="w-full text-left px-3 py-2.5">
-                  <p className={`text-sm ${isVisible ? "text-zinc-100" : "text-zinc-500"}`}>
-                    {SCHEMAS[b.type]?.label || b.type}
-                  </p>
-                  <p className="mt-1 text-[0.68rem] uppercase tracking-wider text-zinc-600">
-                    {isVisible ? `Visible on ${device}` : `Hidden on ${device}`}
-                  </p>
-                </button>
-                <div className="flex items-center justify-between border-t border-zinc-800 px-2 py-1.5">
-                  <div className="flex items-center gap-0.5">
-                    <button type="button" onClick={() => moveBlock(b, -1)} className="text-zinc-500 hover:text-zinc-100 p-1.5" title="Move up" aria-label="Move up">
-                      <ArrowUp className="h-3.5 w-3.5" />
-                    </button>
-                    <button type="button" onClick={() => moveBlock(b, 1)} className="text-zinc-500 hover:text-zinc-100 p-1.5" title="Move down" aria-label="Move down">
-                      <ArrowDown className="h-3.5 w-3.5" />
-                    </button>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <button
-                      type="button"
-                      onClick={() => toggleVisibility(b)}
-                      className="text-zinc-500 hover:text-zinc-100 p-1.5"
-                      title={isVisible ? `Hide on ${device}` : `Show on ${device}`}
-                      aria-label={isVisible ? `Hide on ${device}` : `Show on ${device}`}
-                    >
-                      {isVisible ? <Eye className="h-3.5 w-3.5" /> : <EyeOff className="h-3.5 w-3.5" />}
-                    </button>
-                    <button type="button" onClick={() => deleteBlock(b)} className="text-zinc-500 hover:text-red-400 p-1.5" title="Delete section" aria-label="Delete section">
-                      <Trash2 className="h-3.5 w-3.5" />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-          <button
-            type="button"
-            onClick={() => setShowAdd(true)}
-            className="w-full mt-3 border border-dashed border-zinc-700 hover:border-emerald-500 hover:text-emerald-400 text-zinc-400 rounded-lg py-3 text-sm transition flex items-center justify-center gap-2"
-          >
-            <Plus className="h-4 w-4" />
-            Add section
-          </button>
-        </div>
-      </aside>
-
-      <div className="overflow-hidden bg-zinc-100 relative">
-        <div className="absolute top-4 left-1/2 z-10 -translate-x-1/2 flex items-center gap-2 rounded-full border border-zinc-300 bg-white/90 px-3 py-1 text-xs font-medium text-zinc-700 shadow-sm backdrop-blur">
-          {device === "desktop" ? <Monitor className="h-3.5 w-3.5" /> : <Smartphone className="h-3.5 w-3.5" />}
-          {device === "desktop" ? "Desktop preview" : "Mobile preview"}
+  const inspectorPanel = (
+    <div className="border-b border-zinc-800 bg-zinc-950">
+      <div className="p-4 border-b border-zinc-800 flex items-start justify-between gap-3">
+        <div>
+          <p className="text-xs uppercase tracking-wider text-zinc-500">Inspector</p>
+          <p className="font-medium text-sm">{inspectorTitle}</p>
+          {selected.kind === "block" && (
+            <p className="mt-1 text-xs text-zinc-500">
+              {device === "desktop" ? "Desktop edits" : "Mobile overrides"} · {selectedVisible ? "visible" : "hidden"}
+            </p>
+          )}
         </div>
         <button
           type="button"
-          onClick={reloadPreview}
-          className="absolute top-4 right-4 z-10 rounded-full border border-zinc-300 bg-white/90 p-2 text-zinc-700 shadow-sm backdrop-blur hover:bg-white"
-          title="Refresh preview"
-          aria-label="Refresh preview"
+          onClick={saveNow}
+          disabled={status === "saving"}
+          className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-medium px-3 py-2 rounded-lg text-sm disabled:opacity-50"
         >
-          <RefreshCw className="h-4 w-4" />
+          <Save className="h-4 w-4" />
+          Save
         </button>
-        <div className="h-full w-full overflow-auto p-0 md:p-6 flex justify-center">
-          <iframe
-            ref={iframeRef}
-            key={`${device}-${iframeKey}`}
-            onLoad={wirePreview}
-            src={`${PUBLIC_URL_FOR_SLUG(slug)}?preview=1&editor=1&v=${iframeKey}`}
-            className={`h-full border-0 bg-white shadow-2xl transition-all duration-200 ${device === "mobile" ? "w-[390px] max-w-full rounded-[2rem]" : "w-full rounded-none md:rounded-xl"}`}
-          />
-        </div>
       </div>
 
-      <aside className="border-l border-zinc-800 overflow-y-auto">
-        <div className="p-4 border-b border-zinc-800 flex items-center justify-between sticky top-0 bg-zinc-950 z-20">
-          <div>
-            <p className="text-xs uppercase tracking-wider text-zinc-500">Inspector</p>
-            <p className="font-medium text-sm">{inspectorTitle}</p>
-            {selected.kind === "block" && (
-              <p className="mt-1 text-xs text-zinc-500">
-                {device === "desktop" ? "Desktop edits" : "Mobile overrides"} · {selectedVisible ? "visible" : "hidden"}
-              </p>
-            )}
-          </div>
-          <button
-            type="button"
-            onClick={saveNow}
-            disabled={status === "saving"}
-            className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-medium px-3 py-2 rounded-lg text-sm disabled:opacity-50"
-          >
-            <Save className="h-4 w-4" />
-            Save
-          </button>
-        </div>
-
+      <div className="max-h-[46vh] overflow-y-auto">
         {selected.kind === "block" && selectedBlock && selectedSchema && (
           <>
-            <div className="border-b border-zinc-800 p-3 sticky top-[4.9rem] bg-zinc-950 z-10">
+            <div className="border-b border-zinc-800 p-3 sticky top-0 bg-zinc-950 z-10">
               <div className="grid grid-cols-2 rounded-lg border border-zinc-800 bg-zinc-950 p-1">
                 <button
                   type="button"
@@ -667,7 +509,181 @@ export default function EditorClient({ slug }: { slug: string }) {
             </label>
           </div>
         )}
+      </div>
+    </div>
+  );
+
+  return (
+    <div className="h-screen grid grid-cols-[22rem_minmax(0,1fr)] bg-zinc-950 text-zinc-100">
+      <aside className="border-r border-zinc-800 flex min-h-0 flex-col">
+        <div className="p-4 border-b border-zinc-800 space-y-3">
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <p className="text-xs uppercase tracking-wider text-zinc-500">Visual editor</p>
+              <p className="font-medium text-sm">{page?.title || slug}</p>
+            </div>
+            <div className={`rounded-full px-2 py-1 text-[0.68rem] font-medium ${status === "error" ? "bg-red-500/15 text-red-300" : status === "saving" ? "bg-amber-500/15 text-amber-300" : "bg-emerald-500/15 text-emerald-300"}`}>
+              {statusLabel(status)}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 rounded-lg border border-zinc-800 bg-zinc-950 p-1">
+            <button
+              type="button"
+              onClick={() => setDevice("desktop")}
+              className={`flex items-center justify-center gap-2 rounded-md px-2 py-2 text-xs font-medium transition ${device === "desktop" ? "bg-emerald-500 text-black" : "text-zinc-400 hover:text-zinc-100"}`}
+            >
+              <Monitor className="h-4 w-4" />
+              Desktop
+            </button>
+            <button
+              type="button"
+              onClick={() => setDevice("mobile")}
+              className={`flex items-center justify-center gap-2 rounded-md px-2 py-2 text-xs font-medium transition ${device === "mobile" ? "bg-emerald-500 text-black" : "text-zinc-400 hover:text-zinc-100"}`}
+            >
+              <Smartphone className="h-4 w-4" />
+              Mobile
+            </button>
+          </div>
+
+          <div className="space-y-1.5">
+            <label htmlFor="admin-page-select" className="text-xs text-zinc-500">
+              Page
+            </label>
+            <select
+              id="admin-page-select"
+              value={slug}
+              onChange={(event) => changePage(event.target.value)}
+              className="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-sm text-zinc-100 focus:outline-none focus:border-emerald-500"
+            >
+              {pages.length ? (
+                pages.map((p) => (
+                  <option key={p.id} value={p.slug}>
+                    {p.slug === "home" ? "Home" : p.title}
+                  </option>
+                ))
+              ) : (
+                <option value={slug}>{page?.title || slug}</option>
+              )}
+            </select>
+          </div>
+        </div>
+
+        {inspectorPanel}
+
+        <div className="min-h-0 flex-1 overflow-y-auto">
+          <div className="p-3 border-b border-zinc-800">
+            <p className="px-2 pb-2 text-[0.68rem] uppercase tracking-wider text-zinc-600">Global</p>
+            <button
+              type="button"
+              onClick={() => setSelected({ kind: "page" })}
+              className={`w-full rounded-lg px-3 py-2 text-left text-sm transition flex items-center gap-2 ${selected.kind === "page" ? "bg-zinc-800 text-zinc-100" : "text-zinc-400 hover:bg-zinc-900 hover:text-zinc-100"}`}
+            >
+              <FileText className="h-4 w-4" />
+              Page SEO
+            </button>
+            {(["brand", "header", "footer"] as const).map((key) => (
+              <button
+                key={key}
+                type="button"
+                onClick={() => setSelected({ kind: "theme", key })}
+                className={`mt-1 w-full rounded-lg px-3 py-2 text-left text-sm transition flex items-center gap-2 ${selected.kind === "theme" && selected.key === key ? "bg-zinc-800 text-zinc-100" : "text-zinc-400 hover:bg-zinc-900 hover:text-zinc-100"}`}
+              >
+                {key === "brand" ? <Paintbrush className="h-4 w-4" /> : <LayoutTemplate className="h-4 w-4" />}
+                {THEME_SCHEMAS[key].label}
+              </button>
+            ))}
+          </div>
+
+          <div className="p-3 space-y-1">
+            <p className="px-2 pb-2 text-[0.68rem] uppercase tracking-wider text-zinc-600">Sections</p>
+            {blocks.map((b) => {
+              const isSel = selected.kind === "block" && b.id === selected.id;
+              const isVisible = getDeviceVisibility(b, device);
+              return (
+                <div
+                  key={b.id}
+                  className={`group rounded-lg border ${isSel ? "border-emerald-500 bg-zinc-900" : "border-zinc-800 hover:border-zinc-700 bg-zinc-900/40"} transition`}
+                >
+                  <button type="button" onClick={() => setSelected({ kind: "block", id: b.id })} className="w-full text-left px-3 py-2.5">
+                    <p className={`text-sm ${isVisible ? "text-zinc-100" : "text-zinc-500"}`}>
+                      {SCHEMAS[b.type]?.label || b.type}
+                    </p>
+                    <p className="mt-1 text-[0.68rem] uppercase tracking-wider text-zinc-600">
+                      {isVisible ? `Visible on ${device}` : `Hidden on ${device}`}
+                    </p>
+                  </button>
+                  <div className="flex items-center justify-between border-t border-zinc-800 px-2 py-1.5">
+                    <div className="flex items-center gap-0.5">
+                      <button type="button" onClick={() => moveBlock(b, -1)} className="text-zinc-500 hover:text-zinc-100 p-1.5" title="Move up" aria-label="Move up">
+                        <ArrowUp className="h-3.5 w-3.5" />
+                      </button>
+                      <button type="button" onClick={() => moveBlock(b, 1)} className="text-zinc-500 hover:text-zinc-100 p-1.5" title="Move down" aria-label="Move down">
+                        <ArrowDown className="h-3.5 w-3.5" />
+                      </button>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <button
+                        type="button"
+                        onClick={() => toggleVisibility(b)}
+                        className="text-zinc-500 hover:text-zinc-100 p-1.5"
+                        title={isVisible ? `Hide on ${device}` : `Show on ${device}`}
+                        aria-label={isVisible ? `Hide on ${device}` : `Show on ${device}`}
+                      >
+                        {isVisible ? <Eye className="h-3.5 w-3.5" /> : <EyeOff className="h-3.5 w-3.5" />}
+                      </button>
+                      <button type="button" onClick={() => deleteBlock(b)} className="text-zinc-500 hover:text-red-400 p-1.5" title="Delete section" aria-label="Delete section">
+                        <Trash2 className="h-3.5 w-3.5" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+            <button
+              type="button"
+              onClick={() => setShowAdd(true)}
+              className="w-full mt-3 border border-dashed border-zinc-700 hover:border-emerald-500 hover:text-emerald-400 text-zinc-400 rounded-lg py-3 text-sm transition flex items-center justify-center gap-2"
+            >
+              <Plus className="h-4 w-4" />
+              Add section
+            </button>
+          </div>
+        </div>
       </aside>
+
+      <div className="overflow-hidden bg-zinc-100 relative">
+        <div className="absolute top-4 left-1/2 z-10 -translate-x-1/2 flex items-center gap-2 rounded-full border border-zinc-300 bg-white/90 px-3 py-1 text-xs font-medium text-zinc-700 shadow-sm backdrop-blur">
+          {device === "desktop" ? <Monitor className="h-3.5 w-3.5" /> : <Smartphone className="h-3.5 w-3.5" />}
+          {device === "desktop" ? "Desktop preview" : "Mobile preview"}
+        </div>
+        <button
+          type="button"
+          onClick={reloadPreview}
+          className="absolute top-4 right-4 z-10 rounded-full border border-zinc-300 bg-white/90 p-2 text-zinc-700 shadow-sm backdrop-blur hover:bg-white"
+          title="Refresh preview"
+          aria-label="Refresh preview"
+        >
+          <RefreshCw className="h-4 w-4" />
+        </button>
+        <div
+          className={`absolute inset-0 overflow-auto ${
+            device === "mobile" ? "flex justify-center p-0 md:p-6" : "block p-0"
+          }`}
+        >
+          <iframe
+            ref={iframeRef}
+            key={`${device}-${iframeKey}`}
+            onLoad={wirePreview}
+            src={`${PUBLIC_URL_FOR_SLUG(slug)}?preview=1&editor=1&v=${iframeKey}`}
+            className={`block h-full border-0 bg-white transition-all duration-200 ${
+              device === "mobile"
+                ? "w-[390px] max-w-full rounded-[2rem] shadow-2xl"
+                : "absolute inset-0 w-full min-w-0 rounded-none"
+            }`}
+          />
+        </div>
+      </div>
 
       {showAdd && (
         <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-6" onClick={() => setShowAdd(false)}>

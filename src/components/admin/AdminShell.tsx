@@ -13,7 +13,7 @@ import {
   PencilRuler,
   Users,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const navItems = [
   { href: "/admin/editor/home", label: "Visual Editor", icon: PencilRuler },
@@ -25,7 +25,11 @@ const navItems = [
 
 export default function AdminShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(() => pathname.startsWith("/admin/editor"));
+
+  useEffect(() => {
+    if (pathname.startsWith("/admin/editor")) setCollapsed(true);
+  }, [pathname]);
 
   if (pathname === "/admin/login") {
     return <div className="min-h-screen bg-zinc-950 text-zinc-100">{children}</div>;

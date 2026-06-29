@@ -43,6 +43,7 @@ export default function CmsHeader({ theme }: { theme: unknown }) {
   return (
     <header
       data-cms-global="header"
+      suppressHydrationWarning
       className="fixed top-0 left-0 right-0 z-50 backdrop-blur"
       style={{ backgroundColor }}
     >
