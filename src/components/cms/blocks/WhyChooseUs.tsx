@@ -1,3 +1,4 @@
+import { ShieldCheck } from "lucide-react";
 import { CmsMedia } from "../CmsMedia";
 
 export default function WhyChooseUsBlock({ content, style, blockId }: any) {
@@ -14,6 +15,14 @@ export default function WhyChooseUsBlock({ content, style, blockId }: any) {
           <div>
             <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
               <CmsMedia image={content.image} fill className="object-cover" />
+              <div className="absolute inset-x-4 bottom-4 rounded-[0.8rem] bg-white/95 p-4 shadow-lg">
+                <p className="font-sans text-[0.75rem] font-bold uppercase text-green-800 mb-1">
+                  Built for real businesses
+                </p>
+                <p className="font-serif text-[1.25rem] leading-[1.2] text-black">
+                  Practical legal support before, during, and after formation.
+                </p>
+              </div>
             </div>
           </div>
           <div>
@@ -23,14 +32,15 @@ export default function WhyChooseUsBlock({ content, style, blockId }: any) {
               </p>
             </div>
             <h2
-              className="font-serif leading-[1.05] mb-[2.5rem]"
+              className="font-serif leading-[1.05] mb-[2.5rem] whitespace-pre-line"
               style={{ color: s.textColor || "#000", fontSize: "clamp(2.5rem, 4.5vw, 3.25rem)" }}
             >
               {content.heading}
             </h2>
-            <div className="space-y-8">
+            <div className="grid sm:grid-cols-2 gap-4">
               {(content.features || []).map((f: any, i: number) => (
-                <div key={i} className="border-t border-gray-200 pt-6">
+                <div key={i} className="bg-white rounded-[1rem] p-5 border border-black/5">
+                  <ShieldCheck className="w-5 h-5 text-green-800 mb-4" />
                   <h3 className="font-sans text-base font-bold mb-2" style={{ color: s.textColor || "#000" }}>
                     {f.title}
                   </h3>

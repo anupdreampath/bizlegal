@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import PageShell from "@/components/PageShell";
 
 type Slot = {
   id: number;
@@ -41,38 +40,21 @@ export default function BookingPage() {
   }
 
   return (
-    <>
-      <Header />
-      <main className="bg-ivory-100 pt-[8rem] pb-[5rem]">
+    <PageShell
+      cmsSlug="booking"
+      label="Book a call"
+      title="Reserve a consultation slot"
+      description="Choose the next available time and pay the flat $25 non-refundable booking fee to hold your call."
+    >
+      <section className="bg-ivory-100 py-[4rem] md:py-[6rem]">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="mb-8">
-            <p className="font-sans font-bold uppercase text-green-800 mb-3">Book a call</p>
-            <h1 className="font-serif text-[2.75rem] md:text-[4rem] leading-[1.05] text-black">
-              Reserve a consultation slot
-            </h1>
-            <p className="font-sans text-gray-600 mt-4 max-w-2xl">
-              Choose the next available time and pay the flat $25 non-refundable booking fee to hold your call.
-            </p>
-          </div>
-
           <form onSubmit={submit} className="grid lg:grid-cols-[1fr_1.2fr] gap-6">
             <section className="bg-white rounded-[1rem] p-5">
               <h2 className="font-serif text-[1.5rem] mb-4">Available slots</h2>
               <div className="space-y-2">
                 {slots.map((slot) => (
-                  <label
-                    key={slot.id}
-                    className={`block rounded-lg border p-3 cursor-pointer ${
-                      selectedSlotId === slot.id ? "border-green-800 bg-green-50" : "border-gray-200"
-                    }`}
-                  >
-                    <input
-                      type="radio"
-                      name="slot"
-                      className="sr-only"
-                      checked={selectedSlotId === slot.id}
-                      onChange={() => setSelectedSlotId(slot.id)}
-                    />
+                  <label key={slot.id} className={`block rounded-lg border p-3 cursor-pointer ${selectedSlotId === slot.id ? "border-green-800 bg-green-50" : "border-gray-200"}`}>
+                    <input type="radio" name="slot" className="sr-only" checked={selectedSlotId === slot.id} onChange={() => setSelectedSlotId(slot.id)} />
                     <span className="font-sans text-sm text-black">{new Date(slot.startsAt).toLocaleString()}</span>
                     <span className="block font-sans text-xs text-gray-500">{slot.timezone}</span>
                   </label>
@@ -89,25 +71,16 @@ export default function BookingPage() {
               <Input label="Service needed" value={form.service} onChange={(service) => setForm({ ...form, service })} />
               <label className="block">
                 <span className="block font-sans font-bold text-sm text-black mb-1.5">Notes</span>
-                <textarea
-                  value={form.notes}
-                  onChange={(e) => setForm({ ...form, notes: e.target.value })}
-                  rows={4}
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-[0.7rem] font-sans text-sm text-black focus:outline-none focus:border-green-800"
-                />
+                <textarea value={form.notes} onChange={(event) => setForm({ ...form, notes: event.target.value })} rows={4} className="w-full px-4 py-3 bg-white border border-gray-200 rounded-[0.7rem] font-sans text-sm text-black" />
               </label>
-              <button
-                disabled={loading || !selectedSlotId}
-                className="w-full bg-green-800 text-white rounded-full py-3 font-sans font-medium disabled:opacity-50"
-              >
+              <button disabled={loading || !selectedSlotId} className="w-full bg-green-800 text-white rounded-full py-3 font-sans font-medium disabled:opacity-50">
                 {loading ? "Opening checkout..." : "Pay $25 and book"}
               </button>
             </section>
           </form>
         </div>
-      </main>
-      <Footer />
-    </>
+      </section>
+    </PageShell>
   );
 }
 
@@ -127,13 +100,7 @@ function Input({
   return (
     <label className="block">
       <span className="block font-sans font-bold text-sm text-black mb-1.5">{label}</span>
-      <input
-        type={type}
-        required={required}
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-[0.7rem] font-sans text-sm text-black focus:outline-none focus:border-green-800"
-      />
+      <input type={type} required={required} value={value} onChange={(event) => onChange(event.target.value)} className="w-full px-4 py-3 bg-white border border-gray-200 rounded-[0.7rem] font-sans text-sm text-black" />
     </label>
   );
 }

@@ -3,17 +3,37 @@
 import { Field, getByPath, setByPath } from "@/lib/cms/schemas";
 import CloudinaryUploader from "./CloudinaryUploader";
 
+function blankValue(fields: Field[] = []) {
+  const value: Record<string, unknown> = {};
+  for (const field of fields) {
+    const root = field.key.split(".")[0];
+    if (field.key === "_value") return "";
+    if (field.type === "repeater") {
+      value[root] = [];
+    } else if (field.type === "boolean") {
+      value[root] = false;
+    } else if (field.type === "number") {
+      value[root] = 0;
+    } else if (field.key.includes(".")) {
+      value[root] = value[root] || {};
+    } else {
+      value[root] = "";
+    }
+  }
+  return value;
+}
+
 export default function FieldEditor({
   field,
   data,
   onChange,
 }: {
   field: Field;
-  data: any;
-  onChange: (next: any) => void;
+  data: unknown;
+  onChange: (next: unknown) => void;
 }) {
   const value = getByPath(data, field.key);
-  const set = (v: any) => onChange(setByPath(data, field.key, v));
+  const set = (v: unknown) => onChange(setByPath(data, field.key, v));
 
   switch (field.type) {
     case "text":
@@ -22,10 +42,11 @@ export default function FieldEditor({
         <div className="space-y-1">
           <label className="text-xs uppercase tracking-wider text-zinc-400">{field.label}</label>
           <input
-            value={value || ""}
+            value={typeof value === "string" ? value : ""}
             onChange={(e) => set(e.target.value)}
             className="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500"
           />
+          {field.description && <p className="text-xs leading-snug text-zinc-500">{field.description}</p>}
         </div>
       );
     case "textarea":
@@ -33,11 +54,12 @@ export default function FieldEditor({
         <div className="space-y-1">
           <label className="text-xs uppercase tracking-wider text-zinc-400">{field.label}</label>
           <textarea
-            value={value || ""}
+            value={typeof value === "string" ? value : ""}
             onChange={(e) => set(e.target.value)}
             rows={3}
             className="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500 leading-snug"
           />
+          {field.description && <p className="text-xs leading-snug text-zinc-500">{field.description}</p>}
         </div>
       );
     case "color":
@@ -52,12 +74,13 @@ export default function FieldEditor({
               className="h-9 w-12 rounded border border-zinc-800 bg-zinc-950"
             />
             <input
-              value={value || ""}
+              value={typeof value === "string" ? value : ""}
               onChange={(e) => set(e.target.value)}
               className="flex-1 bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-xs font-mono focus:outline-none focus:border-emerald-500"
               placeholder="#000000 or rgba(...)"
             />
           </div>
+          {field.description && <p className="text-xs leading-snug text-zinc-500">{field.description}</p>}
         </div>
       );
     case "select":
@@ -65,7 +88,7 @@ export default function FieldEditor({
         <div className="space-y-1">
           <label className="text-xs uppercase tracking-wider text-zinc-400">{field.label}</label>
           <select
-            value={value || ""}
+            value={typeof value === "string" ? value : ""}
             onChange={(e) => set(e.target.value)}
             className="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500"
           >
@@ -73,6 +96,7 @@ export default function FieldEditor({
               <option key={o} value={o}>{o}</option>
             ))}
           </select>
+          {field.description && <p className="text-xs leading-snug text-zinc-500">{field.description}</p>}
         </div>
       );
     case "boolean":
@@ -85,6 +109,7 @@ export default function FieldEditor({
             className="h-4 w-4 accent-emerald-500"
           />
           <span>{field.label}</span>
+          {field.description && <span className="text-xs text-zinc-500">{field.description}</span>}
         </label>
       );
     case "number":
@@ -93,10 +118,11 @@ export default function FieldEditor({
           <label className="text-xs uppercase tracking-wider text-zinc-400">{field.label}</label>
           <input
             type="number"
-            value={value ?? ""}
+            value={typeof value === "number" || typeof value === "string" ? value : ""}
             onChange={(e) => set(Number(e.target.value))}
             className="w-full bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500"
           />
+          {field.description && <p className="text-xs leading-snug text-zinc-500">{field.description}</p>}
         </div>
       );
     case "image":
@@ -104,16 +130,16 @@ export default function FieldEditor({
         <div className="space-y-2">
           <label className="text-xs uppercase tracking-wider text-zinc-400">{field.label}</label>
           <CloudinaryUploader
-            value={value || { url: "", alt: "", type: "image" }}
+            value={typeof value === "string" || (value && typeof value === "object") ? value as string | { url: string; alt?: string; type?: "image" | "video" } : { url: "", alt: "", type: "image" }}
             onChange={(v) => set(v)}
             accept="any"
           />
         </div>
       );
     case "repeater": {
-      const items: any[] = Array.isArray(value) ? value : [];
+      const items: unknown[] = Array.isArray(value) ? value : [];
       const isPrimitive = field.itemSchema?.length === 1 && field.itemSchema[0].key === "_value";
-      const blank = isPrimitive ? "" : Object.fromEntries((field.itemSchema || []).map((f) => [f.key.split(".")[0], ""]));
+      const blank = isPrimitive ? "" : blankValue(field.itemSchema || []);
       return (
         <div className="space-y-3">
           <label className="text-xs uppercase tracking-wider text-zinc-400">{field.label}</label>
@@ -157,6 +183,7 @@ export default function FieldEditor({
             </div>
           ))}
           <button
+            type="button"
             onClick={() => set([...items, isPrimitive ? "" : { ...blank }])}
             className="text-emerald-400 hover:text-emerald-300 text-sm"
           >

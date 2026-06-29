@@ -1,7 +1,12 @@
+"use client";
+
 import Image from "next/image";
-import Header from "./Header";
-import Footer from "./Footer";
+import { useEffect, useState } from "react";
+import { BadgeCheck, ShieldCheck, Star } from "lucide-react";
 import CmsPageRuntime from "./cms/CmsPageRuntime";
+import CmsHeader from "./cms/CmsHeader";
+import CmsFooter from "./cms/CmsFooter";
+import { fastImageUrl } from "./cms/imageSource";
 
 export default function PageShell({
   children,
@@ -20,6 +25,20 @@ export default function PageShell({
   heroAlt?: string;
   cmsSlug?: string;
 }) {
+  const [theme, setTheme] = useState<Record<string, unknown>>({});
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/api/theme")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (!cancelled && data?.theme) setTheme(data.theme);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const fallback = (
     <>
       {/* Page hero */}
@@ -27,8 +46,9 @@ export default function PageShell({
         <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
           <div className={heroImage ? "grid lg:grid-cols-2 gap-10 items-center" : ""}>
             <div>
-              <div className="border-t-2 border-white pt-6 mb-6">
-                <p className="text-[1rem] font-sans font-bold text-white uppercase">
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 mb-6">
+                <BadgeCheck className="w-4 h-4 text-white" />
+                <p className="text-[0.8rem] font-sans font-bold text-white uppercase">
                   {label}
                 </p>
               </div>
@@ -40,17 +60,40 @@ export default function PageShell({
                   {description}
                 </p>
               )}
+              <div className="grid sm:grid-cols-3 gap-3 mt-8 max-w-[42rem]">
+                {["Attorney-reviewed", "California focused", "Documents delivered"].map((item) => (
+                  <div key={item} className="flex items-center gap-2 rounded-[0.7rem] bg-white/10 border border-white/10 px-3 py-3">
+                    <ShieldCheck className="w-4 h-4 text-white flex-shrink-0" />
+                    <span className="font-sans text-[0.8rem] font-bold text-white">
+                      {item}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
             {heroImage && (
-              <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
-                <Image
-                  src={heroImage}
-                  alt={heroAlt || title}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
-                  priority
-                />
+              <div className="relative">
+                <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
+                  <Image
+                    src={fastImageUrl(heroImage)}
+                    alt={heroAlt || title}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-cover"
+                    priority
+                    unoptimized
+                  />
+                </div>
+                <div className="absolute left-4 right-4 bottom-4 rounded-[0.8rem] bg-white/95 p-4 shadow-lg">
+                  <div className="flex gap-1 mb-2">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <Star key={star} className="w-4 h-4 fill-black text-black" />
+                    ))}
+                  </div>
+                  <p className="font-serif text-[1.25rem] leading-[1.2] text-black">
+                    Practical formation support for founders who want it done right.
+                  </p>
+                </div>
               </div>
             )}
           </div>
@@ -64,13 +107,11 @@ export default function PageShell({
 
   return (
     <>
-      <Header />
+      <CmsHeader theme={theme} />
       <main>
-        <CmsPageRuntime slug={cmsSlug} fallback={fallback}>
-          {children}
-        </CmsPageRuntime>
+        <CmsPageRuntime slug={cmsSlug} fallback={fallback} />
       </main>
-      <Footer />
+      <CmsFooter theme={theme} />
     </>
   );
 }

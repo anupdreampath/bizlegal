@@ -13,6 +13,7 @@ import {
   FileText,
   Send,
 } from "lucide-react";
+import CmsPageRuntime from "@/components/cms/CmsPageRuntime";
 
 /* ───────── step definitions ───────── */
 const steps = [
@@ -226,16 +227,47 @@ export default function QuestionnairePage() {
   const goNext = () => setCurrentStep((s) => Math.min(s + 1, 5));
   const goBack = () => setCurrentStep((s) => Math.max(s - 1, 1));
 
-  const handleSubmit = () => {
-    // In production, this would POST to your API
-    console.log("Submitted:", form);
+  const handleSubmit = async () => {
+    // Submit questionnaire data as a lead intake in the background
+    try {
+      await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: form.businessName || "Questionnaire Submission",
+          email: form.email,
+          phone: form.phone || null,
+          company: form.businessName || null,
+          service: "LLC Formation",
+          message: form.additionalNotes || null,
+          source: "questionnaire",
+          metadata: {
+            businessType: form.businessType,
+            industry: form.industry,
+            stateOfFormation: form.stateOfFormation,
+            hasExistingBusiness: form.hasExistingBusiness,
+            llcPurpose: form.llcPurpose,
+            mainMotivation: form.mainMotivation,
+            businessActivities: form.businessActivities,
+            revenueExpectation: form.revenueExpectation,
+            numberOfMembers: form.numberOfMembers,
+            memberNames: form.memberNames,
+            managementStructure: form.managementStructure,
+            businessAddress: form.businessAddress,
+            website: form.website,
+          },
+        }),
+      });
+    } catch {
+      // Silently fail — user should still see success UI
+    }
     setSubmitted(true);
   };
 
   /* ── success state ── */
   if (submitted) {
     return (
-      <div className="min-h-screen bg-ivory-100 flex items-center justify-center px-4">
+      <CmsPageRuntime slug="questionnaire" fallback={<div className="min-h-screen bg-ivory-100 flex items-center justify-center px-4">
         <div className="max-w-md text-center animate-fade-in-up">
           <div className="w-20 h-20 mx-auto mb-6 bg-green-800/10 rounded-full flex items-center justify-center">
             <CheckCircle2 className="w-10 h-10 text-green-800" />
@@ -263,12 +295,12 @@ export default function QuestionnairePage() {
             </Link>
           </div>
         </div>
-      </div>
+      </div>} />
     );
   }
 
   return (
-    <div className="min-h-screen bg-ivory-100">
+    <CmsPageRuntime slug="questionnaire" fallback={<div className="min-h-screen bg-ivory-100">
       {/* Top bar */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
@@ -829,6 +861,6 @@ export default function QuestionnairePage() {
           </div>
         </div>
       </div>
-    </div>
+    </div>} />
   );
 }

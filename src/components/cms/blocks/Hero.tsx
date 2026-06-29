@@ -1,8 +1,14 @@
 import Link from "next/link";
+import { BadgeCheck, ShieldCheck, Star } from "lucide-react";
 import { CmsMedia } from "../CmsMedia";
 
 export default function HeroBlock({ content, style, blockId }: any) {
   const s = style || {};
+  const proofItems = content.proofItems || [
+    "Attorney-reviewed",
+    "California filings",
+    "Custom documents",
+  ];
   return (
     <section
       data-block-id={blockId}
@@ -14,13 +20,14 @@ export default function HeroBlock({ content, style, blockId }: any) {
       }}
     >
       <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-8 items-center">
+        <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-12 lg:gap-14 items-center">
           <div>
-            {content.eyebrow && (
-              <p className="font-sans font-bold uppercase text-sm mb-4" style={{ color: s.textColor }}>
-                {content.eyebrow}
-              </p>
-            )}
+            <div className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/80 px-4 py-2 mb-6">
+              <BadgeCheck className="w-4 h-4" style={{ color: s.primaryCtaBg || "#166534" }} />
+              <span className="font-sans font-bold uppercase text-[0.8rem]" style={{ color: s.textColor || "#000" }}>
+                {content.eyebrow || "Attorney-guided LLC support"}
+              </span>
+            </div>
             <h1
               data-field="heading"
               className={`font-serif leading-[1.05] mb-6 ${s.uppercase ? "uppercase" : ""}`}
@@ -69,9 +76,19 @@ export default function HeroBlock({ content, style, blockId }: any) {
                 </Link>
               )}
             </div>
+            <div className="grid sm:grid-cols-3 gap-3 mt-8 max-w-[42rem]">
+              {proofItems.map((item: string) => (
+                <div key={item} className="flex items-center gap-2 rounded-[0.7rem] bg-white/70 border border-black/5 px-3 py-3">
+                  <ShieldCheck className="w-4 h-4 flex-shrink-0" style={{ color: s.primaryCtaBg || "#166534" }} />
+                  <span className="font-sans text-[0.8rem] font-bold" style={{ color: s.textColor || "#000" }}>
+                    {item}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
           <div className="relative">
-            <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
+            <div className="aspect-[4/3] lg:aspect-[5/4] rounded-[1rem] overflow-hidden">
               <CmsMedia
                 image={content.image}
                 className="w-full h-full object-cover"
@@ -79,6 +96,16 @@ export default function HeroBlock({ content, style, blockId }: any) {
                 height={1200}
                 priority
               />
+            </div>
+            <div className="absolute left-4 right-4 bottom-4 rounded-[0.8rem] bg-white/95 p-4 shadow-lg">
+              <div className="flex items-center gap-1 mb-2">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="w-4 h-4 fill-black text-black" />
+                ))}
+              </div>
+              <p className="font-serif text-[1.25rem] leading-[1.2] text-black">
+                Trusted by founders who want speed without legal guesswork.
+              </p>
             </div>
           </div>
         </div>

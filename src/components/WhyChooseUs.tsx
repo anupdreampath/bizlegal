@@ -32,8 +32,8 @@ export default function WhyChooseUs() {
           <div>
             <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1400&q=80"
-                alt="California law firm shelves of legal books — biz.legal attorneys reviewing LLC formations"
+                src="/amyersnapa-attachments/iStock-2218831325.jpg"
+                alt="biz.legal team reviewing business formation details with California entrepreneurs"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"

@@ -62,6 +62,42 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
+.cms-rich-content h2 {
+  color: inherit;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.1;
+  margin: 2.25rem 0 1rem;
+}
+
+.cms-rich-content h3 {
+  color: inherit;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 1.75rem 0 0.75rem;
+}
+
+.cms-rich-content p {
+  margin: 0 0 1rem;
+}
+
+.cms-rich-content ul,
+.cms-rich-content ol {
+  margin: 0 0 1.25rem 1.25rem;
+}
+
+.cms-rich-content li {
+  margin: 0.35rem 0;
+}
+
+.cms-rich-content a {
+  color: var(--green-800);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 html {
   scroll-behavior: smooth;
 }

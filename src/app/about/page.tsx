@@ -4,15 +4,14 @@ import PageShell from "@/components/PageShell";
 export const metadata = {
   title: "About biz.legal — Real California Lawyers, Online Speed",
   description:
-    "biz.legal is a law firm built for California entrepreneurs. We combine attorney-grade LLC formation with online efficiency at a fraction of traditional firm cost.",
+    "biz.legal is a legal tech platform founded by long time business attorney Alexander Myers. We combine attorney-grade LLC formation with online efficiency.",
 };
 
 export default function AboutPage() {
   return (
     <PageShell
-      cmsSlug="about"
-heroImage="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80"
-      heroAlt="Modern California law firm hallway — biz.legal attorney offices"
+      heroImage="/amyersnapa-attachments/iStock-2243799864.jpg"
+      heroAlt="California business owners in a strategy session with biz.legal"
       label="About"
       title="A law firm with the speed of an online platform"
       description="biz.legal is run by lawyers, but built like a tech company — so California business owners get real legal advice without the traditional law firm bill."
@@ -34,24 +33,13 @@ heroImage="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=for
 
               <div className="space-y-4 font-sans text-[1rem] text-gray-600 leading-[1.7]">
                 <p>
-                  DIY formation websites can&apos;t give legal advice. Traditional
-                  law firms are too expensive. biz.legal was built to be the
-                  best of both — an online platform run by California lawyers,
-                  delivering real legal counsel at a fraction of traditional
-                  firm cost.
+                  Biz.legal is a legal tech platform founded by long time business attorney and small business owner/entrepreneur Alexander Myers. Having represented small and regional businesses for the past 16 years, Alex has helped countless business owners, investors, and entrepreneurs through every stage of their business life cycle.
                 </p>
                 <p>
-                  Our team has leveraged the efficiencies of tech companies to
-                  give entrepreneurs reliable legal advice at the speed of a
-                  DIY service — taking out the guesswork, so clients can be
-                  confident their entity is the right choice for their
-                  business and formed the right way for their protection.
+                  He has formed and owns several other businesses of his own, and witnessed a gap in the business law market. Most business owners don&apos;t feel confident forming their own business entities online, but the price, timing, and intimidation of working with traditional law firms is not competitive in the modern world, and is unappealing to people who are busy working on their businesses, not trying to learn the ins and outs of business law to navigate a DIY legal website.
                 </p>
                 <p>
-                  Every document we prepare is reviewed by experienced
-                  California business attorneys. Every filing is tracked,
-                  every deadline monitored, and every client has direct
-                  access to a real lawyer.
+                  The system lacked a solution that provided the confidence of working with a law firm, but embraced the speed and efficiency of a tech solution. Biz.legal is intended to support the needs of small business owners, and provide a high level of service, support, and confidence that your business was started and operates the right way, right away.
                 </p>
               </div>
             </div>
@@ -59,17 +47,17 @@ heroImage="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=for
             <div className="space-y-6">
               <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80"
-                  alt="Modern California law firm hallway — biz.legal attorney offices"
+                  src="/Alex%20Myers.jpeg"
+                  alt="Alexander Myers, founder of biz.legal"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
+                  className="object-cover object-[50%_35%]"
                 />
               </div>
               <div className="relative aspect-[3/2] rounded-[1rem] overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1400&q=80"
-                  alt="Shelves of legal books in a California law firm — biz.legal legal library"
+                  src="/amyersnapa-attachments/iStock-2218831325.jpg"
+                  alt="biz.legal team advising California business owners"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -116,7 +104,7 @@ heroImage="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=for
             {[
               { number: "5,000+", label: "LLCs formed" },
               { number: "98%", label: "Client satisfaction" },
-              { number: "10+", label: "Years of experience" },
+              { number: "16", label: "Years of experience" },
               { number: "4.9/5", label: "Average rating" },
             ].map((stat) => (
               <div key={stat.label}>

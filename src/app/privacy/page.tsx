@@ -1,8 +1,11 @@
 import Link from "next/link";
+import CmsPageRuntime from "@/components/cms/CmsPageRuntime";
+import CmsStandaloneShell from "@/components/cms/CmsStandaloneShell";
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="min-h-screen bg-ivory-100">
+    <CmsStandaloneShell>
+      <CmsPageRuntime slug="privacy" fallback={<div className="min-h-screen bg-ivory-100">
       {/* Header */}
       <div className="bg-ivory-100 border-b border-gray-200">
         <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem] py-5 flex items-center justify-between">
@@ -291,6 +294,7 @@ export default function PrivacyPolicyPage() {
           </section>
         </div>
       </div>
-    </div>
+      </div>} />
+    </CmsStandaloneShell>
   );
 }

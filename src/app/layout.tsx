@@ -21,11 +21,11 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://biz.legal"),
   title: {
-    default: "biz.legal | California LLC Formation, Done For You",
+    default: "biz.legal | We Form Your LLC For You",
     template: "%s | biz.legal",
   },
   description:
-    "biz.legal forms your California LLC fast and easy. Real California lawyers, the speed of an online platform, at a fraction of traditional law firm cost. Don't DIY — we'll D-I-F-Y.",
+    "California LLC formation handled by lawyers with professional filing, attorney-drafted documents, fast delivery, and no guesswork.",
   keywords: [
     "California LLC formation",
     "form an LLC in California",
@@ -37,27 +37,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "biz.legal",
-    title: "biz.legal | California LLC Formation, Done For You",
+    title: "biz.legal | We Form Your LLC For You",
     description:
-      "Real California lawyers form your LLC at the speed and price of an online service. Restaurants, retail, ecommerce, consulting, beauty, the trades, childcare, and more.",
+      "Lawyer-led California LLC formation for restaurants, retail, technology, construction, consulting, real estate, healthcare, e-commerce, cleaning, home services, transportation, and professional services.",
     url: "https://biz.legal",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1502285745115-13e43e3faad4?auto=format&fit=crop&w=1600&q=80",
+        url: "/amyersnapa-attachments/optimized/iStock-2238258267-1600.jpg",
         width: 1600,
         height: 1067,
-        alt: "Golden Gate Bridge — California LLC formation by biz.legal",
+        alt: "Small business owner reviewing LLC formation documents with biz.legal",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "biz.legal | California LLC Formation, Done For You",
+    title: "biz.legal | We Form Your LLC For You",
     description:
-      "We'll form your California LLC, fast & easy. Real lawyers. Online speed. A fraction of the cost.",
-    images: [
-      "https://images.unsplash.com/photo-1502285745115-13e43e3faad4?auto=format&fit=crop&w=1600&q=80",
-    ],
+      "We form your California LLC for you with attorney-drafted documents, professional filing, and fast delivery.",
+    images: ["/amyersnapa-attachments/optimized/iStock-2238258267-1600.jpg"],
   },
   robots: { index: true, follow: true },
 };

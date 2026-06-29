@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { CmsImage } from "./types";
+import { fastImageUrl } from "./imageSource";
 
 export function CmsMedia({
   image,
@@ -19,10 +20,11 @@ export function CmsMedia({
   priority?: boolean;
 }) {
   if (!image?.url) return null;
+  const src = fastImageUrl(image.url);
   if (image.type === "video") {
     return (
       <video
-        src={image.url}
+        src={src}
         className={className}
         autoPlay
         loop
@@ -34,24 +36,26 @@ export function CmsMedia({
   if (fill) {
     return (
       <Image
-        src={image.url}
+        src={src}
         alt={image.alt || ""}
         fill
         sizes={sizes || "(max-width: 768px) 100vw, 50vw"}
         className={className}
         priority={priority}
+        loading={priority ? undefined : "eager"}
         unoptimized
       />
     );
   }
   return (
     <Image
-      src={image.url}
+      src={src}
       alt={image.alt || ""}
       width={width || 1600}
       height={height || 1200}
       className={className}
       priority={priority}
+      loading={priority ? undefined : "eager"}
       unoptimized
     />
   );

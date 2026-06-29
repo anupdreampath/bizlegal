@@ -83,6 +83,22 @@ export default function TestimonialsBlock({ content, style, blockId }: any) {
             </div>
           </div>
         </div>
+        <div className="grid md:grid-cols-3 gap-5 mt-[3rem]">
+          {items.slice(0, 3).map((item: any) => (
+            <article key={item.name} className="rounded-[1rem] p-6" style={{ backgroundColor: s.cardBg || "#efeadc" }}>
+              <div className="flex gap-1 mb-5">
+                {Array.from({ length: item.rating || 5 }).map((_, i) => (
+                  <Star key={i} className="w-4 h-4" style={{ fill: s.textColor || "#000", color: s.textColor || "#000" }} />
+                ))}
+              </div>
+              <blockquote className="font-serif text-[1.25rem] leading-[1.3] mb-8" style={{ color: s.textColor || "#000" }}>
+                &ldquo;{item.quote}&rdquo;
+              </blockquote>
+              <p className="font-sans font-bold text-sm" style={{ color: s.textColor || "#000" }}>{item.name}</p>
+              <p className="font-sans text-sm" style={{ color: s.bodyColor || "#4b5563" }}>{item.role}</p>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );

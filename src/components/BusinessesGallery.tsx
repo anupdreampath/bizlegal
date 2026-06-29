@@ -5,73 +5,65 @@ const businesses = [
     name: "Restaurants",
     blurb:
       "From neighborhood cafés to full-service restaurants, we form LLCs that protect your kitchen and your future.",
-    photo:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
-    alt: "California restaurant interior with set tables — restaurant LLC formation",
-    credit: "Photo by Jason Leung on Unsplash",
+    photo: "/amyersnapa-attachments/iStock-2238258267.jpg",
+    alt: "Cafe owner meeting with an advisor about forming a California LLC",
+    credit: "biz.legal client-service imagery",
   },
   {
     name: "Retail",
     blurb:
       "Brick-and-mortar shops across California rely on us to get their LLC structured right from day one.",
-    photo:
-      "https://images.unsplash.com/photo-1546213290-e1b492ab3eee?auto=format&fit=crop&w=1200&q=80",
-    alt: "Customer browsing inside a California retail store — retail LLC formation",
-    credit: "Photo by Korie Cull on Unsplash",
+    photo: "/amyersnapa-attachments/iStock-2187548708.jpg",
+    alt: "Retail shop customer at checkout — retail LLC formation",
+    credit: "biz.legal client-service imagery",
   },
   {
     name: "Ecommerce",
     blurb:
       "Online sellers and DTC brands trust our attorney-drafted entities to handle multi-state exposure.",
-    photo:
-      "https://images.unsplash.com/photo-1449247666642-264389f5f5b1?auto=format&fit=crop&w=1200&q=80",
-    alt: "Person packing an ecommerce shipping box — online business LLC formation",
-    credit: "Photo by Bench Accounting on Unsplash",
+    photo: "/amyersnapa-attachments/iStock-2241575917.jpg",
+    alt: "Online seller packing customer orders — ecommerce LLC formation",
+    credit: "biz.legal client-service imagery",
   },
   {
     name: "Consulting",
     blurb:
       "Solo consultants and boutique firms get clean liability separation and a credible legal foundation.",
-    photo:
-      "https://images.unsplash.com/photo-1551135049-8a33b5883817?auto=format&fit=crop&w=1200&q=80",
-    alt: "Consultants reviewing documents in a meeting — consulting LLC formation",
-    credit: "Photo by Sebastian Herrmann on Unsplash",
+    photo: "/amyersnapa-attachments/iStock-2243799864.jpg",
+    alt: "Consultants planning business structure in a meeting — consulting LLC formation",
+    credit: "biz.legal client-service imagery",
   },
   {
     name: "Beauty",
     blurb:
       "Salons, estheticians, and beauty studios — we form entities tailored to licensed professionals.",
-    photo:
-      "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?auto=format&fit=crop&w=1200&q=80",
-    alt: "Hair stylist serving a client in a California salon — beauty business LLC formation",
-    credit: "Photo by Lindsay Cash on Unsplash",
+    photo: "/amyersnapa-attachments/iStock-2243642331.jpg",
+    alt: "Production shop owner on the phone near equipment — specialty business LLC formation",
+    credit: "biz.legal client-service imagery",
   },
   {
     name: "The Trades",
     blurb:
       "Contractors, electricians, plumbers, and roofers — formed correctly and registered statewide.",
-    photo:
-      "https://images.unsplash.com/photo-1743610350670-db2f1cc54620?auto=format&fit=crop&w=1200&q=80",
-    alt: "Tradespeople using power tools on a construction site — contractor LLC formation",
-    credit: "Photo by LXS Photography on Unsplash",
+    photo: "/amyersnapa-attachments/iStock-2161275481.jpg",
+    alt: "Landscaping crew unloading equipment — contractor LLC formation",
+    credit: "biz.legal client-service imagery",
   },
   {
     name: "Childcare",
     blurb:
       "Family daycare and preschools — we navigate licensing-aware structures so you can focus on the kids.",
-    photo:
-      "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?auto=format&fit=crop&w=1200&q=80",
-    alt: "Children sitting on a classroom carpet — childcare business LLC formation",
-    credit: "Photo by Unsplash contributor",
+    photo: "/amyersnapa-attachments/iStock-2243799864.jpg",
+    alt: "Small team reviewing plans together — childcare business LLC formation",
+    credit: "biz.legal client-service imagery",
   },
   {
     name: "Specialty Services",
     blurb:
       "Coffee roasters, fitness studios, creative shops — bespoke LLCs for one-of-a-kind businesses.",
-    photo:
-      "https://images.unsplash.com/photo-1716808681381-52cf8055b02d?auto=format&fit=crop&w=1200&q=80",
-    alt: "Specialty coffee shop counter with a pour-over cup — specialty services LLC formation",
-    credit: "Photo by Unsplash contributor",
+    photo: "/amyersnapa-attachments/iStock-2239904274.jpg",
+    alt: "Service business owner maintaining a commercial space — specialty services LLC formation",
+    credit: "biz.legal client-service imagery",
   },
 ];
 

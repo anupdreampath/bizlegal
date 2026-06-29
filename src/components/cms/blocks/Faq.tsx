@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Plus, Minus } from "lucide-react";
 import { CmsMedia } from "../CmsMedia";
 
@@ -56,6 +57,15 @@ export default function FaqBlock({ content, style, blockId }: any) {
                       <p className="font-sans text-base leading-[1.6]" style={{ color: s.bodyColor || "#4b5563" }}>
                         {faq.answer}
                       </p>
+                      {faq.cta?.label && (
+                        <Link
+                          href={faq.cta.href || "#"}
+                          className="inline-flex items-center px-6 py-3 mt-5 text-sm font-sans font-medium rounded-full transition-opacity hover:opacity-90"
+                          style={{ backgroundColor: s.ctaBg || "#166534", color: s.ctaColor || "#ffffff" }}
+                        >
+                          {faq.cta.label}
+                        </Link>
+                      )}
                     </div>
                   )}
                 </div>

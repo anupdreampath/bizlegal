@@ -17,7 +17,7 @@ export default function BusinessStructuringPage() {
   return (
     <PageShell
       cmsSlug="services-business-structuring"
-heroImage="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80"
+      heroImage="/amyersnapa-attachments/iStock-2243799864.jpg"
       heroAlt="Four professionals in a business meeting — California business structuring consultation"
       label="Business Structuring"
       title="Structure your LLC for maximum protection and flexibility"
@@ -301,7 +301,7 @@ heroImage="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=for
               <h2 className="font-serif text-[2rem] md:text-[2.75rem] leading-[1.1] text-black mb-6">
                 Structuring guidance is especially valuable when&hellip;
               </h2>
-              <ImagePlaceholder label="Business Strategy Consultation" aspect="4/3" src="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80" />
+              <ImagePlaceholder label="Business strategy consultation with California founders" aspect="4/3" src="/amyersnapa-attachments/iStock-2218831325.jpg" />
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -498,7 +498,7 @@ heroImage="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=for
               </div>
             </div>
 
-            <ImagePlaceholder label="LLC Structuring Consultation" aspect="4/3" src="https://images.unsplash.com/photo-1758518729685-f88df7890776?auto=format&fit=crop&w=1400&q=80" />
+            <ImagePlaceholder label="LLC structuring consultation for a small business owner" aspect="4/3" src="/amyersnapa-attachments/iStock-2238258267.jpg" />
           </div>
         </div>
       </section>

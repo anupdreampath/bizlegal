@@ -41,8 +41,8 @@ export default function Hero() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-[1rem] overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1502285745115-13e43e3faad4?auto=format&fit=crop&w=1600&q=80"
-                alt="Golden Gate Bridge in San Francisco, California — symbolizing California LLC formation by biz.legal"
+                src="/amyersnapa-attachments/iStock-2238258267.jpg"
+                alt="California small business owner reviewing LLC formation documents with biz.legal"
                 width={1600}
                 height={1200}
                 className="w-full h-full object-cover"

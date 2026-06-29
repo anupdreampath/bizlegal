@@ -4,12 +4,21 @@ import { useSyncExternalStore } from "react";
 import type { ComponentType } from "react";
 import HeroBlock from "./blocks/Hero";
 import TrustBarBlock from "./blocks/TrustBar";
+import ComparisonBlock from "./blocks/Comparison";
 import ServicesBlock from "./blocks/Services";
 import WhyChooseUsBlock from "./blocks/WhyChooseUs";
+import VideoCtaBlock from "./blocks/VideoCta";
 import ProcessBlock from "./blocks/Process";
+import IndustryGridBlock from "./blocks/IndustryGrid";
 import TestimonialsBlock from "./blocks/Testimonials";
 import FaqBlock from "./blocks/Faq";
 import CtaBannerBlock from "./blocks/CtaBanner";
+import RichContentBlock from "./blocks/RichContent";
+import ContactFormBlock from "./blocks/ContactForm";
+import BookingFormBlock from "./blocks/BookingForm";
+import AuthFormBlock from "./blocks/AuthForm";
+import StatusPageBlock from "./blocks/StatusPage";
+import QuestionnaireBlock from "./blocks/Questionnaire";
 import type { CmsBlock } from "./types";
 
 type DeviceMode = "desktop" | "mobile";
@@ -23,12 +32,21 @@ type CmsBlockComponent = ComponentType<{
 const REGISTRY: Record<string, CmsBlockComponent> = {
   hero: HeroBlock,
   trustBar: TrustBarBlock,
+  comparison: ComparisonBlock,
   services: ServicesBlock,
   whyChooseUs: WhyChooseUsBlock,
+  videoCta: VideoCtaBlock,
   process: ProcessBlock,
+  industryGrid: IndustryGridBlock,
   testimonials: TestimonialsBlock,
   faq: FaqBlock,
   ctaBanner: CtaBannerBlock,
+  richContent: RichContentBlock,
+  contactForm: ContactFormBlock,
+  bookingForm: BookingFormBlock,
+  authForm: AuthFormBlock,
+  statusPage: StatusPageBlock,
+  questionnaire: QuestionnaireBlock,
 };
 
 export const BLOCK_TYPES = Object.keys(REGISTRY);
@@ -81,11 +99,13 @@ export function BlockRenderer({ block }: { block: CmsBlock }) {
     );
   }
   return (
-    <Cmp
-      blockId={block.id}
-      content={mergeDeviceData(block.content, device)}
-      style={mergeDeviceData(block.style, device)}
-    />
+    <div data-cms-block-id={block.id} data-cms-block-type={block.type}>
+      <Cmp
+        blockId={block.id}
+        content={mergeDeviceData(block.content, device)}
+        style={mergeDeviceData(block.style, device)}
+      />
+    </div>
   );
 }
 

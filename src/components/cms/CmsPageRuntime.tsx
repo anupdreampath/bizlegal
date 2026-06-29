@@ -12,11 +12,9 @@ type CmsPageResponse = {
 export default function CmsPageRuntime({
   slug,
   fallback,
-  children,
 }: {
   slug?: string;
   fallback: React.ReactNode;
-  children: React.ReactNode;
 }) {
   const [data, setData] = useState<CmsPageResponse | null>(null);
   const [loaded, setLoaded] = useState(false);
@@ -46,7 +44,6 @@ export default function CmsPageRuntime({
   return (
     <>
       <PageRenderer blocks={data.blocks} />
-      {children}
     </>
   );
 }

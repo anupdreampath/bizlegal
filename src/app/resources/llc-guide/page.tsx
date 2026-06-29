@@ -363,8 +363,8 @@ heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=for
           </div>
 
           <div className="mt-8">
-            <Link href="/resources/tax-requirements" className="inline-flex items-center px-7 py-3 text-[0.95rem] font-sans font-medium text-purple-900 bg-white rounded-full hover:opacity-90 transition-opacity duration-200 cursor-pointer">
-              Read the Full Tax Guide
+            <Link href="/contact" className="inline-flex items-center px-7 py-3 text-[0.95rem] font-sans font-medium text-purple-900 bg-white rounded-full hover:opacity-90 transition-opacity duration-200 cursor-pointer">
+              Talk to a Tax Lawyer
             </Link>
           </div>
         </div>
