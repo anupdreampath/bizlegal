@@ -3,24 +3,14 @@ import Link from "next/link";
 const footerLinks = {
   services: [
     { label: "LLC Formation", href: "/services/llc-formation" },
-    { label: "LLC Management", href: "/services/llc-management" },
+    { label: "Continuing Legal Support", href: "/services/llc-management" },
     { label: "Registered Agent", href: "/services/registered-agent" },
-    { label: "Compliance", href: "/services/compliance" },
     { label: "Business Structuring", href: "/services/business-structuring" },
   ],
   company: [
     { label: "About", href: "/about" },
     { label: "How It Works", href: "/how-it-works" },
-    { label: "Reviews", href: "/reviews" },
-    { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "/contact" },
-    { label: "Careers", href: "/careers" },
-  ],
-  resources: [
-    { label: "LLC Guide", href: "/resources/llc-guide" },
-    { label: "California Business Law", href: "/resources/california-business-law" },
-    { label: "Tax Requirements", href: "/resources/tax-requirements" },
-    { label: "Blog", href: "/blog" },
   ],
 };
 
@@ -29,7 +19,7 @@ export default function Footer() {
     <footer className="bg-ivory-100 border-t border-gray-200">
       {/* Main footer */}
       <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem] py-[4rem] md:py-[5rem]">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand column */}
           <div className="lg:col-span-2">
             <Link href="/" className="block mb-5">
@@ -94,23 +84,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <p className="font-sans font-bold text-[0.85rem] text-black uppercase tracking-wider mb-5">
-              Resources
-            </p>
-            <ul className="space-y-3">
-              {footerLinks.resources.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="font-sans text-[0.9rem] text-gray-600 hover:text-black transition-colors duration-200 cursor-pointer"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
 
@@ -118,6 +91,9 @@ export default function Footer() {
       <div className="border-t border-gray-200">
         <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem] py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="font-sans text-[0.8rem] text-gray-500 max-w-[50rem]">
+              biz.legal is a service of attorney Alexander Myers SBN 271474 and the law firm Myers, Jameson & Myers, LLP. More information about the firm can be found at mjmlaw.com
+            </p>
             <p className="font-sans text-[0.8rem] text-gray-400">
               &copy; {new Date().getFullYear()} biz.legal. All rights reserved.
             </p>

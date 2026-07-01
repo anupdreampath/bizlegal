@@ -35,6 +35,15 @@ export default function ProcessBlock({ content, style, blockId }: any) {
               <p className="font-sans text-sm leading-[1.6]" style={{ color: s.bodyColor || "#4b5563" }}>
                 {step.description}
               </p>
+              {step.cta?.label && (
+                <Link
+                  href={step.cta.href || "#"}
+                  className="inline-flex items-center mt-5 px-5 py-2.5 text-sm font-sans font-medium rounded-full transition-colors duration-200"
+                  style={{ backgroundColor: s.ctaBg || "#166534", color: s.ctaColor || "#fff" }}
+                >
+                  {step.cta.label}
+                </Link>
+              )}
             </div>
           ))}
         </div>

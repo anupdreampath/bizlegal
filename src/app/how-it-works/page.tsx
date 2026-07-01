@@ -24,6 +24,7 @@ export default function SalesPage() {
       label="Order Now"
       title="Start Now, Get Protected"
       description="Attorney-drafted documents, attorney-guided decisions, professional filing, fast delivery, and no guesswork."
+      heroVariant="mobileHomepage"
     >
       {/* Irresistible Offer */}
       <section className="bg-ivory-100 py-[4rem] md:py-[6rem]">

@@ -46,11 +46,11 @@ export const homeRevisionBlocks = [
       body:
         "Don't cheap out with DIY services or waste money on expensive law firms. You don't have to compromise, we're your LLC formation solution.",
       primaryCta: { label: "I'm Ready!", href: "/order" },
-      secondaryCta: { label: "More Information", href: "/contact" },
+      secondaryCta: { label: "More Information", href: "/questionnaire" },
       proofItems: ["Attorney-drafted documents", "Professional filing", "Fast delivery"],
       image: image(
-        "/amyersnapa-attachments/iStock-2238258267.jpg",
-        "Business owner reviewing LLC formation documents with an advisor",
+        "/Alex%20Myers.jpeg",
+        "Attorney photo for biz.legal LLC formation",
       ),
     },
     style: {
@@ -122,7 +122,7 @@ export const homeRevisionBlocks = [
       ),
       mediaEyebrow: "Video guide",
       mediaTitle: "Which businesses need an LLC?",
-      cta: { label: "Help Me Decide", href: "/contact" },
+      cta: { label: "Help Me Decide", href: "/questionnaire" },
     },
     style: {
       backgroundColor: "#f8f5ed",
@@ -148,7 +148,7 @@ export const homeRevisionBlocks = [
             "/amyersnapa-attachments/iStock-2218831325.jpg",
             "Business owner deciding whether an LLC fits their needs",
           ),
-          cta: { label: "Help Me Decide", href: "/contact" },
+          cta: { label: "Help Me Decide", href: "/questionnaire" },
         },
         {
           title: "State Filings",
@@ -233,7 +233,7 @@ export const homeRevisionBlocks = [
         "/amyersnapa-attachments/iStock-2243799864.jpg",
         "Video poster for which businesses need an LLC",
       ),
-      cta: { label: "More Information", href: "/contact" },
+      cta: { label: "More Information", href: "/questionnaire" },
     },
     style: {
       backgroundColor: "#efeadc",
@@ -254,21 +254,24 @@ export const homeRevisionBlocks = [
           title: "Decide you're ready",
           description:
             "If you want help deciding whether an LLC is right for you, start with the intake form and we will route you into the right next step.",
+          cta: { label: "Help Me Decide", href: "/questionnaire" },
         },
         {
           number: "02",
           title: "Lawyers Do The Work",
           description:
-            "Once you are ready, our legal team prepares the filings and documents instead of leaving you to work through a DIY checklist.",
+            "Once you are ready, our legal team prepares the filings and documents instead of leaving you to work through a DIY checklist. Use the order form to begin.",
+          cta: { label: "I'm Ready!", href: "/order" },
         },
         {
           number: "03",
           title: "Delivery",
           description:
-            "Your completed filing confirmations and organizational documents are delivered so you can open accounts, work with vendors, and move forward.",
+            "Your completed filing confirmations and organizational documents are delivered so you can open accounts, work with vendors, and move forward. Use the order form when you are ready.",
+          cta: { label: "I'm Ready!", href: "/order" },
         },
       ],
-      cta: { label: "Help Me Decide", href: "/contact" },
+      cta: { label: "Help Me Decide", href: "/questionnaire" },
       ctaSubtext: "Ready now? Use the order page to begin the $750 formation offer.",
     },
     style: {
@@ -287,7 +290,7 @@ export const homeRevisionBlocks = [
       heading: "California LLCs for every industry allowed",
       body:
         "biz.legal forms California LLCs for every industry allowed to operate as an LLC, from local service companies to professional firms and online sellers.",
-      cta: { label: "Ask About Your Industry", href: "/contact" },
+      cta: { label: "Ask About Your Industry", href: "/questionnaire" },
       items: [
         {
           name: "Restaurants",
@@ -415,7 +418,7 @@ export const homeRevisionBlocks = [
       body:
         "Order your California LLC formation for $750 or request more information so the team can route you into the right intake flow.",
       primaryCta: { label: "Order Your LLC Formation", href: "/order" },
-      secondaryCta: { label: "More Information", href: "/contact" },
+      secondaryCta: { label: "More Information", href: "/questionnaire" },
     },
     style: {
       backgroundColor: "#166534",

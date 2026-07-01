@@ -256,6 +256,8 @@ export const SCHEMAS: Record<string, BlockSchema> = {
           { key: "number", label: "Number", type: "text" },
           { key: "title", label: "Title", type: "text" },
           { key: "description", label: "Description", type: "textarea" },
+          { key: "cta.label", label: "Button label", type: "text" },
+          { key: "cta.href", label: "Button URL", type: "url" },
         ],
       },
       { key: "cta.label", label: "CTA label", type: "text" },

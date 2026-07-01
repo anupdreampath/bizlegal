@@ -62,6 +62,18 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
+.cms-hero-section {
+  padding-top: var(--hero-padding-y, 9rem);
+  padding-bottom: calc(var(--hero-padding-y, 9rem) - 4rem);
+}
+
+@media (max-width: 767px) {
+  .cms-hero-section {
+    padding-top: 6rem;
+    padding-bottom: 2.75rem;
+  }
+}
+
 .cms-rich-content h2 {
   color: inherit;
   font-family: var(--font-serif), Georgia, serif;
@@ -73,9 +85,17 @@ body {
 .cms-rich-content h3 {
   color: inherit;
   font-family: var(--font-sans), system-ui, sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
   margin: 1.75rem 0 0.75rem;
+}
+
+.cms-rich-content h4 {
+  color: inherit;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.15;
+  margin: 2rem 0 0.5rem;
 }
 
 .cms-rich-content p {
@@ -96,6 +116,30 @@ body {
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 0.2em;
+}
+
+.cms-rich-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 0;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.cms-rich-content th,
+.cms-rich-content td {
+  border-bottom: 1px solid color-mix(in srgb, currentColor 24%, transparent);
+  padding: 0.9rem 1rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.cms-rich-content th {
+  font-weight: 700;
+}
+
+.cms-rich-content tr:last-child td {
+  border-bottom: 0;
 }
 
 html {

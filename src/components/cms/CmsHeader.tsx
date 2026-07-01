@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import CmsMobileMenu from "./CmsMobileMenu";
 
 type ThemeMap = Record<string, unknown>;
 type LinkItem = { label?: string; href?: string };
@@ -67,18 +68,27 @@ export default function CmsHeader({ theme }: { theme: unknown }) {
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((l) => (
-            <Link key={l.href} href={l.href || "#"} className="text-sm hover:opacity-60 transition-opacity" style={{ color: textColor }}>
+            <Link key={l.href} href={l.href || "#"} className="text-base font-semibold hover:opacity-60 transition-opacity" style={{ color: textColor }}>
               {l.label}
             </Link>
           ))}
         </nav>
         <Link
           href={ctaHref}
-          className="hidden md:inline-flex items-center px-5 py-2 text-sm font-medium rounded-full transition-colors"
+          className="hidden md:inline-flex items-center px-7 py-3 text-base font-bold rounded-full transition-colors"
           style={{ backgroundColor: ctaBackground, color: ctaTextColor }}
         >
           {ctaLabel}
         </Link>
+        <CmsMobileMenu
+          links={navLinks}
+          ctaLabel={ctaLabel}
+          ctaHref={ctaHref}
+          textColor={textColor}
+          backgroundColor={backgroundColor}
+          ctaBackground={ctaBackground}
+          ctaTextColor={ctaTextColor}
+        />
       </div>
     </header>
   );

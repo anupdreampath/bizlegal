@@ -11,8 +11,8 @@ export default function OrderPage() {
   return (
     <PageShell
       label="Order Now"
-      title="California LLC Formation Package"
-      description="Attorney-drafted documents, attorney-guided decisions, professional filing, fast delivery, and no guesswork."
+      title="Build Your Business on the Right Foundation"
+      description="Stop paying thousands at a traditional law firm or risking your business with a generic online filing service."
       heroImage="/amyersnapa-attachments/iStock-2243799864.jpg"
       heroAlt="Business owner ready to form a California LLC with biz.legal"
     >

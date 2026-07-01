@@ -39,7 +39,9 @@ export default function CmsPageRuntime({
     };
   }, [slug]);
 
-  if (!slug || !loaded || !data?.blocks?.length) return <>{fallback}</>;
+  if (!slug) return <>{fallback}</>;
+  if (!loaded) return null;
+  if (!data?.blocks?.length) return <>{fallback}</>;
 
   return (
     <>

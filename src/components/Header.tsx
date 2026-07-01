@@ -10,25 +10,15 @@ const navLinks = [
     href: "/services/llc-formation",
     children: [
       { label: "LLC Formation", href: "/services/llc-formation" },
-      { label: "LLC Management", href: "/services/llc-management" },
+      { label: "Continuing Legal Support", href: "/services/llc-management" },
       { label: "Registered Agent", href: "/services/registered-agent" },
-      { label: "Compliance", href: "/services/compliance" },
       { label: "Business Structuring", href: "/services/business-structuring" },
     ],
   },
   { label: "How It Works", href: "/how-it-works" },
-  {
-    label: "Learn",
-    href: "/blog",
-    children: [
-      { label: "Blog", href: "/blog" },
-      { label: "LLC Guide", href: "/resources/llc-guide" },
-      { label: "Tax Requirements", href: "/resources/tax-requirements" },
-      { label: "California Business Law", href: "/resources/california-business-law" },
-      { label: "FAQ", href: "/faq" },
-    ],
-  },
+  { label: "Additional Services", href: "/resources/california-business-law" },
   { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Header() {
@@ -59,7 +49,7 @@ export default function Header() {
               >
                 <Link
                   href={link.href}
-                  className="flex items-center gap-1 text-[1rem] font-sans font-medium text-black hover:opacity-60 transition-opacity duration-200 cursor-pointer"
+                  className="flex items-center gap-1 text-[1.05rem] font-sans font-bold text-black hover:opacity-60 transition-opacity duration-200 cursor-pointer"
                 >
                   {link.label}
                   {link.children && <ChevronDown className="w-4 h-4" />}
@@ -87,15 +77,15 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-5">
             <Link
               href="/login"
-              className="text-[1rem] font-sans font-medium text-black hover:opacity-60 transition-opacity duration-200 cursor-pointer"
+              className="text-[1.05rem] font-sans font-bold text-black hover:opacity-60 transition-opacity duration-200 cursor-pointer"
             >
               Log In
             </Link>
             <Link
-              href="/questionnaire"
-              className="inline-flex items-center px-7 py-3 text-[1rem] font-sans font-medium text-white bg-green-800 hover:bg-green-600 rounded-full transition-colors duration-200 cursor-pointer"
+              href="/order"
+              className="inline-flex items-center px-8 py-3.5 text-[1.05rem] font-sans font-bold text-white bg-green-800 hover:bg-green-600 rounded-full transition-colors duration-200 cursor-pointer"
             >
-              Get Started
+              Order Your LLC Formation
             </Link>
           </div>
 
@@ -152,11 +142,11 @@ export default function Header() {
                 Log In
               </Link>
               <Link
-                href="/questionnaire"
+                href="/order"
                 className="block text-center py-3 text-[1rem] font-sans font-medium text-white bg-green-800 rounded-full cursor-pointer"
                 onClick={() => setMobileOpen(false)}
               >
-                Get Started
+                Order Your LLC Formation
               </Link>
             </div>
           </div>

@@ -10,11 +10,12 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <PageShell
-      heroImage="/amyersnapa-attachments/iStock-2243799864.jpg"
-      heroAlt="California business owners in a strategy session with biz.legal"
+      heroImage="/Alex%20Myers.jpeg"
+      heroAlt="Alexander Myers, founder of biz.legal"
       label="About"
       title="A law firm with the speed of an online platform"
       description="biz.legal is run by lawyers, but built like a tech company — so California business owners get real legal advice without the traditional law firm bill."
+      heroVariant="homepage"
     >
       {/* Story */}
       <section className="bg-ivory-100 py-[4rem] md:py-[6rem]">

@@ -69,26 +69,43 @@ export default function ContactFormBlock({ content, style }: { blockId: number; 
 
   return (
     <>
-      <section className="pt-[7rem] pb-[4rem] md:pt-[9rem] md:pb-[5rem]" style={{ backgroundColor: s.heroBackgroundColor || "#166534" }}>
-        <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
-            <div>
-              <div className="border-t-2 pt-6 mb-6" style={{ borderColor: s.heroTextColor || "#ffffff" }}>
+      <section className="pt-24 pb-10 md:pt-[9rem] md:pb-[5rem]" style={{ backgroundColor: s.heroBackgroundColor || "#166534" }}>
+        <div className="max-w-[90rem] mx-auto px-5 md:px-[4.5rem]">
+          <div className="grid lg:grid-cols-2 gap-5 md:gap-12 lg:gap-10 items-center">
+            <div className="order-2 lg:order-1 text-center lg:text-left">
+              <div className="hidden md:block border-t-2 pt-6 mb-6" style={{ borderColor: s.heroTextColor || "#ffffff" }}>
                 <p className="text-[1rem] font-sans font-bold uppercase" style={{ color: s.heroTextColor || "#ffffff" }}>
                   {c.eyebrow || "Contact"}
                 </p>
               </div>
-              <h1 className="font-serif text-[2.75rem] md:text-[3.5rem] xl:text-[4.75rem] leading-[1.05] max-w-[50rem]" style={{ color: s.heroTextColor || "#ffffff" }}>
+              <h1 className="hidden md:block font-serif text-[2.75rem] md:text-[3.5rem] xl:text-[4.75rem] leading-[1.05] max-w-[50rem]" style={{ color: s.heroTextColor || "#ffffff" }}>
                 {c.heading}
               </h1>
               {c.body && (
-                <p className="font-sans text-[1rem] md:text-[1.125rem] leading-[1.6] mt-5 max-w-[36rem]" style={{ color: `${s.heroTextColor || "#ffffff"}b3` }}>
+                <p className="hidden sm:block font-sans text-[1rem] md:text-[1.125rem] leading-[1.6] mt-5 max-w-[36rem] sm:mx-auto lg:mx-0" style={{ color: `${s.heroTextColor || "#ffffff"}b3` }}>
                   {c.body}
                 </p>
               )}
             </div>
             {c.image?.url && (
-              <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
+              <div className="md:hidden order-1 relative justify-self-center w-full max-w-[21.5rem] sm:max-w-[22rem]">
+                <div className="relative rounded-[1.25rem] lg:rounded-[1rem] overflow-hidden shadow-[0_1.25rem_3rem_rgba(0,0,0,0.14)] lg:shadow-none">
+                  <div className="md:hidden absolute left-3 top-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 shadow-sm">
+                    <span className="font-sans text-[0.68rem] font-bold uppercase tracking-wide text-black">
+                      {c.eyebrow || "Contact"}
+                    </span>
+                  </div>
+                  <div className="md:hidden absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-black/70 via-black/35 to-transparent px-4 pb-4 pt-16">
+                    <h1 className="font-serif text-[2.25rem] leading-[0.98] text-white drop-shadow-sm">
+                      {c.heading}
+                    </h1>
+                  </div>
+                  <CmsMedia image={{ url: c.image.url, alt: c.image.alt, type: c.image.type }} className="block w-full h-auto object-contain" width={1600} height={1200} priority />
+                </div>
+              </div>
+            )}
+            {c.image?.url && (
+              <div className="hidden md:block relative aspect-[4/3] rounded-[1rem] overflow-hidden">
                 <CmsMedia image={{ url: c.image.url, alt: c.image.alt, type: c.image.type }} fill className="object-cover" />
               </div>
             )}
