@@ -1,0 +1,108 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "biz.legal" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: biz.legal
+      - navigation [ref=e6]:
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services/llc-formation
+        - link "How It Works" [ref=e8] [cursor=pointer]:
+          - /url: /how-it-works
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e10] [cursor=pointer]:
+          - /url: /contact
+      - link "Order Your LLC Formation" [ref=e11] [cursor=pointer]:
+        - /url: /order
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img [ref=e19]
+            - paragraph [ref=e22]: Services
+          - heading "Continuing Legal Support" [level=1] [ref=e23]
+          - paragraph [ref=e24]: Most law firms and legal websites sell you on formation, and leave you high and dry to figure the rest out on your own. We want to support your success and provide continuing legal advice and support on an ongoing basis after your formation.
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - img [ref=e27]
+              - generic [ref=e30]: Attorney-drafted documents
+            - generic [ref=e31]:
+              - img [ref=e32]
+              - generic [ref=e35]: Attorney-guided decisions
+            - generic [ref=e36]:
+              - img [ref=e37]
+              - generic [ref=e40]: Fast delivery
+        - generic [ref=e41]:
+          - img "Attorney on phone providing continuing legal support to California business owners" [ref=e43]
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - img [ref=e46]
+              - img [ref=e48]
+              - img [ref=e50]
+              - img [ref=e52]
+              - img [ref=e54]
+            - paragraph [ref=e56]: Practical formation support for founders who want it done right.
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - heading "Formation is just the beginning" [level=2] [ref=e61]
+          - generic [ref=e62]:
+            - paragraph [ref=e63]: Most law firms and legal websites sell you on formation, and leave you high and dry to figure the rest out on your own. We want to support your success and provide continuing legal advice and support on an ongoing basis after your formation.
+            - paragraph [ref=e64]: Running a business means facing new legal questions every month. Should you sign that lease? Hire that employee? Enter into that partnership? Having a law firm you can call — one that already knows your business — gives you confidence to make the right decisions.
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: Key Takeaway
+            - paragraph [ref=e67]: A business without ongoing legal support is like a car without maintenance — eventually, something breaks. Our continuing support keeps your business running smoothly.
+          - button "What happens when your LLC is suspended?" [ref=e69] [cursor=pointer]:
+            - generic [ref=e70]: What happens when your LLC is suspended?
+            - img [ref=e71]
+          - button "How costly is reinstatement?" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: How costly is reinstatement?
+            - img [ref=e76]
+          - button "Can you lose your LLC name?" [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]: Can you lose your LLC name?
+            - img [ref=e81]
+        - generic [ref=e83]:
+          - img "Attorney providing phone consultation for ongoing legal support" [ref=e85]
+          - generic [ref=e86]:
+            - heading "Let's get started" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Ready to protect and support your business with ongoing legal counsel?
+            - link "Get Started" [ref=e89] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e91]:
+        - heading "What's included in continuing legal support" [level=2] [ref=e92]
+        - paragraph [ref=e93]: Comprehensive legal support designed for small business owners who need more than just formation.
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - heading "Initial Legal Advice to Start Right" [level=3] [ref=e96]
+            - paragraph [ref=e97]: We begin with a thorough review of your business goals, structure, and risks. Our attorneys provide tailored advice so you make informed decisions from day one.
+          - generic [ref=e98]:
+            - heading "Professional Formation and Legal Drafting" [level=3] [ref=e99]
+            - paragraph [ref=e100]: Attorney-drafted Operating Agreements, contracts, and organizational documents — not templates. Everything is customized to your specific business needs.
+          - generic [ref=e101]:
+            - heading "Quarterly Lawyer Check-In Calls" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Lingering questions? Unusual issues arise? Your dedicated attorney checks in quarterly to review your business status and address any concerns before they become problems.
+          - generic [ref=e104]:
+            - heading "Registered Agent Services" [level=3] [ref=e105]
+            - paragraph [ref=e106]: We serve as your California registered agent, receiving all legal and state documents on your behalf and forwarding them promptly through your secure portal.
+          - generic [ref=e107]:
+            - heading "Additional Services Available on Request" [level=3] [ref=e108]
+            - paragraph [ref=e109]: Lease drafting and review, contract drafting and review, employment agreements, labor and wage issues, business changes, sales, or dissolution.
+        - link "Let's Get Started" [ref=e111] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=e112]:
+    - generic [ref=e115]:
+      - link "biz.legal" [ref=e116] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e117]: biz.legal
+      - paragraph
+    - generic [ref=e119]:
+      - paragraph [ref=e120]:
+        - text: biz.legal is service of attorney Alexander J Myers SBN 271474, and the law firm of Myers, Jameson & Myers, LLP. More information about the firm can be found at
+        - link "mjmlaw.com" [ref=e121] [cursor=pointer]:
+          - /url: https://mjmlaw.com
+        - text: .
+      - paragraph [ref=e123]: © 2026 biz.legal. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=e129] [cursor=pointer]:
+    - img [ref=e130]
+  - alert [ref=e133]

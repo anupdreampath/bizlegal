@@ -1,0 +1,206 @@
+- generic [active] [ref=f17e1]:
+  - banner [ref=f17e2]:
+    - generic [ref=f17e3]:
+      - link "biz.legal" [ref=f17e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f17e5]: biz.legal
+      - button "Open menu" [ref=f17e7]:
+        - img [ref=f17e8]
+  - main [ref=f17e9]:
+    - generic [ref=f17e13]:
+      - generic [ref=f17e15]:
+        - link "Start Now, Get Protected" [ref=f17e16] [cursor=pointer]:
+          - /url: /order
+        - link "More Information" [ref=f17e17] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f17e19]:
+        - generic [ref=f17e20]:
+          - img [ref=f17e21]
+          - generic [ref=f17e24]: Lawyer-led LLC formation
+        - heading "Start Now, Get Protected" [level=1] [ref=f17e26]
+        - img "Business owner ready to form a California LLC with biz.legal" [ref=f17e27]
+    - generic [ref=f17e30]:
+      - img "California business team reviewing LLC formation documents" [ref=f17e33]
+      - generic [ref=f17e35]:
+        - paragraph [ref=f17e36]: Why It Matters
+        - heading "Your LLC is the foundation of everything" [level=2] [ref=f17e37]
+        - generic [ref=f17e38]:
+          - paragraph [ref=f17e39]: Forming an LLC is not just paperwork - it is the legal boundary between your personal assets and your business liabilities. A properly formed California LLC protects your home, savings, and personal property from business debts, lawsuits, and creditor claims.
+          - paragraph [ref=f17e40]: But the details matter. An improperly filed Articles of Organization can delay your formation by weeks. A generic Operating Agreement downloaded from the internet may not hold up in court. Missing your Initial Statement of Information deadline can trigger penalties before your business even opens.
+          - generic [ref=f17e41]:
+            - paragraph [ref=f17e42]: Key Takeaway
+            - paragraph [ref=f17e43]: A properly formed LLC is the legal wall between your personal assets and your business liabilities. Getting it right from day one is not optional - it is foundational. Use a professional, do not do it yourself.
+          - heading "Can I form my LLC myself?" [level=3] [ref=f17e44]
+          - paragraph [ref=f17e45]: You could probably pull out your own tooth if you had a cavity, but most dentists would not recommend it. The same logic applies to legal work. It is a sophisticated profession and if you are not trained in it, why take the risk? Errors in any of formational or governing documents create legal vulnerabilities and potentially disastrous tax or liability consequences. Our service guarantees attorney-drafted documents and attorney-guided decisions - so you know it is done right.
+          - heading "How long does formation take?" [level=3] [ref=f17e46]
+          - paragraph [ref=f17e47]: "Whether an LLC is formed by a person, a DIY service, or a law firm, the state filing process is the same. But old fashioned law firms can get bogged down in work queues, emergencies, and other excuses. We provide one step better: The service of the law firm, but with the efficiency in delivery of the online platform. The faster you form your LLC, the sooner you can begin to benefit from it."
+    - generic [ref=f17e50]:
+      - img "Businesswoman receiving attorney guidance for LLC formation package" [ref=f17e53]
+      - generic [ref=f17e55]:
+        - paragraph [ref=f17e56]: What's Included
+        - heading "Everything Included in your Formation Package" [level=2] [ref=f17e57]
+        - generic [ref=f17e58]:
+          - heading "1. Legal Advice from the Start ($300 value)" [level=3] [ref=f17e59]
+          - list [ref=f17e60]:
+            - listitem [ref=f17e61]: A phone or email consultation with a practicing California attorney will get your formation process launched.
+            - listitem [ref=f17e62]: We’ll review your decision to form an LLC, versus sole prop., GP, or incorporation.
+            - listitem [ref=f17e63]: Discuss your options regarding member-managed versus manager-managed, review your desired name and check if (i) it is available; and (ii) if it is permissible.
+            - listitem [ref=f17e64]: Begin the formation process.
+          - heading "2. State Filings ($500 value)" [level=3] [ref=f17e65]
+          - paragraph [ref=f17e66]: We prepare and file Form LLC-1 with the Secretary of State — the document that legally creates your LLC. We also file your Initial Statement of Information (Form LLC-12) within the required 90-day window.
+          - heading "3. Customized Operating Agreement ($2000 value)" [level=3] [ref=f17e67]
+          - paragraph [ref=f17e68]: A comprehensive Operating Agreement drafted for your specific business — not a template. Covers ownership, management, distributions, exits, and disputes.
+          - heading "4. Federal Filings ($250 value)" [level=3] [ref=f17e69]
+          - paragraph [ref=f17e70]: We apply to the IRS on your behalf for your EIN (Employer Identification Number). Your EIN is required for bank accounts, tax filing, hiring, and business credit.
+          - heading "5. Organizational Package" [level=3] [ref=f17e71]
+          - list [ref=f17e72]:
+            - listitem [ref=f17e73]: Biz.Legal’s LLC Handbook for Operations
+            - listitem [ref=f17e74]: Compiled Legal Documents e-Binder
+            - listitem [ref=f17e75]: Template resolutions and minutes
+            - listitem [ref=f17e76]: Compliance Calendar
+          - heading "6. 1 Year of Law Firm Support" [level=3] [ref=f17e77]
+          - list [ref=f17e78]:
+            - listitem [ref=f17e79]: Registered Agent for 1 Year ($100 value)
+            - listitem [ref=f17e80]:
+              - text: 1 Year of Legal Support ($600 value)
+              - list [ref=f17e81]:
+                - listitem [ref=f17e82]: Quarterly calls with Lawyer
+    - generic [ref=f17e85]:
+      - img "Small business owner managing the LLC formation process on a laptop" [ref=f17e88]
+      - generic [ref=f17e90]:
+        - paragraph [ref=f17e91]: Process
+        - heading "How the Formation Process Works" [level=2] [ref=f17e92]
+        - generic [ref=f17e93]:
+          - heading "01. Casual and no pressure chat with an experienced California attorney, either on the phone or online – whatever you’re most comfortable with!" [level=3] [ref=f17e94]
+          - heading "02. Our legal team follows the attorney’s instructions and files all required regulatory documentation right away, without delay." [level=3] [ref=f17e95]
+          - heading "03. Your custom legal documents are drafted and stored to your client portal while your filings are being processed at the state level." [level=3] [ref=f17e96]
+          - heading "04. Delivery and Ongoing Support – Your business is ready for operations and we are available to help you as you grow." [level=3] [ref=f17e97]
+    - generic [ref=f17e100]:
+      - img "California small business owner operating a professional print shop" [ref=f17e103]
+      - generic [ref=f17e105]:
+        - paragraph [ref=f17e106]: Comparison
+        - heading "Why most California business owners choose an LLC" [level=2] [ref=f17e107]
+        - generic [ref=f17e109]:
+          - generic [ref=f17e110]:
+            - heading "LLC" [level=3] [ref=f17e111]
+            - paragraph [ref=f17e112]: Most popular
+            - list [ref=f17e113]:
+              - listitem [ref=f17e114]: • Liability protection
+              - listitem [ref=f17e115]: • Pass-through taxation
+              - listitem [ref=f17e116]: • Flexible tax elections
+              - listitem [ref=f17e117]: • Simple management
+              - listitem [ref=f17e118]: • Easy to add owners
+              - listitem [ref=f17e119]: • Low compliance burden
+          - generic [ref=f17e120]:
+            - heading "Sole Prop" [level=3] [ref=f17e121]
+            - paragraph [ref=f17e122]: Highest risk
+            - list [ref=f17e123]:
+              - listitem [ref=f17e124]: • Highest risk
+              - listitem [ref=f17e125]: • No liability protection
+              - listitem [ref=f17e126]: • Simplest tax filing
+              - listitem [ref=f17e127]: • $0 formation cost
+              - listitem [ref=f17e128]: • No franchise tax
+              - listitem [ref=f17e129]: • No compliance
+              - listitem [ref=f17e130]: • Personal assets at risk
+          - generic [ref=f17e131]:
+            - heading "S-Corp Election" [level=3] [ref=f17e132]
+            - paragraph [ref=f17e133]: More burden, more limitations
+            - list [ref=f17e134]:
+              - listitem [ref=f17e135]: • Same LLC protection
+              - listitem [ref=f17e136]: • Payroll tax savings
+              - listitem [ref=f17e137]: • Must run payroll
+              - listitem [ref=f17e138]: • Reasonable salary required
+              - listitem [ref=f17e139]: • CA 1.5% S-Corp tax
+              - listitem [ref=f17e140]: • Higher compliance cost
+          - generic [ref=f17e141]:
+            - heading "C-Corporation" [level=3] [ref=f17e142]
+            - paragraph [ref=f17e143]: Typically for VC, rare to use
+            - list [ref=f17e144]:
+              - listitem [ref=f17e145]: • Double taxation
+              - listitem [ref=f17e146]: • Board of directors required
+              - listitem [ref=f17e147]: • Shareholder meetings
+              - listitem [ref=f17e148]: • Best for raising capital
+              - listitem [ref=f17e149]: • Stock options possible
+              - listitem [ref=f17e150]: • Highest compliance
+    - generic [ref=f17e154]:
+      - generic [ref=f17e155]:
+        - img "Video poster for which businesses need an LLC" [ref=f17e156]
+        - img [ref=f17e159]
+      - generic [ref=f17e161]:
+        - paragraph [ref=f17e163]: Video
+        - heading "Which businesses need an LLC?" [level=2] [ref=f17e164]
+        - paragraph [ref=f17e165]: A short decision guide for owners who want liability protection, a professional structure, and a better way to separate personal assets from business risk.
+        - link "More Information" [ref=f17e166] [cursor=pointer]:
+          - /url: /questionnaire
+          - text: More Information
+          - img [ref=f17e167]
+    - generic [ref=f17e173]:
+      - paragraph [ref=f17e174]: Services
+      - heading "Ongoing legal support for your business" [level=2] [ref=f17e175]
+      - generic [ref=f17e176]:
+        - heading "Included in your formation package" [level=3] [ref=f17e177]
+        - list [ref=f17e178]:
+          - listitem [ref=f17e179]: Initial legal advice to start right
+          - listitem [ref=f17e180]: Professional formation and legal drafting
+          - listitem [ref=f17e181]: Quarterly lawyer check-in calls
+          - listitem [ref=f17e182]: Answers to lingering questions and unusual issues
+          - listitem [ref=f17e183]: Registered Agent services
+        - heading "Additional services available on request" [level=3] [ref=f17e184]
+        - list [ref=f17e185]:
+          - listitem [ref=f17e186]: Lease drafting and review
+          - listitem [ref=f17e187]: Contract drafting and review
+          - listitem [ref=f17e188]: Employment agreements
+          - listitem [ref=f17e189]: Labor and wage issues
+          - listitem [ref=f17e190]: Business changes, sales, or dissolution
+      - generic [ref=f17e191]:
+        - link "Let’s get started" [ref=f17e192] [cursor=pointer]:
+          - /url: /order
+        - link "Talk to a Lawyer" [ref=f17e193] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=f17e197]:
+      - heading "Start Now, Get Protected" [level=2] [ref=f17e198]
+      - paragraph [ref=f17e199]: Your LLC is more than paperwork - it is the legal foundation of everything you are building. Build it with experienced California legal professionals who help you get it right the first time.
+      - generic [ref=f17e200]:
+        - link "Start Here" [ref=f17e201] [cursor=pointer]:
+          - /url: /order
+        - link "More Information" [ref=f17e202] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=f17e203]:
+    - generic [ref=f17e205]:
+      - generic [ref=f17e206]:
+        - link "biz.legal" [ref=f17e207] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f17e208]: biz.legal
+        - paragraph [ref=f17e209]: California LLC formation handled by lawyers, built with the speed of an online platform.
+        - generic [ref=f17e210]:
+          - paragraph [ref=f17e211]: (833) 555-0123
+          - paragraph [ref=f17e212]: hello@biz.legal
+          - paragraph [ref=f17e213]: California, USA
+      - generic [ref=f17e214]:
+        - paragraph [ref=f17e215]: Navigation
+        - list [ref=f17e216]:
+          - listitem [ref=f17e217]:
+            - link "Services" [ref=f17e218] [cursor=pointer]:
+              - /url: /services/llc-formation
+          - listitem [ref=f17e219]:
+            - link "How It Works" [ref=f17e220] [cursor=pointer]:
+              - /url: /how-it-works
+          - listitem [ref=f17e221]:
+            - link "About" [ref=f17e222] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f17e223]:
+            - link "Contact" [ref=f17e224] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=f17e226]:
+      - paragraph [ref=f17e227]: biz.legal is service of attorney Alexander J Myers SBN 271474, and the law firm of Myers, Jameson & Myers, LLP.
+      - generic [ref=f17e228]:
+        - paragraph [ref=f17e229]: © 2026 biz.legal. All rights reserved.
+        - generic [ref=f17e230]:
+          - link "Privacy Policy" [ref=f17e231] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Use" [ref=f17e232] [cursor=pointer]:
+            - /url: /terms
+          - link "Cookie Policy" [ref=f17e233] [cursor=pointer]:
+            - /url: /cookies
+  - button "Open Next.js Dev Tools" [ref=f17e239] [cursor=pointer]:
+    - img [ref=f17e240]

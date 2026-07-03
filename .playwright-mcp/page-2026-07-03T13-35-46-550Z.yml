@@ -1,0 +1,205 @@
+- generic [active] [ref=f19e1]:
+  - banner [ref=f19e2]:
+    - generic [ref=f19e3]:
+      - link "biz.legal" [ref=f19e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f19e5]: biz.legal
+      - button "Open menu" [ref=f19e7]:
+        - img [ref=f19e8]
+  - main [ref=f19e9]:
+    - generic [ref=f19e10]:
+      - generic [ref=f19e13]:
+        - generic [ref=f19e14]:
+          - img [ref=f19e15]
+          - paragraph [ref=f19e18]: Order Now
+        - heading "Build Your Business on the Right Foundation" [level=1] [ref=f19e19]
+        - paragraph [ref=f19e20]: Stop paying thousands at a traditional law firm or risking your business with a generic online filing service.
+      - generic [ref=f19e22]:
+        - generic [ref=f19e23]:
+          - generic [ref=f19e24]:
+            - generic [ref=f19e25]:
+              - paragraph [ref=f19e26]: Complete LLC Formation Package
+              - generic [ref=f19e27]:
+                - generic [ref=f19e28]: $750
+                - generic [ref=f19e29]: $3,900
+            - generic [ref=f19e30]:
+              - generic [ref=f19e31]:
+                - img [ref=f19e32]
+                - text: Attorney-led
+              - generic [ref=f19e35]:
+                - img [ref=f19e36]
+                - text: Secure checkout
+          - button "Pay $750 and Start Formation →" [ref=f19e39]
+          - paragraph [ref=f19e40]: Secure payment via Stripe · Contact within 1 business day
+        - generic [ref=f19e41]:
+          - generic [ref=f19e42]:
+            - heading "Stop Paying Thousands at a Traditional Law Firm... Or Risk Your Business With a Generic Online Filing Service." [level=2] [ref=f19e43]
+            - paragraph [ref=f19e44]:
+              - strong [ref=f19e45]: Build Your Business on the Right Foundation.
+              - text: When you form your LLC with Biz.Legal, you're not buying paperwork. You're hiring a California legal team to help you make the right decisions before your business ever opens its doors.
+            - paragraph [ref=f19e46]: Every consultation, recommendation, document, and confirmation is handled by licensed California attorneys and experienced California paralegals - never an overseas call center, salesperson, or automated questionnaire.
+            - generic [ref=f19e47]:
+              - paragraph [ref=f19e48]: Offer stack
+              - paragraph [ref=f19e49]: Here's Everything Included
+              - generic [ref=f19e50]:
+                - group [ref=f19e51]:
+                  - generic "✓ Attorney Strategy Consultation $250 Value +" [ref=f19e52] [cursor=pointer]:
+                    - generic [ref=f19e53]:
+                      - generic [ref=f19e54]: ✓
+                      - generic [ref=f19e55]:
+                        - generic [ref=f19e56]: Attorney Strategy Consultation
+                        - generic [ref=f19e57]: $250 Value
+                    - generic [ref=f19e58]: +
+                  - generic [ref=f19e59]:
+                    - paragraph [ref=f19e60]: "Meet directly with a licensed California attorney to:"
+                    - list [ref=f19e61]:
+                      - listitem [ref=f19e62]: Confirm an LLC is the right entity for your business.
+                      - listitem [ref=f19e63]: Review your business plan.
+                      - listitem [ref=f19e64]: Discuss your proposed business name.
+                      - listitem [ref=f19e65]: Ask legal questions before filing anything.
+                    - paragraph [ref=f19e66]: One conversation today can prevent expensive mistakes tomorrow.
+                - group [ref=f19e67]:
+                  - generic "✓ Professional California LLC Formation $500 Value +" [ref=f19e68] [cursor=pointer]:
+                    - generic [ref=f19e69]:
+                      - generic [ref=f19e70]: ✓
+                      - generic [ref=f19e71]:
+                        - generic [ref=f19e72]: Professional California LLC Formation
+                        - generic [ref=f19e73]: $500 Value
+                    - generic [ref=f19e74]: +
+                - group [ref=f19e75]:
+                  - generic "✓ Custom Attorney-Drafted Operating Agreement $2,000 Value +" [ref=f19e76] [cursor=pointer]:
+                    - generic [ref=f19e77]:
+                      - generic [ref=f19e78]: ✓
+                      - generic [ref=f19e79]:
+                        - generic [ref=f19e80]: Custom Attorney-Drafted Operating Agreement
+                        - generic [ref=f19e81]: $2,000 Value
+                    - generic [ref=f19e82]: +
+                - group [ref=f19e83]:
+                  - generic "✓ EIN & Statement of Information Preparation $250 Value +" [ref=f19e84] [cursor=pointer]:
+                    - generic [ref=f19e85]:
+                      - generic [ref=f19e86]: ✓
+                      - generic [ref=f19e87]:
+                        - generic [ref=f19e88]: EIN & Statement of Information Preparation
+                        - generic [ref=f19e89]: $250 Value
+                    - generic [ref=f19e90]: +
+                - group [ref=f19e91]:
+                  - generic "✓ Complete Bank-Ready LLC Package $150 Value +" [ref=f19e92] [cursor=pointer]:
+                    - generic [ref=f19e93]:
+                      - generic [ref=f19e94]: ✓
+                      - generic [ref=f19e95]:
+                        - generic [ref=f19e96]: Complete Bank-Ready LLC Package
+                        - generic [ref=f19e97]: $150 Value
+                    - generic [ref=f19e98]: +
+                - group [ref=f19e99]:
+                  - generic "✓ One Year of Registered Agent Service $100 Value +" [ref=f19e100] [cursor=pointer]:
+                    - generic [ref=f19e101]:
+                      - generic [ref=f19e102]: ✓
+                      - generic [ref=f19e103]:
+                        - generic [ref=f19e104]: One Year of Registered Agent Service
+                        - generic [ref=f19e105]: $100 Value
+                    - generic [ref=f19e106]: +
+                - group [ref=f19e107]:
+                  - generic "✓ First-Year Attorney Business Review $500 Value +" [ref=f19e108] [cursor=pointer]:
+                    - generic [ref=f19e109]:
+                      - generic [ref=f19e110]: ✓
+                      - generic [ref=f19e111]:
+                        - generic [ref=f19e112]: First-Year Attorney Business Review
+                        - generic [ref=f19e113]: $500 Value
+                    - generic [ref=f19e114]: +
+                - group [ref=f19e115]:
+                  - generic "✓ Quarterly Legal Check-Ins $150 Value +" [ref=f19e116] [cursor=pointer]:
+                    - generic [ref=f19e117]:
+                      - generic [ref=f19e118]: ✓
+                      - generic [ref=f19e119]:
+                        - generic [ref=f19e120]: Quarterly Legal Check-Ins
+                        - generic [ref=f19e121]: $150 Value
+                    - generic [ref=f19e122]: +
+              - paragraph [ref=f19e123]: Total Professional Legal Value
+              - generic [ref=f19e124]:
+                - generic [ref=f19e125]:
+                  - generic [ref=f19e126]: Attorney Consultation
+                  - generic [ref=f19e127]: $250
+                - generic [ref=f19e128]:
+                  - generic [ref=f19e129]: LLC Formation
+                  - generic [ref=f19e130]: $500
+                - generic [ref=f19e131]:
+                  - generic [ref=f19e132]: Custom Operating Agreement
+                  - generic [ref=f19e133]: $2,000
+                - generic [ref=f19e134]:
+                  - generic [ref=f19e135]: EIN & Statement of Information
+                  - generic [ref=f19e136]: $250
+                - generic [ref=f19e137]:
+                  - generic [ref=f19e138]: Bank-Ready Document Package
+                  - generic [ref=f19e139]: $150
+                - generic [ref=f19e140]:
+                  - generic [ref=f19e141]: Registered Agent (1 Year)
+                  - generic [ref=f19e142]: $100
+                - generic [ref=f19e143]:
+                  - generic [ref=f19e144]: Annual Attorney Review
+                  - generic [ref=f19e145]: $500
+                - generic [ref=f19e146]:
+                  - generic [ref=f19e147]: Quarterly Check-Ins
+                  - generic [ref=f19e148]: $150
+              - generic [ref=f19e149]:
+                - generic [ref=f19e150]: Total Value
+                - generic [ref=f19e151]: $3,900
+          - generic [ref=f19e152]:
+            - heading "Start Your Order" [level=3] [ref=f19e153]
+            - paragraph [ref=f19e154]: Enter your details and complete payment securely through Stripe. We'll contact you within 1 business day to begin your formation.
+            - generic [ref=f19e155]:
+              - generic [ref=f19e156]:
+                - generic [ref=f19e157]: $750
+                - generic [ref=f19e158]: $3,900
+                - generic [ref=f19e159]: Save 80%
+              - paragraph [ref=f19e160]: Everything included — attorney consultation, formation, Operating Agreement, EIN, registered agent, and 1 year of legal support.
+            - generic [ref=f19e161]:
+              - generic [ref=f19e162]:
+                - generic [ref=f19e163]: Full name
+                - textbox "Full name" [ref=f19e164]
+              - generic [ref=f19e165]:
+                - generic [ref=f19e166]: Email
+                - textbox "Email" [ref=f19e167]
+              - generic [ref=f19e168]:
+                - generic [ref=f19e169]: Phone (optional)
+                - textbox "Phone (optional)" [ref=f19e170]
+              - generic [ref=f19e171]:
+                - generic [ref=f19e172]: Notes (optional)
+                - textbox "Notes (optional)" [ref=f19e173]
+              - button "Pay $750 and Start Formation" [ref=f19e174]
+              - paragraph [ref=f19e175]:
+                - img [ref=f19e176]
+                - text: Secure payment processed by Stripe. Your information is encrypted and never shared.
+            - generic [ref=f19e179]:
+              - paragraph [ref=f19e180]: Not ready to order? Talk to a lawyer first.
+              - link "More Information" [ref=f19e181] [cursor=pointer]:
+                - /url: /questionnaire
+        - generic [ref=f19e183]:
+          - generic [ref=f19e184]:
+            - generic [ref=f19e185]: $750
+            - generic [ref=f19e186]: $3,900 value
+          - button "Pay $750 & Start →" [ref=f19e187]
+        - generic [ref=f19e188]:
+          - generic [ref=f19e189]:
+            - heading "Why Business Owners Choose Biz.Legal" [level=2] [ref=f19e190]
+            - generic [ref=f19e191]:
+              - paragraph [ref=f19e192]: Most online filing companies sell documents.
+              - paragraph [ref=f19e193]: Traditional law firms often charge thousands of dollars in hourly fees.
+              - paragraph [ref=f19e194]: "Biz.Legal gives you the best of both worlds:"
+              - list [ref=f19e195]:
+                - listitem [ref=f19e196]: • Licensed California attorneys guiding every important decision.
+                - listitem [ref=f19e197]: • Experienced California paralegals preparing your documents.
+                - listitem [ref=f19e198]: • A custom legal package tailored to your business.
+                - listitem [ref=f19e199]: • Flat-fee pricing with no surprise invoices.
+                - listitem [ref=f19e200]: • Ongoing support after your company is formed.
+          - generic [ref=f19e201]:
+            - heading "Form Your Business With Confidence" [level=2] [ref=f19e202]
+            - paragraph [ref=f19e203]: Your LLC is more than paperwork - it's the legal foundation of everything you're building. Don't trust that foundation to an algorithm or a generic template. Build it with experienced California legal professionals who help you get it right the first time.
+  - contentinfo [ref=f19e205]:
+    - generic [ref=f19e208]:
+      - link "biz.legal" [ref=f19e209] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f19e210]: biz.legal
+      - paragraph
+    - paragraph [ref=f19e214]: © 2026 biz.legal. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f19e220] [cursor=pointer]:
+    - img [ref=f19e221]

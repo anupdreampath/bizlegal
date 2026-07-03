@@ -15,7 +15,7 @@ export default function AboutPage() {
       label="About"
       title="A law firm with the speed of an online platform"
       description="biz.legal is run by lawyers, but built like a tech company — so California business owners get real legal advice without the traditional law firm bill."
-      heroVariant="homepage"
+      heroVariant="mobileHomepage"
     >
       {/* Story */}
       <section className="bg-ivory-100 py-[4rem] md:py-[6rem]">
@@ -57,7 +57,7 @@ export default function AboutPage() {
               </div>
               <div className="relative aspect-[3/2] rounded-[1rem] overflow-hidden">
                 <Image
-                  src="/amyersnapa-attachments/iStock-2218831325.jpg"
+                  src="/amyersnapa-attachments/iStock-2161275481.jpg"
                   alt="biz.legal team advising California business owners"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"

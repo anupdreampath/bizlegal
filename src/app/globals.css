@@ -118,7 +118,98 @@ body {
   text-underline-offset: 0.2em;
 }
 
-.cms-rich-content table {
+/* Visual rich content */
+.cms-rich-content-visual h2 {
+  color: inherit;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(1.65rem, 4vw, 2.25rem);
+  line-height: 1.1;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--green-800);
+  display: inline-block;
+}
+
+.cms-rich-content-visual h3 {
+  color: inherit;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  font-weight: 700;
+  margin: 1.75rem 0 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.cms-rich-content-visual h4 {
+  color: inherit;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.2;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.cms-rich-content-visual p {
+  margin: 0 0 1.1rem;
+}
+
+.cms-rich-content-visual p + p {
+  margin-top: 0.5rem;
+}
+
+.cms-rich-content-visual ul,
+.cms-rich-content-visual ol {
+  margin: 0 0 1.5rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.cms-rich-content-visual li {
+  position: relative;
+  padding-left: 1.6rem;
+  margin: 0.6rem 0;
+  line-height: 1.6;
+}
+
+.cms-rich-content-visual ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: currentColor;
+  opacity: 0.85;
+}
+
+.cms-rich-content-visual ol {
+  counter-reset: item;
+}
+
+.cms-rich-content-visual ol li::before {
+  counter-increment: item;
+  content: counter(item, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: inherit;
+  opacity: 0.85;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.cms-rich-content-visual blockquote {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background: color-mix(in srgb, currentColor 8%, transparent);
+  border-left: 4px solid currentColor;
+  border-radius: 0 0.75rem 0.75rem 0;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.cms-rich-content-visual table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0 0;

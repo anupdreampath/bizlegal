@@ -186,8 +186,8 @@ export const SCHEMAS: Record<string, BlockSchema> = {
   whyChooseUs: {
     label: "Why choose us / image + features",
     defaults: {
-      content: { eyebrow: "Why us", heading: "Heading", image: { url: "", alt: "" }, features: [] },
-      style: { backgroundColor: "#f8f5ed", textColor: "#000", bodyColor: "#4b5563" },
+      content: { eyebrow: "Why us", heading: "Heading", image: { url: "", alt: "" }, features: [], cta: { label: "", href: "" } },
+      style: { backgroundColor: "#f8f5ed", textColor: "#000", bodyColor: "#4b5563", ctaBg: "#166534", ctaColor: "#ffffff" },
     },
     content: [
       { key: "eyebrow", label: "Eyebrow", type: "text" },
@@ -202,8 +202,14 @@ export const SCHEMAS: Record<string, BlockSchema> = {
           { key: "description", label: "Description", type: "textarea" },
         ],
       },
+      { key: "cta.label", label: "Button label", type: "text", description: "Leave empty to hide the button." },
+      { key: "cta.href", label: "Button URL", type: "url" },
     ],
-    style: styleCommon,
+    style: [
+      ...styleCommon,
+      { key: "ctaBg", label: "Button background", type: "color" },
+      { key: "ctaColor", label: "Button text", type: "color" },
+    ],
   },
 
   videoCta: {
@@ -414,6 +420,8 @@ export const SCHEMAS: Record<string, BlockSchema> = {
         eyebrow: "",
         heading: "Page content",
         body: "<p>Edit this page content.</p>",
+        primaryCta: { label: "", href: "" },
+        secondaryCta: { label: "", href: "" },
       },
       style: {
         backgroundColor: "#f8f5ed",
@@ -421,6 +429,10 @@ export const SCHEMAS: Record<string, BlockSchema> = {
         bodyColor: "#4b5563",
         maxWidth: "56rem",
         paddingY: "5rem",
+        primaryCtaBg: "#166534",
+        primaryCtaColor: "#ffffff",
+        secondaryCtaBorder: "#166534",
+        secondaryCtaColor: "#166534",
       },
     },
     content: [
@@ -432,6 +444,10 @@ export const SCHEMAS: Record<string, BlockSchema> = {
         type: "textarea",
         description: "Use simple HTML such as <h2>, <p>, <ul>, <li>, <strong>, and <a>.",
       },
+      { key: "primaryCta.label", label: "Primary button label", type: "text", description: "Leave empty to hide the button." },
+      { key: "primaryCta.href", label: "Primary button URL", type: "url" },
+      { key: "secondaryCta.label", label: "Secondary button label", type: "text", description: "Leave empty to hide the button." },
+      { key: "secondaryCta.href", label: "Secondary button URL", type: "url" },
     ],
     style: [
       { key: "backgroundColor", label: "Background", type: "color" },
@@ -439,6 +455,10 @@ export const SCHEMAS: Record<string, BlockSchema> = {
       { key: "bodyColor", label: "Body text", type: "color" },
       { key: "maxWidth", label: "Content max width", type: "text" },
       { key: "paddingY", label: "Vertical padding", type: "text" },
+      { key: "primaryCtaBg", label: "Primary button bg", type: "color" },
+      { key: "primaryCtaColor", label: "Primary button text", type: "color" },
+      { key: "secondaryCtaBorder", label: "Secondary button border", type: "color" },
+      { key: "secondaryCtaColor", label: "Secondary button text", type: "color" },
     ],
   },
 
@@ -824,6 +844,7 @@ export const THEME_SCHEMAS: Record<string, ThemeSchema> = {
         type: "repeater",
         itemSchema: linkFields,
       },
+      { key: "disclaimer", label: "Disclaimer", type: "textarea" },
     ],
   },
 };

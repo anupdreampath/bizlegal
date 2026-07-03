@@ -1,8 +1,10 @@
+import Link from "next/link";
 import { ShieldCheck } from "lucide-react";
 import { CmsMedia } from "../CmsMedia";
 
 export default function WhyChooseUsBlock({ content, style, blockId }: any) {
   const s = style || {};
+  const cta = content.cta || {};
   return (
     <section
       data-block-id={blockId}
@@ -50,6 +52,20 @@ export default function WhyChooseUsBlock({ content, style, blockId }: any) {
                 </div>
               ))}
             </div>
+            {cta.label && (
+              <div className="mt-8">
+                <Link
+                  href={cta.href || "/contact"}
+                  className="inline-flex items-center px-8 py-3.5 text-[1rem] font-sans font-medium rounded-full transition-colors duration-200 cursor-pointer"
+                  style={{
+                    backgroundColor: s.ctaBg || "#166534",
+                    color: s.ctaColor || "#ffffff",
+                  }}
+                >
+                  {cta.label}
+                </Link>
+              </div>
+            )}
           </div>
         </div>
       </div>

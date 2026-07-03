@@ -1,0 +1,27 @@
+- generic [active] [ref=f16e1]:
+  - banner [ref=f16e2]:
+    - generic [ref=f16e3]:
+      - link "biz.legal" [ref=f16e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f16e5]: biz.legal
+      - navigation [ref=f16e6]:
+        - link "Services" [ref=f16e7] [cursor=pointer]:
+          - /url: /services/llc-formation
+        - link "How It Works" [ref=f16e8] [cursor=pointer]:
+          - /url: /how-it-works
+        - link "About" [ref=f16e9] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f16e10] [cursor=pointer]:
+          - /url: /contact
+      - link "Order Your LLC Formation" [ref=f16e11] [cursor=pointer]:
+        - /url: /order
+  - main
+  - contentinfo [ref=f16e12]:
+    - generic [ref=f16e15]:
+      - link "biz.legal" [ref=f16e16] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f16e17]: biz.legal
+      - paragraph
+    - paragraph [ref=f16e21]: © 2026 biz.legal. All rights reserved.
+  - button "Open Next.js Dev Tools" [ref=f16e27] [cursor=pointer]:
+    - img [ref=f16e28]

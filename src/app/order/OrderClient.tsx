@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
+import { ShieldCheck, Lock } from "lucide-react";
 
 const offerItems = [
   {
@@ -81,6 +82,7 @@ const valueRows = [
 export default function OrderClient() {
   const [form, setForm] = useState({ name: "", email: "", phone: "", notes: "" });
   const [loading, setLoading] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
   const update = (field: keyof typeof form) => (value: string) =>
     setForm((prev) => ({ ...prev, [field]: value }));
@@ -99,11 +101,49 @@ export default function OrderClient() {
     setLoading(false);
   }
 
+  function scrollToForm() {
+    formRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+    setTimeout(() => formRef.current?.querySelector("input")?.focus(), 400);
+  }
+
   return (
     <section className="bg-ivory-100 py-[4rem] md:py-[6rem]">
       <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
+        {/* Mobile conversion card — appears first on mobile, hidden on desktop */}
+        <div className="lg:hidden mb-6 bg-white rounded-[1rem] p-5 shadow-sm border border-black/5">
+          <div className="flex items-center justify-between gap-4 mb-3">
+            <div>
+              <p className="font-sans text-[0.75rem] font-bold uppercase tracking-wider text-green-800 mb-1">
+                Complete LLC Formation Package
+              </p>
+              <div className="flex items-baseline gap-2">
+                <span className="font-serif text-[2.25rem] text-black leading-none">$750</span>
+                <span className="font-sans text-[0.85rem] text-gray-500 line-through">$3,900</span>
+              </div>
+            </div>
+            <div className="flex flex-col items-end gap-1">
+              <span className="inline-flex items-center gap-1 font-sans text-[0.7rem] font-bold text-green-800">
+                <ShieldCheck className="w-3.5 h-3.5" /> Attorney-led
+              </span>
+              <span className="inline-flex items-center gap-1 font-sans text-[0.7rem] font-bold text-gray-500">
+                <Lock className="w-3 h-3" /> Secure checkout
+              </span>
+            </div>
+          </div>
+          <button
+            onClick={scrollToForm}
+            className="w-full py-3.5 font-sans font-bold text-white bg-green-800 rounded-full hover:bg-green-700 transition-colors text-[0.95rem]"
+          >
+            Pay $750 and Start Formation →
+          </button>
+          <p className="font-sans text-[0.7rem] text-gray-500 text-center mt-2">
+            Secure payment via Stripe · Contact within 1 business day
+          </p>
+        </div>
+
         <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(23rem,31rem)] gap-[3rem] lg:gap-[5rem] items-start">
-          <div className="min-w-0">
+          {/* Offer stack — appears after mobile CTA card, but before form on desktop */}
+          <div className="min-w-0 order-2 lg:order-1">
             <h2 className="font-serif text-[2rem] md:text-[2.75rem] leading-[1.1] text-black mb-6">
               Stop Paying Thousands at a Traditional Law Firm... Or Risk Your Business With a Generic Online Filing Service.
             </h2>
@@ -185,7 +225,8 @@ export default function OrderClient() {
             </div>
           </div>
 
-          <div className="bg-white rounded-[1rem] p-8 md:p-10 lg:sticky lg:top-[7.5rem]">
+          {/* Order form — appears first on mobile (after the sticky CTA card), second on desktop */}
+          <div className="bg-white rounded-[1rem] p-8 md:p-10 lg:sticky lg:top-[7.5rem] order-1 lg:order-2">
             <h3 className="font-serif text-[1.5rem] text-black mb-2">
               Start Your Order
             </h3>
@@ -193,7 +234,20 @@ export default function OrderClient() {
               Enter your details and complete payment securely through Stripe. We&apos;ll contact you within 1 business day to begin your formation.
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <div className="mb-6 pb-6 border-b border-gray-200">
+              <div className="flex items-baseline gap-3">
+                <span className="font-serif text-[2.5rem] text-black leading-none">$750</span>
+                <span className="font-sans text-[1rem] text-gray-400 line-through">$3,900</span>
+                <span className="font-sans text-[0.8rem] font-bold uppercase text-green-800 bg-green-100 px-2 py-1 rounded-full">
+                  Save 80%
+                </span>
+              </div>
+              <p className="font-sans text-[0.85rem] text-gray-500 mt-2">
+                Everything included — attorney consultation, formation, Operating Agreement, EIN, registered agent, and 1 year of legal support.
+              </p>
+            </div>
+
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
               <label className="block">
                 <span className="block font-sans font-bold text-sm text-black mb-1.5">Full name</span>
                 <input
@@ -235,12 +289,12 @@ export default function OrderClient() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-3.5 font-sans font-medium text-white bg-green-800 rounded-full hover:bg-green-600 transition-colors disabled:opacity-50"
+                className="w-full py-3.5 font-sans font-bold text-white bg-green-800 rounded-full hover:bg-green-700 transition-colors disabled:opacity-50 text-[0.95rem]"
               >
                 {loading ? "Opening secure checkout..." : "Pay $750 and Start Formation"}
               </button>
-              <p className="font-sans text-xs text-gray-500 text-center">
-                Secure payment processed by Stripe. Your information is encrypted and never shared.
+              <p className="font-sans text-xs text-gray-500 text-center flex items-center justify-center gap-1.5">
+                <Lock className="w-3 h-3" /> Secure payment processed by Stripe. Your information is encrypted and never shared.
               </p>
             </form>
 
@@ -255,6 +309,22 @@ export default function OrderClient() {
                 More Information
               </Link>
             </div>
+          </div>
+        </div>
+
+        {/* Mobile sticky bottom CTA bar */}
+        <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-200 px-4 py-3 shadow-[0_-0.5rem_1rem_rgba(0,0,0,0.08)]">
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex flex-col">
+              <span className="font-serif text-[1.25rem] text-black leading-none">$750</span>
+              <span className="font-sans text-[0.65rem] text-gray-500 line-through">$3,900 value</span>
+            </div>
+            <button
+              onClick={scrollToForm}
+              className="flex-1 max-w-[16rem] py-3 font-sans font-bold text-white bg-green-800 rounded-full hover:bg-green-700 transition-colors text-[0.9rem]"
+            >
+              Pay $750 & Start →
+            </button>
           </div>
         </div>
 
@@ -285,6 +355,9 @@ export default function OrderClient() {
             </p>
           </div>
         </div>
+
+        {/* Bottom padding so sticky bar doesn't cover footer content on mobile */}
+        <div className="h-20 lg:hidden" />
       </div>
     </section>
   );

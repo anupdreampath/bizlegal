@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - heading "biz.legal CMS" [level=1] [ref=e5]
+    - paragraph [ref=e6]: Admin sign in
+    - generic [ref=e7]: Email
+    - textbox [ref=e8]: admin@biz.legal
+    - generic [ref=e9]: Password
+    - textbox [ref=e10]: admin123
+    - button "Sign in" [ref=e11]
+  - button "Open Next.js Dev Tools" [ref=e17] [cursor=pointer]:
+    - img [ref=e18]
+  - alert [ref=e21]

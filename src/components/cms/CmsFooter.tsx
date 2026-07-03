@@ -83,9 +83,11 @@ export default function CmsFooter({ theme }: { theme: unknown }) {
       </div>
       <div className="border-t border-gray-200">
         <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem] py-6">
-          <p className="font-sans text-xs text-center max-w-[50rem] mx-auto mb-4" style={{ color: mutedColor }}>
-            biz.legal is a service of attorney Alexander Myers SBN 271474 and the law firm Myers, Jameson & Myers, LLP. More information about the firm can be found at <a href="https://mjmlaw.com" target="_blank" rel="noopener noreferrer" className="underline">mjmlaw.com</a>.
-          </p>
+          {asString(f.disclaimer) && (
+            <p className="font-sans text-xs text-center max-w-[50rem] mx-auto mb-4" style={{ color: mutedColor }}>
+              {asString(f.disclaimer)}
+            </p>
+          )}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="font-sans text-xs" style={{ color: mutedColor }}>
               © {new Date().getFullYear()} {logoText}. All rights reserved.

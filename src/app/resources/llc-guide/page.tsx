@@ -63,11 +63,11 @@ function VideoPlaceholder({ label, duration, variant = "dark" }: { label: string
 export default function LLCGuidePage() {
   return (
     <PageShell
-      cmsSlug="resources-llc-guide"
-heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80"
+      heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80"
       heroAlt="Person signing an LLC formation document — biz.legal California LLC guide"
       label="Resources"
       title="The complete guide to California LLCs"
+      heroVariant="mobileHomepage"
       description="Everything you need to know about forming, managing, and maintaining a Limited Liability Company in California — from initial filing to ongoing compliance."
     >
       {/* Chapter nav */}
@@ -303,7 +303,7 @@ heroImage="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=for
               </Takeaway>
             </div>
 
-            <ImagePlaceholder label="Image: Sample Operating Agreement" aspect="4/5" src="https://images.unsplash.com/photo-1769038947088-62455c949efc?auto=format&fit=crop&w=1400&q=80" />
+            <ImagePlaceholder label="Image: Sample Operating Agreement" aspect="4/5" src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=80" />
           </div>
 
           {/* What it should cover */}

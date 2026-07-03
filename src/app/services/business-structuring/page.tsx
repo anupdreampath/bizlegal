@@ -16,12 +16,12 @@ import {
 export default function BusinessStructuringPage() {
   return (
     <PageShell
-      cmsSlug="services-business-structuring"
       heroImage="/amyersnapa-attachments/iStock-2243799864.jpg"
       heroAlt="Four professionals in a business meeting — California business structuring consultation"
       label="Business Structuring"
       title="Structure your LLC for maximum protection and flexibility"
       description="The way your LLC is structured determines your liability protection, tax burden, management authority, and exit options. We help you get it right from the start."
+      heroVariant="mobileHomepage"
     >
       {/* ── 01 Why Structure Matters ── */}
       <section className="bg-ivory-100 py-[4rem] md:py-[6rem]">
@@ -301,7 +301,7 @@ export default function BusinessStructuringPage() {
               <h2 className="font-serif text-[2rem] md:text-[2.75rem] leading-[1.1] text-black mb-6">
                 Structuring guidance is especially valuable when&hellip;
               </h2>
-              <ImagePlaceholder label="Business strategy consultation with California founders" aspect="4/3" src="/amyersnapa-attachments/iStock-2218831325.jpg" />
+              <ImagePlaceholder label="Business strategy consultation with California founders" aspect="4/3" src="/amyersnapa-attachments/iStock-2241575917.jpg" />
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">

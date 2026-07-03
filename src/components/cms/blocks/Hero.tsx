@@ -77,40 +77,40 @@ export default function HeroBlock({ content, style, blockId }: any) {
             </div>
             <div className="hidden md:grid md:grid-cols-3 gap-3 mt-8 max-w-[42rem]">
               {proofItems.map((item: string) => (
-                <div key={item} className="flex items-center gap-2 rounded-[0.7rem] bg-white/70 border border-black/5 px-3 py-3">
+                <div key={item} className="flex items-center gap-2 rounded-[0.7rem] bg-white border border-black/10 px-3 py-3 shadow-sm">
                   <ShieldCheck className="w-4 h-4 flex-shrink-0" style={{ color: s.primaryCtaBg || "#166534" }} />
-                  <span className="font-sans text-[0.8rem] font-bold" style={{ color: s.textColor || "#000" }}>
+                  <span className="font-sans text-[0.8rem] font-bold text-black">
                     {item}
                   </span>
                 </div>
               ))}
             </div>
           </div>
-          <div className="order-1 lg:order-2 relative justify-self-center lg:justify-self-end w-full max-w-[21.5rem] sm:max-w-[22rem] lg:max-w-[28rem]">
-            <div className="relative rounded-[1.25rem] lg:rounded-[1rem] overflow-hidden shadow-[0_1.25rem_3rem_rgba(0,0,0,0.14)] lg:shadow-none">
-              <div className="md:hidden absolute left-3 top-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 shadow-sm">
+          <div className="order-1 lg:order-2 relative justify-self-center lg:justify-self-end w-full sm:max-w-[24rem] md:max-w-[32rem] lg:max-w-[36rem] xl:max-w-[40rem]">
+            <div className="relative rounded-[1rem] lg:rounded-[1rem] overflow-hidden shadow-[0_1.25rem_3rem_rgba(0,0,0,0.14)] lg:shadow-none">
+              <div className="md:hidden absolute left-3 top-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1.5 shadow-sm">
                 <BadgeCheck className="w-3.5 h-3.5" style={{ color: s.primaryCtaBg || "#166534" }} />
                 <span className="font-sans text-[0.68rem] font-bold uppercase tracking-wide text-black">
                   Lawyer-led LLC formation
                 </span>
               </div>
-              <div className="md:hidden absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-black/70 via-black/35 to-transparent px-4 pb-4 pt-16">
+              <div className="md:hidden absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-black/80 via-black/50 to-transparent px-4 pb-5 pt-20">
                 <h1
                   data-field="heading"
-                  className={`font-serif text-[2.25rem] leading-[0.98] text-white drop-shadow-sm ${s.uppercase ? "uppercase" : ""}`}
+                  className={`font-serif text-[2.1rem] sm:text-[2.5rem] leading-[0.98] text-white drop-shadow-md ${s.uppercase ? "uppercase" : ""}`}
                 >
                   {content.heading}
                 </h1>
               </div>
               <CmsMedia
                 image={content.image}
-                className="block w-full h-auto object-contain"
+                className="block w-full h-auto max-h-[55vh] sm:max-h-[30rem] md:max-h-[36rem] lg:max-h-[40rem] object-cover"
                 width={1600}
                 height={1200}
                 priority
               />
             </div>
-            <div className="hidden md:block absolute left-3 right-3 bottom-3 md:left-4 md:right-4 md:bottom-4 rounded-[0.8rem] bg-white/95 p-3 md:p-4 shadow-lg">
+            <div className="hidden md:block absolute left-3 right-3 bottom-3 md:left-4 md:right-4 md:bottom-4 rounded-[0.8rem] bg-white p-3 md:p-4 shadow-lg">
               <div className="hidden sm:flex items-center gap-1 mb-2">
                 {[1, 2, 3, 4, 5].map((star) => (
                   <Star key={star} className="w-4 h-4 fill-black text-black" />
