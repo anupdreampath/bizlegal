@@ -1,0 +1,362 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "biz.legal" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: biz.legal
+      - navigation [ref=e6]:
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services/llc-formation
+        - link "How It Works" [ref=e8] [cursor=pointer]:
+          - /url: /how-it-works
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e10] [cursor=pointer]:
+          - /url: /contact
+      - link "Order Your LLC Formation" [ref=e11] [cursor=pointer]:
+        - /url: /order
+  - main [ref=e12]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e22]: Lawyer-led California LLC formation
+        - heading "WE FORM YOUR LLC FOR YOU" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Don't cheap out with DIY services or waste money on expensive law firms. You don't have to compromise, we're your LLC formation solution.
+        - generic [ref=e25]:
+          - link "I'm Ready!" [ref=e26] [cursor=pointer]:
+            - /url: /order
+          - link "More Information" [ref=e27] [cursor=pointer]:
+            - /url: /questionnaire
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e33]: Attorney-drafted documents
+          - generic [ref=e34]:
+            - img [ref=e35]
+            - generic [ref=e38]: Professional filing
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - generic [ref=e43]: Fast delivery
+      - generic [ref=e44]:
+        - img "Attorney photo for biz.legal LLC formation" [ref=e46]
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - img [ref=e49]
+            - img [ref=e51]
+            - img [ref=e53]
+            - img [ref=e55]
+            - img [ref=e57]
+          - paragraph [ref=e59]: Trusted by founders who want speed without legal guesswork.
+    - generic [ref=e61]:
+      - paragraph [ref=e63]: Business types we help form
+      - generic [ref=e66]:
+        - generic [ref=e68]: Restaurants
+        - generic [ref=e70]: Retail
+        - generic [ref=e72]: Technology
+        - generic [ref=e74]: Construction
+        - generic [ref=e76]: Consulting
+        - generic [ref=e78]: Real Estate
+        - generic [ref=e80]: Healthcare
+        - generic [ref=e82]: E-commerce
+        - generic [ref=e84]: Cleaning & Janitorial
+        - generic [ref=e86]: Home Services
+        - generic [ref=e88]: Transportation
+        - generic [ref=e90]: Professional Services
+        - generic [ref=e92]: Restaurants
+        - generic [ref=e94]: Retail
+        - generic [ref=e96]: Technology
+        - generic [ref=e98]: Construction
+        - generic [ref=e100]: Consulting
+        - generic [ref=e102]: Real Estate
+        - generic [ref=e104]: Healthcare
+        - generic [ref=e106]: E-commerce
+        - generic [ref=e108]: Cleaning & Janitorial
+        - generic [ref=e110]: Home Services
+        - generic [ref=e112]: Transportation
+        - generic [ref=e114]: Professional Services
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - paragraph [ref=e121]: What You Need
+        - heading "The legal foundation matters before the paperwork starts" [level=2] [ref=e122]
+        - paragraph [ref=e123]: A California LLC is not just a filing. You need to know the entity fits your business, that the state paperwork is right, and that your documents protect how your company will actually operate.
+        - link "Help Me Decide" [ref=e124] [cursor=pointer]:
+          - /url: /questionnaire
+          - text: Help Me Decide
+          - img [ref=e125]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - img [ref=e129]
+          - heading "What You Need" [level=3] [ref=e132]
+          - list [ref=e133]:
+            - listitem [ref=e134]: A clear decision that an LLC fits your business and risk profile.
+            - listitem [ref=e135]: State filings prepared without missing names, agents, addresses, or required statements.
+            - listitem [ref=e136]: Ownership, management, and operating documents that do more than sit in a folder.
+            - listitem [ref=e137]: A path for questions after formation, instead of being left alone with a receipt.
+        - generic [ref=e138]:
+          - img [ref=e139]
+          - heading "What We Do For You" [level=3] [ref=e142]
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - img [ref=e145]
+              - generic [ref=e148]: Review your LLC decision before filing.
+            - listitem [ref=e149]:
+              - img [ref=e150]
+              - generic [ref=e153]: Prepare and submit your California state filings.
+            - listitem [ref=e154]:
+              - img [ref=e155]
+              - generic [ref=e158]: Draft and deliver your operating documents and organizational package.
+            - listitem [ref=e159]:
+              - img [ref=e160]
+              - generic [ref=e163]: Support you after formation with practical next steps.
+        - generic [ref=e164]:
+          - img "California business owner learning which businesses need an LLC" [ref=e165]
+          - generic [ref=e166]:
+            - paragraph [ref=e167]: Video guide
+            - paragraph [ref=e168]: Which businesses need an LLC?
+    - generic [ref=e171]:
+      - paragraph [ref=e173]: What We Do
+      - heading "We do the LLC formation work for you" [level=2] [ref=e175]
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - img "Business owner deciding whether an LLC fits their needs" [ref=e179]
+          - generic [ref=e180]:
+            - heading "Decide if an LLC fits your needs" [level=3] [ref=e181]
+            - paragraph [ref=e182]: Not every business should be an LLC. We help you think through liability, ownership, state requirements, and whether another structure may make more sense.
+            - link "Help Me Decide" [ref=e183] [cursor=pointer]:
+              - /url: /questionnaire
+              - text: Help Me Decide
+              - img [ref=e184]
+        - generic [ref=e186]:
+          - img "California LLC state filing documents" [ref=e188]
+          - generic [ref=e189]:
+            - heading "State Filings" [level=3] [ref=e190]
+            - paragraph [ref=e191]: We prepare and submit the California formation filings so you are not guessing through state forms, registered agent details, and launch requirements.
+            - link "I'm Ready!" [ref=e192] [cursor=pointer]:
+              - /url: /order
+              - text: I'm Ready!
+              - img [ref=e193]
+        - generic [ref=e195]:
+          - img "Completed LLC documents ready for delivery" [ref=e197]
+          - generic [ref=e198]:
+            - heading "Document drafting and delivery" [level=3] [ref=e199]
+            - paragraph [ref=e200]: Your operating agreement and organizational documents are drafted for your business and delivered in a package you can use with banks, partners, and vendors.
+            - link "I'm Ready!" [ref=e201] [cursor=pointer]:
+              - /url: /order
+              - text: I'm Ready!
+              - img [ref=e202]
+        - generic [ref=e204]:
+          - img "Business owner receiving ongoing legal support" [ref=e206]
+          - generic [ref=e207]:
+            - heading "Ongoing support" [level=3] [ref=e208]
+            - paragraph [ref=e209]: After formation, we can support registered agent needs, legal questions, contracts, leases, employment issues, and business changes as you grow.
+            - link "More Services" [ref=e210] [cursor=pointer]:
+              - /url: /services/llc-management
+              - text: More Services
+              - img [ref=e211]
+    - generic [ref=e216]:
+      - generic [ref=e218]:
+        - img "California small business team working with biz.legal" [ref=e219]
+        - generic [ref=e220]:
+          - paragraph [ref=e221]: Built for real businesses
+          - paragraph [ref=e222]: Practical legal support before, during, and after formation.
+      - generic [ref=e223]:
+        - paragraph [ref=e225]: Why biz.legal
+        - heading "The ease of DIY. The expertise of a law firm. A fraction of the cost." [level=2] [ref=e226]
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - img [ref=e229]
+            - heading "Lawyers, not a DIY Site" [level=3] [ref=e232]
+            - paragraph [ref=e233]: DIY websites can't give legal advice and they leave you guessing. Mistakes are easy to make. We do the work for you, in California, by real lawyers, paralegals and legal assistants.
+          - generic [ref=e234]:
+            - img [ref=e235]
+            - heading "Tech-Speed Service" [level=3] [ref=e238]
+            - paragraph [ref=e239]: Faster than a law firm, easier than DIY, with real expertise and lawyers to make sure it's done right, and done for you.
+    - generic [ref=e243]:
+      - generic [ref=e244]:
+        - img "Video poster for which businesses need an LLC" [ref=e245]
+        - img [ref=e248]
+      - generic [ref=e250]:
+        - paragraph [ref=e252]: Video
+        - heading "Which businesses need an LLC?" [level=2] [ref=e253]
+        - paragraph [ref=e254]: A short decision guide for owners who want liability protection, a professional structure, and a better way to separate personal assets from business risk.
+        - link "More Information" [ref=e255] [cursor=pointer]:
+          - /url: /questionnaire
+          - text: More Information
+          - img [ref=e256]
+    - generic [ref=e260]:
+      - paragraph [ref=e262]: Our Easy System
+      - heading "Three steps from decision to delivery" [level=2] [ref=e264]
+      - generic [ref=e265]:
+        - generic [ref=e266]:
+          - generic [ref=e267]: Step 01
+          - heading "Decide you're ready" [level=3] [ref=e268]
+          - paragraph [ref=e269]: If you want help deciding whether an LLC is right for you, start with the intake form and we will route you into the right next step.
+          - link "Help Me Decide" [ref=e270] [cursor=pointer]:
+            - /url: /questionnaire
+        - generic [ref=e271]:
+          - generic [ref=e272]: Step 02
+          - heading "Lawyers Do The Work" [level=3] [ref=e273]
+          - paragraph [ref=e274]: Once you are ready, our legal team prepares the filings and documents instead of leaving you to work through a DIY checklist. Use the order form to begin.
+          - link "I'm Ready!" [ref=e275] [cursor=pointer]:
+            - /url: /order
+        - generic [ref=e276]:
+          - generic [ref=e277]: Step 03
+          - heading "Delivery" [level=3] [ref=e278]
+          - paragraph [ref=e279]: Your completed filing confirmations and organizational documents are delivered so you can open accounts, work with vendors, and move forward. Use the order form when you are ready.
+          - link "I'm Ready!" [ref=e280] [cursor=pointer]:
+            - /url: /order
+      - generic [ref=e281]:
+        - link "Help Me Decide" [ref=e282] [cursor=pointer]:
+          - /url: /questionnaire
+        - paragraph [ref=e283]: Ready now? Use the order page to begin the $750 formation offer.
+    - generic [ref=e286]:
+      - paragraph [ref=e288]: Who We Help
+      - generic [ref=e290]:
+        - heading "California LLCs for every industry allowed" [level=2] [ref=e291]
+        - paragraph [ref=e292]: biz.legal forms California LLCs for every industry allowed to operate as an LLC, from local service companies to professional firms and online sellers.
+        - link "Ask About Your Industry" [ref=e293] [cursor=pointer]:
+          - /url: /questionnaire
+          - text: Ask About Your Industry
+          - img [ref=e294]
+      - generic [ref=e296]:
+        - link "Restaurant business owner Restaurants Food service, hospitality, and local operators." [ref=e297] [cursor=pointer]:
+          - /url: /industries/restaurants
+          - img "Restaurant business owner" [ref=e298]
+          - generic [ref=e300]:
+            - heading "Restaurants" [level=3] [ref=e301]
+            - paragraph [ref=e302]: Food service, hospitality, and local operators.
+        - link "Retail business owner Retail Shops, boutiques, inventory businesses, and sellers." [ref=e303] [cursor=pointer]:
+          - /url: /industries/retail
+          - img "Retail business owner" [ref=e304]
+          - generic [ref=e306]:
+            - heading "Retail" [level=3] [ref=e307]
+            - paragraph [ref=e308]: Shops, boutiques, inventory businesses, and sellers.
+        - link "Technology founder Technology Software, apps, digital products, and tech services." [ref=e309] [cursor=pointer]:
+          - /url: /industries/technology
+          - img "Technology founder" [ref=e310]
+          - generic [ref=e312]:
+            - heading "Technology" [level=3] [ref=e313]
+            - paragraph [ref=e314]: Software, apps, digital products, and tech services.
+        - link "Construction business owner Construction Contractors, builders, trades, and field teams." [ref=e315] [cursor=pointer]:
+          - /url: /industries/construction
+          - img "Construction business owner" [ref=e316]
+          - generic [ref=e318]:
+            - heading "Construction" [level=3] [ref=e319]
+            - paragraph [ref=e320]: Contractors, builders, trades, and field teams.
+        - link "Consulting professional Consulting Independent advisors and professional operators." [ref=e321] [cursor=pointer]:
+          - /url: /industries/consulting
+          - img "Consulting professional" [ref=e322]
+          - generic [ref=e324]:
+            - heading "Consulting" [level=3] [ref=e325]
+            - paragraph [ref=e326]: Independent advisors and professional operators.
+        - link "Real estate business owner Real Estate Property, investor, and real estate service companies." [ref=e327] [cursor=pointer]:
+          - /url: /industries/real-estate
+          - img "Real estate business owner" [ref=e328]
+          - generic [ref=e330]:
+            - heading "Real Estate" [level=3] [ref=e331]
+            - paragraph [ref=e332]: Property, investor, and real estate service companies.
+        - link "Healthcare business owner Healthcare Wellness, care, and health-adjacent businesses." [ref=e333] [cursor=pointer]:
+          - /url: /industries/healthcare
+          - img "Healthcare business owner" [ref=e334]
+          - generic [ref=e336]:
+            - heading "Healthcare" [level=3] [ref=e337]
+            - paragraph [ref=e338]: Wellness, care, and health-adjacent businesses.
+        - link "E-commerce business owner E-commerce Online stores, marketplaces, and fulfillment brands." [ref=e339] [cursor=pointer]:
+          - /url: /industries/ecommerce
+          - img "E-commerce business owner" [ref=e340]
+          - generic [ref=e342]:
+            - heading "E-commerce" [level=3] [ref=e343]
+            - paragraph [ref=e344]: Online stores, marketplaces, and fulfillment brands.
+        - link "Cleaning and janitorial service owner Cleaning & Janitorial Residential, office, and commercial cleaning services." [ref=e345] [cursor=pointer]:
+          - /url: /industries/cleaning-janitorial
+          - img "Cleaning and janitorial service owner" [ref=e346]
+          - generic [ref=e348]:
+            - heading "Cleaning & Janitorial" [level=3] [ref=e349]
+            - paragraph [ref=e350]: Residential, office, and commercial cleaning services.
+        - link "Home services business owner Home Services Repair, maintenance, landscaping, and local service teams." [ref=e351] [cursor=pointer]:
+          - /url: /industries/home-services
+          - img "Home services business owner" [ref=e352]
+          - generic [ref=e354]:
+            - heading "Home Services" [level=3] [ref=e355]
+            - paragraph [ref=e356]: Repair, maintenance, landscaping, and local service teams.
+        - link "Transportation business owner Transportation Drivers, logistics, delivery, and vehicle-based businesses." [ref=e357] [cursor=pointer]:
+          - /url: /industries/transportation
+          - img "Transportation business owner" [ref=e358]
+          - generic [ref=e360]:
+            - heading "Transportation" [level=3] [ref=e361]
+            - paragraph [ref=e362]: Drivers, logistics, delivery, and vehicle-based businesses.
+        - link "Professional services owner Professional Services Skilled service firms that need credibility and protection." [ref=e363] [cursor=pointer]:
+          - /url: /industries/professional-services
+          - img "Professional services owner" [ref=e364]
+          - generic [ref=e366]:
+            - heading "Professional Services" [level=3] [ref=e367]
+            - paragraph [ref=e368]: Skilled service firms that need credibility and protection.
+    - generic [ref=e372]:
+      - generic [ref=e373]:
+        - paragraph [ref=e375]: FAQ
+        - heading "Frequently asked questions" [level=2] [ref=e376]
+        - paragraph [ref=e377]: Three answers for owners deciding whether to move now.
+        - img "Business owner reviewing LLC questions" [ref=e380]
+      - generic [ref=e381]:
+        - generic [ref=e382]:
+          - button "How long does it take to form an LLC in California" [expanded] [ref=e383]:
+            - generic [ref=e384]: How long does it take to form an LLC in California
+            - img [ref=e385]
+          - generic [ref=e386]:
+            - paragraph [ref=e387]: "Whether an LLC is formed by a person, a DIY service, or a law firm, the state filing process is the same. But old fashioned law firms can get bogged down in work queues, emergencies, and other excuses. We provide one step better: The service of the law firm, but with the efficiency in delivery of the online platform. The faster you form your LLC, the sooner you can begin to benefit from it."
+            - link "Start Now" [ref=e388] [cursor=pointer]:
+              - /url: /order
+        - button "What do I need?" [ref=e390]:
+          - generic [ref=e391]: What do I need?
+          - img [ref=e392]
+        - button "How do I know if an LLC is right for me, should I form a Corporation instead?" [ref=e394]:
+          - generic [ref=e395]: How do I know if an LLC is right for me, should I form a Corporation instead?
+          - img [ref=e396]
+    - generic [ref=e400]:
+      - heading "Start Now, Get Protected" [level=2] [ref=e401]
+      - paragraph [ref=e402]: Order your California LLC formation for $750 or request more information so the team can route you into the right intake flow.
+      - generic [ref=e403]:
+        - link "Order Your LLC Formation" [ref=e404] [cursor=pointer]:
+          - /url: /order
+        - link "More Information" [ref=e405] [cursor=pointer]:
+          - /url: /questionnaire
+  - contentinfo [ref=e406]:
+    - generic [ref=e408]:
+      - generic [ref=e409]:
+        - link "biz.legal" [ref=e410] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e411]: biz.legal
+        - paragraph [ref=e412]: California LLC formation handled by lawyers, built with the speed of an online platform.
+        - generic [ref=e413]:
+          - paragraph [ref=e414]: (833) 555-0123
+          - paragraph [ref=e415]: hello@biz.legal
+          - paragraph [ref=e416]: California, USA
+      - generic [ref=e417]:
+        - paragraph [ref=e418]: Navigation
+        - list [ref=e419]:
+          - listitem [ref=e420]:
+            - link "Services" [ref=e421] [cursor=pointer]:
+              - /url: /services/llc-formation
+          - listitem [ref=e422]:
+            - link "How It Works" [ref=e423] [cursor=pointer]:
+              - /url: /how-it-works
+          - listitem [ref=e424]:
+            - link "About" [ref=e425] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e426]:
+            - link "Contact" [ref=e427] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=e429]:
+      - paragraph [ref=e430]: biz.legal is service of attorney Alexander J Myers SBN 271474, and the law firm of Myers, Jameson & Myers, LLP. More information about the firm can be found at mjmlaw.com.
+      - generic [ref=e431]:
+        - paragraph [ref=e432]: © 2026 biz.legal. All rights reserved.
+        - generic [ref=e433]:
+          - link "Privacy Policy" [ref=e434] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Use" [ref=e435] [cursor=pointer]:
+            - /url: /terms
+          - link "Cookie Policy" [ref=e436] [cursor=pointer]:
+            - /url: /cookies
+  - button "Open Next.js Dev Tools" [ref=e442] [cursor=pointer]:
+    - img [ref=e443]

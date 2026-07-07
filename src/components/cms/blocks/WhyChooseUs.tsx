@@ -2,9 +2,16 @@ import Link from "next/link";
 import { ShieldCheck } from "lucide-react";
 import { CmsMedia } from "../CmsMedia";
 
-export default function WhyChooseUsBlock({ content, style, blockId }: any) {
-  const s = style || {};
-  const cta = content.cta || {};
+export default function WhyChooseUsBlock({ content, style, blockId }: { content: unknown; style: unknown; blockId: number }) {
+  const c = (content || {}) as {
+    eyebrow?: string;
+    heading?: string;
+    image?: { url?: string; alt?: string; type?: string };
+    cta?: { label?: string; href?: string };
+    features?: { title?: string; description?: string }[];
+  };
+  const s = (style || {}) as Record<string, string>;
+  const cta = c.cta || {};
   return (
     <section
       data-block-id={blockId}
@@ -16,7 +23,7 @@ export default function WhyChooseUsBlock({ content, style, blockId }: any) {
         <div className="grid md:grid-cols-2 gap-[3rem] md:gap-[5rem] items-start">
           <div>
             <div className="relative aspect-[4/3] rounded-[1rem] overflow-hidden">
-              <CmsMedia image={content.image} fill className="object-cover" />
+              <CmsMedia image={c.image as import("../types").CmsImage | undefined} fill className="object-cover" />
               <div className="absolute inset-x-4 bottom-4 rounded-[0.8rem] bg-white/95 p-4 shadow-lg">
                 <p className="font-sans text-[0.75rem] font-bold uppercase text-green-800 mb-1">
                   Built for real businesses
@@ -30,17 +37,17 @@ export default function WhyChooseUsBlock({ content, style, blockId }: any) {
           <div>
             <div className="border-t-2 pt-6 mb-[2rem]" style={{ borderColor: s.textColor || "#000" }}>
               <p className="text-base font-sans font-bold uppercase" style={{ color: s.textColor || "#000" }}>
-                {content.eyebrow}
+                {c.eyebrow}
               </p>
             </div>
             <h2
               className="font-serif leading-[1.05] mb-[2.5rem] whitespace-pre-line"
-              style={{ color: s.textColor || "#000", fontSize: "clamp(2.5rem, 4.5vw, 3.25rem)" }}
+              style={{ color: s.textColor || "#000", fontSize: "clamp(2.25rem, 4.2vw, 2.75rem)" }}
             >
-              {content.heading}
+              {c.heading}
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
-              {(content.features || []).map((f: any, i: number) => (
+              {(c.features || []).map((f, i) => (
                 <div key={i} className="bg-white rounded-[1rem] p-5 border border-black/5">
                   <ShieldCheck className="w-5 h-5 text-green-800 mb-4" />
                   <h3 className="font-sans text-base font-bold mb-2" style={{ color: s.textColor || "#000" }}>

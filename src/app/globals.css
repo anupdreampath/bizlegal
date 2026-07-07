@@ -233,6 +233,45 @@ body {
   border-bottom: 0;
 }
 
+/* Policy pages */
+.cms-policy-body h2 {
+  color: inherit;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.15;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--green-800);
+}
+
+.cms-policy-body h3 {
+  color: inherit;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 1.75rem 0 0.75rem;
+}
+
+.cms-policy-body p {
+  margin: 0 0 1rem;
+}
+
+.cms-policy-body ul,
+.cms-policy-body ol {
+  margin: 0 0 1.25rem 1.25rem;
+}
+
+.cms-policy-body li {
+  margin: 0.35rem 0;
+}
+
+.cms-policy-body a {
+  color: var(--green-800);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 html {
   scroll-behavior: smooth;
 }

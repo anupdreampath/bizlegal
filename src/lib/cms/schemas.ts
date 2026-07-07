@@ -462,6 +462,37 @@ export const SCHEMAS: Record<string, BlockSchema> = {
     ],
   },
 
+  policy: {
+    label: "Policy page (privacy, terms, cookies)",
+    defaults: {
+      content: {
+        heading: "Policy Title",
+        lastUpdated: "April 12, 2026",
+        body: "<p>Edit this policy content.</p>",
+      },
+      style: {
+        backgroundColor: "#f8f5ed",
+        textColor: "#000000",
+        bodyColor: "#4b5563",
+      },
+    },
+    content: [
+      { key: "heading", label: "Page title", type: "textarea" },
+      { key: "lastUpdated", label: "Last updated date", type: "text" },
+      {
+        key: "body",
+        label: "Editable HTML body",
+        type: "textarea",
+        description: "Use simple HTML such as <h2>, <p>, <ul>, <li>, <strong>, and <a>.",
+      },
+    ],
+    style: [
+      { key: "backgroundColor", label: "Background", type: "color" },
+      { key: "textColor", label: "Heading text", type: "color" },
+      { key: "bodyColor", label: "Body text", type: "color" },
+    ],
+  },
+
   contactForm: {
     label: "Contact page / form",
     defaults: {

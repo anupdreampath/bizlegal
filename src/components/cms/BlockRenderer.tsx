@@ -19,6 +19,7 @@ import BookingFormBlock from "./blocks/BookingForm";
 import AuthFormBlock from "./blocks/AuthForm";
 import StatusPageBlock from "./blocks/StatusPage";
 import QuestionnaireBlock from "./blocks/Questionnaire";
+import PolicyBlock from "./blocks/Policy";
 import type { CmsBlock } from "./types";
 
 type DeviceMode = "desktop" | "mobile";
@@ -47,6 +48,7 @@ const REGISTRY: Record<string, CmsBlockComponent> = {
   authForm: AuthFormBlock,
   statusPage: StatusPageBlock,
   questionnaire: QuestionnaireBlock,
+  policy: PolicyBlock,
 };
 
 export const BLOCK_TYPES = Object.keys(REGISTRY);

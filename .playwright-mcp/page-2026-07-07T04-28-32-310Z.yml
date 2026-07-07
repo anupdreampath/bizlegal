@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "biz.legal" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: biz.legal
+      - navigation [ref=e6]:
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services/llc-formation
+        - link "How It Works" [ref=e8] [cursor=pointer]:
+          - /url: /how-it-works
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e10] [cursor=pointer]:
+          - /url: /contact
+      - link "Order Your LLC Formation" [ref=e11] [cursor=pointer]:
+        - /url: /order
+  - main [ref=e12]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - img [ref=e18]
+          - paragraph [ref=e21]: Industry
+        - heading "LLC Formation for Restaurants" [level=1] [ref=e22]
+        - paragraph [ref=e23]: Form your California LLC with biz.legal — attorney-drafted documents, professional filing, and ongoing support for restaurants businesses.
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - generic [ref=e29]: Attorney-drafted documents
+          - generic [ref=e30]:
+            - img [ref=e31]
+            - generic [ref=e34]: Attorney-guided decisions
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - generic [ref=e39]: Fast delivery
+        - generic [ref=e40]:
+          - link "Start Now, Get Protected" [ref=e41] [cursor=pointer]:
+            - /url: /order
+          - link "More Information" [ref=e42] [cursor=pointer]:
+            - /url: /questionnaire
+      - generic [ref=e43]:
+        - img "Restaurants business owner forming a California LLC" [ref=e45]
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - img [ref=e48]
+            - img [ref=e50]
+            - img [ref=e52]
+            - img [ref=e54]
+            - img [ref=e56]
+          - paragraph [ref=e58]: Practical formation support for restaurants owners who want it done right.
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: Industry
+        - heading "Why restaurants need an LLC" [level=2] [ref=e65]
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: Restaurants operate in a high-liability environment — from food safety to slip-and-fall risks to vendor disputes. An LLC creates a legal barrier between your personal assets and the daily risks of running a food service business.
+          - paragraph [ref=e68]: In addition to general liability, restaurants face alcohol liability (if serving), employee disputes, health code violations, and delivery-related incidents. An LLC limits your personal exposure to these risks and makes your business more attractive to investors and landlords.
+          - heading "Key risks for restaurant owners" [level=3] [ref=e69]
+          - list [ref=e70]:
+            - listitem [ref=e71]: Foodborne illness claims and health code violations
+            - listitem [ref=e72]: Customer injuries on the premises
+            - listitem [ref=e73]: Employee disputes and wage claims
+            - listitem [ref=e74]: Alcohol service liability and dram shop claims
+            - listitem [ref=e75]: Vendor, supplier, and delivery disputes
+          - heading "How an LLC protects your restaurant" [level=3] [ref=e76]
+          - paragraph [ref=e77]: An LLC separates your personal assets — your home, savings, and vehicles — from business debts and lawsuits. If a customer is injured or a supplier dispute escalates, the LLC is typically the defendant, not you personally. This protection also makes it easier to bring on partners, investors, or franchise opportunities.
+          - heading "What you get with biz.legal" [level=3] [ref=e78]
+          - paragraph [ref=e79]: We form your California restaurant LLC with attorney-drafted operating documents, professional state filing, and practical guidance for the next steps. You get documents that match how your restaurant is actually owned and managed, not a generic template.
+      - complementary [ref=e80]:
+        - img "Why restaurants need an LLC visual" [ref=e82]
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: biz.legal approach
+          - paragraph [ref=e85]: Legal structure, filing details, and business next steps kept in one clear path.
+    - generic [ref=e89]:
+      - heading "Start your restaurant LLC today" [level=2] [ref=e90]
+      - paragraph [ref=e91]: Attorney-drafted documents, professional filing, and one year of law firm support.
+      - generic [ref=e92]:
+        - link "Start Now, Get Protected" [ref=e93] [cursor=pointer]:
+          - /url: /order
+        - link "Talk to a Lawyer" [ref=e94] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=e95]:
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - link "biz.legal" [ref=e99] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e100]: biz.legal
+        - paragraph [ref=e101]: California LLC formation handled by lawyers, built with the speed of an online platform.
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: (833) 555-0123
+          - paragraph [ref=e104]: hello@biz.legal
+          - paragraph [ref=e105]: California, USA
+      - generic [ref=e106]:
+        - paragraph [ref=e107]: Navigation
+        - list [ref=e108]:
+          - listitem [ref=e109]:
+            - link "Services" [ref=e110] [cursor=pointer]:
+              - /url: /services/llc-formation
+          - listitem [ref=e111]:
+            - link "How It Works" [ref=e112] [cursor=pointer]:
+              - /url: /how-it-works
+          - listitem [ref=e113]:
+            - link "About" [ref=e114] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e115]:
+            - link "Contact" [ref=e116] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=e118]:
+      - paragraph [ref=e119]: biz.legal is service of attorney Alexander J Myers SBN 271474, and the law firm of Myers, Jameson & Myers, LLP. More information about the firm can be found at mjmlaw.com.
+      - generic [ref=e120]:
+        - paragraph [ref=e121]: © 2026 biz.legal. All rights reserved.
+        - generic [ref=e122]:
+          - link "Privacy Policy" [ref=e123] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Use" [ref=e124] [cursor=pointer]:
+            - /url: /terms
+          - link "Cookie Policy" [ref=e125] [cursor=pointer]:
+            - /url: /cookies
+  - button "Open Next.js Dev Tools" [ref=e131] [cursor=pointer]:
+    - img [ref=e132]

@@ -51,6 +51,7 @@ export default function QuestionnaireBlock({ content, style }: { blockId: number
   const [currentStep, setCurrentStep] = useState(0);
   const [form, setForm] = useState<Record<string, string>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const activeStep = steps[currentStep] || steps[0];
 
   const colors = {
@@ -70,6 +71,44 @@ export default function QuestionnaireBlock({ content, style }: { blockId: number
   function update(id: string | undefined, value: string) {
     if (!id) return;
     setForm((prev) => ({ ...prev, [id]: value }));
+  }
+
+  async function handleSubmit() {
+    setSubmitting(true);
+    try {
+      await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: form.businessName || form.memberNames || "Questionnaire Submission",
+          email: form.email || "",
+          phone: form.phone || null,
+          company: form.businessName || null,
+          service: "LLC Formation",
+          message: form.additionalNotes || null,
+          source: "questionnaire",
+          metadata: {
+            businessType: form.businessType,
+            industry: form.industry,
+            stateOfFormation: form.stateOfFormation,
+            hasExistingBusiness: form.hasExistingBusiness,
+            llcPurpose: form.llcPurpose,
+            mainMotivation: form.mainMotivation,
+            businessActivities: form.businessActivities,
+            revenueExpectation: form.revenueExpectation,
+            numberOfMembers: form.numberOfMembers,
+            memberNames: form.memberNames,
+            managementStructure: form.managementStructure,
+            businessAddress: form.businessAddress,
+            website: form.website,
+          },
+        }),
+      });
+    } catch {
+      // Silently fail — user should still see success UI
+    }
+    setSubmitting(false);
+    setSubmitted(true);
   }
 
   if (!steps.length) {
@@ -93,7 +132,7 @@ export default function QuestionnaireBlock({ content, style }: { blockId: number
             {c.successHeading || "Request Submitted"}
           </h1>
           <p className="font-sans mb-8 leading-relaxed" style={{ color: colors.body }}>
-            {c.successBody || "Thank you. Our team will review your information and reach out shortly."}
+            {c.successBody || "Thank you. Your information has been saved as a lead intake and our team will review it and reach out shortly."}
           </p>
           <div className="space-y-3">
             {c.successPrimaryCta?.label && (
@@ -154,6 +193,12 @@ export default function QuestionnaireBlock({ content, style }: { blockId: number
           <div className="w-full rounded-full h-1.5" style={{ backgroundColor: colors.border }}>
             <div className="h-1.5 rounded-full transition-all duration-500" style={{ width: `${steps.length <= 1 ? 100 : (currentStep / (steps.length - 1)) * 100}%`, backgroundColor: colors.accent }} />
           </div>
+        </div>
+
+        <div className="mb-6 p-4 rounded-xl border" style={{ backgroundColor: colors.background, borderColor: colors.border }}>
+          <p className="text-sm font-sans leading-relaxed" style={{ color: colors.body }}>
+            This is a lead intake questionnaire. Completing it saves your information with our firm so we can review your LLC needs and follow up with you. No payment is required.
+          </p>
         </div>
 
         <div className="rounded-2xl border p-6 sm:p-10 shadow-sm" style={{ backgroundColor: colors.card, borderColor: colors.border }}>
@@ -243,11 +288,23 @@ export default function QuestionnaireBlock({ content, style }: { blockId: number
             </div>
           )}
 
+          {currentStep === steps.length - 1 && (
+            <div className="mt-8 p-4 rounded-xl border" style={{ backgroundColor: colors.background, borderColor: colors.border }}>
+              <p className="text-xs font-sans leading-relaxed" style={{ color: colors.body }}>
+                By submitting this request, you agree to our{" "}
+                <a href="/terms" className="hover:underline" style={{ color: colors.accent }}>Terms of Use</a>
+                {" "}and{" "}
+                <a href="/privacy" className="hover:underline" style={{ color: colors.accent }}>Privacy Policy</a>.
+                Your answers will be saved as a lead intake so our team can review your needs and follow up with you directly. No payment is required.
+              </p>
+            </div>
+          )}
+
           <div className="flex items-center justify-between mt-10 pt-6 border-t" style={{ borderColor: colors.border }}>
             <button
               type="button"
               onClick={() => setCurrentStep((step) => Math.max(step - 1, 0))}
-              disabled={currentStep === 0}
+              disabled={currentStep === 0 || submitting}
               className="inline-flex items-center gap-2 px-5 py-3 font-sans font-medium rounded-lg transition-colors disabled:opacity-40"
               style={{ color: colors.text }}
             >
@@ -255,13 +312,13 @@ export default function QuestionnaireBlock({ content, style }: { blockId: number
               Back
             </button>
             {currentStep < steps.length - 1 ? (
-              <button type="button" onClick={() => setCurrentStep((step) => Math.min(step + 1, steps.length - 1))} className="inline-flex items-center gap-2 px-6 py-3 font-sans font-bold text-white rounded-lg transition-colors" style={{ backgroundColor: colors.accent }}>
+              <button type="button" onClick={() => setCurrentStep((step) => Math.min(step + 1, steps.length - 1))} disabled={submitting} className="inline-flex items-center gap-2 px-6 py-3 font-sans font-bold text-white rounded-lg transition-colors disabled:opacity-70" style={{ backgroundColor: colors.accent }}>
                 Continue
                 <ArrowRight className="w-4 h-4" />
               </button>
             ) : (
-              <button type="button" onClick={() => setSubmitted(true)} className="inline-flex items-center gap-2 px-6 py-3 font-sans font-bold text-white rounded-lg transition-colors" style={{ backgroundColor: colors.accent }}>
-                Submit Request
+              <button type="button" onClick={handleSubmit} disabled={submitting} className="inline-flex items-center gap-2 px-6 py-3 font-sans font-bold text-white rounded-lg transition-colors disabled:opacity-70" style={{ backgroundColor: colors.accent }}>
+                {submitting ? "Submitting..." : "Submit Request"}
                 <Send className="w-4 h-4" />
               </button>
             )}

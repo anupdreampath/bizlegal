@@ -276,9 +276,7 @@ export default function QuestionnairePage() {
             Request Submitted
           </h1>
           <p className="font-sans text-gray-600 mb-8 leading-relaxed">
-            Thank you for submitting your LLC request. Our team will review
-            your information and reach out within 1-2 business days with a
-            customized plan.
+            Thank you for submitting your LLC request. Your information has been saved as a lead intake and our team will review it and reach out within 1-2 business days with a customized plan.
           </p>
           <div className="space-y-3">
             <Link
@@ -361,6 +359,12 @@ export default function QuestionnairePage() {
               style={{ width: `${((currentStep - 1) / 4) * 100}%` }}
             />
           </div>
+        </div>
+
+        <div className="mb-6 p-4 bg-ivory-100 rounded-xl border border-gray-200">
+          <p className="text-sm font-sans text-gray-600 leading-relaxed">
+            This is a lead intake questionnaire. Completing it saves your information with our firm so we can review your LLC needs and follow up with you. No payment is required.
+          </p>
         </div>
 
         {/* Form card */}
@@ -808,14 +812,13 @@ export default function QuestionnairePage() {
                 )}
               </div>
 
-              <div className="mt-8 p-4 bg-ivory-100-200 rounded-[1rem]">
+              <div className="mt-8 p-4 bg-ivory-100 rounded-[1rem] border border-gray-200">
                 <p className="text-xs font-sans text-gray-600 leading-relaxed">
                   By submitting this request, you agree to our{" "}
                   <a href="/terms" className="text-green-800 hover:underline cursor-pointer">Terms of Use</a>
                   {" "}and{" "}
                   <a href="/privacy" className="text-green-800 hover:underline cursor-pointer">Privacy Policy</a>.
-                  No payment is required at this stage. Our team will review
-                  your submission and contact you within 1-2 business days.
+                  Your answers will be saved as a lead intake so our team can review your needs and follow up with you directly. No payment is required at this stage.
                 </p>
               </div>
             </div>

@@ -3,6 +3,13 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { fastImageUrl } from "../imageSource";
 
+type Item = {
+  name?: string;
+  href?: string;
+  description?: string;
+  image?: { url?: string; alt?: string };
+};
+
 const fallbackImages = [
   "/amyersnapa-attachments/iStock-2238258267.jpg",
   "/amyersnapa-attachments/iStock-2187548708.jpg",
@@ -12,9 +19,16 @@ const fallbackImages = [
   "/amyersnapa-attachments/iStock-2241575917.jpg",
 ];
 
-export default function IndustryGridBlock({ content, style, blockId }: any) {
-  const s = style || {};
-  const items = content.items || [];
+export default function IndustryGridBlock({ content, style, blockId }: { content: unknown; style: unknown; blockId: number }) {
+  const c = (content || {}) as {
+    eyebrow?: string;
+    heading?: string;
+    body?: string;
+    cta?: { label?: string; href?: string };
+    items?: Item[];
+  };
+  const s = (style || {}) as Record<string, string>;
+  const items = c.items || [];
 
   return (
     <section
@@ -26,34 +40,36 @@ export default function IndustryGridBlock({ content, style, blockId }: any) {
       <div className="max-w-[90rem] mx-auto px-6 md:px-[4.5rem]">
         <div className="border-t-2 pt-5 mb-[1.5rem]" style={{ borderColor: s.textColor || "#000" }}>
           <p className="text-base font-sans font-bold uppercase" style={{ color: s.textColor || "#000" }}>
-            {content.eyebrow}
+            {c.eyebrow}
           </p>
         </div>
         <div className="mb-[1.75rem] md:mb-[2.25rem]">
           <div className="max-w-[38rem]">
-            <h2
-              className="font-serif leading-[1.05] mb-4"
-              style={{ color: s.textColor || "#000", fontSize: "clamp(2.35rem, 4.1vw, 3.75rem)" }}
-            >
-              {content.heading}
-            </h2>
+            {c.heading && (
+              <h2
+                className="font-serif leading-[1.05] mb-4"
+                style={{ color: s.textColor || "#000", fontSize: "clamp(2.35rem, 4.1vw, 3.75rem)" }}
+              >
+                {c.heading}
+              </h2>
+            )}
             <p className="font-sans text-base md:text-[1.02rem] leading-[1.65] mb-6" style={{ color: s.bodyColor || "#4b5563" }}>
-              {content.body}
+              {c.body}
             </p>
-            {content.cta?.label && (
+            {c.cta?.label && (
               <Link
-                href={content.cta.href || "#"}
+                href={c.cta.href || "#"}
                 className="inline-flex items-center gap-2 px-7 py-3 text-sm font-sans font-medium rounded-full transition-opacity hover:opacity-90"
                 style={{ backgroundColor: s.ctaBg || "#166534", color: s.ctaColor || "#fff" }}
               >
-                {content.cta.label} <ArrowRight className="w-4 h-4" />
+                {c.cta.label} <ArrowRight className="w-4 h-4" />
               </Link>
             )}
           </div>
         </div>
 
         <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5">
-          {items.map((item: any, idx: number) => (
+          {items.map((item: Item, idx: number) => (
             <Link
               key={item.name || idx}
               href={item.href || "#"}
